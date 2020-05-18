@@ -1,5 +1,5 @@
 backend:
-  github: github
+  name: github
   repo: dangoslen/dangoslen-me-site
 
 media_folder: static/assets
