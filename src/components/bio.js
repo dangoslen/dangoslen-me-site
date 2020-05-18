@@ -34,12 +34,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
+              👋 Hi, I'm Dan. I'm a backend software engineer @Bandwidth. I love coding, code reviews, and ☕. I muse about building software at http://medium.com/@dangoslen
             </p>
           </Container>
         )

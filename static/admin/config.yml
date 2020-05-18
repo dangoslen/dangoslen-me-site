@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  github: github
+  repo: dangoslen/dangoslen-me-site
 
 media_folder: static/assets
 public_folder: assets
