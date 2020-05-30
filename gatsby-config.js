@@ -1,13 +1,14 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Dan {Goslen}`,
+    title: `Dan Goslen`,
     author: `Dan Goslen`,
     description: `Personal Site for Dan Goslen`,
     siteUrl: `https://dangoslen.me`,
     social: {
-      twitter: `dangoslen`,
+      twitter: `@dangoslen`,
       linkedin: `dangoslen`,
+      devto: `dangoslen`
     },
   },
   plugins: [
@@ -71,11 +72,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Dan Goslen Blog`,
-        short_name: `GatsbyJS`,
+        name: `Dan Goslen`,
+        short_name: `dangoslen`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#fd863f`,
         display: `minimal-ui`,
         // edit below
         icon: `content/assets/gatsby-icon.png`,

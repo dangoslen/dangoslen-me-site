@@ -34,7 +34,8 @@ function Bio() {
               }}
             />
             <p>
-              👋 Hi, I'm Dan. I'm a backend software engineer @Bandwidth. I love coding, code reviews, and ☕. I muse about building software at http://medium.com/@dangoslen
+            Dan Goslen is a software engineer and sustainable development advocate. He has spent 10 years writing quality software systems that range
+            from monoliths to micro-services and everywhere in between. He currently works @Bandwidth in Raliegh, NC where he lives with his wife.
             </p>
           </Container>
         )

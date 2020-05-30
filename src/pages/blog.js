@@ -10,13 +10,12 @@ import Button from "../components/button"
 class Blog extends React.Component {
   render() {
     const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
+    const siteTitle = "Blog"
     const posts = data.allMdx.edges
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
-        <Bio />
+        <SEO title="All Posts" />
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
@@ -28,7 +27,7 @@ class Blog extends React.Component {
                   }}
                 >
                   <Link
-                    style={{ boxShadow: `none` }}
+                    style={{ boxShadow: `none`, color: `#fd863f` }}
                     to={`blog${node.fields.slug}`}
                   >
                     {title}
@@ -43,6 +42,8 @@ class Blog extends React.Component {
               </div>
             )
           })}
+          <hr/>
+          <Bio />
         </div>
         <Link to="/">
           <Button marginTop="85px">Go Home</Button>
