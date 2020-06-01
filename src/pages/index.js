@@ -1,9 +1,11 @@
 import React from "react"
+import styled from "styled-components"
 import { Link, useStaticQuery, graphql} from "gatsby"
 import Img from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
 
+import Device from "../components/sizing"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
@@ -18,27 +20,24 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `software`, `backend`, `java`, `api`, `design`, `RESTful`]}
         />
-        <div 
-          style={{
-            display: `flex`,
-            justifyContent: `space-between`
-          }}>
-            <div>
-                <ProfilePic/>
-            </div>
-            <div 
-              style={{
-                marginLeft: rhythm(2),
-              }}>
-              <h1>
+        <Profile>
+          <ProfilePic/>
+          <Biography>
+              <Greeting>
                 <span role="img" aria-label="wave emoji">
                 👋
                 </span>
                 {" "}Hi, I'm Dan.
-                </h1>
-              <p>I'm trying to help developers become the best they can through sustainable development practices.</p>
-            </div>
-        </div>
+              </Greeting>
+              <p>I'm a software engineer with over 10 years experience. I've worked with monotholic database applications, micro-services, and everything in between. While I've done full-stack development before, I've recently focused primarliy on writing RESTful web-services systems deployed into Kubernetes environments.</p>
+              <p>I went to NCSU where I studied computer sciece with minors in music history and cognitive science. I also met my wife, Danielle, there. Too bad it took me a while (<i>cough - like 5 years</i>) before I realized I should ask her out.</p>
+              <p>In my short career, I've worked for small companies ({"<"} 20 employees), large companies ({">"} 50,000) and a few medium ones too. And what I have found is that at all of these compnaies, developers are tired and burned out. They never feel like they can learn enough, code quick enough, or keep quality high enough.</p>
+              <p>I want to help fix that problem.<b>I'm trying to help developers become the best they can through sustainable development practices.</b>Even with software engineering being a young field, we know enough to know simply asking developers to code hard or longer doesn't work.</p>
+              <p>I hope I can the learnings and hopes I have from my own experience I have to other developers.</p>
+              <p>Happy coding!</p>
+          </Biography>
+        </Profile>
+        <hr/>
         <Link to="/blog/">
           <Button marginTop="35px">My Blog</Button>
         </Link>
@@ -68,11 +67,37 @@ function ProfilePic() {
         fixed={data.file.childImageSharp.fixed}
         alt="Profile Picture of Dan Goslen"
         style={{
-          borderRadius: `50%`
+          borderRadius: `50%`,
+          margin: `0 auto`,
+          display: `block`
         }}
       />
     </div>
   )
 }
+
+const Profile = styled.div`
+  margin-top: 10px;
+  @media ${Device.tablet} {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+`
+
+const Greeting = styled.h1`
+  text-align: center;
+  @media ${Device.tablet} {
+    margin-top: 0px;
+    text-align: left;
+  }
+`
+
+const Biography = styled.div`
+  @media ${Device.tablet} {
+    width: 60%;
+    margin-left: 20px;
+  }
+`
 
 export default IndexPage
