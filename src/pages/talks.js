@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Card from "../components/card"
 
 class PresentationsPage extends React.Component {
   render() {
@@ -11,13 +12,15 @@ class PresentationsPage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Presentations"
+          title="Talks"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
         <h1>
-          Check out some of my presentations below.
+          Check out some of my talks and presentations below!
         </h1>
+        <Card title="Offheap Bloom Filters">
+          <Link to="https://offheap-bloom-filter-slides.dangoslen.me/" rel="canonical">Slides</Link>
+        </Card>
       </Layout>
     )
   }

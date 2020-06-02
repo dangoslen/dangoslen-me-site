@@ -49,7 +49,9 @@ const TopNav = styled.nav`
 `
 
 const LinksContainer = styled.div`
+    padding: 0 10px;
     @media ${Device.tablet} {
+        padding: 0;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
