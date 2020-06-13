@@ -7,8 +7,6 @@ import Device from "../components/sizing"
 import NavLink from "./nav-link"
 
 const Menu = props => {
-    const { title } = props;
-
     return (
         <TopNav>
             <Link style={{

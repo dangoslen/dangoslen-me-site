@@ -5,9 +5,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Card from "../components/card"
 
-class PresentationsPage extends React.Component {
+class TalksPage extends React.Component {
   render() {
-    const siteTitle = "Presentations"
+    const siteTitle = "Talks"
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -15,15 +15,15 @@ class PresentationsPage extends React.Component {
           title="Talks"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <h1>
-          Check out some of my talks and presentations below!
-        </h1>
-        <Card title="Offheap Bloom Filters">
-          <Link to="https://offheap-bloom-filter-slides.dangoslen.me/" rel="canonical">Slides</Link>
+        <Card title="Offheap Bloom Filters"
+          links= { <a href="https://offheap-bloom-filter-slides.dangoslen.me/" rel="canonical">Slides</a> }
+        >
+          <p>Bloom filters are a really cool data structure that trade a small amount of bounded memory use to protect slow resources like databases or network requests. Because they deal with direct bytes, they are also great candidates for off-heap storage within the JVM.</p>
         </Card>
       </Layout>
     )
   }
 }
 
-export default PresentationsPage
+
+export default TalksPage
