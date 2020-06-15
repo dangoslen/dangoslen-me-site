@@ -4,19 +4,18 @@ date: 2020-05-18T12:47:34.001Z
 title: Using Gatsby to Build a Blog
 description: Using an SSG as a Backend Engineer
 ---
-I'm a backend developer. 
+A few weeks ago, I realized I needed to update my website. I have had dangoslen.me for a while, but it was only a landing site with a few links to other content sources. I've since started blogging a little more on Medium and Dev.to and decided it was time to own my content and build a blog.
 
-I used to be a full-stack developer. It's hard to make that sell these days as I haven't done much in the way of moden front-end tools until building this blog. 
+There was just one problem: I'm a backend developer. 
 
-I don't tend to use the same technologies that everyone talks about on the Twitterverse or in the Dev.to community. 
+### I used to be a full-stack developer. 
+But that was a long time ago (5 years in human years => 40 years in dev years right?). Since then, the entire landscape of frontend development has changed. 
 
-It's not because I don't want to. 
+We know write javascript to generate `.html`?
 
-Honestly, I'm a little embarrassed that I don't know it all very well. The world of Javascript/Typescript moves **sooo** fast and if you blink you are out of the loop. Not to mention that tools like React have changed the architecture of many websites as well.
+What is JSX? ES5? What is this Typescript thing?
 
-But I wanted to learn a little and I had a motivation to change my personal website since it was getting crufty. I decided that I would give my hand a try at one of these static site generator (SSG) things.
-
-I had already dabbled a little with MDX after Kent C. Doods posted about using Netlify and MDX for some of his presentations. I gave that a try and LOVED creating my presentation on Offheap Bloom Filters using it! I figured I would see how it would work for my website. 
+It was all a little overwhelming, but I decided I should learn something new. I did some searching and reading and learned about these things called static site generators (SSGs). After some thought, it seemed like one of these SSGs would be a great way to build a simple blog and website, so I decided to give it a try.
 
 Here is how I went about it.
 
@@ -26,9 +25,9 @@ The first decision was really which SSG to use. There are a number of them out t
 Ultimately, I just choose the one that when I started was simplest for me to understand. Gatsby just happened the one that "clicked" with me first. This is largely because of this [tutorial](https://daveceddia.com/start-blog-gatsby-netlify/) and the [starter blog repo](https://github.com/gatsbyjs/gatsby-starter-blog) built by Gatsby themselves.
 
 ### Choosing the CMS
-This decision was honestly already in the bag. 
+This decision was honestly already in the bag. Partly because the starter repo I mention above was built for Netlify, so why try something different?
 
-I loved my earlier experience with Netlify so much it was the no-brainer option. I enjoyed how quickly I was able to go from a `git` repository to a website without dealing with a server, a confusing configuration file or even a domain. I even transferred my domain, `dangoslen.me` over before I began this re-write and hosted my nearly hand-coded HTML site on Netlify too.
+The other reason was I had played around with Netlify before and had loved it already. Kent C. Doods had written about how he uses Netlify and he made it look really simple. I took my existing dangoslen.me repository, set it up in Netlify, and boom: working website. It went so well I even transferred my domain and I've been hosting it on Netlify ever since.
 
 ### Building the Thing
 Once I had made these decisions, I did what ever developer says to not do: just started coding. I cloned the starter blog repo and started breaking things immediately. 😂
