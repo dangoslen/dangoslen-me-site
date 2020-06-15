@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import Menu from "../components/menu"
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 
 class Layout extends React.Component {
   render() {
