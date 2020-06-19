@@ -27,7 +27,7 @@ class Layout extends React.Component {
                 marginLeft: `auto`,
                 marginRight: `auto`,
                 maxWidth: rhythm(36),
-                padding: `${rhythm(1.5)} ${rhythm(.75)}`,
+                padding: `${rhythm(.75)} ${rhythm(.75)}`,
               }}>
               <main>{children}</main>
             </div>
@@ -46,8 +46,7 @@ const Wrapper = styled.section`
   min-height: 100vh;
 `
 const Header = styled.header`
-  background: #fd863f;
-  box-shadow: inset 0 -5px 10px 0 #7b6a6a;
+  background: #f1935c;
 `
 
 const Footer = styled.footer`

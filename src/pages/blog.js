@@ -22,19 +22,18 @@ class Blog extends React.Component {
             const title = node.frontmatter.title || node.fields.slug
             return (
               <div key={node.fields.slug}>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
+                <h2
+                  style={{ marginTop: `1.75rem`}}
                 >
                   <Link
-                    style={{ boxShadow: `none`, color: `#fd863f` }}
+                    style={{ boxShadow: `none`, color: `black` }}
                     to={`blog${node.fields.slug}`}
                   >
                     {title}
                   </Link>
-                </h3>
+                </h2>
                 <small>{node.frontmatter.date}</small>
+                <small>{node.fields.readingTime.text}</small>
                 <p
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
@@ -54,7 +53,9 @@ class Blog extends React.Component {
   }
 }
 
-export default Blog
+const BlogLink = styled.a`
+box-shadow: none;
+`
 
 export const pageQuery = graphql`
   query {
@@ -83,3 +84,4 @@ export const pageQuery = graphql`
     }
   }
 `
+export default Blog

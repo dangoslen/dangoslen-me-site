@@ -6,7 +6,7 @@ import Device from "../components/sizing"
 const Card = props => (
     <CardWrapper>
         <CardHeader>
-            <h1 style={{ marginTop: `1.75rem`}}>{props.title}</h1>
+            <h2 style={{ marginTop: `1.75rem`}}>{props.title}</h2>
         </CardHeader> 
         <LinksWrapper> 
             { props.links }  

@@ -75,11 +75,11 @@ module.exports = {
         name: `Dan Goslen`,
         short_name: `dangoslen`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#f4f4f4`,
         theme_color: `#fd863f`,
         display: `minimal-ui`,
         // edit below
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`,
       },
     },
     {

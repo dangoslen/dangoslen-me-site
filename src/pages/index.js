@@ -3,6 +3,14 @@ import styled from "styled-components"
 import { Link, useStaticQuery, graphql} from "gatsby"
 import Img from "gatsby-image"
 
+import { 
+  AiFillTwitterCircle, 
+  AiFillLinkedin, 
+  AiFillMediumCircle,
+  AiFillGithub
+} from "react-icons/ai"
+
+import SocialLink from "../components/social-link"
 import Device from "../components/sizing"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -16,10 +24,13 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`blog`, `software`, `backend`, `java`, `api`, `design`, `RESTful`]}
+          keywords={[`blog`, `software`, `backend`, `java`, `api`, `design`, `REST`, `engineering`]}
         />
         <Profile>
-          <ProfilePic/>
+          <div>
+            <ProfilePic />
+            <Links />
+          </div>
           <Biography>
               <Greeting>
                 <span role="img" aria-label="wave emoji">
@@ -74,6 +85,17 @@ function ProfilePic() {
   )
 }
 
+function Links() {
+  return (
+    <Social>
+      <SocialLink to="https://twitter.com/dangoslen"><AiFillTwitterCircle /></SocialLink>
+      <SocialLink to="https://linkedin.com/in/dangoslen"><AiFillLinkedin /></SocialLink>
+      <SocialLink to="https://medium.com/@dangoslen"><AiFillMediumCircle /></SocialLink>
+      <SocialLink to="https://github.com/dangoslen"><AiFillGithub /></SocialLink>
+    </Social>
+  )
+}
+
 const Profile = styled.div`
   margin-top: 10px;
   @media ${Device.tablet} {
@@ -83,7 +105,7 @@ const Profile = styled.div`
   }
 `
 
-const Greeting = styled.h1`
+const Greeting = styled.h2`
   text-align: center;
   @media ${Device.tablet} {
     margin-top: 0px;
@@ -96,6 +118,16 @@ const Biography = styled.div`
     width: 60%;
     margin-left: 20px;
   }
+`
+
+const Social = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 `
 
 export default IndexPage

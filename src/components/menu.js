@@ -37,13 +37,11 @@ const Menu = props => {
 
 const TopNav = styled.nav`
     width: 100%;
-
     @media ${Device.tablet} {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-        
 `
 
 const LinksContainer = styled.div`
