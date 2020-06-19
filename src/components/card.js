@@ -9,7 +9,9 @@ const Card = props => (
             <h2 style={{ marginTop: `1.75rem`}}>{props.title}</h2>
         </CardHeader> 
         <LinksWrapper> 
-            { props.links }  
+            { props.links.map(link => {
+                return <CardLink href={link.to}>{link.text}</CardLink>
+            })}
         </LinksWrapper>
         <hr />
         { props.children }
@@ -28,6 +30,10 @@ const CardHeader = styled.div`
 
 const LinksWrapper = styled.div`
     display: flex;
+`
+
+const CardLink = styled.a`
+ margin-right: 10px;
 `
 
 export default Card;
