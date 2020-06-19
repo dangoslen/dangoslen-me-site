@@ -32,7 +32,7 @@ class Blog extends React.Component {
                     {title}
                   </Link>
                 </h2>
-                <small>{node.frontmatter.date}</small>
+                <small>{node.frontmatter.date}</small>{"  ::  "}
                 <small>{node.fields.readingTime.text}</small>
                 <p
                   dangerouslySetInnerHTML={{
