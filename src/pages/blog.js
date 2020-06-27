@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 import Button from "../components/button"
 import styled from "styled-components"
 
@@ -25,12 +24,11 @@ class Blog extends React.Component {
                 <h2
                   style={{ marginTop: `1.75rem`}}
                 >
-                  <Link
-                    style={{ boxShadow: `none`, color: `black` }}
-                    to={`blog${node.fields.slug}`}
-                  >
-                    {title}
-                  </Link>
+                    <BlogLink 
+                      to={`blog${node.fields.slug}`}>
+                      {title}
+                  </BlogLink>
+  
                 </h2>
                 <small>{node.frontmatter.date}</small>{"  ::  "}
                 <small>{node.fields.readingTime.text}</small>
@@ -53,8 +51,12 @@ class Blog extends React.Component {
   }
 }
 
-const BlogLink = styled.a`
+const BlogLink = styled(Link)`
 box-shadow: none;
+color: black;
+&:hover {
+  color: #303131
+}
 `
 
 export const pageQuery = graphql`
