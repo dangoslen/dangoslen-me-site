@@ -4,7 +4,7 @@ date: 2020-05-18T12:47:34.001Z
 title: Using Gatsby to Build a Blog
 description: Using an SSG as a Backend Engineer
 ---
-A few weeks ago, I realized I needed to update my website. I have had dangoslen.me for a while, but it was only a landing site with a few links to other content sources. I've since started blogging a little more on Medium and Dev.to and decided it was time to own my content and build a blog.
+A few weeks ago, I realized I needed to update my website. I have had dangoslen.me for a while, but it was only a landing site with a few links to other content sources. I've since started blogging a little more on [Medium](https://medium.com/@dangoslen) and [Dev.to](https://dev.to/dangoslen) so I decided it was time to own my content and build a blog.
 
 There was just one problem: I'm a backend developer. 
 
@@ -20,17 +20,17 @@ It was all a little overwhelming, but I decided I should learn something new. I 
 Here is how I went about it.
 
 ### Choosing the SSG
-The first decision was really which SSG to use. There are a number of them out there,  . I gave cursory look at each of them, but ended up picking Gatsby. Why? I would like to say it was a scientific study complete with measures in build time and interviews with developers who had used each.
+The first decision was really which SSG to use. There are a number of them out there,  . I gave cursory look at each of them but ended up picking [Gatsby](https://www.gatsbyjs.org/). Why? I would like to say it was a scientific study complete with measures in build time and interviews with developers who had used each.
 
 Ultimately, I just choose the one that when I started was simplest for me to understand. Gatsby just happened the one that "clicked" with me first. This is largely because of this [tutorial](https://daveceddia.com/start-blog-gatsby-netlify/) and the [starter blog repo](https://github.com/gatsbyjs/gatsby-starter-blog) built by Gatsby themselves.
 
 ### Choosing the CMS
-This decision was honestly already in the bag. Partly because the starter repo I mention above was built for Netlify, so why try something different?
+This decision was honestly already in the bag. Partly because the starter repo I mention above was built for [Netlify](https://www.netlify.com), so why try something different?
 
 The other reason was I had played around with Netlify before and had loved it already. Kent C. Doods had written about how he uses Netlify and he made it look really simple. I took my existing dangoslen.me repository, set it up in Netlify, and boom: working website. It went so well I even transferred my domain and I've been hosting it on Netlify ever since.
 
 ### Building the Thing
-Once I had made these decisions, I did what ever developer says to not do: just started coding. I cloned the starter blog repo and started breaking things immediately. 😂
+Once I had made these decisions, I did what every developer says to not do: just started coding. I cloned the starter blog repo and started breaking things immediately. 😂
 
 I eventually sat down and did some reading on the basics of Gatsby. I went back to the tutorial from earlier and actually read it instead of just skimming it.
 
