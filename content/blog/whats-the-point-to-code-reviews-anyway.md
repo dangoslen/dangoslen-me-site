@@ -4,6 +4,7 @@ date: 2020-06-29T00:04:01.290Z
 title: What's the Point to Code Reviews Anyway?
 description: "Hint: it's not bugs."
 ---
+![](public/assets/1_kmaqpsinlcdankzwymk3gq.jpeg)
 
 Code reviews have become a vital part of the modern software development process. Its always been important, but with the growth of git and online tools that facilitate easy pull-request viewing and integrated comments, it has only grown and grown.
 
