@@ -4,6 +4,10 @@ date: 2020-06-29T00:04:01.290Z
 title: What's the Point to Code Reviews Anyway?
 description: "Hint: it's not bugs."
 ---
+![develops disucssing code](assets/1_kmaqpsinlcdankzwymk3gq.jpeg "Photo by [Headway](https://unsplash.com/photos/NWmcp5fE_4M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash")
+
+
+
 Code reviews have become a vital part of the modern software development process. Its always been important, but with the growth of git and online tools that facilitate easy pull-request viewing and integrated comments, it has only grown and grown.
 
 But, why should software engineers even participate in code reviews? What is the point? When someone assigns you a code review, why should you bother to look? After all, your time reviewing code is time not spent writing your own code or automating the coffee pot with a Rasberry PI and a Staples Easy button.
