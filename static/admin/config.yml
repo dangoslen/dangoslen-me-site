@@ -10,7 +10,7 @@ collections:
   - name: blog
     label: Blog
     folder: content/blog
-    create: tr
+    create: true
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
