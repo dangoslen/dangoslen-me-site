@@ -22,7 +22,7 @@ class Blog extends React.Component {
             return (
               <div key={node.fields.slug}>
                 <h2
-                  style={{ marginTop: `1.75rem`}}
+                  style={{ marginTop: `1.75rem`, marginBottom: `0px`}}
                 >
                   <BlogLink 
                       to={`/blog${node.fields.slug}`}>
