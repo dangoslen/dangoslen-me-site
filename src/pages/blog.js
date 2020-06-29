@@ -24,11 +24,10 @@ class Blog extends React.Component {
                 <h2
                   style={{ marginTop: `1.75rem`}}
                 >
-                    <BlogLink 
-                      to={`blog${node.fields.slug}`}>
+                  <BlogLink 
+                      to={`/blog${node.fields.slug}`}>
                       {title}
                   </BlogLink>
-  
                 </h2>
                 <small>{node.frontmatter.date}</small>{"  ::  "}
                 <small>{node.fields.readingTime.text}</small>

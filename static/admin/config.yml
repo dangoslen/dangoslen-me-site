@@ -2,7 +2,7 @@ backend:
   name: github
   repo: dangoslen/dangoslen-me-site
 
-media_folder: static/assets
+media_folder: content/assets
 public_folder: assets
 publish_mode: editorial_workflow
 
