@@ -3,14 +3,14 @@ backend:
   repo: dangoslen/dangoslen-me-site
 
 media_folder: static/assets
-public_folder: public/assests
+public_folder: public/assets
 publish_mode: editorial_workflow
 
 collections:
   - name: blog
     label: Blog
     folder: content/blog
-    create: true
+    create: tr
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
