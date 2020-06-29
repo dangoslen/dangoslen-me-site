@@ -4,7 +4,7 @@ date: 2020-06-29T00:04:01.290Z
 title: What's the Point to Code Reviews Anyway?
 description: "Hint: it's not bugs."
 ---
-![developers disucssing code](assets/1_kmaqpsinlcdankzwymk3gq.jpeg)
+![developers disucssing code](public/assets/1_kmaqpsinlcdankzwymk3gq.jpeg)
 
 <figcaption>assets/1_kmaqpsinlcdankzwymk3gq.jpeg</figcaption>
 

@@ -2,8 +2,8 @@ backend:
   name: github
   repo: dangoslen/dangoslen-me-site
 
-media_folder: content/assets
-public_folder: assets
+media_folder: static/assets
+public_folder: public/assests
 publish_mode: editorial_workflow
 
 collections:
