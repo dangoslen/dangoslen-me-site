@@ -58,7 +58,6 @@ color: black;
   color: #303131
 }
 `
-
 export const pageQuery = graphql`
   query {
     site {
@@ -72,7 +71,7 @@ export const pageQuery = graphql`
           excerpt
           fields {
             slug
-            readingTime {`
+            readingTime {
               text
             }
           }
