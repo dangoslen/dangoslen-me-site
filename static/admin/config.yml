@@ -3,7 +3,7 @@ backend:
   repo: dangoslen/dangoslen-me-site
 
 media_folder: static/assets
-public_folder: public/assets
+public_folder: content/assets
 publish_mode: editorial_workflow
 
 collections:

@@ -4,7 +4,7 @@ date: 2019-10-05T01:08:12.828Z
 title: Why Simple Code is Better Than Reusable Code
 description: Simple is always the priority.
 ---
-![Open car hood showing simple engine](public/assets/1_jlwznm7natvmss8h8g1zyw.jpeg)
+![Open car hood showing simple engine](../assets/1_jlwznm7natvmss8h8g1zyw.jpeg)
 
 [Don’t Repeat Yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (DRY). It’s basically a law of programming, especially [object oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming). The whole idea is that you should aim for reusability of objects, functions, etc. where possible and if you find yourself copying code from place to place, you have gotten something wrong.
 
@@ -40,7 +40,7 @@ Ask your teammates for feedback in code reviews or pair programming sessions. Do
 
 **Remember that code isn’t telling a computer what to do: it's telling another developer what it’s instructing the computer to do.**
 
-![Matrix lines on black screen.](public/assets/1_l2dk8j_titbfca6flawwow.jpeg "Not like this. This is not simple code.")
+![Matrix lines on black screen.](../assets/1_l2dk8j_titbfca6flawwow.jpeg "Not like this. This is not simple code.")
 
 ## Read Simple Code
 
