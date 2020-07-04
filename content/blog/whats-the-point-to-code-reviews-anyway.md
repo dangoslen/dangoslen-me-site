@@ -1,6 +1,6 @@
 ---
 path: /whats-the-point-to-code-reviews-anyway
-date: 2020-06-29T00:04:01.290Z
+date: 2018-02-19T05:00:00.000Z
 title: What's the Point to Code Reviews Anyway?
 description: "Hint: it's not bugs."
 ---
