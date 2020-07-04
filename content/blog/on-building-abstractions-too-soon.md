@@ -4,7 +4,7 @@ date: 2018-08-14T04:00:00.000Z
 title: On Building Abstractions Too Soon
 description: Why abstractions are emergent instead of dictated
 ---
-![Broken down control center](content/assets/1_dst6edwapmjfwawjnykeja.jpeg "Photo by Caroline Methot on Unsplash")
+![Broken down control center](../assets/1_dst6edwapmjfwawjnykeja.jpeg "Photo by Caroline Methot on Unsplash")
 
 About a year ago, I was working on a new feature for one of our projects at [Bandwidth](http://bandwidth.com/). It wasn’t just a new feature, it was the first of few a new features we were building for some of our internal users. We were all excited to be working on it, and ready to see what we would build.
 
