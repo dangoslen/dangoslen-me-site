@@ -21,6 +21,13 @@ class TalksPage extends React.Component {
           ]}>
           <p>Bloom filters are a really cool data structure that trade a small amount of bounded memory use to protect slow resources like databases or network requests. Because they deal with direct bytes, they are also great candidates for off-heap storage within the JVM.</p>
         </Card>
+        <Card title="Couchbase is Cool"
+          links={[
+            { to: "https://couchbase-into.dangoslen.me/", text: "Slides" },
+            { to: "https://github.com/dangoslen/couchbase-is-cool/tree/master" , text: "Repo" }
+          ]}>
+          <p>Couchbase is a really cool NoSQL solution that still allows for SQL-like queries. It looks a lot like GFS/HFS in how it distributes data within a cluster, and it even can support cross data-center replication. This is a <i>brief</i> introduction to it.</p>
+        </Card>
       </Layout>
     )
   }
