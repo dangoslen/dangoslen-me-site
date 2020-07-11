@@ -4,6 +4,8 @@ date: 2020-05-18T12:47:34.001Z
 title: Using Gatsby to Build a Blog
 description: Using an SSG as a Backend Engineer
 ---
+![Gatsby Logo](../assets/gatsby-cover.jpg)
+
 A few weeks ago, I realized I needed to update my website. I have had dangoslen.me for a while, but it was only a landing site with a few links to other content sources. I've since started blogging a little more on [Medium](https://medium.com/@dangoslen) and [Dev.to](https://dev.to/dangoslen) so I decided it was time to own my content and build a blog.
 
 There was just one problem: I'm a backend developer. 
