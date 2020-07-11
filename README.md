@@ -1,12 +1,10 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
-<h1 align="center">
-  Dan Goslen's Personal site built with [Gatsby.js](https://gatsbyjs.org)
-</h1>
+
+# Dan Goslen's Blog
 
 This site was built suing the [Gatsby Start Personal Blog](https://github.com/thomaswang/gatsby-personal-starter-blog). Consider using it to create your own site.
 
