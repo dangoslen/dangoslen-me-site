@@ -1,6 +1,6 @@
 ---
 path: /crush-it-as-a-new-team-member
-date: 2020-07-06T00:44:10.196Z
+date: 2019-07-05T04:00:00.000Z
 title: The Best Ways to Crush It as a New Team Member
 description: How to join a team as an engineer
 ---
