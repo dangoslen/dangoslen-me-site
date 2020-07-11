@@ -3,7 +3,7 @@ name: Typo or Broken Link Report
 about: Help me correct typos and broken links
 title: Typo/Broken Link
 labels: typo/link
-assignees: ''
+assignees: 'dangoslen'
 
 ---
 
