@@ -4,13 +4,15 @@ date: 2019-07-05T04:00:00.000Z
 title: The Best Ways to Crush It as a New Team Member
 description: How to join a team as an engineer
 ---
+![Boy about to shoot a basketball free throw](../assets/1_jjwonhfic9g7q5qnnni0aa.jpeg)
+
 I've been a part of a few teams in my short carrer. I've been part of brand new ones and joined well estasblished ones as well. 
 
 While I have many ways to grow, I've thought through some ways that have helped me when I've joined existing teams. They aren't exhuastive be any means and I'm sure others have even better ideas for how to join a team. These are just the ones I've used. I hope they can benefit you too! 
 
-## ❓Ask Questions. 
+## ❓Ask Questions.
 
-The fastest way for you to become a contributor to a team is to understand the team you are on. How they work; what they work on; why they do things in certain ways; what they expect of you. You need to figure all that out, and the best way is to be up front and ask.
+The fastest way for you to become a contributor to a team is to understand the team you are on. How they work; what they work on; why they do things in certain ways; what they expect of you. You need to figure all that out, and the best way is to be upfront and ask.
 
 Don’t be afraid to ask the “dumb” or “silly” question. Dumb and silly questions usually result in simple pieces of information that you didn’t know before, or they reveal something is broken. Asking “Why do we do things like that?” or “How did this get this way?” will be sure to expose the shortcomings of your existing team, or expose how they have figured out a new paradigm you hadn’t considered.
 
