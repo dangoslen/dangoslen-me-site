@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Dan Goslen`,
+    title: `DanGoslen.m`,
     author: `Dan Goslen`,
     description: `Personal Site for Dan Goslen`,
     siteUrl: `https://dangoslen.me`,
@@ -65,8 +65,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // edit below
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-32511003-1`,
       },
     },
     {
