@@ -1,6 +1,6 @@
 ---
 path: /whats-the-point-of-ci-anyway
-date: 2020-07-15T23:10:42.894Z
+date: 2020-05-05T04:00:00.000Z
 title: What's the Point of CI Anyway?
 description: The reasons why your team should be leveraging continuous integration.
 ---
