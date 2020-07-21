@@ -26,13 +26,13 @@ So the next question then: how do you make sure it happens?
 
 ## A Rule is Only a Rule if You Have a Way to Enforce It
 
-The answer was really staring at us in the face. How did we enforce passing builds? We had automated test cases that ran on pull requests and on merges to our mainline. How did we enforce code quality? We ran static anaylsis tools on our pull requests.
+The answer was really staring at us in the face. How did we enforce passing builds? We had automated test cases that ran on pull requests and on merges to our mainline. How did we enforce code quality? We have static anaylsis tools setup to run on our pull requests.
 
 So in order to ensure each developer writes release notes for their changes, we need to create some kind of automation on each pull request. If we just did that one action, we would be able to have release notes ready and waiting for us whenever it was time to release!
 
 So, I decided to build it as a GitHub action. 
 
-<h3><p align="center">And I call it the <a href="https://github.com/dangoslen/changelog-enforcer/">changelog enforcer</a>!</p></h3>
+<h3><p align="center">💪 I call it the <a href="https://github.com/dangoslen/changelog-enforcer/">changelog enforcer</a>! 💪</p></h3>
 
 The Changelog Enforcer is exactly as it sounds - it verifies that a change has been made to a common changelog on every pull request. You can even skip the enforcement on pull requests that are making changes that don't worry an update - but it must of course be agreed upon by the author and the reviewer.
 
