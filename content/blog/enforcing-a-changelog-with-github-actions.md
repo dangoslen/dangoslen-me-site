@@ -8,7 +8,7 @@ description: How to keep your team's changelog up to date.
 
 For the better part of last year, my team was having trouble with what seemed like a trivial problem. 
 
-We needed to publish release notes for our releases to stakeholders.
+We needed to publish [release notes](https://en.wikipedia.org/wiki/Release_notes) for our releases to stakeholders.
 
 I'm sure many of you have similar requirements. You have users (internal or external) and you would like to publish something that makes it easier for your users to understand the new release. Are there any new features? Any fixed issues? What about performance improvements? These are all things to consider to publish into your release notes.
 
