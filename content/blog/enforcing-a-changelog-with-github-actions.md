@@ -4,6 +4,8 @@ date: 2020-07-15T23:20:37.905Z
 title: Enforcing a Changelog with GitHub Actions
 description: How to keep your team's changelog up to date.
 ---
+![](../assets/logan-weaver-_-aqiq8y_sy-unsplash.jpg "Photo by LOGAN WEAVER on Unsplash")
+
 For the better part of last year, my team was having trouble with what seemed like a trivial problem. 
 
 We needed to publish release notes for our releases to stakeholders.
@@ -40,4 +42,4 @@ What it doesn't do (yet) is validate that the format of the changelog is correct
 
 Checkout the project and let me know what you think! 
 
-Happy coding! 
+Happy coding!
