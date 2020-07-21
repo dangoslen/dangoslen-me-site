@@ -36,7 +36,7 @@ So, I decided to build it as a GitHub action.
 
 <h3><p align="center">💪 I call it the <a href="https://github.com/dangoslen/changelog-enforcer/">changelog enforcer!</a> 💪</p></h3>
 
-The Changelog Enforcer is exactly as it sounds - it verifies that a change has been made to a common changelog on every pull request. You can even skip the enforcement on pull requests that are making changes that don't worry an update - but it must of course be agreed upon by the author and the reviewer.
+The Changelog Enforcer is exactly as it sounds - it verifies that a change has been made to a common changelog file on every pull request. You can even skip the enforcement on pull requests that are making changes that don't worry an update - but it must of course be agreed upon by the author and the reviewer.
 
 What it doesn't do (yet) is validate that the format of the changelog is correct. This is something possible in the future and will likely be a toggleable feature since not everyone will want the same format, though I highly suggest looking at [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) for more information on changelogs.
 
