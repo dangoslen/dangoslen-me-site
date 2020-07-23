@@ -34,8 +34,8 @@ When teams are constantly in this state of frantic overwork, something is just p
 
 One of the core principles behind the [Agile Manifesto](https://agilemanifesto.org/) is
 
-> Agile processes promote sustainable development.\
-> The sponsors, developers, and users should be able\
+> Agile processes promote sustainable development.
+> The sponsors, developers, and users should be able
 > to maintain a constant pace indefinitely.
 
 Its often an overlooked one too. Why?
