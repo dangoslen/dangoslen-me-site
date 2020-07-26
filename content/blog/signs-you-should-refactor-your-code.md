@@ -44,8 +44,12 @@ Time-box your effort if you think it might get complicated, and if it doesn't wo
 
 If you find yourself having to make what I call "domino effect changes"  where you are updating component after componenent for what should be a simple change, you should refactor your code.
 
-Why? Because this means your components are tightly coupled and tight coupling always makes changes harder.
+Why? Because this means your components are tightly coupled and tight coupling tends to make changes harder (see [coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) for more).
 
- 
+This also means that by forcing your new change into the current paradigm, you will make it that much harder for the next person to make changes. You are simply making the maintainability of your code go down with your change in this scenario, and we want to aim to always improve our codebase.
 
 ### 3. You had to understand nuances about more than three other components than the component you were changing
+
+
+---
+
