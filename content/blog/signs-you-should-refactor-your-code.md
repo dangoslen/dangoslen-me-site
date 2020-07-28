@@ -2,7 +2,7 @@
 path: /signs-you-should-refactor-your-code
 date: 2020-07-26T18:40:02.980Z
 title: Signs You Should Refactor Your Code
-description: When is the time to refactor your code? Right now.
+description: When is the time to refactor your code? It's probably right now.
 ---
 Have you ever had a moment in your of software career where you needed to make what should have been a simple change, but found it exceedinlgy complicated? For whatever reason, you just couldn't seem to make your change very easily and it hurt your productivity.
 
@@ -48,6 +48,13 @@ Why? Because this means your components are tightly coupled and tight coupling t
 
 This also means that by forcing your new change into the current paradigm, you will make it that much harder for the next person to make changes. You are simply making the maintainability of your code go down with your change in this scenario, and we want to aim to always improve our codebase.
 
-### 3. You had to understand nuances about the hierachry of the componenet you were changnig. 
----
+### 3. You had to understand nuances about the hierachry of the componenet you were changing.
+
+Whenever you find yourself going up the inheritance tree level after level, you should refactor your code.
+
+Why? Because [deep inheritance is really just another form of tight coupling](https://stackoverflow.com/questions/11056943/deep-class-inheritance-hierarchy-bad-idea). It leads to fragile base classes, confusing sub-classes, and over time because difficult to maintain.
+
+Unforutnately, this is usually one of the hardest problems to refactor easily. If you have a deep hierarchy, by trying to change a base class or component, you automatically make those changes in all of the sub-classes as well.
+
+--
 
