@@ -1,7 +1,7 @@
 ---
-path: /signs-you-should-refactor-your-code
+path: /when-should-you-should-refactor-your-code
 date: 2020-07-26T18:40:02.980Z
-title: Signs You Should Refactor Your Code
+title: When Should You Refactor Your Code?
 description: When is the time to refactor your code? It's probably right now.
 ---
 Have you ever had a moment in your of software career where you needed to make what should have been a simple change, but found it exceedinlgy complicated? For whatever reason, you just couldn't seem to make your change very easily and it hurt your productivity.
