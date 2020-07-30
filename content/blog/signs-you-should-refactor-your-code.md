@@ -4,57 +4,60 @@ date: 2020-07-26T18:40:02.980Z
 title: When Should You Refactor Your Code?
 description: When is the time to refactor your code? It's probably right now.
 ---
-Have you ever had a moment in your of software career where you needed to make what should have been a simple change, but found it exceedinlgy complicated? For whatever reason, you just couldn't seem to make your change very easily and it hurt your productivity.
+Ever had a moment in your software career where you needed to make a simple change, but found it hard to implement? The code was so fragile you couldn't make your change without breakout myriads of tests? I'm guessing you have.
 
-Or maybe it was a time when you couldn't understand what caused a production problem while looking at the source. Armed with logs and metrics, you still couldn't understand what code was being executed or where to start.
+Or maybe it was a time when you couldn't understand what caused a production problem while looking at the source. You couldn't understand which code was executed or where to start. Logs and metrics couldn't help either.
 
-These are common symptoms of what I tend to refer to as "messy code". It isn't easy to work with, it isn't easy to read, and it certainly isn't easy to add new features too. 
+These are common symptoms of what I tend to refer to as "messy code." It isn't easy to work with, it isn't easy to read, and it certainly isn't easy to add new features too.
 
-In cases like this, you should consider refactoring the code. Refactoring is taking code that was written in a certain way, changing it to make it easier to work with, while preserving the same behaviors as the original code. My personal definition is
+In cases like this, you should consider refactoring the code. Refactoring is taking code written in one way, changing its structure and implementation, while preserving the original code's behaviors.
 
-> refactoring is methodically making structural changes to existing code without adding, removing, or breaking functionality in order to more easily add, remove, or modify functionality in the future
+A definition I like to use is this:
+
+> refactoring is methodically making structural changes to existing code without adding, removing, or breaking functionality to easily add, remove, or modify functionality in the future
 
 ## The Value of Refactoring
+Refactoring is a useful skill to have. Knowing how to properly refactor code can help you when faced with messy code. It allows you to focus more on the changes you need to make for your task data hand.
 
-Refactoring is useful because knowing how to quickly and properly refactor code can help you implement the changes you need to make faster.  
+It's akin to knowing a handful of patterns or general algorithmic techniques. When faced with a new problem, most developers will apply patterns or algorithms they already know to solve new ones. Do you need to create different handlers for different event types? Using an abstract factory or flyweight pattern with a map data structure is a good starting spot. Do you need to search through a list of items that are always in sorted order? Using a binary search is what is you want.
 
-It's akin to knowing a handful of patterns or general algorithmic techniques. When faced with a new problem, most developers will apply these building blocks to the problem to help them solve it easier. Do you need to create different handlers for different even types? Using an abstract factory or flyweight pattern with a map data structure is a good starting spot. Do you need to search through a list of items that are always in sorted order? Using a binary search is what is you want.
+Having a set of refactoring tools in your proverbial coding toolbox when faced with messy cod is the same idea. You can apply general refactoring patterns to the code right in front of you to make refactoring easier. Your energy and effort can stay focused on the actual problem you need to solve, not the refactor to enable it.
 
-Having a set set of refactoring tools in your proverbial coding toolbox means that when you need to perform a refactor, it will simply be easier. When you have a change to make in a module and realize it would be easier to refactor the module first (more on this in a bit), you don't have to spend energy thinking about the "how" to do so. Instead, you quickly refactor the code using your tools, assert the tests pass to ensure you haven't broken existing functionality, and now you are able to implement your new code.
-
-I won't go over the common refactoring patterns in this post - it would be too extensive (though I might post about them in the future!). You find summaries of the ones from Martin Fowler's great book [Refactoring](https://amzn.to/3jFSSqH) over at [refactoring.com](https://refactoring.com/catalog/).
+I won't go over the common refactoring patterns in this post - it would be too extensive (though I might post about them in the future!). You can find summaries of the ones from Martin Fowler's excellent book [Refactoring](https://amzn.to/3jFSSqH) over at [refactoring.com](https://refactoring.com/catalog/).
 
 ## But How Do You Know When to Refactor Your Code?
+Great question! It's tempting to say something trivial like "whenever you need to" or "all the time." It is important to realize that there are times it might not be necessary or worthwhile to perform a refactor of your code.
 
-This is a great question. While it's tempting to say something trivial like "whenever you need to" or "all the time", I think it is important to realize that there are times it might not be neccesary or worth-while to perform a refactor of your code. 
+To be clear, I am an advocate for earlier refactoring than not. Refactoring code is, after all, a reversible decision. You changed the original code, what is to keep you from changing it again? All code gets refactored at some point, including your refactors.
 
-To be clear, I am an advocate for earlier refactoring than not. Refactoring code is just as reversible as the original code - you changed it anyway, didn't you? All code gets refactored at some point and so [all your refactor changes will be changed too](<>). 
-
-Here are some good guidelines for when to refactor your code:
+Here are some guidelines for when to refactor your code:
 
 ### 1. You debate in your head about it for more than an hour.
 
-If you have spent more than an hour tinkering with the idea of refactoring a piece of code, your should just do it. 
+If you have spent more than an hour tinkering with refactoring a piece of code, you should just do it.
 
-Why? You have already spent enough time thinking about it to justify it. 
+Why? You have already spent enough time thinking about it to justify it.
 
-Time-box your effort if you think it might get complicated, and if it doesn't work, no harm no foul. You will have learned a lot about the code in the process, which can help you implement the changes you need to make or help you write a specific story for refactoring it later.
+Time-box your effort if you think it might get complicated, and if it doesn't work, no harm, no foul. If nothing else, you will have learned a lot about the code in the process. That knowledge can still inform the changes you need to make or help you write a specific story for refactoring.
 
-### 2. When a simple change requires changes to more than three distinct components.
+### 2. A simple change requires additional changes to three or more distinct components.
 
-If you find yourself having to make what I call "domino effect changes"  where you are updating component after component for what should be a simple change, you should refactor your code.
+I call this the "domino component" effect. If one component changes, so do another and another. If you find yourself having to make a slew of changes like this, you should refactor your code.
 
-Why? Because this means your components are tightly coupled and tight coupling tends to make changes harder (see [coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) for more).
+Why? Because this means your components are tightly coupled. Tight coupling tends to make changes harder (see [coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) for more).
 
-This also means that by forcing your new change into the current paradigm, you will make it that much harder for the next person to make changes. You are simply making the maintainability of your code go down with your change in this scenario, and we want to aim to always improve our codebase.
+The domino component effect also means that you will make it that much harder for the next person to make changes by forcing your changes into the current paradigm. You are causing your code's maintainability to go down in this scenario; we always want to improve our codebase, not the other way around.
 
-### 3. You had to understand nuances about the hierachry of the componenet you were changing.
+### 3. You had to understand nuances about the hierarchy of the component you were changing.
 
 Whenever you find yourself going up the inheritance tree level after level, you should refactor your code.
 
-Why? Because [deep inheritance is really just another form of tight coupling](https://stackoverflow.com/questions/11056943/deep-class-inheritance-hierarchy-bad-idea). It leads to fragile base classes, confusing sub-classes, and over time because difficult to maintain.
+Why? Because [deep inheritance is just another form of tight coupling](https://stackoverflow.com/questions/11056943/deep-class-inheritance-hierarchy-bad-idea). It leads to fragile base classes, confusing sub-classes, and over time because challenging to maintain.
 
-Unforutnately, this is usually one of the hardest problems to refactor easily. If you have a deep hierarchy, by trying to change a base class or component, you automatically make those changes in all of the sub-classes as well.
+Deep inheritance is, unfortunately, one of the hardest problems to refactor. If you have a deep hierarchy, by trying to change a base class or component, you automatically make those changes in all of the sub-classes too. Womp-womp :(
 
---
+---
 
+These are, of course, just guidelines. It's ultimately up to you to decide when to refactor your code. My personal experience is that refactoring early often is the best approach 😀 Take a look at some code you wrote a few months ago, think of you could make it better, and give it a go!
+
+Happy refactoring!
