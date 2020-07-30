@@ -4,7 +4,7 @@ date: 2020-07-26T18:40:02.980Z
 title: When Should You Refactor Your Code?
 description: When is the time to refactor your code? It's probably right now.
 ---
-![Building being rebuilt with scafolding ](../assets/hs-spender-ien1wzqg4t0-unsplash.jpg)
+![Building being rebuilt with scaffolding ](../assets/hs-spender-ien1wzqg4t0-unsplash.jpg)
 
 *<p align="center">Photo by [HS Spender](https://unsplash.com/@h1sts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rebuild?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</p>*
 
