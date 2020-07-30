@@ -64,6 +64,6 @@ Deep inheritance is, unfortunately, one of the hardest problems to refactor. If 
 
 - - -
 
-These are, of course, just guidelines. It's ultimately up to you to decide when to refactor your code. My personal experience is that refactoring early often is the best approach 😀 Take a look at some code you wrote a few months ago, think of you could make it better, and give it a go!
+These are, of course, just guidelines. It's ultimately up to you to decide when to refactor your code. My personal experience is that refactoring early often is the best approach. Take a look at some code you wrote a few months ago, think of you could make it better, and give it a go! 😀
 
 Happy refactoring!
