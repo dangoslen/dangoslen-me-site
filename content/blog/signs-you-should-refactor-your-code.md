@@ -1,6 +1,6 @@
 ---
 path: /when-should-you-should-refactor-your-code
-date: 2020-07-26T18:40:02.980Z
+date: 2020-07-30T04:00:00.000Z
 title: When Should You Refactor Your Code?
 description: "The simple answer: it's probably right now."
 ---
