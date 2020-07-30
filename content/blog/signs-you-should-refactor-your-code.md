@@ -2,7 +2,7 @@
 path: /when-should-you-should-refactor-your-code
 date: 2020-07-26T18:40:02.980Z
 title: When Should You Refactor Your Code?
-description: When is the time to refactor your code? It's probably right now.
+description: "The simple answer: it's probably right now."
 ---
 ![Building being rebuilt with scaffolding ](../assets/hs-spender-ien1wzqg4t0-unsplash.jpg)
 
