@@ -74,7 +74,9 @@ class RestController {
     ValidationHelper helper;
     
     Response addObject(Object o) {
-        if (helper.validate(o)) return ErrorResponse
+        if (helper.validate(o)) {
+            return ErrorResponse
+        }
         // Normal processing
     }
 }
