@@ -32,8 +32,7 @@ From a code perspective, is usually looks a bit like:
 
 ```java
 interface Factory<T> {
-    T build(Metadata d)
-
+    T build(Metadata d);
 }
 
 class ClientFactory implements Factory<Client> {
@@ -56,7 +55,7 @@ From a code perspective, it looks a bit like:
 ```java
 interface Validator {
     
-    bool validate(Object o)
+    bool validate(Object o);
 }
 
 class ValidatorHelper implements Validator {
@@ -64,9 +63,9 @@ class ValidatorHelper implements Validator {
     
     bool validate(Object o) { 
         for (Validator v : delegates) { 
-            if (!v.validate(o)) return false
+            if (!v.validate(o)) return false;
         }
-        return true
+        return true;
     }
 }
 
@@ -98,30 +97,30 @@ class Dto {
     private int i;
 
     private Dto(String s, int i) {
-        this.s = s
-        this.i = i
+        this.s = s;
+        this.i = i;
     } 
     
     public static DtoBuilder builder() {
-        return new DtoBuilder()
+        return new DtoBuilder();
     }
     
     public static class DtoBuilder {  
-        private String s = "some string"
-        private int i = 0
+        private String s = "some default string";
+        private int i = 0;
 
         public DtoBuilder withString(String s) {
-            this.s = s
-            return this
+            this.s = s;
+            return this;
         }
 
         public DtoBuilder withInt(int it) {
-            this.i = i
-            return this
+            this.i = i;
+            return this;
         }
 
         public Dto build() {
-            return new Dto(s, i)
+            return new Dto(s, i);
         }
     }
 }
@@ -147,8 +146,8 @@ interface Enricher<T> {
 class HeadersEnricher implements Enricher<Headers> {
  
     Headers enrich(Headers headers) {
-        headers.add("x-header", "something")
-        return headers
+        headers.add("x-header", "something");
+        return headers;
     }
 }
 ```
