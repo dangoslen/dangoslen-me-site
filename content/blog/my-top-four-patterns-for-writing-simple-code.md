@@ -102,7 +102,7 @@ class Dto {
         this.i = i
     } 
     
-    public DtoBuilder builder() {
+    public static DtoBuilder builder() {
         return new DtoBuilder()
     }
     
