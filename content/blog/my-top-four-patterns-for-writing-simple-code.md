@@ -1,6 +1,6 @@
 ---
 path: /top-four-patterns-for-simple-code
-date: 2020-08-02T18:39:39.646Z
+date: 2019-10-19T04:00:00.000Z
 title: My Top Four Patterns for Writing Simple Code
 description: Writing simple code is hard. Here are some patterns to help!
 ---
