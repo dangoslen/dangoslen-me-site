@@ -4,6 +4,10 @@ date: 2020-06-25T04:00:00.000Z
 title: Don’t Focus on Coding Mastery — Focus on Getting Better Each Day
 description: Why only focusing on the end game will disappoint you.
 ---
+![Master craftsman working on an anvil](../assets/1_ndvpxhffgu1hoz2cbssmuw.jpeg)
+
+*Photo by [Nicolas Hoizey](https://unsplash.com/@nhoizey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://levelup.gitconnected.com/s/photos/master-craftsman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+
 I’ve had a pretty short career as an engineer. I’ve spent ten years writing code in a professional context across a few different companies, and only 6 of those as a full-time engineer.
 
 In that short time, I’ve had those moments where I realized I wasn’t where I wanted to be as an engineer. I was taking a while to code seemingly simple solutions, and I felt like no matter how hard I tried, I wasn’t getting that much better.
@@ -38,11 +42,9 @@ Now would I call that experience mastery? No! I now know far more than ever befo
 
 But it was a small win, and that is important.
 
-![Improvement over one year at 1% better everyday — https://jamesclear.com/continuous-improvement](https://miro.medium.com/max/60/1*nytXpOpWsicRvIlUgpTqcw.jpeg?q=20)
-
 ![Improvement over one year at 1% better everyday — https://jamesclear.com/continuous-improvement](https://miro.medium.com/max/700/1*nytXpOpWsicRvIlUgpTqcw.jpeg)
 
-<https://jamesclear.com/continuous-improvement>
+_<https://jamesclear.com/continuous-improvement>_
 
 ## Focus on Getting Better Every Day
 
