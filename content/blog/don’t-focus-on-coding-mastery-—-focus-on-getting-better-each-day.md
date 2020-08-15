@@ -6,7 +6,11 @@ description: Why only focusing on the end game will disappoint you.
 ---
 ![Master craftsman working on an anvil](../assets/1_ndvpxhffgu1hoz2cbssmuw.jpeg)
 
+<center>
+
 *Photo by [Nicolas Hoizey](https://unsplash.com/@nhoizey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://levelup.gitconnected.com/s/photos/master-craftsman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+
+</center>
 
 I’ve had a pretty short career as an engineer. I’ve spent ten years writing code in a professional context across a few different companies, and only 6 of those as a full-time engineer.
 
@@ -42,9 +46,13 @@ Now would I call that experience mastery? No! I now know far more than ever befo
 
 But it was a small win, and that is important.
 
+<center>
+
 ![Improvement over one year at 1% better everyday — https://jamesclear.com/continuous-improvement](https://miro.medium.com/max/700/1*nytXpOpWsicRvIlUgpTqcw.jpeg)
 
 _<https://jamesclear.com/continuous-improvement>_
+
+</center>
 
 ## Focus on Getting Better Every Day
 
