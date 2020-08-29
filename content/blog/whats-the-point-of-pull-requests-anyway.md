@@ -41,15 +41,29 @@ If that sounds intimidating at first, don't worry! Just remember the core idea i
 Another benefit of the pull request flow is that all communication about a set of changes is now open for all to see. They are searchable, taggable, and relatively easy to keep track of. This means context and previous decisions aren't buried in email threads or chat windows. Instead, they are easily searchable, taggable, and viewable to everyone.
 
 ## Automation
-As pull requests became popular amongst the development community. GitHub and other git-hosting platforms created a rich set of [webhooks] designed around the GitHub flow to enable automation. It is common these days for continuous integration tasks to take place on every commit that is part of a pull request for this reason.
+As pull requests became popular amongst the development community. GitHub and other git-hosting platforms created a rich set of [webhooks](https://docs.github.com/en/developers/webhooks-and-events/about-webhooks) designed around the GitHub flow to enable automation. It is common these days for continuous integration tasks to take place on every commit that is part of a pull request for this reason.
 
 In my experience, this is one of the most leveraged places for automation. And not just running automated tests. You can deploy entire environments from the changes in the pull request and see if the deploy was successful.
 
 It used to be that such tools or integrations were expensive. Either team's had to maintain infrastructure for their automation tasks, or they paid for hosted services. Recently, many more tools have become available to make it even easier to set up such tasks. Companies like Netlify and Travis have free offerings for many projects that you can take advantage of.
 
-GitHub took this even further with the advent of GitHub Actions. Actions allow you to build your automation workflows from a marketplace of small, discrete, and composable tasks. You should really check them out!
+GitHub took this even further with the advent of [GitHub Actions](https://github.com/features/actions). Actions allow you to build your automation workflows from a marketplace of small, discrete, and composable tasks. You should really check them out!
 
 ## Status Checks
 The last big benefit of pull requests is the concept of status checks. Status checks are just a set of tasks that are executed for every commit in the pull request and a "success" or "failure." In a very real sense, status checks become a checklist that the changes are good to go.
 
-Status checks can be for whatever you want them to be. Most teams will ha
+Status checks can be for whatever you want them to be. Most teams will have automated tests as one, style checkers as another, and then a requirement for one or two code review approvals. The changes can't be merged unless all these checks have been met.
+
+The topic of code reviews is something worth mentioning in a little more detail. Because the ability to communicate and collaborate is so effective on a pull request, many teams use this as a natural place to review code. Pull requests can even manage reviewers, their reviews, and approval status right from the pull request page. Many large projects even have automation to add specific users or groups to a pull request based on the files that have changed. For example, take a look at the [CODEOWNERS](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners) documentation.
+
+---
+
+To summarize, a pull request is just a request to integrate changes from one branch to another.
+
+But pull requests are powerful. They have become the epicenter of modern development.
+
+Pull requests facilitate continuous integration tasks, code reviews, and checklists to keep quality high. They have transformed a repository from being something that stores only source code to something that stores knowledge about that source.
+
+This is also where most learning happens! Some of the most important lessons I've learned about software development have come from feedback from patient individuals on pull requests—lessons on coding, git, project management, and career growth too.
+
+Happy coding!
