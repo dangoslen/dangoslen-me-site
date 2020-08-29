@@ -12,7 +12,7 @@ description: Why pull requests are one of the best tools in modern software.
 
 If you are a beginner in the world of git and hosted git platforms (like GitHub or GitLab), you have probably heard the term "pull request" or "merge request" before. You also might not understand what they are or the value they bring to your team.
 
-Sidenote: I'll be using the term "pull request in this article, but it's effectively the same as a "merge request" in GitLab.
+_Sidenote: I'll be using the term "pull request in this article, but it's effectively the same as a "merge request" in GitLab._
 
 Pull requests help teams build and share software. They do have a bit of a learning curve though, but I believe its worth it. My goal in this article is to help you get familiar with pull requests and how they fit into the flow of building software.
 
@@ -58,9 +58,9 @@ The topic of code reviews is something worth mentioning in a little more detail.
 
 ---
 
-To summarize, a pull request is just a request to integrate changes from one branch to another.
+To summarize, a pull request is just a request to integrate changes from one branch to another. While so simple, pull requests are powerful. 
 
-But pull requests are powerful. They have become the epicenter of modern development.
+**They have become the epicenter of modern development.**
 
 Pull requests facilitate continuous integration tasks, code reviews, and checklists to keep quality high. They have transformed a repository from being something that stores only source code to something that stores knowledge about that source.
 
