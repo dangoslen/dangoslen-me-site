@@ -16,7 +16,7 @@ _Sidenote: I'll be using the term "pull request in this article, but it's effect
 
 Pull requests help teams build and share software. They do have a bit of a learning curve though, but I believe its worth it. My goal in this article is to help you get familiar with pull requests and how they fit into the flow of building software.
 
-What is a Pull Request?
+## What is a Pull Request?
 A pull request is really just a request to pull/integrate changes from one branch to another. It might be from a branch with a single commit from one developer, or a branch with multiple commits and author. In most cases, a pull request is used to integrate a new feature or bug fix into the project's main branch.
 
 A pull request also includes a short description of the changes and why they are being made. There is usually a discussion amongst the author of the pull request and a set of reviewers. Reviewers are just other developers that have worked on the project and can provide feedback on the changes. In open-source projects, these reviewers will typically be core contributors or maintainers. In other cases, like your team at work, the reviewers will typically be senior engineers or teammates.
