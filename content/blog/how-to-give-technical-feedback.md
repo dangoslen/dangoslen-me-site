@@ -15,7 +15,7 @@ I want to share some of the tools I have learned to help you give better feedbac
 
 ---
 
-## Like Coding, Giving Feedback Takes Practice
+## Giving Feedback Takes Practice
 
 ## Start With a Question
 
