@@ -54,9 +54,14 @@ As an example, instead of saying "Maybe you should let other people speak for a 
 
 The best part of this form of feedback is that you aren't telling Todd what to do or what to think. You are asking Todd to think about what they could do differently - just with a gentle nudge towards a specific action. 
 
-You do need to be careful though. This can easily be taken or even accidentally used as a [manipulation tactic]. This tool shouldn't be used as a way to convince someone of your ideal reality or to persuade someone to do something in a way that suites your needs best. All of your feedback should be centered around helping others grow - not on your own success.
+You do need to be careful though! This can easily be taken or even accidentally used as a [manipulation tactic]. This tool shouldn't be used as a way to convince someone of your ideal reality or to persuade someone to do something in a way that suits your needs best. All of your feedback should be centered around helping others grow - not on your own success.
 
 ## Offer Support
+If they are receptive to your initial feedback, offer to help them. Don't leave them alone with feedback to get better - help them get there! 
+
+This might be as simple as telling them you are happy to field their questions about a certain technology. It could be that you offer to coach them on how to communicate better in a meeting. 
+
+Going back to our example with Todd, maybe you could spend a few minutes debriefing why Todd got so heated. Was there a specific phrase or statement from someone that made him angry? Can you give Todd a tool for recognizing when a situation has become [unsafe] for others and he needs to tone it down and re-center the conversation?
 
 ---
 
