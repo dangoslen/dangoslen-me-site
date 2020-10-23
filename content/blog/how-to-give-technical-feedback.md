@@ -7,36 +7,40 @@ description: Feedback is hard. Technical feedback is even harder. Here are some
 ---
 Let's face it: giving feedback is hard. 
 
-You want to tell that colleague of yours how they could be better. You want to tell your manager that it feels like they don't listen when you share an idea. You want to share a piece of technical insight to help them code better.
+You want to help that teammate improve their coding skills. You want to tell your manager that it feels like they don't listen when you share an idea. You want to share a piece of wisdom you have learned from your experience.
 
-But how do you do that without sounding like a jerk? Or like you are just complaining? How do you help your team by pointing out areas for improvement (because you are - of course - the expert on everything... 🙃)
+But how do you do that without sounding like a jerk? Or sound like you are just complaining? 
 
-While, I'm not an expert at all-things-feedback, I've grown a lot in the past several years in how I give feedback to those I work with. From both technical aspects to soft skills and professionalism. 
+While I'm not an expert at all-things-feedback, I've grown a lot in the past several years in how I give feedback to those I work with. From both technical aspects to soft skills and professionalism. 
 
 I want to share some of the tools I have learned to help you give better feedback. Whether you are a senior engineer who just got promoted, a junior struggling to give any feedback at all, or someone who finds it hard to articulate what you think is helpful, these are for you.
 
 ## Start With a Question
+
 There is a simple question that I have found helps in nearly EVERY time I give feedback to someone.
 
 > Can I give you some feedback?
 
-It sounds so simple, right? And it is! But it's actually harder than you might think. It is very easy to react to someone constantly being late and telling them it is frustrating that they are late to meetings all the time. Without even knowing, you might mention to someone that they could have solved a problem faster if they tried a different approach.
+It sounds so simple, right? And it is! But it's actually harder than you might think. It is very easy to see someone's behavior and decide you need to "show them the right way." However, this is a very dangerous trap. 
 
-In both of these cases, you have given unwanted feedback. It is likely they aren't ready to receive it! Unwanted feedback is much more like telling someone what to do than giving feedback. 
+When you give feedback without asking if you can, you aren't respecting the other person. It is likely they aren't ready to receive it! Its unwanted! Unwanted feedback is much more like telling someone what to do than giving feedback. This destroys trust.
 
-If they say "not right now" or "no", then give them the space they need. And don't worry if they always say "no". If they _never_ are willing to receive feedback, this will never grow and that is honestly their problem. All you can do is be willing to give thoughtful, honest, and humble feedback when they are willing to receive it.
+If they say "not right now" or "no", then give them the space they need. Don't worry if they always say "no". If they *never* are willing to receive feedback, this will never grow and that is honestly their problem. Eventually, it will catch up to them. All you can do is be willing to give thoughtful, honest, and humble feedback when they are willing to receive it.
 
 So what happens when they say "yes"? Keep reading!
 
 ## State an Objective Observation With Humility
+
 Now that they are willing to receive feedback, you need to make sure your feedback is rooted in objective observations. 
 
-Let's use a simple example. During a technical disucssion about a problem, a developer was getting very passionate. This developer, let's call them Todd, also talked over several others during the discussion;  an unforunately common thing in the tech world. After the meeting, you decide you to give Todd feedback that it was frustrating when they talked over others in the group. Once we have Todd's willingness to hear our feedback, how do we give it?
+Let's use a simple example. During a technical discussion about a problem, a developer was getting very passionate. This developer, let's call them Todd, also talked over several others during the discussion;  an unfortunately common thing in the tech world. After the meeting, you decide to give Todd feedback. You want Todd to know that it was frustrating when they talked over others in the group. You ask Todd if you can give them some feedback and Todd is willing to listen.
 
-One of the worst things you could do at this moment is to make a large sweeping generalization about them! Don't jump to conlcusions like:
+Once we have Todd's willingness to hear our feedback, how do we give it?
+
+One of the worst things you could do at this moment is to make a large sweeping generalization! Stay away from that! Don't jump to conclusions like:
 
 * Todd **always** talks over **everyone** 
-* Todd don't respect other people.
+* Todd doesn't respect other people.
 * Todd is a jerk
 
 Instead, simply tell them what you have noticed. Stick to the facts. A good approach might be to start with "I noticed that in that last meeting you were getting a little heated. You might not have noticed it, but you were talking over a few other people."
@@ -46,6 +50,7 @@ At this moment, we have only re-stated what actually took place. We haven't judg
 By starting with a question ("Can I give you some feedback?") and then re-stating facts ("You were talking over a few other people.") we have done our best to create a safe space to now share our real feedback - what to do differently.
 
 ## Make A Suggestion In the Form of a Question
+
 This is often where I personally second-guess myself. Maybe my advice or feedback is stupid. Maybe Todd doesn't respect me enough to listen. Or maybe Todd won't do anything about it anyway...
 
 There is where giving your suggestion in the form of a question is so useful. Instead of telling Todd what they should do, ask Todd if they think your suggestion is a better way of handling it. 
@@ -54,29 +59,28 @@ As an example, instead of saying "Maybe you should let other people speak for a 
 
 The best part of this form of feedback is that you aren't telling Todd what to do or what to think. You are asking Todd to think about what they could do differently - just with a gentle nudge towards a specific action. 
 
-You do need to be careful though! This can easily be taken or even accidentally used as a [manipulation tactic]. This tool shouldn't be used as a way to convince someone of your ideal reality or to persuade someone to do something in a way that suits your needs best. All of your feedback should be centered around helping others grow - not on your own success.
+You do need to be careful though! This can easily be taken or even accidentally used as a manipulation tactic. This tool shouldn't be used as a way to convince someone of your ideal reality or to persuade someone to do something in a way that suits your needs best. All of your feedback should be centered around helping others grow - not on your own success.
 
 ## Offer Support
+
 If they are receptive to your initial feedback, offer to help them. Don't leave them alone with feedback to get better - help them get there! 
 
 This might be as simple as telling them you are happy to field their questions about a certain technology. It could be that you offer to coach them on how to communicate better in a meeting. 
 
-Going back to our example with Todd, maybe you could spend a few minutes debriefing why Todd got so heated. Was there a specific phrase or statement from someone that made him angry? Can you give Todd a tool for recognizing when a situation has become [unsafe] for others and he needs to tone it down and re-center the conversation?
+Going back to our example with Todd, maybe you could spend a few minutes debriefing why Todd got so heated. Was there a specific phrase or statement from someone that made him angry? Can you give Todd a tool for recognizing when a situation has become \[unsafe] for others and he needs to tone it down and re-center the conversation?
 
----
+- - -
 
 ## Story Time
 
 ## Giving Feedback Takes Practice
-Just like coding, there isn't a magic formula that will solve all your problems. Sure there are [patterns] and frameworks (just like in code) that can help you, but you have to actually give feedback to get better at it.
 
-But where do you start? How to you start giving feedback without damaging a relationship or hurting your career? 
+Just like coding, there isn't a magic formula that will solve all your problems. Sure there are \[patterns] and frameworks (just like in code) that can help you, but you have to actually give feedback to get better at it.
 
-One place I would 
+But where do you start? How do you start giving feedback without damaging a relationship or hurting your career? 
 
-## Start with yourself!  
+## Start with yourself!
 
 You need to learn to give feedback to yourself. When you give yourself feedback, you will start to understand what phrases, tools, patterns, etc. help you or hurt you. There is a good chance that what is helpful to you will by helpful to someone else. The same goes for feedback that made you more frustrated or 
 
 Happy coding!
-
