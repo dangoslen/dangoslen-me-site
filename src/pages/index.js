@@ -46,13 +46,6 @@ class IndexPage extends React.Component {
               <p>Happy coding!</p>
           </Biography>
         </Profile>
-        <hr/>
-        <Link to="/blog/">
-          <Button marginTop="35px">My Blog</Button>
-        </Link>
-        <Link to="/talks/">
-          <Button marginTop="35px">My Talks and Presentations</Button>
-        </Link>
       </Layout>
     )
   }
