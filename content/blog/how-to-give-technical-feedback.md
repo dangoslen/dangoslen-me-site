@@ -1,9 +1,8 @@
 ---
 path: /how-to-give-technical-feedback
 date: 2020-09-23T15:55:33.325Z
-title: How to Give Technical Feedback
-description: Feedback is hard. Technical feedback is even harder. Here are some
-  tips to help you give feedback well.
+title: How to Give Feedback
+description: Feedback is hard. Here are some tips to help you give feedback well.
 ---
 Let's face it: giving feedback is hard. 
 
@@ -71,16 +70,20 @@ Going back to our example with Todd, maybe you could spend a few minutes debrief
 
 - - -
 
-## Story Time
-
 ## Giving Feedback Takes Practice
 
-Just like coding, there isn't a magic formula that will solve all your problems. Sure there are \[patterns] and frameworks (just like in code) that can help you, but you have to actually give feedback to get better at it.
+Just like coding, there isn't a magic formula that will solve all your problems. Sure there are \[patterns](https://www.lucidchart.com/blog/performance-feedback-models and frameworks) (just like in code) that can help you, but you have to actually give feedback to get better at it.
 
 But where do you start? How do you start giving feedback without damaging a relationship or hurting your career? 
 
 ## Start with yourself!
 
-You need to learn to give feedback to yourself. When you give yourself feedback, you will start to understand what phrases, tools, patterns, etc. help you or hurt you. There is a good chance that what is helpful to you will by helpful to someone else. The same goes for feedback that made you more frustrated or 
+You need to learn to give feedback to yourself. When you give yourself feedback, you will start to understand what phrases, tools, patterns, etc. help you or hurt you. There is a good chance that what is helpful to you will be helpful to someone else. 
 
+Pratically one way to give yourself feedback is to self-review your code. Before asking for a review from a teammate, keep your pull request as a \[draft](https://github.blog/2019-02-14-introducing-draft-pull-requests/), step away from it for a few minutes, and then come back to review it in full. Try to review each line and think "Would by teammates understand this? How could this be better?" You don't need to take forever on this - just put a few comments (yes! comments to yourself) to get used to giving feedback.
+
+You can also give yourself feedback at the end of each week. I know it seems silly, but take your journal and spend maybe 10-15 minutes giving yourself feedback on what you did that week. Did you do something awesome that you should celebrate? Is there something you could have done better? Is there something you think you could do in the upcoming week to improve?". 
+
+You'll get comfortable with giving feedback in no time.\
+\
 Happy coding!
