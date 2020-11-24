@@ -4,6 +4,8 @@ date: 2020-09-23T15:55:33.325Z
 title: How to Give Feedback
 description: Feedback is hard. Here are some tips to help you give feedback well.
 ---
+![Guitar Amplifier](../assets/portuguese-gravity-mflgvcy9ooy-unsplash.jpg "<span>Photo by <a href=\"https://unsplash.com/@portuguesegravity?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\">Portuguese Gravity</a> on <a href=\"https://unsplash.com/s/photos/feedback-amplifier?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\">Unsplash</a></span>")
+
 Let's face it: giving feedback is hard.
 
 You want to help that teammate improve their coding skills. You want to tell your manager you feel like they don't listen when you share an idea. You want to help the newcomer struggling with a concept on the team by sharing your experience.
