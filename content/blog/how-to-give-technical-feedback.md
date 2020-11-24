@@ -80,7 +80,7 @@ Keep in mind the support you offer needs to appropriate for your role within the
 Going back to our example with Todd, maybe you could spend a few minutes debriefing why Todd got so heated. Was there a specific phrase or statement from someone that made him angry? Can you give Todd a tool for recognizing when a situation has become unsafe for others, and he needs to tone it down and re-center the conversation?
 
 ## Giving Feedback Takes Practice
-Just like coding, there isn't a magic formula that will solve all your problems. Sure there are [patterns](https://www.lucidchart.com/blog/performance-feedback-models and frameworks) (just like in code) that can help you, but you have to give feedback to get better at it.
+Just like coding, there isn't a magic formula that will solve all your problems. Sure there are [patterns](https://www.lucidchart.com/blog/performance-feedback-models) and frameworks (just like in code) that can help you, but you have to give feedback to get better at it.
 
 But where do you start? How do you start giving feedback without damaging a relationship or hurting your career?
 
