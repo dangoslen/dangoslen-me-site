@@ -8,7 +8,9 @@ description: Feedback is hard. Here are some tips to help you give feedback well
 
 ![Guitar Amplifier](../assets/portuguese-gravity-mflgvcy9ooy-unsplash.jpg)
 
-_Photo by [Portuguese Gravity](https://unsplash.com/@portuguesegravity) on [Unsplash](https://unsplash.com/s/photos/feedback-amplifier)_</center>
+_Photo by [Portuguese Gravity](https://unsplash.com/@portuguesegravity) on [Unsplash](https://unsplash.com/s/photos/feedback-amplifier)_
+
+</center>
 
 Let's face it: giving feedback is hard.
 
