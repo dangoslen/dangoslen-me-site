@@ -6,9 +6,9 @@ description: Feedback is hard. Here are some tips to help you give feedback well
 ---
 Let's face it: giving feedback is hard. 
 
-You want to help that teammate improve their coding skills. You want to tell your manager that it feels like they don't listen when you share an idea. You want to share a piece of wisdom you have learned from your experience.
+You want to help that teammate improve their coding skills. You want to tell your manager you feel like they don't listen when you share an idea. You want to help the newcomer struggling with a concept on the team by sharing your experience.
 
-But how do you do that without sounding like a jerk? Or sound like you are just complaining? 
+But how do you do that without sounding like a know-it-all? Or sound like you are just complaining? 
 
 While I'm not an expert at all-things-feedback, I've grown a lot in the past several years in how I give feedback to those I work with. From both technical aspects to soft skills and professionalism. 
 
@@ -16,7 +16,7 @@ I want to share some of the tools I have learned to help you give better feedbac
 
 ## Start With a Question
 
-There is a simple question that I have found helps in nearly EVERY time I give feedback to someone.
+There is a simple question that I have found helps EVERY time I give feedback to someone. 
 
 > Can I give you some feedback?
 
@@ -72,7 +72,7 @@ Going back to our example with Todd, maybe you could spend a few minutes debrief
 
 ## Giving Feedback Takes Practice
 
-Just like coding, there isn't a magic formula that will solve all your problems. Sure there are [patterns](https://www.lucidchart.com/blog/performance-feedback-models and frameworks) (just like in code) that can help you, but you have to actually give feedback to get better at it.
+Just like coding, there isn't a magic formula that will solve all your problems. Sure there are \[patterns](https://www.lucidchart.com/blog/performance-feedback-models and frameworks) (just like in code) that can help you, but you have to actually give feedback to get better at it.
 
 But where do you start? How do you start giving feedback without damaging a relationship or hurting your career? 
 
