@@ -22,7 +22,7 @@ There is a simple question that I have found helps EVERY time I give feedback to
 
 It sounds so simple, right? And it is! But it's actually harder than you might think. It is very easy to see someone's behavior and decide you need to "show them the right way." However, this is a very dangerous trap. 
 
-When you give feedback without asking if you can, you aren't respecting the other person. It is likely they aren't ready to receive it! Its unwanted! Unwanted feedback is much more like telling someone what to do than giving feedback. This destroys trust.
+When you give feedback without asking if you can, you aren't respecting the other person. It is likely they aren't ready to receive it! It's unwanted! Unwanted feedback is much more like telling someone what to do than giving feedback. This destroys trust.
 
 If they say "not right now" or "no", then give them the space they need. Don't worry if they always say "no". If they *never* are willing to receive feedback, this will never grow and that is honestly their problem. Eventually, it will catch up to them. All you can do is be willing to give thoughtful, honest, and humble feedback when they are willing to receive it.
 
@@ -32,11 +32,11 @@ So what happens when they say "yes"? Keep reading!
 
 Now that they are willing to receive feedback, you need to make sure your feedback is rooted in objective observations. 
 
-Let's use a simple example. During a technical discussion about a problem, a developer was getting very passionate. This developer, let's call them Todd, also talked over several others during the discussion;  an unfortunately common thing in the tech world. After the meeting, you decide to give Todd feedback. You want Todd to know that it was frustrating when they talked over others in the group. You ask Todd if you can give them some feedback and Todd is willing to listen.
+Let's use a simple example. During a technical discussion about a problem, a developer was getting very passionate. This developer, let's call them Todd, also talked over several others during the discussion;  an unfortunately common thing in the tech world. After the meeting, you decide to give Todd some feedback on the event. You want Todd to know that it was frustrating when they talked over others in the group. You ask Todd if you can give them some feedback and Todd is willing to listen.
 
 Once we have Todd's willingness to hear our feedback, how do we give it?
 
-One of the worst things you could do at this moment is to make a large sweeping generalization! Stay away from that! Don't jump to conclusions like:
+First, a warning to stay FAR AWAY from large sweeping generalizations! They won't help the conversation or the feedback you are attempting to give. Examples might be:
 
 * Todd **always** talks over **everyone** 
 * Todd doesn't respect other people.
