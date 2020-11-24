@@ -4,7 +4,11 @@ date: 2020-09-23T15:55:33.325Z
 title: How to Give Feedback
 description: Feedback is hard. Here are some tips to help you give feedback well.
 ---
-![Guitar Amplifier](../assets/portuguese-gravity-mflgvcy9ooy-unsplash.jpg "<span>Photo by <a href=\"https://unsplash.com/@portuguesegravity?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\">Portuguese Gravity</a> on <a href=\"https://unsplash.com/s/photos/feedback-amplifier?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\">Unsplash</a></span>")
+<center>
+
+![Guitar Amplifier](../assets/portuguese-gravity-mflgvcy9ooy-unsplash.jpg)
+
+_Photo by [Portuguese Gravity](https://unsplash.com/@portuguesegravity?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/feedback-amplifier?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\")_</center>
 
 Let's face it: giving feedback is hard.
 
