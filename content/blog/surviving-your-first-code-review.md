@@ -39,9 +39,11 @@ When a reviewer provides feedback that is ambigous or confusing, ask for clariri
 An example of this is say you received a comment saying to overload a function to allow for a different object to be passed as a parameter. But the object they are discussing doesn't seem to be related to the function at all. Instead of blindly accepting that you should create such an overload, ask for clarity - why would that be helpful? Is there something about that object that you don't know about? While trivial, situations like this arise **all** the time in reviews. Fight for clarity as early as possible. 
 
 ## Hold Your Ground
-Not all feedback is correct. Not all requests for changes are neccesary. 
+Not all feedback is correct. Not all requests for changes are neccesary. Don't simply make changes because a reviewer said so. If you don't think the changes are either correct or needed, say so and ask if the reviewer agrees.
 
+One approach that might is to also review with your team a common set of rules or language about feedback that is a "deal-breaker" and which isn't. For instance, I've worked on teams where we always said an item was a non-blocking piece of feedback in the comments we provided. As a team, this helped us to understand where to focus on changes. This also kept us from getting into useless debates on small issues that didn't matter in the grand scheme of the changes.
 
+As always, though, remember to hold your ground humbly. State why you don't think a change is required and not just that you won't do it. Cite articles, and documentation on why you think so. You are both on the same team after all.
 
 ## Choose Some Feedback to Really Work On 
 
