@@ -3,8 +3,9 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 const NavLink = props => {
-  const { to, text } = props;
-
+  const { to, text, activeStyle } = props;
+  const activeStyleApplied = activeStyle ? activeStyle : { borderBottom: `${ActiveBorder}` };
+  console.log(activeStyleApplied)
   return (
     <NavLinkWrapper>
       <Link
@@ -15,6 +16,7 @@ const NavLink = props => {
               padding: `6px 10px`,
           }}
           to={to}
+          activeStyle={ activeStyleApplied }
         >{text}</Link>
     </NavLinkWrapper>
   )
@@ -29,8 +31,8 @@ const NavLinkWrapper = styled.div`
   font-weight: 400;
   margin:0 auto;
   text-align: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.0);
-  &:hover {
+
+  & a:hover {
     border-bottom: ${ActiveBorder};
   }
 `

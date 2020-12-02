@@ -8,11 +8,11 @@ const Menu = props => {
     return (
         <TopNav>
             <BigLink>
-                <NavLink to="/" text="Dan Goslen" />
+                <NavLink to="/" text="Dan Goslen" activeStyle={{}} />
             </BigLink>
             <LinksContainer>
                 <NavLink to='/' text="About" />
-                <NavLink to='/blog' text="Blog" />
+                <NavLink to='/blog' text="Blog" add/>
                 <NavLink to='/talks' text="Talks" />
             </LinksContainer>
         </TopNav>
@@ -33,7 +33,7 @@ const LinksContainer = styled.div`
     @media ${Device.tablet} {
         padding: 0;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
     }
 `

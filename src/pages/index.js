@@ -14,7 +14,6 @@ import SocialLink from "../components/social-link"
 import Device from "../components/sizing"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Button from "../components/button"
 
 class IndexPage extends React.Component {
   render() {
@@ -45,7 +44,7 @@ class IndexPage extends React.Component {
               <p>I hope I can share the learnings and hopes I have gained from my own experience to others, including you.</p>
               <p>Happy coding!</p>
           </Biography>
-        </Profile>
+        </Profile>``
       </Layout>
     )
   }
