@@ -33,24 +33,28 @@ Second, this allows you to see if there is an overall theme amongst all of the f
 
 The last reason I think this is important to do is that it allows you to think wholistically before making line-by-line changes. Often in code review feedback, a suggestion about a refactor or function change requires changes in several places. If you were to make each change line-by-line, you would find some comments become obsolete.
 
-## Ask the Reviewers for Clarification When Needed
-When a reviewer provides feedback that is ambigous or confusing, ask for claririfcation. If you are confused by their comment, just accepting it at face value can lead to even more confusion. After a few rounds of that, frustration can mount and turn the entire code review sour.
+## Ask for Clarification
+When a reviewer provides feedback that is ambigous or confusing, ask for clarification. If you are confused by their comment, just accepting it at face value can lead to even more confusion. After a few rounds of that, frustration can mount and turn the entire code review sour.
 
-An example of this is say you received a comment saying to overload a function to allow for a different object to be passed as a parameter. But the object they are discussing doesn't seem to be related to the function at all. Instead of blindly accepting that you should create such an overload, ask for clarity - why would that be helpful? Is there something about that object that you don't know about? While trivial, situations like this arise **all** the time in reviews. Fight for clarity as early as possible. 
+An example of this is saying you received a comment saying to overload a function to allow for a different object to be passed as a parameter. But the object they are discussing doesn't seem to be related to the function at all. Instead of blindly accepting that you should create such an overload, ask for clarity - why would that be helpful? Is there something about that object that you don't know about? While trivial, situations like this arise **all** the time in reviews. Fight for clarity as early as possible. 
 
 ## Hold Your Ground
-Not all feedback is correct. Not all requests for changes are neccesary. Don't simply make changes because a reviewer said so. If you don't think the changes are either correct or needed, say so and ask if the reviewer agrees.
+Not all feedback is correct. Not all requests for changes are necessary. Don't simply make changes because a reviewer said so. If you don't think the changes are either correct or needed, say so and ask if the reviewer agrees.
 
 One approach that might is to also review with your team a common set of rules or language about feedback that is a "deal-breaker" and which isn't. For instance, I've worked on teams where we always said an item was a non-blocking piece of feedback in the comments we provided. As a team, this helped us to understand where to focus on changes. This also kept us from getting into useless debates on small issues that didn't matter in the grand scheme of the changes.
 
-As always, though, remember to hold your ground humbly. State why you don't think a change is required and not just that you won't do it. Cite articles, and documentation on why you think so. You are both on the same team after all.
+As always, though, remember to hold your ground humbly. State why you don't think a change is required and not just that you won't do it. Cite articles and documentation on why you think so. You are both on the same team after all.
 
-## Choose Some Feedback to Really Work On 
+## Choose Specific Feedback to Really Work On 
+Once the code review is done and everything has been merged there is still some work to do. Write down one or two (but not more!) areas where you got feedback to work on. Maybe it was writing better tests. Perhaps it was improving your knowledge of a framework. 
+
+Whatever it was, take some time to learn what you need to not have the same feedback as before. I'm not saying you will be perfect. No can be! Repeating the same mistakes over and over though means you aren't really putting in the effort to grow. Your team gave you specific areas of feedback; pointing out where to focus next. It would be silly if you didn't listen to some of it.
 
 ---
 
-## Conclusion
+## Final Thoughts
+All of these tools are meant to help you survive and grow from your first code review. While these tools are helpful, the number one thing that will help you is attitude. Approach your feedback as oppurtunities to grow and learn. Remember that everyone deals with imposter syndrome. Just because you don't know something doesn't mean you can't learn it or that you don't deserve to be there.
 
+A great team will give you feedback to help you. They want you to succeed. They hired you! You can do it.
 
-
- 
+Happy coding!
