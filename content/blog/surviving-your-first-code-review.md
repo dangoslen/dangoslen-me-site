@@ -58,7 +58,7 @@ Whatever it was, take some time to learn what you need to not repeat the same mi
 ---
 
 ## Final Thoughts
-Use these tools to survive and grow from your first code review. While these tools are helpful, the number one thing that will help you is attitude. Approach your feedback as opportunities to grow and learn. Remember that everyone deals with imposter syndrome. Just because you don't know something doesn't mean you can't learn it or that you don't deserve to be there.
+Use these tools to survive and grow from your first code review. While these tools are helpful, the number one thing that will help you is attitude. Approach your feedback as opportunities to grow and learn. Remember that everyone deals with [imposter syndrome](https://plantae.org/combatting-the-impostor-syndrome-in-academic-science-you-probably-are-as-smart-as-they-think/). Just because you don't know something doesn't mean you can't learn it or that you don't deserve to be there.
 
 A great team will give you feedback to help you. They want you to succeed. They hired you! You can do it.
 
