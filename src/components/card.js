@@ -19,7 +19,7 @@ const Card = props => (
 const CardWrapper = styled.div`
     padding: 8px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
-
+    margin-bottom: 10px;
 `
 
 const CardHeader = styled.div`
@@ -31,7 +31,7 @@ const LinksWrapper = styled.div`
 `
 
 const CardLink = styled.a`
- margin-right: 10px;
+    margin-right: 10px;
 `
 
 export default Card;

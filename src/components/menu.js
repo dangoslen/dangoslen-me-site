@@ -1,7 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "gatsby"
-import { scale } from "../utils/typography"
 
 import Device from "../components/sizing"
 import NavLink from "./nav-link"
@@ -9,26 +7,12 @@ import NavLink from "./nav-link"
 const Menu = props => {
     return (
         <TopNav>
-            <Link style={{
-                    boxShadow: `none`,
-                    textDecoration: `none`,
-                    color: `inherit`
-                }}
-                to="/"
-                >
-                <h1
-                    style={{
-                        ...scale(1.0),
-                        marginBottom: 0,
-                        marginTop: 0,
-                        textAlign: `center`
-                    }}>
-                    Dan{" { "}Goslen{" }"}
-                </h1>
-            </Link>
+            <BigLink>
+                <NavLink to="/" text="Dan Goslen" activeStyle={{}} />
+            </BigLink>
             <LinksContainer>
                 <NavLink to='/' text="About" />
-                <NavLink to='/blog' text="Blog" />
+                <NavLink to='/blog' text="Blog" add/>
                 <NavLink to='/talks' text="Talks" />
             </LinksContainer>
         </TopNav>
@@ -49,9 +33,12 @@ const LinksContainer = styled.div`
     @media ${Device.tablet} {
         padding: 0;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
     }
+`
+
+const BigLink = styled.div` 
 `
 
 export default Menu 

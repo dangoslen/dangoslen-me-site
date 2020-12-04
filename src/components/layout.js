@@ -46,7 +46,10 @@ const Wrapper = styled.section`
   min-height: 100vh;
 `
 const Header = styled.header`
-  background: #f1935c;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #dcdcdc;
 `
 
 const Footer = styled.footer`
