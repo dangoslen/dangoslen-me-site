@@ -9,8 +9,8 @@ description: "It can be difficult when you submit your first pull request and
 ---
 ![](../assets/vincent-tom-8yrjq0srdro-unsplash.jpg)
 
-<center>Photo by [Vincent Tom](https://unsplash.com/@vince_t?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/warmth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</center>
-
+<center>
+Photo by [Vincent Tom](https://unsplash.com/@vince_t?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/warmth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</center>
 
 I remember my first code review as a software engineer. I was pretty nervous about opening the link in the email saying my code review was complete. I was afraid to look at the feedback.
 
@@ -43,7 +43,7 @@ Second, this allows you to see if there is an overall theme amongst all of the f
 
 The last reason I think this is important to do is that it allows you to think wholistically before making line-by-line changes. A common form of feedback in code reviews is the suggestion to refactor a class or function. But this often requires changes in several places. If you were to make each change individually, you would find that your refactor has addressed some of those comments. This makes it harder to understand if a comment is relevant or not taken one-by-one instead of holistically.
 
-\##Ask for Clarification
+## Ask for Clarification
 When a reviewer provides feedback that is ambiguous or confusing, ask for clarification. If you are confused by their comment, just accepting it at face value can lead to even more confusion. After a few rounds of that, frustration can mount and turn the entire code review sour.
 
 Let's walk through a common scenario you might encounter. You receive a comment saying to overload a function to allow for a different object to be passed as a parameter. But the object the reviewer is suggesting doesn't seem to be related to the function at all. You don't understand what they are getting at. Instead of blindly accepting their suggestion, ask for clarity. Why would that be helpful? Is there something about that object that you don't know? While trivial, situations like this arise all the time in reviews. Fight for clarity as early as possible.
