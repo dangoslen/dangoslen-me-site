@@ -22,7 +22,7 @@ I'd never had my code formally reviewed before. In my undergraduate days, we jus
 When I entered into my first full-time role, I learned that code reviews were a common part of ensuring code quality. Often done via [pull requests](https://dangoslen.me/blog/whats-the-point-of-pull-requests-anyway/), developers were encouraged to provide feedback on how to improve code and validate its correctness before merging code to the mainline. The core intention was to keep a high-quality codebase.
 Sounds good.
 
-But there is something we all fear: rejection. We fear not being good enough. Code reviews become a place for junior engineers (or any engineers really) to come face to face with that fear. That first time you request a review from the senior engineer on the team can be daunting.
+But there is something we all fear: **rejection**. We fear not being good enough. Code reviews become a place for junior engineers (or any engineers really) to come face to face with that fear. That first time you request a review from the senior engineer on the team can be daunting.
 
 And let's face it: no one's code is perfect. Your code review will have some form of feedback. Even as a senior engineer, I get regular feedback from my peers about how to improve my code. For junior engineers, the feedback can often be a lot and overwhelming. Comments like "Don't do this." or "Change this to use a ternary expression." or "Why?" can easily take a bright-eyed engineer and make them question how they ever got a job in the first place.
 
