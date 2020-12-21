@@ -26,7 +26,7 @@ How many of you have worked on a team that always had to be putting in “heroic
 
 These teams usually get praised if they hit the deadline, and their achievement is hailed as “grit” or “great work.” If they miss the deadline, though — they are scolded for not making the deadline and wind up working just as long to get in done when they can.
 
-While these situations are nearly inevitable — every team will hit some form of crunch time that requires some extra work — it should be the norm. And it shouldn’t be seen as heroic work.
+While these situations are nearly inevitable — every team will hit some form of crunch time that requires some extra work — it should not be the norm. And it shouldn’t be seen as heroic work.
 
 When teams are constantly in this state of frantic overwork, something is just plain wrong. They aren’t building the right software. They aren’t investing in the right places. They aren’t having the correct retrospectives with themselves or with product owners. Something needs to change.
 
