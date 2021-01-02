@@ -18,7 +18,7 @@ One of the classics, *Crime and Punishment* takes us through the minds of severa
 
 ## * [Artemis](https://amzn.to/3oaCTTf)* by Andy Weir
 
-Andy Weir's follow-up to *The Martian* is set on the first human colony on the moon complete with smugglers', corrupt politicians, and failed heist attempts. While full of science(ish) stunts and explosions, the plot is underdeveloped, moves too quickly, and doesn't quite grip the reader. While entertaining, I don't believe Weir's imagination went far enough in some places, and in others was too lofty with situations and events a little too far-fetched to be believable - even on the moon.
+Andy Weir's follow-up to *The Martian* is set on the first human colony on the moon complete with smugglers', corrupt politicians, and failed heist attempts. While full of science(ish) stunts and explosions, the plot is underdeveloped, moves too quickly, and doesn't quite grip the reader. While entertaining, I don't believe Weir's imagination went far enough in some places, and in others was too lofty with situations and events that are hard to believe - even on the moon.
 
 ![I will teach you to be rich cover image](../assets/iwtytbr.jpg)
 
