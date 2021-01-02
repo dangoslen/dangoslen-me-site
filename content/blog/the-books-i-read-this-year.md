@@ -12,7 +12,7 @@ Let's jump right in.
 
 ## *[Crime and Punishment](https://amzn.to/3515l2g)* by Fyodor Dostoyevsky
 
-One of the classics, *Crime and Punishment* takes us through the minds of several Russians in St. Petersburg following a brutal murder. We explore the pyschological and relational consequences of murder, the motivations for it, and how society plays into all of it. A difficult read, this story will help the reader grapple with morality, mortality, and the power of confession.
+One of the classics, *Crime and Punishment* takes us through the minds of several Russians in St. Petersburg following a brutal murder. We explore the psychological and relational consequences of murder, the motivations for it, and how society plays into all of it. A difficult read, this story will help the reader grapple with morality, mortality, and the power of confession.
 
 ![Artemis cover magei](../assets/artemis.jpg)
 
@@ -24,19 +24,19 @@ Andy Weir's follow-up to *The Martian* is set on the first human colony on the m
 
 ## [I Will Teach You To Be Rich](https://amzn.to/2Mo8C5n) by Ramit Sethi
 
-Personal finance is a mine-field of advice from the rich, the poor, your parents, and everyone in between. I Will Teach You To Be Rich is a book to help those trying to gain control of their finances to create a simple plan to help them spend money on what they love, save it for the future, and invest to become wealthy. If you have never read a personal finance book and are intimated by a 401(k) account and what investing means, this is a good place to start. If you already have a plan and are trying to see what you can improve, Ramit will help you take the plan to the next level; just be prepared to skim through sections you already know. Anyone trying to grow their financial prowess will benefit from this book.
+Personal finance is a mine-field of advice from the rich, the poor, your parents, and everyone in between. *I Will Teach You To Be Rich* aims to help those trying to gain control of their finances to create a simple plan to help them spend money on what they love, save it for the future, and invest to become wealthy. If you have never read a personal finance book and are intimated by a 401(k) account, this is a good place to start. If you already have a plan and are trying to see what you can improve, Ramit will help you take your plan to the next level; just be prepared to skim through sections you already know. Anyone trying to grow their financial prowess will benefit from this book.
 
 ![Phoenix Project cover image](../assets/phoenix.jpg)
 
 ## [The Phoenix Project](https://amzn.to/38Ytbx7) by Gene Kim et al
 
-I technically finished this right before 2020 but didn't have time to write about it. The Phoenix Project follows a newly promoted IT director at a crumpling company as he navigates how to re-build the department. Developers, IT team members, and project managers alike will all find humor and relatability in this saga of trying to get work done on time and under budget. A big take away for me is the importance of improving daily work; improving how we work is more important than the work itself.
+I technically finished this right before 2020 but didn't have time to write about it. *The Phoenix Project* follows a newly promoted IT director at a crumpling auto-parts company as he navigates how to re-build the department. Developers, IT team members, and project managers alike will all find humor and relatability in this saga of trying to get work done on time and under budget. A big take away for me is the importance of improving daily work; improving how we work is more important than the work itself.
 
 ![DevOps Handbook cover image](../assets/devops.jpg)
 
 ## [The DevOps Handbook](https://amzn.to/38XG7TR) by Gene Kim et al
 
-The DevOps Handbook has become a de-facto standard for tech organizations over the past several years. The handbook discusses how teams that have traditionally been split into development and operations focused groups can work together in ways to ship products faster, maintain them easier, and reduce complexity. While not a silver bullet for an organization, the book explores how organizations that create a culture of trust succeed by releasing frequently, investing in automation, and collaborating across functional groups.
+*The DevOps Handbook* has become a de-facto standard for tech organizations over the past several years. The handbook discusses how teams that have traditionally been split into development and operations focused groups can work together in ways to ship products faster, maintain them better, and reduce complexity. While not a silver bullet for an organization, the book explores how organizations that create a culture of trust succeed by releasing frequently, investing in automation, and collaborating across functional groups.
 
 ![Improve Your Online Presence cover image](../assets/screen-shot-2021-01-02-at-11.16.52-am.png)
 
