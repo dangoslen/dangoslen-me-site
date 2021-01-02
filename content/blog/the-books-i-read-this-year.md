@@ -42,13 +42,13 @@ I technically finished this right before 2020 but didn't have time to write abou
 
 ## [Improving Your Online Presence](http://bit.ly/gr-online-presence) by Catalin Pit
 
-[Catalin Pit](https://twitter.com/catalinmpit) became a voice for web developers in 2020. He has an ability to connect and relate to developers around the world, while still being informative and helpful. While I found his book to be fraught with grammar issues and choppy sentences, it is impressive someone went from being unknown to having a published book in a few short months. The core takeaway for me about my own social media presence was that to succeed, you can't just tweet or post into the void. You need to find people to interact with and connect with. Who knew that would actually work? :)
+[Catalin Pit](https://twitter.com/catalinmpit) became a voice for web developers in 2020. He has an ability to connect and relate to developers around the world, while still being informative and helpful. While I found his book to be fraught with grammar issues and choppy sentences, it is impressive someone went from being unknown to having a published book in a few short months. The core takeaway for me about my own social media presence was that to succeed, you can't just tweet or post into the void. You need to find people to interact with and connect with. Who knew that would actually work? :
 
 ![Crucial Conversations cover image](../assets/crucial_conversations.jpg)
 
 ## [Crucial Conversations](https://amzn.to/3rHkAHD) by Kerry Patterson et al
 
-Crucial Conversations is a classic leadership book on how to manage conversations (and really relationships) when the stakes are high. This is a book of simple ideas and principles, but they take a lifetime to master. A major takeaway for me is that when people don't feel safe, they don't communicate well. And when teams don't communicate well, they fail. This is a book I believe I will re-read over and over again.
+*Crucial Conversations* is a classic leadership book on how to manage conversations (and really relationships) when the stakes are high. This is a book of simple ideas and principles, but they take a lifetime to master. A major takeaway for me is that when people don't feel safe, they don't communicate well. And when teams don't communicate well, they fail. This is a book I believe I will re-read over and over again.
 
 ![Search for God and Guinness cover image](../assets/god_and_guinness.jpg)
 
