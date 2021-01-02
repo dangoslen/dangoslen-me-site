@@ -26,8 +26,16 @@ I technically finished this right before 2020, but didn't have time to write abo
 
 ## The DevOps Handbook
 
+The DevOps Handbook has become a de-facto standard for tech organizations over the past several years. The handbook discusses how teams that have traditionally been split into development and operations focused groups can work together in ways to ship products faster, maintain them easier, and reduce complexity. While not a silver bullet for an organization, the book explores how organizations that create a culture of trust succeed by releasing frequently, investing in automation, and collaborating across functional groups.
+
 ## Improving Your Online Presence
+
+Catalin Pit became a voice for web developers in 2020. He has an ability to connect and relate to developers around the world, while still being informative and helpful. While I found his book to be fraught with grammar issues and choppy sentences, it is impressive someone went from being unknown to having a published book in a few short months. The core takeaway for me about my own social media presence was that to succeed, you can't just tweet or post into the void. You need to find people to interact with and connect with. Who knew that would actually work? :)
 
 ## Crucial Conversations
 
+Crucial conversations is a classic leadership book on how to manage conversations (and really relationships) when they become crucial. This is a book of simple ideas and principles, but take a lifetime to master. A major takeaway for me is that when people don't feel safe, they don't communicate well. And when team's don't communicate well, they fail. This is a book I believe I will re-read over and over again.
+
 ## The Search for God and Guinness
+
+Before reading this book, I had never thought much about the Guisnness brand. I've honestly never even had a pint of it. But from reading this book, I have learned how much of an impact a business can make on a community. From the humble beginnings of the Guinness brand for sheer survival to how they paved the way for modern company educational programs, this book is an inspiring read for anyway wanting to shape their community for the better.
