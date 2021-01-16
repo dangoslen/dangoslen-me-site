@@ -43,5 +43,28 @@ Putting the pieces together, I recognized that I hadn't really fulfilled my desi
 ## But How
 Once I decided I did, in fact, want to go back to school, I had a lot of other factors to figure out. Where would I go? How would I pay for it? Would I work at the same time? Would my girlfriend break up with me? Spoiler alert - we didn't break up and we have been married for almost a year now :)
 
+The first thing was to figure out where I would go. After a lot of research, I settled on three different programs: NC State University (local to me), Carnegie Mellon (a long shot) and Portland State University (where my girlfriend was at the time). They each had different cost structures as well, with NC State being the cheapest (because I was local) and the cost for Carnegie being the highest (out of state tuition and a prestigous program).
 
+I then needed to prepare and take the Graduate Record Examinations or GRE. Man - that was a rough test. I would prepare nearly every morning from around 7:30 to 8:30 before work, and then usually a three to four hour strecth on Saturdays as well. I wound up having to take the test twice, but got scores I was happy with.
 
+The most complex part to navigate through was conversations with my workplace. I had made a decision early on that getting a master's degree at the sacrifice of working experience would only be worth it at a prestigous program. It would need to be travel worthy essentially. But ideally, I wanted to work and go to school at the same time.
+
+No this is the part I think most people struggle with my story on. Why would you want to do that? Put simply - money. I needed a job. Most student employment opportunities were for PhD candidates and that would have covered only the basics for living costs. I was gearing up to get married (my girlfriend had moved back to Raleigh shortly after taking the GRE), and would need something more than just covering the rent.
+
+My plan then became simple: apply to the local program, and if I got in, I would talk to my workplace about how to make it work. If it became clear they were not interested in helping me figure it out, I would apply to my dream program at some other time. GRE scores are valid for five years, so I would just have that plan in my back pocket. 
+
+## Getting Accepted and Setting Expectations
+Thankfully, I got accepted to the local program. I then 
+
+## So, Why Did I Get My Masters Again?
+Yes, I know that quickly became a story. But I think it was important to show that I had a mix of motivations and circumstances that went it to my decision to get my masters degree. 
+
+To summarize it briefly, I'll put it bulleted form.
+ * I realized I wanted to know computers deeper than I was as a career software engineer
+ * I realized I wanted to lead teams and as I looked round, I saw many leaders had advanced degrees
+ * I was able to land in a unique situation that allowed me to earn my degree without sacrificing industry experience
+ * I was able to get financial help from my company, allowing me to justify the cost of the degree
+
+The next question, of course, is this: "was it worth it?". I'll answer that in another post soon, so if . you don't want to miss it, follow me on whatever platform you prefer. I'll make sure you know when its up :)
+
+Happy coding!
