@@ -57,7 +57,7 @@ My plan then became simple: apply to the local program, and if I got in, I would
 Thankfully, I got accepted to the local program. I then 
 
 ## So, Why Did I Get My Masters Again?
-Yes, I know that quickly became a story. But I think it was important to show that I had a mix of motivations and circumstances that went it to my decision to get my masters degree. 
+Yes, I know that quickly became a story. But I think it was important to show that I had a mix of motivations and circumstances that went it into my decision to get my masters degree. 
 
 To summarize it briefly, I'll put it bulleted form.
  * I realized I wanted to know computers deeper than I was as a career software engineer
