@@ -35,7 +35,9 @@ So I got a job thinking that I might one day go back to school, but it was more 
 
 ## Career Engineer
 
-After a few years of writing code, the itch to go back started to grow more noticeable. My brother was going to medical school, a few of my friends were getting their graduate degrees, and coding was starting to feel... routine. I wouldn't say I was bored perse. I just recognized that the majority of the problems I was solving were pretty close together. I was being challenged in some ways, but not in the deep, technical understanding of how computers worked.
+After a few years of writing code, the itch to go back started to grow more noticeable. My brother was going to medical school, a few of my friends were getting their graduate degrees, and coding was starting to feel... routine. 
+
+I wouldn't say I was bored. I was learning and growing in my skills. I just recognized that the majority of the problems I was solving were pretty close together. I was being challenged in some ways, but not in the deep, technical understanding of how computers worked.
 
 Around this time, I also started looking for other roles. As I searched, I noticed that most roles I got excited about all mentioned a preference towards a higher degree. But maybe that was just recruiting. Either way, it was a data point.
 
