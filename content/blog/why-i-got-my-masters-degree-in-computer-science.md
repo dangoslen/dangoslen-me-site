@@ -65,7 +65,7 @@ The first thing was to figure out where I would go. After a lot of research, I s
 
 They each had different cost structures too. NC State was the cheapest because I was local while Carnegie was the highest due to out of state tuition, and it being one of the best programs in the country. Portland was in the middle.
 
-I then needed to prepare and take the Graduate Record Examinations or GRE. Man - that was a rough test. I would prepare nearly every morning from around 7:30 to 8:30 before work, and then usually a three to four-hour stretch on Saturdays. I would also usually do a two hour session on Sundays. I wound up having to take the test twice but got scores I was happy with.
+I then needed to prepare and take the Graduate Record Examinations or GRE. Man - that was a rough test. I would prepare nearly every morning from around 7:30 to 8:30 before work, and then usually a three to four-hour stretch on Saturdays. I would also usually do a two-hour session on Sundays. I wound up having to take the test twice but got scores I was happy with.
 
 Once I got the scores I liked, I worked on an application essay, got letters of recommendation from my manager, the director of software at my company, and an old professor - a BIG thank you to them! I had everything I needed.
 
