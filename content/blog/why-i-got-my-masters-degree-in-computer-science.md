@@ -9,11 +9,11 @@ I remember when I first told my team lead about possibly going back to school. H
 
 I then remember talking to People Services at my company about what it would look like to get my degree part-time while working. They agreed to discuss it, but they didn't think I would actually follow through on anything. "Let us know when you get into a program. We can talk about it further then."
 
-When I did get accepted into a program, my manager gave me a baffled look. He was confused. "You are really going to go for this thing, aren't you?" he said.
+When I did get accepted into a program, my manager gave me a baffled look. He was confused. "You really are going to go for this thing, aren't you?" he said.
 
 Eventually, all of these people came to support me. However, they all had the same question many people have when I tell them I went back to school for a master's degree.
 
-Why would you do that?
+**Why would you do that?**
 
 I've answered this question a handful of different ways over the years. But I've never given a very comprehensive one. This article is meant to be that answer. I'll summarize my motivations, my situation, and why I ultimately went back to get my degree.
 
@@ -21,15 +21,15 @@ To answer this, though, I need to get a running start. I can't just start at two
 
 ## Teenage Coder and Undergraduate
 
-I knew I wanted to be a software engineer since I was 12. My parents bought me a LEGO Mindstorms set, and I was hooked on the coding part. My high school had coding classes (lucky me!), and before I know it, I was writing C and Java. All before I could drive.
+I knew I wanted to be a software engineer since I was 12. My parents bought me a LEGO Mindstorms set, and I was hooked on the coding part. My high school had coding classes (lucky me!), and before I know it, I was writing Visual Basic and Java. All before I could drive.
 
 By the time I got to college, I was on a mission to understand computers as deeply as possible.
 
 I'm also a genuinely curious person. Like many software engineers, I liked understanding how things worked. If I didn't know how something worked, I would break it apart, trying to understand it; often not being able to put it back together.
 
-Having a desire to understand the world and a desire to understand computers, in the same way, led me to the goal of getting my master's. It just seemed like the right fit for me.
+Having a desire to understand the world and a desire to understand computers, in the same way, led me to set a goal of getting my master's. It just seemed like the right fit for me.
 
-As I was wrapping my undergraduate degree, though, I realized I needed to get a job. I was in debt, and I was tired. Like really tired. I needed a break from the pace of academia.
+As I was wrapping up my undergraduate degree, though, I realized I needed to get a job. I was in debt, and I was tired. Like really tired. I needed a break from the pace of academia.
 
 So I got a job thinking that I might one day go back to school, but it was more of a pipedream at that point. No one goes back to school when they don't *need* to, right?
 
