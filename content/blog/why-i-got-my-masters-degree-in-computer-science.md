@@ -105,6 +105,6 @@ To summarize it briefly, I'll put it in bulleted form.
 * As I took inventory of who was employed in the roles I wanted to have, many of them had advanced degrees
 * I was able to land in a unique situation that allowed me to earn my degree without sacrificing industry experience
 
-The next question, of course, is this: "Was it worth it?". I'll answer that in another post soon, so if . you don't want to miss it, follow me on whatever platform you prefer. I'll make sure you know when it's up :)
+The next question, of course, is this: "Was it worth it?". I'll answer that in another post soon, so if . you don't want to miss it, follow me on [Twitter](https://twitter.com/@dangoslen) or [Medium](https://medium.com/@dangoslen) whatever platform you prefer. I'll make sure you know when it's up :)
 
 Happy coding!
