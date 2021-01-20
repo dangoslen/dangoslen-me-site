@@ -41,7 +41,7 @@ I wouldn't say I was bored. I was learning and growing in my skills. I just reco
 
 Around this time, I also started looking for other roles. As I searched, I noticed that most roles I got excited about all mentioned a preference towards a higher degree. I thought this was interesting as I had always it didn't mean that much.
 
-I started doing some more research. I took a look at the people who had the roles I was wanting to grow into. I realized that many of these people did have some form of a graduate degree, after all. Not enough reason to go back to school on its own, but there was a clear correlation between the roles I wanted and an advanced degree.
+I started doing some more research. I took a look at the people around me who had the roles I was wanting to grow into. I realized that many of these people did have some form of a graduate degree, after all. Not enough reason to go back to school on its own, but there seemed to be a correlation between the roles I wanted and an advanced degree.
 
 During this time, I also learned another thing about myself. I had signed up to take all of these online classes, but I never took them. I might start watching a lecture or two but never finish.
 
