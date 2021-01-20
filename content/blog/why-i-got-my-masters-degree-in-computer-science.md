@@ -39,7 +39,7 @@ After a few years of writing code, the itch to go back started to grow more noti
 
 I wouldn't say I was bored. I was learning and growing in my skills. I just recognized that the majority of the problems I was solving were pretty close together. I was being challenged in some ways, but not in the deep, technical understanding of how computers worked.
 
-Around this time, I also started looking for other roles. As I searched, I noticed that most roles I got excited about all mentioned a preference towards a higher degree. But maybe that was just recruiting. Either way, it was a data point.
+Around this time, I also started looking for other roles. As I searched, I noticed that most roles I got excited about all mentioned a preference towards a higher degree. I thought this was interesting as I had always it didn't mean that much.
 
 I started doing some more research. I took a look at the people who had the roles I was wanting to grow into. I realized that many of these people did have some form of a graduate degree, after all. Not enough reason to go back to school on its own, but there was a clear correlation between the roles I wanted and an advanced degree.
 
