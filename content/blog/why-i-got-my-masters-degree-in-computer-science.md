@@ -67,21 +67,21 @@ They each had different cost structures too. NC State was the cheapest because I
 
 I then needed to prepare and take the Graduate Record Examinations or GRE. Man - that was a rough test. I would prepare nearly every morning from around 7:30 to 8:30 before work, and then usually a three to four-hour stretch on Saturdays. I would also usually do a two-hour session on Sundays. I wound up having to take the test twice but got scores I was happy with.
 
-Once I got the scores I liked, I worked on an application essay, got letters of recommendation from my manager, the director of software at my company, and an old professor - a BIG thank you to them! I had everything I needed.
+Once I got the scores I liked, I worked on an application essay, got letters of recommendation from my manager, the director of software at my company, and an old professor - a BIG thank you to them! 
 
-It was time to apply.
+I had everything I needed. It was time to apply.
 
 ## The Decision Point
 
-Before going further, I need to back up and provide a little more insight into the other complexities going on during this time. The first being that I had decided early on that I wouldn't sacrifice work experience for a degree unless the program was exceptional (schools like Carnegie Mellon). I had decided that studying part-time while working would be the best situation for me to get my degree.
+Before going further into this story, I need to back up and provide a little more insight into the other complexities going on during this time. The first being that I had decided early on that I wouldn't sacrifice work experience for a degree unless the program was exceptional (schools like Carnegie Mellon). I had decided that studying part-time while working would be the best situation for me to get my degree.
 
-This is the part I think most people struggle with my story on. Why would you want to do that?
+This is the part I think most people struggle with my story on. Why would you want to do that? More work!?
 
 Put simply - money. I needed a job. I had also just finished paying back my undergraduate student loans - I didn't want to get new ones.
 
 Additionally, I was gearing up to get married (my girlfriend had moved back to Raleigh shortly after I took the GRE). I would need something more than a minimum wage job or a student job.
 
-My plan was simple: apply to the local program, and if I got in, I would talk to my workplace about how to make it work. If it became clear that my employer was not interested in helping me figure it out, I would apply to my dream program at some other time. GRE scores are valid for five years, so I would just have that plan in my back pocket.
+My plan was simple: apply to the local program, and if I got in, I would talk to my workplace about how to make it work. If it became clear that my employer was not interested in working it out, I would apply to my dream program at some other time. GRE scores are valid for five years, so I would just have that plan in my back pocket.
 
 ## Getting Accepted and Setting Expectations
 
@@ -95,9 +95,9 @@ What I did was lay out some possible options with my employer of how I could wor
 
 After a few rounds of negotiation, we reached an agreement! I was going back to school.
 
-## So, Why Did I Get My Masters Again?
+## So... Why Did I Get My Masters Again?
 
-Yes, I know that quickly became a story. But I think it was necessary to show that I had a mix of motivations and circumstances that went into my decision to get my master's degree.
+Yes, I know that quickly became a story; a long one at that. But I think it was necessary to show that I had a mix of motivations and circumstances that went into my decision to get my master's degree.
 
 To summarize it briefly, I'll put it in bulleted form.
 
@@ -107,6 +107,6 @@ To summarize it briefly, I'll put it in bulleted form.
 * As I took inventory of who was employed in the roles I wanted to have, many of them had advanced degrees
 * I was able to land in a unique situation that allowed me to earn my degree without sacrificing industry experience
 
-The next question, of course, is this: "Was it worth it?". I'll answer that in another post soon, so if . you don't want to miss it, follow me on [Twitter](https://twitter.com/@dangoslen) or [Medium](https://medium.com/@dangoslen) whatever platform you prefer. I'll make sure you know when it's up :)
+The next question, of course, is this: "Was it worth it?". I'll answer that in another post soon. If you don't want to miss it, follow me on [Twitter](https://twitter.com/@dangoslen) or [Medium](https://medium.com/@dangoslen) or whatever platform you prefer. I'll make sure you know when it's up :)
 
 Happy coding!
