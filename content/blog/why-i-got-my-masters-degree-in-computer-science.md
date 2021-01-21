@@ -57,6 +57,14 @@ It was time to go back.
 
 ## The Preparation
 
+![Person studying with coffee](../assets/green-chameleon-s9cc2skysjm-unsplash.jpg)
+
+<center>
+
+<span>Photo by <a href="https://unsplash.com/@craftedbygc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Green Chameleon</a> on <a href="https://unsplash.com/s/photos/study?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+</center>
+
 Once I decided I did, in fact, want to go back to school, I had a lot of other factors to figure out. Where would I go? How would I pay for it? Would I work at the same time? Would my girlfriend break up with me? Spoiler alert - we didn't break up; we have been married for almost a year now :)
 
 The first thing was to figure out where I would go. After a lot of research, I settled on three different programs:
