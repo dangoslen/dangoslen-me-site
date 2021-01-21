@@ -5,6 +5,8 @@ title: Why I Got My Masters Degree In Computer Science
 description: "In world where software development educations can happen
   completely online (and for free!) why would I got back to school? "
 ---
+![Me with my graduation regalia](../assets/dsc_3766.jpeg)
+
 I remember when I first told my team lead about possibly going back to school. He simply replied, "You don't need it." and moved on.
 
 I then remember talking to People Services at my company about what it would look like to get my degree part-time while working. They agreed to discuss it, but they didn't think I would actually follow through on anything. "Let us know when you get into a program. We can talk about it further then."
