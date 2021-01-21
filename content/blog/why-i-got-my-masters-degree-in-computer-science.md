@@ -5,7 +5,13 @@ title: Why I Got My Masters Degree In Computer Science
 description: "In world where software development educations can happen
   completely online (and for free!) why would I got back to school? "
 ---
-![Me with my graduation regalia](../assets/dsc_3766.jpeg)
+![Man walking from degree ceremony](../assets/charles-deloye-2roumsg9rnw-unsplash.jpg)
+
+<center>
+
+<span>Photo by <a href="https://unsplash.com/@charlesdeloye?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Charles DeLoye</a> on <a href="https://unsplash.com/s/photos/graduation-hat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+</center>
 
 I remember when I first told my team lead about possibly going back to school. He simply replied, "You don't need it." and moved on.
 
@@ -118,5 +124,7 @@ To summarize it briefly, I'll put it in bulleted form.
 * I was able to land in a unique situation that allowed me to earn my degree without sacrificing industry experience
 
 The next question, of course, is this: "Was it worth it?". I'll answer that in another post soon. If you don't want to miss it, follow me on [Twitter](https://twitter.com/@dangoslen) or [Medium](https://medium.com/@dangoslen) or whatever platform you prefer. I'll make sure you know when it's up :)
+
+![Me with my graduation regalia](../assets/dsc_3766.jpeg)
 
 Happy coding!
