@@ -9,11 +9,11 @@ description: "In world where software development educations can happen
 
 <center>
 
-
-
-<span>Photo by <a href="https://unsplash.com/@charlesdeloye?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Charles DeLoye</a> on <a href="https://unsplash.com/s/photos/graduation-hat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<i><span>Photo by <a href="https://unsplash.com/@charlesdeloye?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Charles DeLoye</a> on <a href="https://unsplash.com/s/photos/graduation-hat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></i>
 
 </center>
+
+
 
 I remember when I first told my team lead about possibly going back to school. He simply replied, "You don't need it." and moved on.
 
@@ -69,9 +69,11 @@ It was time to go back.
 
 <center>
 
-<span>Photo by <a href="https://unsplash.com/@craftedbygc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Green Chameleon</a> on <a href="https://unsplash.com/s/photos/study?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<i><span>Photo by <a href="https://unsplash.com/@craftedbygc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Green Chameleon</a> on <a href="https://unsplash.com/s/photos/study?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></i>
 
 </center>
+
+
 
 Once I decided I did, in fact, want to go back to school, I had a lot of other factors to figure out. Where would I go? How would I pay for it? Would I work at the same time? Would my girlfriend break up with me? Spoiler alert - we didn't break up; we have been married for almost a year now :)
 
