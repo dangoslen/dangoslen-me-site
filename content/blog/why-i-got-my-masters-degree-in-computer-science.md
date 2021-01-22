@@ -13,7 +13,7 @@ description: "In world where software development educations can happen
 
 </center>
 
-
+<br/>
 
 I remember when I first told my team lead about possibly going back to school. He simply replied, "You don't need it." and moved on.
 
