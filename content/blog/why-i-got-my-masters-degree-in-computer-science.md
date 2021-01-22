@@ -115,6 +115,8 @@ What I did was lay out some possible options with my employer of how I could wor
 
 After a few rounds of negotiation, we reached an agreement! I was going back to school.
 
+![Me with my graduation regalia](../assets/dsc_3766.jpeg)
+
 ## So... Why Did I Get My Masters Again?
 
 Yes, I know that quickly became a story; a long one at that. But I think it was necessary to show that I had a mix of motivations and circumstances that went into my decision to get my master's degree.
@@ -128,7 +130,5 @@ To summarize it briefly, I'll put it in bulleted form.
 * I was able to land in a unique situation that allowed me to earn my degree without sacrificing industry experience
 
 The next question, of course, is this: "Was it worth it?". I'll answer that in another post soon. If you don't want to miss it, follow me on [Twitter](https://twitter.com/@dangoslen) or [Medium](https://medium.com/@dangoslen) or whatever platform you prefer. I'll make sure you know when it's up :)
-
-![Me with my graduation regalia](../assets/dsc_3766.jpeg)
 
 Happy coding!
