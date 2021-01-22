@@ -73,7 +73,7 @@ It was time to go back.
 
 </center>
 
-
+<br/>
 
 Once I decided I did, in fact, want to go back to school, I had a lot of other factors to figure out. Where would I go? How would I pay for it? Would I work at the same time? Would my girlfriend break up with me? Spoiler alert - we didn't break up; we have been married for almost a year now :)
 
