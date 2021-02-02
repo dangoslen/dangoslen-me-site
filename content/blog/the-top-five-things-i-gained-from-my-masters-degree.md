@@ -1,7 +1,7 @@
 ---
-path: /the-top-five-things-i-gained-from-my-masters-degree
+path: /why-getting-my-masters-was-worth-it
 date: 2021-01-16T18:56:17.702Z
-title: The Top Five Things I Gained From My Masters Degree
+title: Why Getting My Master's Degree Was Worth It
 description: Degrees are falling out of style in the development community. This
   is why I think mine is still valueable.
 ---
@@ -9,9 +9,9 @@ After two and a half years of work, I graduated with my master's degree in Compu
 
 But why did I get my degree? In a development world where companies are saying you don't need a degree to code and boot camps are training competent engineers, does it make sense? Couldn't you have learned that all on the job or on your own? Was it worth it?
 
-For me, the answer is a resounding yes. I've explained in a previous post why I think so.
+I've shared my reasons for going back in a previous post that I hope you check out. Today, I want to answer the question on if I think my degree was worth it.
 
-But beyond my why, I wanted to share my top takeaways from those two and a half years. And they likely aren't what you might think.
+To do that, I decided to break it down into my Top Five Takeways. These are my top lessons, learnings, and skills that getting my master's degree taught me and why I think my degree was worth it.
 
 ## I Learned How to Learn
 Learning is a subject I'm very passionate about actually. In my undergraduate days, I minored in cognitive science to understand more about how we learn effectively. In graduate school, I put some of those ideas to the test. 
@@ -60,7 +60,7 @@ When I focused on doing the work in front of me and doing my best, I was able to
 
 ---
 
-All this to say that the most important takeaways I learned from my degree aren't things specific to computer science. Certainly, those aspects are crucial, and I did learn a ton that will help me in my career. The most important takeaway for me is how graduate school helped elevate my mindset. I've cultivated a learning mentality that gives me confidence (but not arrogance) that I can achieve just about anything in front of me. 
+All this to say that the most important takeaways I learned from my degree aren't things specific to computer science or software engineering. Certainly, those aspects are crucial, and I did learn a ton that will help me in my career. The most important takeaway for me is how graduate school helped elevate my mindset. I've cultivated a learning mentality that gives me confidence (but not arrogance) that I can achieve just about anything in front of me. 
 
 Many people reading might already have that mindset - and that is awesome! You don't need to go to graduate school to get it. It's simply how I did.
 
