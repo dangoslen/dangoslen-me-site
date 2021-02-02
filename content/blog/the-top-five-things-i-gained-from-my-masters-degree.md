@@ -9,9 +9,9 @@ After two and a half years of work, I graduated with my master's degree in Compu
 
 But why did I get my degree? In a development world where companies are saying you don't need a degree to code and boot camps are training competent engineers, does it make sense? Couldn't you have learned that all on the job or on your own? Was it worth it?
 
-I've shared my reasons for going back in a previous post that I hope you check out. Today, I want to answer the question on if I think my degree was worth it.
+I've shared my reasons for going back in a previous post that I hope you check out. Today, I want to answer the question of if I think my degree was worth it.
 
-To do that, I decided to break it down into my Top Five Takeways. These are my top lessons, learnings, and skills that getting my master's degree taught me and why I think my degree was worth it.
+To do that, I decided to break it down into my Top Five Takeaways. These are my top lessons, learnings, and skills that getting my master's degree taught me and why I think my degree was worth it.
 
 ## I Learned How to Learn
 Learning is a subject I'm very passionate about actually. In my undergraduate days, I minored in cognitive science to understand more about how we learn effectively. In graduate school, I put some of those ideas to the test. 
