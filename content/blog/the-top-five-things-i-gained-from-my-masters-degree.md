@@ -5,18 +5,19 @@ title: Why Getting My Master's Degree Was Worth It
 description: Degrees are falling out of style in the development community. This
   is why I think mine is still valueable.
 ---
-
 ![Person holding a degree](../assets/pexels-ekrulila-2292837.jpg)
 
 <center>
 
 <i>
-Photo by **[Ekrulila](https://www.pexels.com/@ekrulila?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)** from **[Pexels](https://www.pexels.com/photo/person-holding-white-scroll-2292837/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)**
+
+
+Photo by \*\*\[Ekrulila](https://www.pexels.com/@ekrulila?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)\*\* from \*\*\[Pexels](https://www.pexels.com/photo/person-holding-white-scroll-2292837/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)\*\*
+
+
 </i>
 
 </center>
-
-
 
 A few weeks ago I shared about [Why I got My Master's Degree in Computer Science](https://bit.ly/2MkZDC1). I went into depth about my background, story, and even my planning process.
 
