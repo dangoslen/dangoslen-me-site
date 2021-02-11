@@ -12,7 +12,7 @@ description: Degrees are falling out of style in the development community. This
 <i>
 
 
-Photo by \*\*\[Ekrulila](https://www.pexels.com/@ekrulila?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)\*\* from \*\*\[Pexels](https://www.pexels.com/photo/person-holding-white-scroll-2292837/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)\*\*
+Photo by [Ekrulila](https://www.pexels.com/@ekrulila?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/person-holding-white-scroll-2292837/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 
 
 </i>
