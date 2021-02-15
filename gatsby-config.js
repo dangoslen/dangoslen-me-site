@@ -63,9 +63,10 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-splitbee`,
       options: {
-        trackingId: `UA-32511003-1`,
+        includeInDevelopment: false,
+        delayTimeout: 0
       },
     },
     {
