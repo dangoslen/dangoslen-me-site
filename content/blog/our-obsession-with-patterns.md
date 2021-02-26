@@ -1,8 +1,9 @@
 ---
 path: /our-obsession-with-patterns
 date: 2021-02-11T14:53:06.103Z
-title: Our Obsession With Patterns
-description: "And why it might be too much. "
+title: Our (over) Obsession With Patterns
+description: Why I think we use patterns too much as the solution to all
+  problems rather than what they were designed for.
 ---
 Learning patterns have become a core aspect for many people on their journey to becoming a software engineer. Articles and articles have been written about patterns and how to apply them. Courses, youtube videos, and GitHub repos all exist to help engineers master the power of patterns. I've even written an article myself.
 
@@ -10,7 +11,7 @@ As a senior engineer, however, I've started to wonder if we went in the wrong di
 
 The more code I write, the more I use the same patterns and the less I care about what those patterns are. And I certainly don't go attempting to use a pattern just because it is in a book or article. 
 
-I think we are obsessed with software patterns. And I don't think we should be.
+I think we are over-obsessed with software patterns. And I don't think we should be.
 
 ## The Wrong Direction
 One of the reasons engineers have become obsessed with patterns is because patterns offer solutions. The idea goes "If I can learn every patterns, then I write any software and solve any problem". That thinking is kinda like "If I had everything in the world, then I would be happy."
@@ -19,11 +20,33 @@ Sadly, neither are true.
 
 The reason is the direction is wrong. The best software engineers don't focus on existing solutions, they focus on solving new problems in the best way possible. The happiest people in the world aren't those that focus on wealth or money or possessions. The happiest people in the world are those that have immense clarity about what they love and they focus on that.
 
-## Patterns Are Actually Really Limited
-Patterns can provide incredible flexibility and evolvability within your codebase, but only if your codebase is of the right type. Object-oriented languages and statically-typed languages of course do well with patterns. Function programming and dynamicly-typed languages tend to not benefit as much. This is especially true for languages such as haskell, lisp or even prolog. 
+## Patterns Can Actually Be Really Limiting
+Patterns can provide incredible flexibility and evolvability within your codebase, but only if your codebase is of the right type. Object-oriented languages and statically-typed languages of course do well with patterns. Function programming and dynamically-typed languages tend to not benefit as much. This is especially true for languages such as haskell, lisp or even prolog. 
 
 I mention this because most engineers can program in more than one language and the type of language used on a project is based on the problem space. Yes, you could write a Java application to send a simple HTTP call to setup data for a test. Or you could write a bash script. Applying patterns in a bash script isn't the same as Java. And you don't _need_ a pattern anyhow to send a simple HTTP request.
 
-If you learn patterns because you think knowing patterns will automatically help you write any software to solve any problem, it simply isn't true.
+If you learn patterns because you think knowing patterns will automatically help you write any software to solve any problem, think again.
 
-## 
+## Patterns Aren't Multi-tools. They Are Tools.
+I've found that while patterns are useful to solve the problem they are meant to solve when applied before that problem actually exists, it only creates confusion. Engineers take the patterns the have learned and attempt to apply them anywhere and everywhere. They treat them like a multi-tool that can "solve anything".
+
+Have you ever actually used a multi-tool? They are bulky. They are really heavy. And they rarely can do all 2,897 functions promised by the attendant at your local outdoor store.
+
+Tools on the other hand tend to be much different. They have one, maybe two extremely specific use cases for which they are designed to solve. You wouldn't use a screwdriver to drive a nail and you wouldn't use a sander to cut a board in half. Even within a tool like a socket wrench, there are different sizes for different needs. 
+
+We should think about patterns like tools. They have specific use cases that they were specifically designed to solve. Trying to use them to solve different problems isn't going to solve anything. When used correctly they will improve your ability to implement the solution you have in your head. Used poorly, and you'll be spending extra hours fighting against yourself.
+
+## Patterns Can Lead to Over-Engineering. Fast.
+Have you ever worked in an old, crufty codebase? You know the ones I'm talking about. Where classes are 10000 lines long, functions take 7 different boolean arguments, and some comments say "Please don't touch this code!". I have and it isn't fun.
+
+But have you ever worked an over-engineered codebase? It feels really clean and concise. Small classes, small functions, etc. But it feels like smoke and mirrors game. Where the crufy codebase felt like trying untangle a massive knot of wires, an over-engineered codebase feels like trying to make it through one of those fun houses at the fair - its all smoke and mirrors and you constantly question what things are real and what aren't.
+
+What leads to these over-engineered codebases is often the overuse of patterns.. Even when the right pattern is used for the right "problem", simpler code would have been plenty sufficient. I'm a big fan of [writing simple code] before anything else as I believe the simpler a code base is, the easier it is to build upon. 
+
+And keeping things simple is actually not that easy. It takes constant refactoring, thinking and tinkering. Patterns can quickly create complexity if not used judiciously. 
+
+---
+
+I'm still a big fan of patterns and using them where appriopriate. This article is simply a caution that patterns don't solve all your coding problems - they only solve the ones they were designed to solve. Think critically before applying them and and always - ALWAYS - start simple.
+
+Happy coding!
