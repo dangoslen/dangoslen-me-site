@@ -51,6 +51,8 @@ Tools on the other hand tend to be much different. They have one, maybe two extr
 
 We should think about patterns like tools. They have specific use cases that they were specifically designed to solve. Trying to use them to solve different problems isn't going to solve anything. When used correctly they will improve your ability to implement the solution you have in your head. Used poorly, and you'll be spending extra hours fighting against yourself.
 
+![Wacky Shack Fun House](../assets/wacky_shack_fun_house_-_panoramio_-2-.jpg)
+
 ## Patterns Can Lead to Over-Engineering. Fast.
 
 Have you ever worked in an old, crufty codebase? You know the ones I'm talking about. Where classes are 10000 lines long, functions take 7 different boolean arguments, and some comments say "Please don't touch this code!". I have and it isn't fun.
