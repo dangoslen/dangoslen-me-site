@@ -42,7 +42,7 @@ Patterns can provide incredible flexibility and evolvability within your codebas
 
 I mention this because most engineers can program in more than one language and the type of language used on a project is based on the problem space. Yes, you could write a Java application to send a simple HTTP call to set up data for a test. Or you could write a bash script. Applying patterns in a bash script isn't the same as Java. And you don't *need* a pattern anyhow to send a simple HTTP request.
 
-If you learn patterns because you think knowing patterns will automatically help you write any software to solve any problem, think again.
+If you learn patterns because you think knowing patterns will magically help you write any software in any language to solve any problem, think again.
 
 ## Patterns Are Tools. Not multi-tools.
 
