@@ -22,7 +22,7 @@ Learning patterns have become a core aspect for many people on their journey to 
 
 As a senior engineer, however, I've started to wonder if we went in the wrong direction with patterns. 
 
-The more code I write, the more I use the same patterns and the less I care about what those patterns are. And I certainly don't go attempting to use a pattern just because it is in a book or article. 
+The more code I write, the more I use the same patterns and the less I care about the others. I don't memorize them or even have a page bookmarked to look them up quickly. I certainly don't go attempting to use a pattern just because it is in a book or article. 
 
 I think we are over-obsessed with software patterns. And I don't think we should be.
 
