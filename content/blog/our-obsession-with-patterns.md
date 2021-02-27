@@ -34,6 +34,8 @@ Sadly, neither are true.
 
 The reason is the direction is wrong. **The best software engineers don't focus on memorizing existing solutions, they focus on solving new problems in the best way possible**. The happiest people in the world aren't those that focus on wealth or money or possessions. The happiest people in the world are those that have immense clarity about what they love and they focus on that.
 
+Don't get me wrong - learning about patterns **is** helpful. Knowing them will give you more tools in the proverbial toolbox that you can reach for at any point in time (more on tools later). But just because you have a hefty toolbox doesn't mean you know the craft of writing software.
+
 ## Patterns Can Actually Be Really Limiting
 
 Patterns can provide incredible flexibility and evolvability within your codebase, but only if your codebase is of the right type. Object-oriented languages and statically-typed languages of course do well with patterns. Function programming and dynamically-typed languages tend to not benefit as much. This is especially true for languages such as Haskell, lisp, or even prolog. 
