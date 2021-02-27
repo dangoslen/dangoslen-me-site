@@ -32,7 +32,7 @@ One of the reasons engineers have become obsessed with patterns is because patte
 
 Sadly, neither are true.
 
-The reason is the direction is wrong. \*\*The best software engineers don't focus on memorizing existing solutions, they focus on solving new problems in the best way possible\*\*. The happiest people in the world aren't those that focus on wealth or money or possessions. The happiest people in the world are those that have immense clarity about what they love and they focus on that.
+The reason is the direction is wrong. **The best software engineers don't focus on memorizing existing solutions, they focus on solving new problems in the best way possible**. The happiest people in the world aren't those that focus on wealth or money or possessions. The happiest people in the world are those that have immense clarity about what they love and they focus on that.
 
 ## Patterns Can Actually Be Really Limiting
 
