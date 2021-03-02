@@ -20,7 +20,7 @@ Photo by [Clem Onojeghuo](https://unsplash.com/@clemono?utm_source=unsplash&utm_
 </center>
 
 
-Learning patterns have become a core aspect for many people on their journey to becoming software engineers. Articles and articles have been written about patterns and how to apply them. Courses, youtube videos, and GitHub repos all exist to help engineers master the power of patterns. I've even [written about patterns before](http://bit.ly/3r62E8Y) article myself.
+Learning patterns have become a core aspect for many people on their journey to becoming software engineers. Articles and articles have been written about patterns and how to apply them. Courses, youtube videos, and GitHub repos all exist to help engineers master the power of patterns. I've even [written about patterns before](http://bit.ly/3r62E8Y) myself.
 
 As a senior engineer, however, I've started to wonder if we went in the wrong direction with patterns. 
 
