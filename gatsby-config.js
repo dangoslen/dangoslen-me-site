@@ -88,6 +88,12 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    'gatsby-remark-reading-time'
+    'gatsby-remark-reading-time',
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://dangoslen.me`,
+      },
+    }
   ],
 }
