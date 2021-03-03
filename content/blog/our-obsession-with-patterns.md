@@ -64,7 +64,7 @@ Have you ever worked in an old, crufty codebase? You know the ones I'm talking a
 
 But have you ever worked an over-engineered codebase? It feels really clean and concise. Small classes, small functions, etc. But it feels like a smoke and mirrors game. Where the crufty codebase felt like trying to untangle a massive knot of wires, an over-engineered codebase feels like trying to make it through one of those fun houses at the fair - it's all smoke and mirrors, and you constantly question what things are real.
 
-What leads to these over-engineered codebases is often the overuse of patterns. Even when the right pattern is used for the right "problem", simpler code would have been plenty sufficient. I'm a big fan of \[writing simple code] before anything else as I believe the simpler a codebase is, the easier it is to build upon. 
+What leads to these over-engineered codebases is often the overuse of patterns. Even when the right pattern is used for the right "problem", simpler code would have been plenty sufficient. I'm a big fan of writing simple code before anything else as I believe the simpler a codebase is, the easier it is to build upon. 
 
 And keeping things simple is actually not that easy. It takes constant refactoring, thinking, and tinkering. Patterns can quickly create complexity if not used judiciously. 
 
