@@ -16,23 +16,19 @@ Since I've been re-learning Ansible, I thought it would be helpful to give some 
 ## What is Ansible?
 Ansible is essentially a provisioning and configuration management tool. You write _mostly_ declarative `.yml` files to specify the desired state of a machine. The idea is that instead of having to write code to handle various pre-existing states of the machine ("Does this file exist?"), you simply say (aka *declare*) the desired state you want the machine to be in. This idea is usually referred to as a [desired state model].
 
-Ansible is _mostly_ declarative. What I might be that is that Ansible strives to be as declarative as possible and hide the specific commands performed from the user. However, Ansible also has the ability to do loops, concatenate lists, and do mappings of data-strucutres. You can even run snippets of python code as [filters]() to do more complex commands. 
-
-This is a 
-
-
+Ansible is _mostly_ declarative. What I might be that is that Ansible strives to be as declarative as possible and hide the specific commands performed from the user. However, Ansible also has the ability to do loops, concatenate lists, and do mappings of data-structures. You can even run snippets of python code as [filters]() to do more complex commands/transformations. 
 
 ## How Does it Work?
 Ansible works by essentially creating ssh connections to a set of target hosts, copying python code to those machines, and executing that python on those machines to make changes to the system. 
 
-Ansible is also stateless. This is even more pronounced now with tools like Terraform gaining in popularity - which *are* stateful. 
+Ansible is also stateless. This is even more pronounced now with tools like Terraform - which is stateful - gaining in popularity. 
 
 With Ansible, you typically have the following components:
 * **Inventory** - a collection of machines/hosts you want to control/configure. You can group them into hierarchies with children, etc. You can also target multiple groups using various patterns and limit commands. 
 
-* **Modules** - modules are essentially an API group for Ansible. When creating your roles or tasks
+* **Modules** - modules are essentially abstrations to controlling a target host. Think of them as a API layer provided by Ansible for all the things you would want to do on a host. You use various modules to interact with different parts of the hosts you are changing. Modules tend to be aligned with either a specific machine sub-system (files, packages, networking), commonly used packages (systemctl), but also exist for cloud providers or specific vendor related taks. 
 
-* **Tasks** - tasks are the lowest element in Ansible that does something. Tasks utilize modules provided by Ansible or the Ansible community to perform 
+* **Tasks** - tasks are single invocations of a module. They tend to be extremely small and make incremental changes. Think of a task as interacting with a specific API for the host you are targeting. Tasks utilize modules to accomplish this interaction 
 
 * **Roles** - roles are effectively a grouping of tasks. In many Ansible projects, you will have playbooks that invoke a series of plays as roles with specific vars (see [vars]() below). Roles tend to be thought of as the core building block for  Ansible as they can allow someone to group all the tasks needed for a specific desired state. For example, installing and starting a database onto a host.
 
