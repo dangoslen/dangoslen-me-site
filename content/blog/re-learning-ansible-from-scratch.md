@@ -1,13 +1,13 @@
 ---
 path: relearning-ansible-from-scrath
 date: 2020-09-21T21:23:45.226Z
-title: (Re)Learning Ansible From Scratch
+title: Re-learning Ansible From Scratch
 description: Why I stopped, why I'm starting again, and what I'm learning.
 ---
 For several years, all I heard about was Ansible. It was going to solve every one of your deployment problems. It was going to make life easier. It was going to take us to Mars.
 
 But after a short while, Ansible seemed to fall flat. As the [infastructure 
-as code] movement grew and the immutable infastructure alongside of it, other tools seemed to overtake Ansible. 
+as code] movement grew and the immutable infrastructure alongside of it, other tools seemed to overtake Ansible. I stopped learning it at this point as since I the systems I was working on were running on kubernetes and embraced the immutable infrastructure movement.
 
 Recently, however, I've been doing some work on more traditional virtual machines that we need to maintain rather than a cloud-native approach. In order to manage our fleet of 20+ VMs (in one environment!), we turned to Ansible. We use Ansible to perform configuration management of all of our VMs, as well as running ad-hoc commands for debugging our system or recovering from a failure.
 
@@ -16,17 +16,20 @@ Since I've been re-learning Ansible, I thought it would be helpful to give some 
 ## What is Ansible?
 Ansible is essentially a provisioning and configuration management tool. You write _mostly_ declarative `.yml` files to specify the desired state of a machine. The idea is that instead of having to write code to handle various pre-existing states of the machine ("Does this file exist?"), you simply say (aka *declare*) the desired state you want the machine to be in. This idea is usually referred to as a [desired state model].
 
-Ansible is _mostly_ declarative. What I might be that is that Ansible strives to be as declarative as possible and hide the specific commands performed from the user. However, Ansible also has the ability to do loops, concatenate lists, and do mappings of data-structures. You can even run snippets of python code as [filters]() to do more complex commands/transformations. 
+Ansible is _mostly_ declarative. What I mean is that Ansible strives to be as declarative as possible and hide the specific commands performed from the user, but it violates that principle sometimes. For instance, Ansible also has the ability to do loops, concatenate lists, and do mappings between various data-structures. You can even run snippets of python code as [filters]() to do more complex commands/transformations. 
 
 ## How Does it Work?
-Ansible works by essentially creating ssh connections to a set of target hosts, copying python code to those machines, and executing that python on those machines to make changes to the system. 
+I'll keep this brief since a full explanation could get very long and very complicated. 
 
-Ansible is also stateless. This is even more pronounced now with tools like Terraform - which is stateful - gaining in popularity. 
+Ansible works by essentially creating ssh connections to a set of target hosts, copying python code to those machines, and executing that python on those machines to make changes to the system. Micheal DeHaan (the creator) called it "ssh in a loop". 
 
+Ansible is also stateless. What that means is that Ansible reads the current state of a machine while it is being run and makes the changes required to move it into the desired state. While this is great in many ways and allows you to start controlling a target machine almost instantly, it also leads to odd problems. For example, if at one point you needed a file to be created on the machine, but you don't need it anymore, Ansible won't auto-cleanup that file for you - you would need to write a specific Ansible configuration to remove it.
+
+## How Do You Use It?
 With Ansible, you typically have the following components:
 * **Inventory** - a collection of machines/hosts you want to control/configure. You can group them into hierarchies with children, etc. You can also target multiple groups using various patterns and limit commands. 
 
-* **Modules** - modules are essentially abstrations to controlling a target host. Think of them as a API layer provided by Ansible for all the things you would want to do on a host. You use various modules to interact with different parts of the hosts you are changing. Modules tend to be aligned with either a specific machine sub-system (files, packages, networking), commonly used packages (systemctl), but also exist for cloud providers or specific vendor related taks. 
+* **Modules** - modules are essentially abstractions to controlling a target host. Think of them as a API layer provided by Ansible for all the things you would want to do on a host. You use various modules to interact with different parts of the hosts you are changing. Modules tend to be aligned with either a specific machine sub-system (files, packages, networking), commonly used packages (systemctl), but also exist for cloud providers or specific vendor-related needs. 
 
 * **Tasks** - tasks are single invocations of a module. They tend to be extremely small and make incremental changes. Think of a task as interacting with a specific API for the host you are targeting. Tasks utilize modules to accomplish this interaction 
 
@@ -35,9 +38,7 @@ With Ansible, you typically have the following components:
 * **Playbooks** - a collection of "plays" that you run against a set of hosts. Plays tend to be specific groups of roles or tasks that wholistically apply one logical change.
 
 * **Vars** - variables that are used dynamically in plays at runtime to configure the machines in your inventory. Vars get complicated fast, so knowing variable precedence is important.
-
-## How D
-
+ 
 ## What is Ansible Good At? Where Does it Fall Short?
 Ansible is extremely good at the desired state model described above: make this machine have this state. For creating or provisioning new machines, or managing existing machines, this can be a great use case.
 
