@@ -1,6 +1,6 @@
 ---
 path: relearning-ansible-from-scrath
-date: 2020-09-21T21:23:45.226Z
+date: 2021-03-25T21:23:45.226Z
 title: Re-learning Ansible From Scratch
 description: Why I stopped, why I'm starting again, and what I'm learning.
 ---
@@ -48,4 +48,13 @@ The place Ansible falls short is really _orchestration_. Orchestration is used t
 
 The other large issue with Ansible that I have found is it can easily feel like "cobwebs" or "spagetti". Vars can come from seemingly anywhere and be overridden at every level according to Ansible's [var precendence rules](). As the complexity of an environment grows, the complexity of the vars needed also grows. While powerful and flexible, most times that I have bashed my head with Ansible is when a var I thought had a specific value gets overridden in a place I didn't think would apply.
 
+## What To Pay Attention To When Reviewing Ansible
+With all of these pitfalls, it can be difficult to effectively review Ansible code changes. I've found that a few things can help.
 
+* **Var Precedence** - I've mentioned this several times already, but it is the most crucial thing to understand in Ansible. If you understand this poorly, you will spend hours at the keyboard not understanding why that value keeps chaging on you.
+
+* **Understand Which Host is Running a Task** - a playbook can target several different host groups for different roles or tasks. Always pay close attention to how these
+
+* **Know Thy Host Groups** - 
+
+* **Be Pedantic About Var Names** - 
