@@ -4,10 +4,10 @@ date: 2021-03-25T21:23:45.226Z
 title: Re-learning Ansible From Scratch
 description: Why I stopped, why I'm starting again, and what I'm learning.
 ---
-For several years, all I heard about was Ansible. It was going to solve every one of your deployment problems. It was going to make life easier. It was going to take us to Mars.
+For several years, all I heard about was [Ansible](ansible.com). It was going to solve every one of your deployment problems. It was going to make life easier. It was going to take us to Mars.
 
 But after a short while, Ansible seemed to fall flat. As the [infastructure 
-as code] movement grew and the immutable infrastructure alongside of it, other tools seemed to overtake Ansible. I stopped learning it at this point as since I the systems I was working on were running on kubernetes and embraced the immutable infrastructure movement.
+as code](https://en.wikipedia.org/wiki/Infrastructure_as_code) movement grew and the immutable infrastructure alongside of it, other tools seemed to overtake Ansible. I stopped learning it at this point as since I the systems I was working on were running on kubernetes and embraced the immutable infrastructure movement.
 
 Recently, however, I've been doing some work on more traditional virtual machines that we need to maintain rather than a cloud-native approach. In order to manage our fleet of 20+ VMs (in one environment!), we turned to Ansible. We use Ansible to perform configuration management of all of our VMs, as well as running ad-hoc commands for debugging our system or recovering from a failure.
 
@@ -16,14 +16,14 @@ Since I've been re-learning Ansible, I thought it would be helpful to give some 
 ## What is Ansible?
 Ansible is essentially a provisioning and configuration management tool. You write _mostly_ declarative `.yml` files to specify the desired state of a machine. The idea is that instead of having to write code to handle various pre-existing states of the machine ("Does this file exist?"), you simply say (aka *declare*) the desired state you want the machine to be in. This idea is usually referred to as a [desired state model].
 
-Ansible is _mostly_ declarative. What I mean is that Ansible strives to be as declarative as possible and hide the specific commands performed from the user, but it violates that principle sometimes. For instance, Ansible also has the ability to do loops, concatenate lists, and do mappings between various data-structures. You can even run snippets of python code as [filters]() to do more complex commands/transformations. 
+Ansible is _mostly_ declarative. What I mean is that Ansible strives to be as declarative as possible and hide the specific commands performed from the user, but it violates that principle sometimes. For instance, Ansible also has the ability to do loops, concatenate lists, and do mappings between various data-structures. You can even run snippets of python code as [filters](https://docs.ansible.com/ansible/2.3/playbooks_filters.html) to do more complex commands/transformations. 
 
 ## How Does it Work?
 I'll keep this brief since a full explanation could get very long and very complicated. 
 
-Ansible works by essentially creating ssh connections to a set of target hosts, copying python code to those machines, and executing that python on those machines to make changes to the system. Micheal DeHaan (the creator) called it "ssh in a loop". 
+Ansible works by essentially creating ssh connections to a set of target hosts, copying python code to those machines, and executing that python on those machines to make changes to the system. [Micheal DeHaan](https://twitter.com/laserllama) (the creator) called it "ssh in a loop". 
 
-Ansible is also stateless. What that means is that Ansible reads the current state of a machine while it is being run and makes the changes required to move it into the desired state. While this is great in many ways and allows you to start controlling a target machine almost instantly, it also leads to odd problems. For example, if at one point you needed a file to be created on the machine, but you don't need it anymore, Ansible won't auto-cleanup that file for you - you would need to write a specific Ansible configuration to remove it.
+Ansible is also **stateless**. What that means is that Ansible reads the current state of a machine while it is being run and makes the changes required to move it into the desired state. While this is great in many ways and allows you to start controlling a target machine almost instantly, it also leads to odd problems. For example, if at one point you needed a file to be created on the machine, but you don't need it anymore, Ansible won't auto-cleanup that file for you - you would need to write a specific Ansible configuration to remove it.
 
 ## How Do You Use It?
 With Ansible, you typically have the following components:
@@ -46,13 +46,16 @@ Ansible is also very good at making common commands you might need for debugging
 
 The place Ansible falls short is really _orchestration_. Orchestration is used to describe not just the state of a single machine, but how a fleet of machines are all updated to accomplish a larger goal. An example of orchestration is updating each machine in a specific order. This can be done in Ansible, but it usually requires running playbooks limited to specific hosts. 
 
-The other large issue with Ansible that I have found is it can easily feel like "cobwebs" or "spagetti". Vars can come from seemingly anywhere and be overridden at every level according to Ansible's [var precendence rules](). As the complexity of an environment grows, the complexity of the vars needed also grows. While powerful and flexible, most times that I have bashed my head with Ansible is when a var I thought had a specific value gets overridden in a place I didn't think would apply.
+The other large issue with Ansible that I have found is it can easily feel like "cobwebs" or "spagetti". Vars can come from seemingly anywhere and be overridden at every level according to Ansible's [var precendence rules](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable). As the complexity of an environment grows, the complexity of the vars needed also grows. While powerful and flexible, most times that I have bashed my head with Ansible is when a var I thought had a specific value gets overridden in a place I didn't think would apply.
 
 ## What To Pay Attention To When Reviewing Ansible
 With all of these pitfalls, it can be difficult to effectively review Ansible code changes. I've found that a few things can help.
 
-* **Var Precedence** - I've mentioned this several times already, but it is the most crucial thing to understand in Ansible. If you understand this poorly, you will spend hours at the keyboard not understanding why that value keeps chaging on you.
+* **Var Precedence** - I've mentioned this several times already, but [variable precedence] (https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable) is such a crucial thing to understand in Ansible. If you understand this poorly, you will spend hours at the keyboard not understanding why that value keeps chaging on you.
 
-* **Keep Organized Host Groups** - you use host groups to target the hosts you want specific plays and tasks to run on. You should know how they are organized! If you see changes that make it confusing to identify which host(s) a play will run on, speak up.  
+* **Host Group Organization** - you use host groups to target the hosts you want specific plays and tasks to run on. You should know how they are organized! If you see changes that make it confusing to identify which host(s) a play will run on, speak up.  
 
-* **Be Pedantic About Var Names** - 
+* **Var Names** - variable names come up in almost all forms of code reviews, but in Ansible this is especially true. Vars in Ansible are set to either global scope, play scope, or host scope, but you will quickly discover that varialbes get referenced all over the play and it can be hard to keep track. My recommendation is to name vars with specific intention and keep them as close to the context of a host or play as possible. Prefixing vars from your vault with `vault_` is also a pattern I have used with a lot of success.
+
+---
+
