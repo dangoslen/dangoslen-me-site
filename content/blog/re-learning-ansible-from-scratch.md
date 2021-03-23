@@ -53,8 +53,6 @@ With all of these pitfalls, it can be difficult to effectively review Ansible co
 
 * **Var Precedence** - I've mentioned this several times already, but it is the most crucial thing to understand in Ansible. If you understand this poorly, you will spend hours at the keyboard not understanding why that value keeps chaging on you.
 
-* **Understand Which Host is Running a Task** - a playbook can target several different host groups for different roles or tasks. Always pay close attention to how these
-
-* **Know Thy Host Groups** - 
+* **Keep Organized Host Groups** - you use host groups to target the hosts you want specific plays and tasks to run on. You should know how they are organized! If you see changes that make it confusing to identify which host(s) a play will run on, speak up.  
 
 * **Be Pedantic About Var Names** - 
