@@ -4,6 +4,10 @@ date: 2021-03-25T21:23:45.226Z
 title: Re-learning Ansible From Scratch
 description: Why I stopped, why I'm starting again, and what I'm learning.
 ---
+![Ansible logo](../assets/ansible-logo.png "Ansible logo")
+
+
+
 For several years, all I heard about was [Ansible](ansible.com). It was going to solve every one of your deployment problems. It was going to make life easier. It was going to take us to Mars.
 
 But after a short while, Ansible seemed to fall flat. As the [infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code) movement grew and the immutable infrastructure alongside it, other tools seemed to overtake Ansible. I stopped learning it at this point since I started work on Kubernetes-based applications, which fully embraced immutable infrastructure.
