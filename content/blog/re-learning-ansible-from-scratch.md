@@ -10,7 +10,7 @@ For several years, all I heard about was [Ansible](ansible.com). It was going to
 
 But after a short while, Ansible seemed to fall flat. As the [infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code) movement grew and the immutable infrastructure alongside it, other tools seemed to overtake Ansible. I stopped learning it at this point since I started work on Kubernetes-based applications, which fully embraced immutable infrastructure.
 
-Recently, however, I've been doing some work on more traditional virtual machines that we need to maintain rather than a cloud-native approach. To manage our fleet of 20+ VMs (in one environment!), we turned to Ansible. We use Ansible to perform configuration management of all of our VMs and run ad-hoc commands for debugging our system or recovering from a failure.
+Recently, however, I've been working on some applications that use traditional virtual machines rather than a cloud-native approach. To manage our fleet of 20+ VMs (in one environment!), we turned to Ansible. We use Ansible to perform configuration management of all of our VMs and run ad-hoc commands for debugging our system or recovering from a failure.
 
 Since I've been re-learning Ansible, I thought it would be helpful to give some insights into what it is, what its components are, and a few gotchas I've encountered. I won't get into all the nitty-gritty since Ansible gets complicated FAST. However, since Ansible does get so complicated so fast, it can be tricky to review. I'll leave you with some tips on how to code review your Ansible for success and maintainability in the long term.
 
