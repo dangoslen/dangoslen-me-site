@@ -55,6 +55,8 @@ With all of these pitfalls, it can be difficult to review Ansible code changes e
 * **Host Group Organization** - you use host groups to target the hosts you want specific plays and tasks to run on. You should know how they are organized! If you see changes that make it confusing to identify which host(s) a play will run on, speak up! When you can't understand how your host groups are organized, all the rest of your Ansible setup is useless.
 * **Var Names** - variable names come up in almost all forms of code reviews, but in Ansible, this is especially true. Vars in Ansible are set to either global scope, play scope, or host scope, but you will quickly discover that variables get referenced all over the play, and it can be hard to keep track. My recommendation is to name vars with specific intention and keep them as close to a host or play context as possible. Prefixing vars from your vault with \`vault_\` is also a pattern I have used with a lot of success.
 
+Last, always try to group related tasks into a role that you can reuse in different playbooks. This will pay dividends as your Ansible code grows.
+
 ---
 
 This is just a short glimpse into the world of Ansible. I know it wasn't an in-depth tutorial, but I hope some general guidelines and principles help you as you start to use it!
