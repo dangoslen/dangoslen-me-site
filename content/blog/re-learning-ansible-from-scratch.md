@@ -45,7 +45,7 @@ Ansible is also very good at making common commands you might need for debugging
 
 The place Ansible falls short is really *orchestration*. Orchestration is the process of controlling how a fleet of machines is all updated to accomplish a larger goal. This is in contrast to controlling a single machine. A trivial but common example of orchestration is updating each machine in a specific order. This can be done in Ansible, but it usually requires running playbooks limited to specific hosts.
 
-The other large issue with Ansible that I have found is it can easily feel like "cobwebs" or "spaghetti." Vars can come from seemingly anywhere and be overridden at every level according to Ansible's [var precedence rules](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable). As the complexity of an environment grows, the complexity of the vars needed also grows. While powerful and flexible, I have spent hours frustrated with Ansible when a var I thought had a specific value got overridden in a place I didn't think would apply.
+The other large issue with Ansible that I have found is it can easily feel like "cobwebs" or "spaghetti." Vars can come from seemingly anywhere and be overridden at every level according to Ansible's [variable precedence rules](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable). As the complexity of an environment grows, the complexity of the vars needed also grows. While powerful and flexible, I have spent hours frustrated with Ansible when a var I thought had a specific value got overridden in a place I didn't think would apply.
 
 ## What To Pay Attention To When Reviewing Ansible
 
