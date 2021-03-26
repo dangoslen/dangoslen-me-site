@@ -22,11 +22,9 @@ When I say that Ansible is *mostly* declarative, what I mean is that Ansible str
 
 ## How Does it Work?
 
-I'll keep this brief since a full explanation could get very long and very complicated.
+I'll keep this brief since a full explanation could get very long and very complicated. Ansible works by essentially creating ssh connections to a set of target hosts, copying python code to those machines, and executing that python on those machines to make changes to the system. [Micheal DeHaan](https://twitter.com/laserllama) (the creator) called it "ssh in a loop."
 
-Ansible works by essentially creating ssh connections to a set of target hosts, copying python code to those machines, and executing that python on those machines to make changes to the system. [Micheal DeHaan](https://twitter.com/laserllama) (the creator) called it "ssh in a loop."
-
-Ansible is also **stateless**. What that means is that Ansible reads the current state of a machine while it is being run and makes the changes required to move it into the desired state. While this is great in many ways and allows you to start controlling a target machine almost instantly, it also leads to odd problems. For example, if at one point you needed a file to be created on the machine, but you don't need it anymore, Ansible won't auto-cleanup that file for you - you would need to write a specific Ansible configuration to remove it.
+Ansible is also **stateless**. What that means is that Ansible reads the present state of a machine while it is being run and makes the changes required to move it into the desired state. This is great in many ways as it allows you to start controlling a target machine almost instantly. But it also leads to odd problems. For example, if at one point you needed a file to be created on the machine, but you don't need it anymore, Ansible won't auto-cleanup that file for you - you would need to write a specific Ansible configuration to remove it.
 
 ## How Do You Use It?
 
