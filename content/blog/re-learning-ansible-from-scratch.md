@@ -16,9 +16,9 @@ Since I've been re-learning Ansible, I thought it would be helpful to give some 
 
 ## What is Ansible?
 
-Ansible is essentially a provisioning and configuration management tool. You write *mostly* declarative .yml files to specify the desired state of a machine. The idea is that instead of having to write code to handle various pre-existing states of the machine ("Does this file exist?"), you simply say (aka *declare*) the desired state you want the machine to be in. This idea is usually referred to as a \[desired state model].
+Ansible is essentially a provisioning and configuration management tool. You write *mostly* declarative `.yml` files to specify the desired state of a machine. The idea is that instead of having to write a large bash script to install packages or move files around, you simply *declare* the desired state you want the machine to be in regardless of its current or present state. 
 
-Ansible is *mostly* declarative. What I mean is that Ansible strives to be as declarative as possible and hide the specific commands performed by the user, but it violates that principle sometimes. For instance, Ansible also has the ability to perform loops, concatenate lists, and do mappings between various data-structures. You can even run snippets of python code as [filters](https://docs.ansible.com/ansible/2.3/playbooks_filters.html) to do more complex commands/transformations.
+When I say that Ansible is *mostly* declarative, what I mean is that Ansible strives to be as declarative as possible but there are cases it violates that principle. For instance, Ansible also has the ability to perform user-defined loops, set variables, and make simple boolean decisions. You can even run snippets of python code as [filters](https://docs.ansible.com/ansible/2.3/playbooks_filters.html) to do more complex commands/transformations.
 
 ## How Does it Work?
 
