@@ -3,6 +3,7 @@ path: /dont-focus-on-coding-mastery-focus-on-getting-better-each-day
 date: 2020-06-25T04:00:00.000Z
 title: Don’t Focus on Coding Mastery — Focus on Getting Better Each Day
 description: Why only focusing on the end game will disappoint you.
+tas: ["programming", "learning", "growth", "career"]
 ---
 ![Master craftsman working on an anvil](../assets/1_ndvpxhffgu1hoz2cbssmuw.jpeg)
 
