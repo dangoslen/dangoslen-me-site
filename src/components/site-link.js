@@ -1,14 +1,14 @@
 import React from "react"
 import styled from "styled-components"
 
-const SocialLink = props => {
+const SiteLink = props => {
   return (
     <Link href={props.to}>{props.children}</Link>
   )
 }
 
 const Link = styled.a`
-color: black;
+color: #d69066;
 font-size: 3rem;
 box-shadow: none;
 &:hover {
