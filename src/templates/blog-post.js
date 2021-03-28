@@ -5,11 +5,12 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Tags from "../components/tags"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.mdx
+    const post = this.props.data.post
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
@@ -18,6 +19,7 @@ class BlogPostTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
+          keywords={post.frontmatter.tags || []}
         />
         <h1>{post.frontmatter.title}</h1>
         <p
@@ -30,8 +32,11 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}{"  ::  "}
           <small>{post.fields.readingTime.text}</small>
+          <Tags tags={post.frontmatter.tags} />
         </p>
+
         <MDXRenderer>{post.body}</MDXRenderer>
+
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -78,7 +83,7 @@ export const pageQuery = graphql`
         author
       }
     }
-    mdx(fields: { slug: { eq: $slug } }) {
+    post: mdx(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
       body
@@ -91,6 +96,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
   }

@@ -11,7 +11,7 @@ class Blog extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = "Blog"
-    const posts = data.allMdx.edges
+    const posts = data.posts.edges
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -22,7 +22,7 @@ class Blog extends React.Component {
             return (
               <div key={node.fields.slug}>
                 <h2
-                  style={{ marginTop: `1.75rem`, marginBottom: `0px`}}
+                  style={{ marginTop: `3rem`, marginBottom: `0px`}}
                 >
                   <BlogLink 
                       to={`/blog${node.fields.slug}`}>
@@ -58,9 +58,14 @@ const BlogLink = styled(Link)`
 box-shadow: none;
 color: black;
 &:hover {
-  color: #303131
+  color: rgba(214, 144, 102, 1.0)
 }
+transition: all .2s;
+transition-timing-function: ease;
 `
+
+export default Blog
+
 export const pageQuery = graphql`
   query {
     site {
@@ -68,7 +73,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+    posts: allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           excerpt
@@ -82,10 +87,10 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            tags
           }
         }
       }
     }
   }
 `
-export default Blog
