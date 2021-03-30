@@ -56,9 +56,9 @@ class Blog extends React.Component {
 
 const BlogLink = styled(Link)`
 box-shadow: none;
-color: black;
+color: #1a1a1a;
 &:hover {
-  color: rgba(214, 144, 102, 1.0)
+  color: #e09b76;
 }
 transition: all .2s;
 transition-timing-function: ease;
