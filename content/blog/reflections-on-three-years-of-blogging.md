@@ -27,6 +27,37 @@ I started writing about the things our team was doing that were making us a bett
 
 Like most bloggers, my first articles weren't getting read all that much. Part of this is a failing on my part (hint - I'm bad at marketing). The other part was that I wasn't writing **for** anyone. I was simply sharing my experience, but not writing about how you - the reader - would benefit from reading what I wrote.
 
-In October 2019, though, I wrote an article about [simple code](<>) that started to gain real readers.
+In October 2019, though, I wrote an article about [simple code](<>) that started to gain real readers. 
 
 ![Medium stats for Fall of 2019](../assets/screen-shot-2021-03-30-at-7.45.53-am.png "Medium stats for Fall 2019")
+
+It wasn't a viral success, but it was enough to start to get my views into the thousands for the first time! 
+
+I realized that maybe - just maybe - I something to offer. 
+
+I decided that I needed to publish as quickly as possible. The name of the game, so I'm told, is publishing content all the time. I have some thoughts on this idea towards the end of this article though :)\
+\
+I published another article on my top 4 design patterns a week later. I got even more views! In fact, it is still my most successful article yet in terms of viewership - though I think I've written higher quality articles since. 
+
+## Getting "Serious"
+
+At this point (early November to late December) I was hooked on writing. I started reading resources on improving my content. I read some helpful books, signed up for a handful of blogging email courses, and created a content calendar. 
+
+This is when I also started to experiment more and more with the topics of my writing. Why? Two primary reasons:
+1) It can be hard to come up with unique content all the time. Sometimes falling back on sharing an experience or what you have learned (#todayilearned and #learninginpublic) is all you can do
+2) I legitimally was curious to see if I could find patterns of what content I wrote connected with readers. Sadly, Medium is very narrow in this regard. You can tag your article with topics, but they are so broad it can be hard to tell what tagged stories are _actually_ about. I did find a few patterns that I will share at the end.
+
+But I also started to feel - like a machine. I've come to dislike the term "content creator". Perhaps, I'm a creator. But not a creator of _content_. I like to position myself more as a creator of thought or systems. But this is all a bit tangential :)
+
+## Getting Tired
+
+After a few months of trying to keep a content calendar with a full-time job, going to master's school, and preparing for my wedding - I couldn't keep it up anymore. I was just too tired.
+
+But additionally - I felt like my ideas had actually transformed into, well, _content_. I didn't feel like I was actually bringing unique perspectives or was able to able deep thought to a topic. I was doing what content creators have to do - find ways to write about something I knew, grab a reader's attention, hold it just long enough to read a brief article, rinse, and repeat. 
+
+I'm not judging that approach. I think it's actually an extremely **demanding** regiment to follow. I simply have realized that I want to be at the bottom of things rather than on top of things as legend Donald Knuth puts it. 
+
+## What Has Worked For Me So Far
+
+
+## Moving Forward
