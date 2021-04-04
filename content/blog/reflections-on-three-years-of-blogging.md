@@ -1,13 +1,13 @@
 ---
-path: /reflections-on-three-years-of-blogging
+path: /reflections-on-twoish-years-of-blogging
 date: 2021-03-30T11:22:09.309Z
-title: Reflections on Three Years of Blogging
+title: Reflections on Two(ish) Years of Blogging
 description: Some thoughts about blogging, learning in public, and sharing what
-  I've learned after three years of consistent(ish) blogging.
+  I've learned while blogging
 ---
-It was around three years ago that I decided I wanted to start blogging more consistently. I had written a few articles on Medium, but I didn't have any readers at the time. I was just writing into the void.
+It was around two years ago that I decided I wanted to start blogging more consistently. I had written a few articles on Medium, but I didn't have any readers at the time. I was just writing into the void.
 
-Since then I've published 50 articles on medium, moved my writing to my own domain built with Gatsby.js, and started cross-posting to dev.to. I haven't had the viral success that many bloggers talk about - I've got a lot to learn about SEO and good copy - but I have seen some success that makes me keep coming back.
+Since then I've published 50 articles on medium, moved my writing to my own domain built with Gatsby.js, and started cross-posting to [dev.to](https://dev.to/dangoslen). I haven't had the viral success that many bloggers talk about - I've got a lot to learn about SEO and good copy - but I have seen some success that makes me keep coming back.
 
 Today, I wanted to share a few of those successes as well as a few failures on my part. I'll reflect on what has worked for me, what hasn't, and tell you about how this will shape my writing in the future.
 
@@ -55,9 +55,24 @@ After a few months of trying to keep a content calendar with a full-time job, go
 
 But additionally - I felt like my ideas had actually transformed into, well, _content_. I didn't feel like I was actually bringing unique perspectives or was able to able deep thought to a topic. I was doing what content creators have to do - find ways to write about something I knew, grab a reader's attention, hold it just long enough to read a brief article, rinse, and repeat. 
 
-I'm not judging that approach. I think it's actually an extremely **demanding** regiment to follow. I simply have realized that I want to be at the bottom of things rather than on top of things as legend Donald Knuth puts it. 
+I'm not judging that approach. I think it's actually an extremely **demanding** regiment to follow. I simply have realized that I want to be at the bottom of things rather than on top of things as legend Donald Knuth puts it. _Not to say I am anywhere near his intellect or ability!_
 
 ## What Has Worked For Me So Far
 
+While I don't have the most impressive analytics on this - a gap I am working on correcting moving forward - there are a few patterns I have noticed that work for me. I'm not an expert writer or content strategiest (still don't like that word _content_), so this is meant for observation rather than prescriptions for someone to try.
+
+* Being Vulnerability *
+
+Two of my top three posts on Medium are [My Biggest Mistakes as a Junior Developer]() and [I'll Admit It. I'm a Jealous Developer](). In each of these posts, I shared my personal insecurities, vunerabilites and failures. While I got some criticism for not being insightful or original in either of them, I have to remember that most not all writing has to be insightful or creative to be helpful to someone else. 
+
+* Topics I'm Passionate About * 
+
+My top articles focused in on a few areas of software engineering I am passionate about rather than learning in public or tutorials. And what I'm passionate about is helping devs avoid burnout by building great software and great engineering teams.
+
+Concretely, my articles about code simplicity, using patterns effectively, and code reviews have resonated well with my readers. I've also written articles about how to improve the culture of engineering teams through continous improvement and the danger of "hero" programming. 
+
+While these last topics haven't been my most read, they have been more formative towards the goal of my writing and my own thoughts on the topics. And while I am learning more and more that my writings need to bring value to the **reader**, having the starting point of writing as a way to bring clarity to my own thoughts is valueable.
+ 
+* The Right Publication *
 
 ## Moving Forward
