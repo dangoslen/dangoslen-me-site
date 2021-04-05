@@ -75,4 +75,12 @@ While these last topics haven't been my most read, they have been more formative
  
 * The Right Publication *
 
+My most read articles were all published under a publication instead of just me. But not all publications are created equal. I've found a few publications seemed to get more readers than others. I won't post which since it is different for whatever you are writing. 
+
+While this is last, I think this is really important. Without getting a publication or two to bring in my article, I don't think I would have gotten any readers. If you are considering writing on Medium, don't make it your goal to get a publication to accept an article, though. Focus on high-quality writing and you'll eventually have publications asking you to submit your article to them.
+
 ## Moving Forward
+
+With this in mind, I'm trying to re-evaluate where I take my writing for the rest of 2021. I'm still going to be experimenting, but generally I have three pillars I want to set for how I move forward.
+
+* Write more about the same topics. When I first started writing I thought I would exhaust all topics about code reviews, building trust in your teams, or how to build effective teams. I've found there is actually a TON left to write about. I've also become much more passionate about the idea of sustainable development - that development teams should be able to maintain a constant pace indefinitly. 
