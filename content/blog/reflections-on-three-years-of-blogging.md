@@ -44,43 +44,68 @@ I published another article on my top 4 design patterns a week later. I got even
 At this point (early November to late December) I was hooked on writing. I started reading resources on improving my content. I read some helpful books, signed up for a handful of blogging email courses, and created a content calendar. 
 
 This is when I also started to experiment more and more with the topics of my writing. Why? Two primary reasons:
-1) It can be hard to come up with unique content all the time. Sometimes falling back on sharing an experience or what you have learned (#todayilearned and #learninginpublic) is all you can do
-2) I legitimally was curious to see if I could find patterns of what content I wrote connected with readers. Sadly, Medium is very narrow in this regard. You can tag your article with topics, but they are so broad it can be hard to tell what tagged stories are _actually_ about. I did find a few patterns that I will share at the end.
 
-But I also started to feel - like a machine. I've come to dislike the term "content creator". Perhaps, I'm a creator. But not a creator of _content_. I like to position myself more as a creator of thought or systems. But this is all a bit tangential :)
+1. It can be hard to come up with unique content all the time. Sometimes falling back on sharing an experience or what you have learned (#todayilearned and #learninginpublic) is all you can do
+2. I was curious to see if I could find patterns of what content I wrote connected with readers. Sadly, Medium is very narrow in this regard. You can tag your article with topics, but they are so broad it can be hard to tell what tagged stories are *actually* about. I did find a few patterns that I will share at the end.
+
+But I also started to feel - like a machine. I've come to dislike the term "content creator". Perhaps, I'm a creator. But not a creator of *content*. I like to position myself more as a creator of thought or systems. But this is all a bit tangential :)
 
 ## Getting Tired
 
 After a few months of trying to keep a content calendar with a full-time job, going to master's school, and preparing for my wedding - I couldn't keep it up anymore. I was just too tired.
 
-But additionally - I felt like my ideas had actually transformed into, well, _content_. I didn't feel like I was actually bringing unique perspectives or was able to able deep thought to a topic. I was doing what content creators have to do - find ways to write about something I knew, grab a reader's attention, hold it just long enough to read a brief article, rinse, and repeat. 
+But additionally - I felt like my ideas had actually transformed into, well, *content*. I didn't feel like I was actually bringing unique perspectives or was able to able deep thought to a topic. I was doing what content creators have to do - find ways to write about something I knew, grab a reader's attention, hold it just long enough to read a brief article, rinse, and repeat. 
 
-I'm not judging that approach. I think it's actually an extremely **demanding** regiment to follow. I simply have realized that I want to be at the bottom of things rather than on top of things as legend Donald Knuth puts it. _Not to say I am anywhere near his intellect or ability!_
+I'm not judging that approach. I think it's actually an extremely **demanding** regiment to follow. I simply have realized that I want to be at the bottom of things rather than on top of things as legend Donald Knuth puts it. *Not to say I am anywhere near his intellect or ability!*
 
 ## What Has Worked For Me So Far
 
-While I don't have the most impressive analytics on this - a gap I am working on correcting moving forward - there are a few patterns I have noticed that work for me. I'm not an expert writer or content strategiest (still don't like that word _content_), so this is meant for observation rather than prescriptions for someone to try.
+While I don't have the most impressive analytics on this - a gap I am working on correcting moving forward - there are a few patterns I have noticed that work for me. I'm not an expert writer or content strategiest (still don't like that word *content*), so this is meant for observation rather than prescriptions for someone to try.
 
-* Being Vulnerability *
+* **Being Vulnerable**
 
-Two of my top three posts on Medium are [My Biggest Mistakes as a Junior Developer]() and [I'll Admit It. I'm a Jealous Developer](). In each of these posts, I shared my personal insecurities, vunerabilites and failures. While I got some criticism for not being insightful or original in either of them, I have to remember that most not all writing has to be insightful or creative to be helpful to someone else. 
+Two of my top three posts on Medium are [My Biggest Mistakes as a Junior Developer](<>) and [I'll Admit It. I'm a Jealous Developer](<>). In each of these posts, I shared my personal insecurities, vunerabilites and failures. While I got some criticism for not being insightful or original in either of them, I have to remember that most not all writing has to be insightful or creative to be helpful to someone else. 
 
-* Topics I'm Passionate About * 
+* **Topics I'm Passionate About**
 
 My top articles focused in on a few areas of software engineering I am passionate about rather than learning in public or tutorials. And what I'm passionate about is helping devs avoid burnout by building great software and great engineering teams.
 
 Concretely, my articles about code simplicity, using patterns effectively, and code reviews have resonated well with my readers. I've also written articles about how to improve the culture of engineering teams through continous improvement and the danger of "hero" programming. 
 
 While these last topics haven't been my most read, they have been more formative towards the goal of my writing and my own thoughts on the topics. And while I am learning more and more that my writings need to bring value to the **reader**, having the starting point of writing as a way to bring clarity to my own thoughts is valueable.
- 
-* The Right Publication *
 
-My most read articles were all published under a publication instead of just me. But not all publications are created equal. I've found a few publications seemed to get more readers than others. I won't post which since it is different for whatever you are writing. 
+* **The Right Publication(s)**
+
+My most read articles were all published under a publication instead of just me. But not all publications are created equal. I've found a few publications seemed to get more readers than others. I won't post which publications those are since success on each is dependent on what you are writing about - and I don't want anyone to think submitting to one of them will be a "silver bullet".
 
 While this is last, I think this is really important. Without getting a publication or two to bring in my article, I don't think I would have gotten any readers. If you are considering writing on Medium, don't make it your goal to get a publication to accept an article, though. Focus on high-quality writing and you'll eventually have publications asking you to submit your article to them.
 
 ## Moving Forward
 
-With this in mind, I'm trying to re-evaluate where I take my writing for the rest of 2021. I'm still going to be experimenting, but generally I have three pillars I want to set for how I move forward.
+With this in mind, I'm trying to re-evaluate where I take my writing for the rest of 2021. I'm still going to be experimenting, but generally, I have three pillars I want to set for how I move forward.
 
-* Write more about the same topics. When I first started writing I thought I would exhaust all topics about code reviews, building trust in your teams, or how to build effective teams. I've found there is actually a TON left to write about. I've also become much more passionate about the idea of sustainable development - that development teams should be able to maintain a constant pace indefinitly. 
+### More Focused Writing
+
+Write more about the same topics. When I first started writing I thought I would exhaust all topics about code reviews, building trust in your teams, or how to build effective teams. I've found there is actually a TON left to write about. 
+
+I've also become much more passionate about the idea of sustainable development - that development teams should be able to maintain a constant pace indefinitely. Everywhere I look I see developers who are overwhelmed, exhausted, and beat up. They are burned out.
+
+> I want to help devs avoid burnout. 
+
+I believe that by following the right software engineering practices and building teams built on trust, that devs can avoid the common burnout problem. I want to focus my writing on helping devs and teams adopt those patterns so that they can avoid burnout.
+
+## Building/Learning in Public
+
+I'm a huge fan of building or learning in public. But I'm not great at it :sad_face: What I'm planning on doing is moving topics like building in public or learning in public to Twitter rather than my writing.
+
+I'm doing this because every time I try to write a whole article on building or learning in public they get too long (this post for example :sweat_smile: ). I'm hoping that by focusing on using Twitter to discuss what I'm learning about and building that it will force me to keep those things brief and useful.
+
+## Building Resources
+
+As I've been spending more and more time refining this idea of helping devs avoid burnout, I want to build more resources than just my blog. I've already been building some (very) small GitHub actions to help automate a few tasks, but I want to build even more.
+
+I have a few ideas for some e-books (yes, yes. I know everyone has an e-book) that I would give away and a few that I might charge for. A few topics swirling in my head are surviving your first year as a developer, practicing healthy code reviews, and how to set boundaries at work. 
+
+I'd also like to do more interviews in this regard. Not a podcast I don't think, but perhaps a newsletter where I interview devs who have experienced burnout. If you have a story about burnout that you think would help other devs, shoot me a message on LinkedIn or Twitter! I'd love to hear about it and see if this idea resonates with others.
+
+---
