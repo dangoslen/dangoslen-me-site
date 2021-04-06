@@ -30,8 +30,7 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date}{"  ::  "}
-          <small>{post.fields.readingTime.text}</small>
+          {post.frontmatter.date}{"  ::  "}{post.fields.readingTime.text}
           <Tags tags={post.frontmatter.tags} />
         </p>
 

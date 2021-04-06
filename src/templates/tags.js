@@ -22,7 +22,7 @@ class TagsTemplate extends React.Component {
             const { title } = node.frontmatter
             return (
               <li key={slug}>
-                <Link to={`/blog${slug}`} >{title}</Link>
+                <h2><Link to={`/blog${slug}`} >{title}</Link></h2>
               </li>
             )
           })}
