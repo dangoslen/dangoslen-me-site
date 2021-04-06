@@ -12,15 +12,12 @@ const Tags = props => {
   console.log(tagNames)
 
   return (
-    <TagsContainer>
-    {tagNames.length > 0 &&
-        <span>Filed Under:</span>
-      }        
+    <TagsContainer>     
       {tagNames.map((tag) => {      
         return <TagSpan key={tag}>
             <Link
                 to={`/tags/${_.kebabCase(tag)}`}
-            >{`#${tag}`}</Link>
+            >{`${tag}`}</Link>
         </TagSpan>
     })}
     </TagsContainer>
@@ -32,10 +29,17 @@ const TagsContainer = styled.div`
 `
 
 const TagSpan = styled.span`
-    padding: 3px;
-    margin: 3px;
-    border-radius: 3px;
+    padding: 3px 6px;
+    margin: 2px;
+    border-radius: 12px;
+    background-color: #d69066;
+    a {
+      color: white;
+      box-shadow: none;
+    }
+    &:hover {
+      background-color: #e09b76
+    }
 `
-
 
 export default Tags

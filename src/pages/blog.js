@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
+import Tags from "../components/tags"
 import styled from "styled-components"
 
 class Blog extends React.Component {
@@ -21,21 +22,17 @@ class Blog extends React.Component {
             const title = node.frontmatter.title || node.fields.slug
             return (
               <div key={node.fields.slug}>
-                <h2
-                  style={{ marginTop: `3rem`, marginBottom: `0px`}}
-                >
-                  <BlogLink 
-                      to={`/blog${node.fields.slug}`}>
+                <BlogTitle>
+                  <BlogLink to={`/blog${node.fields.slug}`}>
                       {title}
                   </BlogLink>
-                </h2>
-                <small>{node.frontmatter.date}</small>{"  ::  "}
-                <small>{node.fields.readingTime.text}</small>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
+                </BlogTitle>
+                <BlogSummary>
+                  <span>{node.frontmatter.date}{"  ::  "}{node.fields.readingTime.text}</span>
+                  <div>
+                    <span>{node.frontmatter.description || node.excerpt}</span>        
+                  </div>
+                </BlogSummary>
               </div>
             )
           })}
@@ -54,6 +51,10 @@ class Blog extends React.Component {
   }
 }
 
+const BlogTitle = styled.h2`
+margin-bottom: 0rem;
+`
+
 const BlogLink = styled(Link)`
 box-shadow: none;
 color: #1a1a1a;
@@ -62,6 +63,11 @@ color: #1a1a1a;
 }
 transition: all .2s;
 transition-timing-function: ease;
+text-decoration: none;
+`
+
+const BlogSummary = styled.div`
+
 `
 
 export default Blog
