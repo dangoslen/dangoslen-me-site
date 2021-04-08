@@ -7,8 +7,6 @@ description: Some thoughts about blogging, learning in public, and sharing what
 ---
 ![Fountain pen on blurred notebook](../assets/aaron-burden-cklhktcjzkk-unsplash.jpg)
 
-
-
 <center>
 
 <i> 
@@ -74,25 +72,25 @@ I'm not judging that approach. I think it's actually an extremely **demanding** 
 
 ## What Has Worked For Me So Far
 
-While I don't have the most impressive analytics on this - a gap I am working on correcting moving forward - there are a few patterns I have noticed that work for me. I'm not an expert writer or content strategiest (still don't like that word *content*), so this is meant for observation rather than prescriptions for someone to try.
+While I don't have the most impressive analytics on this - a gap I am working on correcting moving forward - there are a few patterns I have noticed that work for me. I'm not an expert writer or content strategist (still don't like that word *content*), so this is meant for observation rather than prescriptions for someone to try.
 
 * **Being Vulnerable**
 
-Two of my top three posts on Medium are [My Biggest Mistakes as a Junior Developer](<>) and [I'll Admit It. I'm a Jealous Developer](<>). In each of these posts, I shared my personal insecurities, vunerabilites and failures. While I got some criticism for not being insightful or original in either of them, I have to remember that most not all writing has to be insightful or creative to be helpful to someone else. 
+Two of my top three posts on Medium are [My Biggest Mistakes as a Junior Developer](<>) and [I'll Admit It. I'm a Jealous Developer](<>). In each of these posts, I shared my personal insecurities, vulnerabilities, and failures. While I got some criticism for not being insightful or original in either of them, I have to remember that most not all writing has to be insightful or creative to be helpful to someone else. 
 
 * **Topics I'm Passionate About**
 
-My top articles focused in on a few areas of software engineering I am passionate about rather than learning in public or tutorials. And what I'm passionate about is helping devs avoid burnout by building great software and great engineering teams.
+Eight of my top ten articles focused on a few areas of software engineering I am passionate about: simple code, effective code reviews, and software patterns. I've also written articles about how to improve the culture of engineering teams through continuous improvement and the danger of "hero" programming that have resonated somewhat too.
 
-Concretely, my articles about code simplicity, using patterns effectively, and code reviews have resonated well with my readers. I've also written articles about how to improve the culture of engineering teams through continous improvement and the danger of "hero" programming. 
-
-While these last topics haven't been my most read, they have been more formative towards the goal of my writing and my own thoughts on the topics. And while I am learning more and more that my writings need to bring value to the **reader**, having the starting point of writing as a way to bring clarity to my own thoughts is valueable.
+I believe these resonated with readers because 1) they could tell I was passionate and 2) it's an area where I can share stories from personal experience (see vulnerability above) and 3) I've worked hard to understand these areas. Combined, this means I can offer **value** to my readers rooted in experience rather than fishing for something to write about. And I think readers can tell.
 
 * **The Right Publication(s)**
 
-My most read articles were all published under a publication instead of just me. But not all publications are created equal. I've found a few publications seemed to get more readers than others. I won't post which publications those are since success on each is dependent on what you are writing about - and I don't want anyone to think submitting to one of them will be a "silver bullet".
+My most read articles were all published under a publication instead of just me. But not all publications are created equal. I've found a few publications seemed to get more readers than others. I won't post which publications those are since success with each is dependent on what you are writing about - and I don't want anyone to think submitting to one of them will be a "silver bullet".
 
-While this is last, I think this is really important. Without getting a publication or two to bring in my article, I don't think I would have gotten any readers. If you are considering writing on Medium, don't make it your goal to get a publication to accept an article, though. Focus on high-quality writing and you'll eventually have publications asking you to submit your article to them.
+While this is last, I think this is really important. Without getting a publication or two to bring in my article, I don't think I would have gotten any readers. If you are considering writing on Medium, don't make it your goal to get a publication to accept an article, though. 
+
+> Focus on high-quality writing and you'll eventually have publications asking you to submit your article to them!
 
 ## Moving Forward
 
@@ -100,7 +98,7 @@ With this in mind, I'm trying to re-evaluate where I take my writing for the res
 
 ### More Focused Writing
 
-Write more about the same topics. When I first started writing I thought I would exhaust all topics about code reviews, building trust in your teams, or how to build effective teams. I've found there is actually a TON left to write about. 
+I want to focus more and more on writing about the same topics. When I first started writing I thought I would exhaust all things code reviews or building trust in your teams. I've found there is actually a TON left to write about in both of these domains. 
 
 I've also become much more passionate about the idea of sustainable development - that development teams should be able to maintain a constant pace indefinitely. Everywhere I look I see developers who are overwhelmed, exhausted, and beat up. They are burned out.
 
@@ -108,11 +106,11 @@ I've also become much more passionate about the idea of sustainable development 
 
 I believe that by following the right software engineering practices and building teams built on trust, that devs can avoid the common burnout problem. I want to focus my writing on helping devs and teams adopt those patterns so that they can avoid burnout.
 
-## Building & Learning in Public
+### Building & Learning in Public
 
-I'm a huge fan of building or learning in public. But I'm not great at it :sad_face: What I'm planning on doing is moving topics like building in public or learning in public to Twitter rather than my writing.
+I'm a huge fan of building or learning in public. Sadly, I'm not great at it :sad_face: What I'm planning on doing is moving where I share about what I am building or learning in public to Twitter rather than my blog/writing.
 
-I'm doing this because every time I try to write a whole article on building or learning in public they get too long (this post for example :sweat_smile: ). I'm hoping that by focusing on using Twitter to discuss what I'm learning about and building that it will force me to keep those things brief and useful.
+I'm doing this because every time I try to write a whole article on building or learning in public they get too long (this post for example :sweat_smile:). I'm hoping that by focusing on using Twitter to discuss what I'm learning about and building that it will force me to keep those things brief and useful.
 
 ## Building Resources
 
