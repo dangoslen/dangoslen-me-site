@@ -1,10 +1,24 @@
 ---
-path: /reflections-on-twoish-years-of-blogging
+path: /reflections-on-two-ish-years-of-blogging
 date: 2021-03-30T11:22:09.309Z
 title: Reflections on Two(ish) Years of Blogging
 description: Some thoughts about blogging, learning in public, and sharing what
   I've learned while blogging
 ---
+![Fountain pen on blurred notebook](../assets/aaron-burden-cklhktcjzkk-unsplash.jpg)
+
+
+
+<center>
+
+<i> 
+
+Photo by [Aaron Burden](https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/introspection?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+</i>
+
+</center>
+
 It was around two years ago that I decided I wanted to start blogging more consistently. I had written a few articles on Medium, but I didn't have any readers at the time. I was just writing into the void.
 
 Since then I've published 50 articles on medium, moved my writing to my own domain built with Gatsby.js, and started cross-posting to [dev.to](https://dev.to/dangoslen). I haven't had the viral success that many bloggers talk about - I've got a lot to learn about SEO and good copy - but I have seen some success that makes me keep coming back.
@@ -102,13 +116,13 @@ I'm doing this because every time I try to write a whole article on building or 
 
 ## Building Resources
 
-As I've been spending more and more time refining this idea of helping devs avoid burnout, I want to build more resources than just my blog. I've already been building some (very) small [GitHub] [Actions] to help automate a few tasks, but I want to build even more. There is a lot of room to improve the monotonous parts of even the best software development lifecycles.
+As I've been spending more and more time refining this idea of helping devs avoid burnout, I want to build more resources than just my blog. I've already been building some (very) small \[GitHub] \[Actions] to help automate a few tasks, but I want to build even more. There is a lot of room to improve the monotonous parts of even the best software development lifecycles.
 
 I have a few ideas for some e-books (yes, yes. I know everyone has an e-book) that I would give away and a few that I might charge for. A few topics swirling in my head are surviving your first year as a developer, practicing healthy code reviews, and how to set boundaries at work. I've struggled with those last two, so I hope I can offer some helpful insights.
 
 I'd also like to do more interviews around the idea of burnout. Not a podcast I don't think, but perhaps a newsletter where I interview devs who have experienced burnout. If you have a story about burnout that you think would help other devs, shoot me a message on LinkedIn or Twitter! I'd love to hear about it and see if this idea resonates with others.
 
----
+- - -
 
 If you've made it this far - thank you! What a long one that was. I write all this because I want you, the reader, to know where I'm going to be focusing my attention in the future. I'm trying to help devs like you avoid burning out. I want to do that through continued writing about software engineering practices, sharing more of what I learn and build in public, and building a collection of additional resources for helping devs avoid burnout in a few sticky areas.
 
