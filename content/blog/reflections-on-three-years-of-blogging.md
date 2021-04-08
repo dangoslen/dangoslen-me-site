@@ -72,6 +72,10 @@ I'm not judging that approach. I think it's actually an extremely **demanding** 
 
 ## What Has Worked For Me So Far
 
+
+
+![Top ten medium posts as of 4-7-2021](../assets/screen-shot-2021-04-07-at-9.43.52-pm.png "Top ten medium posts as of 4-7-2021")
+
 While I don't have the most impressive analytics on this - a gap I am working on correcting moving forward - there are a few patterns I have noticed that work for me. I'm not an expert writer or content strategist (still don't like that word *content*), so this is meant for observation rather than prescriptions for someone to try.
 
 * **Being Vulnerable**
