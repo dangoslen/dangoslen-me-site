@@ -98,7 +98,7 @@ I believe that by following the right software engineering practices and buildin
 
 I'm a huge fan of building or learning in public. But I'm not great at it :sad_face: What I'm planning on doing is moving topics like building in public or learning in public to Twitter rather than my writing.
 
-I'm doing this because every time I try to write a whole article on building or learning in public they get too long (this post for example :sweat_smile: ). I'm hoping that by focusing on using Twitter to discuss what I'm learning about and building that it will force me to keep those things brief and useful.
+I'm doing this because every time I try to write a whole article on building or learning in public they get too long (this post for example :smile: ). I'm hoping that by focusing on using Twitter to discuss what I'm learning about and building that it will force me to keep those things brief and useful.
 
 ## Building Resources
 

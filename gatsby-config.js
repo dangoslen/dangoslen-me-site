@@ -41,7 +41,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 700,
+              maxWidth: 800,
             },
           },
           {
@@ -58,6 +58,10 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-smartypants`,
+          }],
+        remarkPlugins: [
+          {
+            resolve: 'gatsby-remark-emojis',
           },
         ],
       },
@@ -89,6 +93,7 @@ module.exports = {
       },
     },
     'gatsby-remark-reading-time',
+    'gatsby-remark-emojis',
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
