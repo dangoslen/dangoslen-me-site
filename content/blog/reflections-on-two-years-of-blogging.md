@@ -33,7 +33,7 @@ After a little while, I realized that my current team **was** becoming a great t
 
 Maybe others would like to hear this?
 
-I started writing about the things our team was doing that were making us a better team. I wrote about \[code reviews] and why they matter, how [hasty abstractions](<>) can crush your team, and how\[great] user stories() have drive clarity. I also noticed that by writing, I was solidifying my own opinions and learning to express them better with each article.
+I started writing about the things our team was doing that were making us a better team. I wrote about [code reviews] and why they matter, how [hasty abstractions](<>) can crush your team, and how [great] user stories() have drive clarity. I also noticed that by writing, I was solidifying my own opinions and learning to express them better with each article.
 
 ## Gaining Readers
 
@@ -88,7 +88,7 @@ Columns are **Views**, **Reads**, **Read ratio** and **Fans**
 
 * **Being Vulnerable**
 
-Two of my top three posts on Medium are [My Biggest Mistakes as a Junior Developer](<>) and [I'll Admit It. I'm a Jealous Developer](<>). In each of these posts, I shared my personal insecurities, vulnerabilities, and failures. While I got some criticism for not being insightful or original in either of them, I have to remember that most not all writing has to be insightful or creative to be helpful to someone else. 
+Two of my top three posts on Medium are [My Biggest Mistakes as a Junior Developer](https://bit.ly/3dKgNTH) and [I'll Admit It. I'm a Jealous Developer](). In each of these posts, I shared my personal insecurities, vulnerabilities, and failures. While I got some criticism for not being insightful or original in either of them, I have to remember that most not all writing has to be insightful or creative to be helpful to someone else. 
 
 * **Topics I'm Passionate About**
 
