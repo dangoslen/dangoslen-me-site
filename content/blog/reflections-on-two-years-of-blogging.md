@@ -2,8 +2,7 @@
 path: /reflections-on-two-ish-years-of-blogging
 date: 2021-03-30T11:22:09.309Z
 title: Reflections on Two(ish) Years of Blogging
-description: Some thoughts about blogging, learning in public, and sharing what
-  I've learned while blogging
+description: Some thoughts about blogging, learning in public, and sharing what I've learned along the way.
 ---
 ![Fountain pen on blurred notebook](../assets/aaron-burden-cklhktcjzkk-unsplash.jpg)
 
@@ -33,13 +32,13 @@ After a little while, I realized that my current team **was** becoming a great t
 
 Maybe others would like to hear this?
 
-I started writing about the things our team was doing that were making us a better team. I wrote about [code reviews] and why they matter, how [hasty abstractions](<>) can crush your team, and how [great] user stories() have drive clarity. I also noticed that by writing, I was solidifying my own opinions and learning to express them better with each article.
+I started writing about the things our team was doing that were making us a better team. I wrote about [code reviews] and why they matter, how [hasty abstractions](https://bit.ly/326Sw4R) can crush your team, and how great user stories have drive clarity. I also noticed that by writing, I was solidifying my own opinions and learning to express them better with each article.
 
 ## Gaining Readers
 
 Like most bloggers, my first articles weren't getting read all that much. Part of this is a failing on my part (hint - I'm bad at marketing). The other part was that I wasn't writing **for** anyone. I was simply sharing my experience, but not writing about how you - the reader - would benefit from reading what I wrote.
 
-In October 2019, though, I wrote an article about [simple code](<>) that started to gain real readers. 
+In October 2019, though, I wrote an article about [simple code](https://bit.ly/3sbLjLk) that started to gain real readers. 
 
 ![Medium stats for Fall of 2019](../assets/screen-shot-2021-03-30-at-7.45.53-am.png "Medium stats for Fall 2019")
 
@@ -72,7 +71,7 @@ I'm not judging that approach. I think it's actually an extremely **demanding** 
 
 ## What Has Worked For Me So Far
 
-While I don't have the most impressive analytics on this - a gap I am working on correcting moving forward - there are a few patterns I have noticed that work for me. I'm not an expert writer or content strategist (still don't like that word *content*), so this is meant for observation rather than prescriptions for someone to try.
+While I don't have the most impressive analytics on this - a gap I am working on correcting moving forward - I have enough to notice a few trends to point towards success. I'm not an expert writer or content strategist (still don't like that word *content*), so this is meant for observation rather than prescriptions for someone to try.
 
 ![Top ten medium posts as of 4-7-2021](../assets/screen-shot-2021-04-07-at-9.57.23-pm.png "Top ten medium posts as of 4-7-2021")
 
@@ -88,11 +87,11 @@ Columns are **Views**, **Reads**, **Read ratio** and **Fans**
 
 * **Being Vulnerable**
 
-Two of my top three posts on Medium are [My Biggest Mistakes as a Junior Developer](https://bit.ly/3dKgNTH) and [I'll Admit It. I'm a Jealous Developer](). In each of these posts, I shared my personal insecurities, vulnerabilities, and failures. While I got some criticism for not being insightful or original in either of them, I have to remember that most not all writing has to be insightful or creative to be helpful to someone else. 
+Two of my top three posts on Medium are [My Biggest Mistakes as a Junior Developer](https://bit.ly/3dKgNTH) and [I'll Admit It. I'm a Jealous Developer](https://bit.ly/3t8CK5k). In each of these posts, I shared my personal insecurities, vulnerabilities, and failures. While I got some criticism for not being insightful or original in either of them, I have to remember that most not all writing has to be insightful or creative to be helpful to someone else. 
 
 * **Topics I'm Passionate About**
 
-Eight of my top ten articles focused on a few areas of software engineering I am passionate about: simple code, effective code reviews, and software patterns. I've also written articles about how to improve the culture of engineering teams through continuous improvement and the danger of "hero" programming that have resonated somewhat too.
+Eight of my top ten articles focused on a few areas of software engineering I am passionate about: [simple code](https://bit.ly/3sbLjLk), effective code reviews, and [software patterns](https://bit.ly/3mzVuYW). I've also written articles about how to improve the culture of engineering teams through continuous improvement and the danger of "hero" programming that have resonated somewhat too.
 
 I believe these resonated with readers because 1) they could tell I was passionate and 2) it's an area where I can share stories from personal experience (see vulnerability above) and 3) I've worked hard to understand these areas. Combined, this means I can offer **value** to my readers rooted in experience rather than fishing for something to write about. And I think readers can tell.
 
@@ -126,7 +125,7 @@ I'm doing this because every time I try to write a whole article on building or 
 
 ## Building Resources
 
-As I've been spending more and more time refining this idea of helping devs avoid burnout, I want to build more resources than just my blog. I've already been building some (very) small \[GitHub] \[Actions] to help automate a few tasks, but I want to build even more. There is a lot of room to improve the monotonous parts of even the best software development lifecycles.
+As I've been spending more and more time refining this idea of helping devs avoid burnout, I want to build more resources than just my blog. I've already been building some (very) small [GitHub Actions](https://bit.ly/2OVt7Vg) to help automate a few tasks, but I want to build even more. There is a lot of room to improve the monotonous parts of even the best software development lifecycles.
 
 I have a few ideas for some e-books (yes, yes. I know everyone has an e-book) that I would give away and a few that I might charge for. A few topics swirling in my head are surviving your first year as a developer, practicing healthy code reviews, and how to set boundaries at work. I've struggled with those last two, so I hope I can offer some helpful insights.
 
