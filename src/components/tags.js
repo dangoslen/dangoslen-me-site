@@ -32,13 +32,13 @@ const TagSpan = styled.span`
     padding: 3px 6px;
     margin: 2px;
     border-radius: 12px;
-    background-color: #d69066;
+    background-color: var(--primary);
     a {
       color: white;
       box-shadow: none;
     }
     &:hover {
-      background-color: #e09b76
+      background-color: var(--primary-hover);
     }
 `
 
