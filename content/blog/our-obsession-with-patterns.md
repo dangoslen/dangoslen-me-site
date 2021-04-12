@@ -20,7 +20,7 @@ Photo by [Clem Onojeghuo](https://unsplash.com/@clemono?utm_source=unsplash&utm_
 </center>
 
 
-Learning patterns have become a core aspect for many people on their journey to becoming software engineers. Articles and articles have been written about patterns and how to apply them. Courses, youtube videos, and GitHub repos all exist to help engineers master the power of patterns. I've even [written about patterns before](http://bit.ly/3r62E8Y) myself.
+Learning patterns have become a core aspect for many people on their journey to becoming software engineers. Articles and articles have been written about patterns and how to apply them. Courses, youtube videos, and GitHub repos all exist to help engineers master the power of patterns. I've even [written about patterns before](https://bit.ly/3mzVuYW) myself.
 
 As a senior engineer, however, I've started to wonder if we went in the wrong direction with patterns. 
 
@@ -70,6 +70,6 @@ And keeping things simple is actually not that easy. It takes constant refactori
 
 - - -
 
-I'm still a big fan of patterns and using them where appropriate. This article is simply a caution that patterns don't solve all your coding problems - they only solve the ones they were designed to solve. Think critically before applying them and always - ALWAYS - [start simple](http://bit.ly/3bN3VuU).
+I'm still a big fan of patterns and using them where appropriate. This article is simply a caution that patterns don't solve all your coding problems - they only solve the ones they were designed to solve. Think critically before applying them and always - ALWAYS - [start simple](https://bit.ly/3sbLjLk).
 
 Happy coding!
