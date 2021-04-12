@@ -22,7 +22,7 @@ const NavLink = props => {
   )
 }
 
-const ActiveBorder = `1px solid rgba(214, 144, 102, 1.0)`
+const ActiveBorder = `1px solid var(--primary)`
 
 const NavLinkWrapper = styled.div`
   transition: all 0.3s ease-in-out 0s;
