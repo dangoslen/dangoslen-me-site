@@ -2,8 +2,12 @@
 path: /reflections-on-two-ish-years-of-blogging
 date: 2021-03-30T11:22:09.309Z
 title: Reflections on Two(ish) Years of Blogging
-description: Some thoughts about blogging, learning in public, and sharing what I've learned along the way.
-tags: ["blogging", "in public", "growth"]
+description: Some thoughts about blogging, learning in public, and sharing what
+  I've learned along the way.
+tags:
+  - blogging
+  - in public
+  - growth
 ---
 ![Fountain pen on blurred notebook](../assets/aaron-burden-cklhktcjzkk-unsplash.jpg)
 
@@ -136,7 +140,7 @@ I'm a huge fan of building or learning in public. Sadly, I'm not great at it. ðŸ
 
 I'm doing this because every time I try to write a whole article on building or learning in public, they get too long (this post for example ðŸ˜…). I'm hoping using Twitter to discuss what I'm learning and building will keep my thoughts short and focused on my audience.
 
-## Building Resources
+### Building Resources
 
 As I've been spending more and more time refining this idea of helping devs avoid burnout, I want to build more resources than just my blog. I've already been building some (very) small [GitHub Actions](https://bit.ly/2OVt7Vg) to help automate a few tasks, but I want to build even more. There is a lot of room to improve the monotonous parts of even the best software development lifecycles.
 
