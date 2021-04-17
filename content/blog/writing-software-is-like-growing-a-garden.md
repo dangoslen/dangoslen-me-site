@@ -13,7 +13,7 @@ tags: ["software development lifecycle", "code"]
 
 <i>
 
-Photo by [gryffyn m](https://unsplash.com/@botanicalnature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)> on [Unsplash](https://unsplash.com/s/photos/garden-lush?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Photo by [gryffyn m](https://unsplash.com/@botanicalnature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/garden-lush?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
 </i>
 
@@ -63,7 +63,7 @@ In our software, we need to have tests to make sure bugs aren't creeping into ou
 
 ![](../assets/ivan-aleksic-kw7gVHhc-cI-unsplash.jpeg "Weeds")
 
-<center
+<center>
 
 <i>
 
