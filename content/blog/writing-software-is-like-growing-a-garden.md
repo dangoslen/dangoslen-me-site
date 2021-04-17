@@ -6,6 +6,19 @@ description: Gardens won't grow if neglected and neither will your software.
 tags: ["software development lifecycle", "code"]
 ---
 
+
+![](../assets/gryffyn-m-BUYiKuAZw0w-unsplash.jpg "flowers reaching to the sun")
+
+<center>
+
+<i>
+
+Photo by [gryffyn m](https://unsplash.com/@botanicalnature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)> on [Unsplash](https://unsplash.com/s/photos/garden-lush?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  
+</i>
+
+</center>
+
 There are many - _many_ - analogies to writing software. 
 
 Building a building. Creating a city. Trying to change the tires of a car while driving.
@@ -47,6 +60,19 @@ Our software has all of the same problems. We have bugs that kill our features a
 If software is a gardne, then software engineers are gardners. A gardner, is tasked with making sure the garden grows as they want. It is the gardner's responsibility to implement preventitive measures to keep bugs away by spraying a pesticide. Fences might be installed to keep animals out. A gardner might create a daily schedule to make sure they water each plant, to prune each plant, or to till the soil with fertilizer. To deal with weeds, a gardner needs to go out and pull them up by the roots; simple cutting won't work. 
 
 In our software, we need to have tests to make sure bugs aren't creeping into our software. We need to run regular security audits and update our dependencies to mitigate security risks. We need to make sure we monitor our software and make maintenance of our systems easy so that we aren't caught off gaurd by a system failure. We need to be rigourous to eliminate the weeds in our code that will eventually stifle our efforts to write new features, fix problems, and maintain our code over time.
+
+![](../assets/ivan-aleksic-kw7gVHhc-cI-unsplash.jpeg "Weeds")
+
+<center
+
+<i>
+
+Photo by [Ivan Aleksic](https://unsplash.com/@ivalex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/weeds?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  
+
+</i>
+
+</center>
 
 ## Debt vs Weeds
 
