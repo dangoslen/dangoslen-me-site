@@ -3,7 +3,10 @@ path: /writing-software-is-like-growing-a-garden
 date: 2021-04-20T13:00:00.000Z
 title: Writing Software Is Like Growing a Garden
 description: Gardens won't grow if neglected, and neither will your software.
-tags: ["software development lifecycle", "code", "software engineering"]
+tags:
+  - software development lifecycle
+  - code
+  - software engineering
 ---
 
 ![](../assets/gryffyn-m-BUYiKuAZw0w-unsplash.jpg "flowers reaching to the sun")
@@ -89,7 +92,7 @@ I hope this analogy helps you in your journey of writing great code and great sy
 
 Happy coding!
 
-_p.s. - if you enjoyed this post, you might enjoy some of my other posts on [oftware engineering! Thanks for reading!_ 😁
+_p.s. - if you enjoyed this post, you might enjoy some of my other posts on software engineering! Thanks for reading!_ 😁
 
 * #### [On Building Abstractions Too Soon](/blog/building-abstractions-too-soon)
 * #### [Signs You Should Refactor Your Code](/blog/when-should-you-should-refactor-your-code)
