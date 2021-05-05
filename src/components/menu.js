@@ -4,7 +4,7 @@ import React from "react"
 import styled from "styled-components"
 import { rhythm } from "../utils/typography"
 
-import Device from "../components/sizing"
+import Device from "./sizing"
 import NavLink from "./nav-link"
 
 const Menu = props => {
@@ -14,8 +14,8 @@ const Menu = props => {
             render={data => {
                 return (
                     <TopNav>
-                        <BigLink>
-                            <Link>
+                        <Logo>
+                            <Link to="/" >
                                 <Image
                                     fixed={data.logo.childImageSharp.fixed}
                                     style={{
@@ -28,12 +28,13 @@ const Menu = props => {
                                         borderRadius: `50%`,
                                     }}/>
                             </Link>
-                        </BigLink>
+                        </Logo>
                         <LinksContainer>
                             <NavLink to='/' text="About" />
                             <NavLink to='/blog' text="Blog" add/>
                             <NavLink to='/talks' text="Talks" />
                         </LinksContainer>
+                        <StyledBurger />
                     </TopNav>
                 )
             }}
@@ -60,14 +61,52 @@ const LinksContainer = styled.div`
     }
 `
 
-const BigLink = styled.div` 
+const Logo = styled.div` 
+    width: 150px;
+    margin: 0 auto; 
+    @media ${Device.tablet} {
+        margin: 0;    
+    }
+
+    a {
+        box-shadow: none;
+    }
 `
+
+const StyledBurger = styled.div`
+  position: absolute;
+  top: 5%;
+  right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+  
+  &:focus {
+    outline: none;
+  }
+  
+  div {
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+  }
+`;
 
 const menuQuery = graphql`
   query menuQuery {
     logo: file(absolutePath: { regex: "/logo.png/" }) {
       childImageSharp {
-        fixed(width: 90, height: 90) {
+        fixed(width: 150, height: 150) {
           ...GatsbyImageSharpFixed
         }
       }
