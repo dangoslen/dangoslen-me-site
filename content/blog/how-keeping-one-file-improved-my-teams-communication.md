@@ -2,8 +2,12 @@
 path: /one-file-improved-my-teams-communication
 date: 2021-05-07T00:00:00.000Z
 title: One File Improved My Team's Communication
-description: How maintaining one simple file in our repository improved how my team communicated about the software we built.
-tags: ["team","changelogs","software development lifecycle"]
+description: How maintaining one simple file in our repository improved how my
+  team communicated about the software we built.
+tags:
+  - team
+  - changelogs
+  - software development lifecycle
 ---
 
 ![](../assets/photo-nic-co-uk-nic-_IL9n-5Ou6c-unsplash.jpeg "Camera bringing a bright scene into focus")
@@ -47,7 +51,7 @@ But then we found a bug. One that we needed to address. We needed to get a hotfi
 
 But there was a subtle issue.
 
-In creating a new version so, our definition of the **next** version had changed! Our team only referred to versions as the "next" version or the "previous" version. Or "the one after that" in some cases :upside_down_face:
+In creating a new version so, our definition of the **next** version had changed! Our team only referred to versions as the "next" version or the "previous" version. Or "the one after that" in some cases 🙃
 
 The reason we suffered from this was that our versions were not _predictable_. We couldn't tell you what the next version would be, even if we had completed all the work we wanted to be in the next version! We used a combination of the git commit hash and that date at which our CI pipeline ran as the version. This meant that we had to wait until the version was created by our CI pipeline to know what it actually was.
 
@@ -77,10 +81,9 @@ We kept a changelog. That's it.
 
 We created a new file (literally called CHANGELOG.md) and then made sure it was updated with a summary of meaningful changes. We even built a simple GitHub Action called [the changelog enforcer](https://github.com/dangoslen/changelog-enforcer) to guarantee that we updated the file as we went along. We then used this file to generate release notes that we put into a GitHub release whenever we were ready to release a version.
 
-The result? Our team could concretely talk about which version we were creating and what items would be in that version. When the version was released, we simply posted a link to the GitHub Release for the version, complete with release notes drive from the changelog! :clap:
+The result? Our team could concretely talk about which version we were creating and what items would be in that version. When the version was released, we simply posted a link to the GitHub Release for the version, complete with release notes drive from the changelog! 👏
 
-Our team experienced better communication, quicker meetings, and better documentation! And we removed "yet another thing to do" for our development team since it was a natural part of development work. :clap: :clap:
-
+Our team experienced better communication, quicker meetings, and better documentation! And we removed "yet another thing to do" for our development team since it was a natural part of development work. 👏 👏
 ---
 
 Will keeping one file in your repository solve all of your problems? Nope. Not even close! 
