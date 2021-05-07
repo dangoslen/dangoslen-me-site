@@ -6,6 +6,18 @@ description: How Maintaining one simple file in our repository improved how my t
 tags: ["team","changelogs","software development lifecycle"]
 ---
 
+![](../assets/photo-nic-co-uk-nic-_IL9n-5Ou6c-unsplash.jpeg "Camera bringing a bright scene into focus")
+
+<center>
+
+<i>
+
+Photo by <a href="https://unsplash.com/@chiro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">photo-nic.co.uk nic</a> on <a href="https://unsplash.com/s/photos/focus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+</i>
+
+</center>
+
 Communication is hard. We all know that.
 
 What makes communication even harder is when we use terms that have or phrases that might mean different things to different people.  Whenever two or more people are trying to communicate, and everyone brings their own interpretation to the table, it becomes complex. This is especially pronounced with temporal things around scheduling or "new"/"old."
@@ -43,7 +55,7 @@ The reason we suffered from this was that our versions were not _predictable_. W
 
 The first problem is simple(ish) to solve: use a predictable version. But how do you do that?
 
-There are many ways to achieve this. Semantic versioning is the most common, but even named versions of the "year.release.patch" format can be used too. The point is that you know what the next planned version should be. 
+There are many ways to achieve this. [Semantic versioning](https://semver.org/  ) is the most common, but even named versions of the "year.release.patch" format can be used too. The point is that you know what the next planned version should be. 
 
 Why does this help? Because now, instead of using phrases like "in the next version..." you start using phrases like "in version 2.3.0 ..." While this seems inconsequential, the truth is it will radically change your communication. When you have a concrete name or label for something, it is simply easier to talk about. 
 
@@ -75,8 +87,8 @@ Will keeping one file in your repository solve all of your problems? Nope. Not e
 
 But - if keeping a changelog helps solves a few problems, then perhaps you can spend your energy solving the others. If you do decide you want to try this approach, here are some tools that might help!
 
-* ## [Changelog Enforcer](https://github.com/dangoslen/changelog-enforcer) **
-* ## [Read Changelog]() **
-* ## [KeepAChangelog]() **
+* ** [Changelog Enforcer](https://github.com/dangoslen/changelog-enforcer)**
+* ** [Read Changelog](https://github.com/mindsers/changelog-reader-action)**
+* ** [KeepAChangelog](https://keepachangelog.com) **
 
 Happy coding!
