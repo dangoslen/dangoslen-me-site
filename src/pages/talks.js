@@ -12,8 +12,15 @@ class TalksPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Talks"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          keywords={[`software`, `engineering`, `slides`, `talks`]}
         />
+         <Card title="Keep a Changelog!"
+          links={[
+            { to: "https://keep-a-changelog.dangoslen.me/", text: "Slides" },
+            { to: "https://github.com/dangoslen/keep-a-changelog/tree/master" , text: "Repo" }
+          ]}>
+          <p>I'm a big - big - fan of changlogs and how they can help your team. I gave a 5-minute lightning talk about them at my work late last year and wanted to share my slides with you. If you are interested in changelogs, take a look at some of my repositories on my <a href="https://github.com/dangoslen">GitHub Profile</a></p>
+        </Card>
         <Card title="Offheap Bloom Filters"
           links={[
             { to: "https://offheap-bloom-filter-slides.dangoslen.me/", text: "Slides" },
