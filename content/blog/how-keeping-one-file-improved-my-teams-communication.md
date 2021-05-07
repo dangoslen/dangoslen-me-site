@@ -84,6 +84,7 @@ We created a new file (literally called CHANGELOG.md) and then made sure it was 
 The result? Our team could concretely talk about which version we were creating and what items would be in that version. When the version was released, we simply posted a link to the GitHub Release for the version, complete with release notes drive from the changelog! 👏
 
 Our team experienced better communication, quicker meetings, and better documentation! And we removed "yet another thing to do" for our development team since it was a natural part of development work. 👏 👏
+
 ---
 
 Will keeping one file in your repository solve all of your problems? Nope. Not even close! 
