@@ -1,8 +1,8 @@
 ---
 path: /one-file-improved-my-teams-communication
-date: 2021-04-29T00:00:00.000Z
+date: 2021-05-07T00:00:00.000Z
 title: One File Improved My Team's Communication
-description: How Maintaining one simple file in our repository improved how my team communicated about the software we built.
+description: How maintaining one simple file in our repository improved how my team communicated about the software we built.
 tags: ["team","changelogs","software development lifecycle"]
 ---
 
@@ -88,7 +88,7 @@ Will keeping one file in your repository solve all of your problems? Nope. Not e
 But - if keeping a changelog helps solves a few problems, then perhaps you can spend your energy solving the others. If you do decide you want to try this approach, here are some tools that might help!
 
 * ** [Changelog Enforcer](https://github.com/dangoslen/changelog-enforcer)**
-* ** [Read Changelog](https://github.com/mindsers/changelog-reader-action)**
+* ** [Changelog Reader](https://github.com/mindsers/changelog-reader-action)**
 * ** [KeepAChangelog](https://keepachangelog.com) **
 
 Happy coding!
