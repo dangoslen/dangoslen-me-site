@@ -116,7 +116,7 @@ Here we see a development lifecycle for a version for customer-managed software 
 
 ![](../assets/customer-managed.png)
 
-For a managed software product, the flow changes a litte bit.
+For a managed software product, the flow changes a little bit.
 
 ![](../assets/team-managed.png)
 
@@ -125,10 +125,10 @@ For a managed software product, the flow changes a litte bit.
 In summary, I always think about the following key points
 
 * A software version is really a unique form of a software product. 
-* When a software product has undergone enough valuable changes that team believes it is ready for customers to use, they release that version
+* When a software product has undergone enough valuable changes that the team believes it is ready for customers to use, they release that version
 * If you are building a software product the customer downloads and installs on their own machine, you likely deploy your software before releasing it
 * If you are building a managed software product your customer accesses on your machines, you likely create a release before deploying it
-* If you a building a managed software product, you customers don't care about software releases as much as they care about feature releases - which are a different but related to the software versions your release and deploy
+* If you a building a managed software product, your customers don't care about software releases as much as they care about feature releases - which are different but related to the software versions your release and deploy
 
 Whew! That was a lot!
 
