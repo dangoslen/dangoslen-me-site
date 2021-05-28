@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Bio from "../components/bio"
+import EmailSignup from "../components/email-signup"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Tags from "../components/tags"
@@ -35,12 +36,25 @@ class BlogPostTemplate extends React.Component {
         </p>
 
         <MDXRenderer>{post.body}</MDXRenderer>
-
+        
         <hr
           style={{
             marginBottom: rhythm(1),
           }}
         />
+
+       <div style={{ 
+          display: `flex`,
+          alignItems: `center`,
+          justifyContent: `center`,
+          marginTop: `10px`,
+          marginBottom: `40px`
+       }}>
+          <div> 
+            <EmailSignup />
+          </div>
+        </div>
+
         <Bio />
 
         <ul

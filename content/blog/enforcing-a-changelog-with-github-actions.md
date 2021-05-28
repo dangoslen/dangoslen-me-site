@@ -1,6 +1,6 @@
 ---
 path: /enforcing-a-changelog-with-github-actions
-date: 2020-07-15T23:20:37.905Z
+date: 2020-07-15T00:00:00.000Z
 title: Enforcing a Changelog with GitHub Actions
 description: How to keep your team's changelog up to date.
 tags: ["github actions", "continous integration", "opensource", "changelogs", "devops"]
