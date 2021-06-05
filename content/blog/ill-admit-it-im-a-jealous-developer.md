@@ -3,7 +3,10 @@ path: /ill-admit-it-im-a-jealous-developer
 date: 2020-07-15T23:20:37.905Z
 title: I'll Admit It. I'm a Jealous Developer
 description: But I want to move towards a place of inspiration
-tags: [stories,growth,imposter syndrome]
+tags: 
+  - stories
+  - growth
+  - imposter syndrome
 ---
 
 ![](../assets/1_a025qp5vgMY2H4sAPfqe9g.jpeg)
