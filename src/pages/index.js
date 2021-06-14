@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Link, useStaticQuery, graphql} from "gatsby"
 import Img from "gatsby-image"
+import Email from "../components/email-signup"
 
 import { 
   AiFillTwitterCircle, 
@@ -14,6 +15,7 @@ import SocialLink from "../components/social-link"
 import Device from "../components/sizing"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import EmailSignup from "../components/email-signup"
 
 class IndexPage extends React.Component {
   render() {
@@ -37,14 +39,32 @@ class IndexPage extends React.Component {
                 </span>
                 {" "}Hi, I'm Dan.
               </Greeting>
-              <p>I'm a software engineer with over 10 years experience. I've worked with monotholic database applications, micro-services, and everything in between. While I've done full-stack development before, I've recently focused primarliy on writing RESTful web-services systems deployed into Kubernetes environments.</p>
-              <p>In my short career, I've worked for small companies ({"<"} 20 employees), large companies ({">"} 50,000) and a few medium ones too. And what I have found is that at <b>all</b> of these compnaies, developers are <b>tired and burned out.</b> They never feel like they can learn enough, code quick enough, or keep quality high enough.</p>
-              <p>I want to help fix that problem.</p>
-              <p><b>I'm trying to help developers become the best they can through sustainable development practices.</b> Even with software engineering being a young field, we know enough to know simply asking developers to code hard or longer doesn't work.</p>
-              <p>I hope I can share the learnings and hopes I have gained from my own experience to others, including you.</p>
+              <p>I'm a software engineer. I mostly work on distributed systems. I really like DevOps too.</p>
+              <p>In my short career, I've worked for small companies ({"<"} 20 employees), large companies ({">"} 50,000) and a few medium ones too.</p>
+              <p>What I have found is that at all of these compnaies, developers are <b>tired and burned out.</b> They never feel like they can learn enough, code quick enough, or keep quality high enough.</p>
+              <p>Coding harder or longer doesn't work. We have to do something different.</p>
+              <p>We need to develop processes that serve the team rather burden them. We need tools to make it easy to do the right thing rather than the wrong one. We need transparency between peers, managers, and other stakeholders. We need engineers that understood how to lead rather than being heros.</p>
+              <p>When these pieces exists, a team should be able to create a pace they can sustain almost indefintely.</p>
+              <p><b>I'm trying to help developers achieve sustainable pace.</b></p>
+              <p>I'm writing about software engineering practices, building small tools to automated processes, and creating other resources to help teams work better together.</p>
               <p>Happy coding!</p>
           </Biography>
         </Profile>
+
+        <hr />
+
+
+        <div style={{ 
+          display: `flex`,
+          alignItems: `center`,
+          justifyContent: `center`,
+          marginTop: `10px`,
+          marginBottom: `40px`
+       }}>
+          <div> 
+            <EmailSignup prompt="Sign-up below to never miss an update from me! I'll send you my latest articles as well as tools and resources I'm building! 😊"/>
+          </div>
+        </div>
       </Layout>
     )
   }
