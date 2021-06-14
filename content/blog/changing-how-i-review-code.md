@@ -21,13 +21,15 @@ Photo by <a href="https://unsplash.com/@gallarotti?utm_source=unsplash&utm_mediu
 
 </center>
 
-I'm a big advocate for code reviews. I've written about my experiences reviewing code, including lists of dos and don'ts, how to survive your first code review, and common issues I see.
+I'm a big advocate for code reviews. I've written about my experiences reviewing code, including lists of dos and don'ts, [how to survive your first code review](https://dangoslen.me/blog/surviving-your-first-code-review/), and [why we should review code at all](https://dangoslen.me/blog/whats-the-point-to-code-reviews-anyway/).
 
-My views have largely been shaped by my experience with a particular kind of code review, however. Like many devs, I've grown accustomed to the pull request model to help facilitate reviews. While it isn't perfect, I've always found it to be a great tool and largely an improvement to formal code review processes or reviews over email.
+My views have been mainly shaped by my experience with a particular kind of code review - the pull request. Like many devs, I've grown accustomed to the pull request model to help facilitate reviews. While it isn't perfect, I've always found it to be a great tool and overall an improvement to formal code review processes or reviews over email.
 
-Recently, though, I've been seeing thoughts expressing a different sentiment. Many devs are starting to become frustrated with the [pull request model](https://jessitron.com/2021/03/27/those-pesky-pull-request-reviews/). There is a sense that pull requests actually might make it _too_ easy to comment on a line of code. This ease might be leading to the conflicts and hyper-zealous commenting that frustrates many in our industry. Another common critique is that the pull requests encourage reviewers to only look at the code. They never even pull down the changes they are reviewing! To be completely transparent, I'm guilty of that myself.
+Recently, though, I've been seeing thoughts expressing a different sentiment. Many devs are starting to become frustrated with the [pull request model](https://jessitron.com/2021/03/27/those-pesky-pull-request-reviews/). There is a sense that pull requests actually might make it _too_ easy to comment on a line of code. This ease might be leading to the conflicts and hyper-zealous commenting that frustrates many in our industry. 
 
-After reading the article and seeing some tweets, I wondered: are there better ways that I could review code? What could I do differently? 
+Another common critique is that the pull requests encourage reviewers to only look at the code. They never even pull down the changes they are reviewing! To be completely transparent, I'm guilty of that myself.
+
+After reading the article and seeing some related ideas via Twitter, I wondered: are there better ways that I could review code? What could I do differently? 
 
 After asking, I've decided to start making some changes in how I review code. They've been helping me recently, so I think they could help you and your team as well.
 
@@ -37,19 +39,19 @@ One of the top thoughts that made me start questioning how I review code comes f
 
 > Pull requests are an improvement on working alone. But not on working together. 
 
-That struck a chord. Indeed, pull requests _aren't_ the main way to collaborate with people after all.
+That struck a chord. Indeed, pull requests _aren't_ the primary way to collaborate with people after all.
 
 Collaborating on code is vital to a team's ability to maintain a codebase. If a single member of a team is left to write an entire codebase without working with other team members, there is a high probability that the rest of the team won't be able to contribute to it after a while. Worse, if left alone, a single team member might even get things wrong or be unable to solve a problem. Therefore, collaborating early and often is a good idea.
 
 The next question that arises is this: how _does_ a team collaborate on code? Further, can a team collaborate too early? Too often? 
 
-Many teams seem to have concluded that a pull request is a great place to have collaboration. I don't think they are wrong. First, a team member feels ready to share a version of their code with the rest of the team for direct feedback. Then, like an author writing a book, they submit it for a first review to get feedback. The rest of the team acts as editors, ready to help get the draft ready to print.
+Many teams seem to have concluded that a pull request is a great place to have collaboration. I don't think they are wrong. First, a team member feels ready to share a version of their code with the rest of the team for direct feedback. Then, like an author writing a book, they submit it for a first review to get feedback. The rest act as editors, ready to help get the draft ready to print.
 
 There isn't anything wrong with teams seeing pull requests as a place for collaborating. The problem is when teams think collaboration is _restricted_ only to the code review process. 
 
-Teams should be working together on problems, ideas, and code well before code is submitted for review. Mentors should be advising mentees, peers should be offering help to each other, and pair programming or debugging sessions should be common. If an author were to send the first draft to their editor without disclosing what the book is about, it would make it harder for the editor. The editor now has more they need to understand to give reasonable and helpful feedback. As a result, the publication date is likely to get pushed later than anticipated.
+Teams should be working together on problems, ideas, and code well before code is submitted for review. Mentors should be advising mentees, peers should be offering help to each other, and pair programming or debugging sessions should be routine. If an author were to send the first draft to their editor without disclosing what the book is about, it would make it harder for the editor. The editor now has more they need to understand to give useful feedback. As a result, the publication date is likely to get pushed later than anticipated.
 
-Real collaboration is more than just leaving a comment or a suggestion. It's discussing alternative solutions, prodding at requirements, and having real-time feedback loops with your team.
+Genuine collaboration is more than just leaving a comment or a suggestion. It's discussing alternative solutions, prodding at requirements, and having real-time feedback loops with your team.
 
 I will be working towards making this form of collaboration more common within my team. I'm hoping to move us beyond collaboration via comments and get back to real-time collaboration.
 
@@ -67,7 +69,7 @@ But part of what makes that code good is how well it solves a problem. Does it d
 
 What is the best way to see if the code makes the product better? You have to run it. Treat a pull request as a chance to do a mini-demo of the added or fixed functionality. Use it. Poke at it. Heck, even _test_ it yourself! 
 
-I've been especially guilty about this. I would trust our automation that the code changes produced the desired behavior changes without observing the behavior myself. I want to start changing this and running code more frequently.
+I've been incredibly guilty about this. I tend to trust our automation that the code changes produced the desired behavior changes without observing the behavior myself! I want to start changing this and running code more frequently.
 
 ## More Navigating and Less Backseat Driving
 
