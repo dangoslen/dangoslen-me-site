@@ -5,8 +5,8 @@ title: My Top Four Patterns for Writing Simple Code
 description: Writing simple code is hard. Here are some patterns to help!
 tags: 
   - programming
-  - design patterns
   - software design
+  - software engineering
 ---
 ![young child building with LEGO](../assets/1_s-smr49rffj0kibfsz98fa.jpeg)
 

@@ -5,7 +5,8 @@ title: One File Improved My Team's Communication
 description: How maintaining one simple file in our repository improved how my
   team communicated about the software we built.
 tags:
-  - team
+  - teams
+  - communication
   - changelogs
   - software development lifecycle
 ---

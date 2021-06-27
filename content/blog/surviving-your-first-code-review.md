@@ -5,7 +5,12 @@ title: Surviving Your First Code Review
 description: "It can be difficult when you submit your first pull request and
   your first code review feedback is, well, overwhelming. How do you find the
   right way to address the feedback but also not just cater to every whim of
-  your reviewer? "
+  your reviewer?"
+tags:
+  - career
+  - software engineering
+  - teams
+  - code reviews
 ---
 ![](../assets/vincent-tom-8yrjq0srdro-unsplash.jpg)
 

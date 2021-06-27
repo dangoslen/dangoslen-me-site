@@ -5,7 +5,7 @@ title: Writing Software Is Like Growing a Garden
 description: Gardens won't grow if neglected, and neither will your software.
 tags:
   - software development lifecycle
-  - code
+  - programming
   - software engineering
 ---
 

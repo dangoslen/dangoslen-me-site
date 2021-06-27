@@ -5,10 +5,8 @@ title: How to Give Feedback
 description: Feedback is hard. Here are some tips to help you give feedback well.
 tags: 
   - career
-  - feedback
-  - reviews
+  - communication
   - teams
-  - mentorship
 ---
 <center>
 

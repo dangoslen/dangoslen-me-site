@@ -5,8 +5,6 @@ title: Enforcing a Changelog with GitHub Actions
 description: How to keep your team's changelog up to date.
 tags: 
   - github actions
-  - continous integration
-  - opensource
   - changelogs
   - devops
 ---

@@ -5,8 +5,7 @@ title: I'll Admit It. I'm a Jealous Developer
 description: But I want to move towards a place of inspiration
 tags: 
   - stories
-  - growth
-  - imposter syndrome
+  - career
 ---
 
 ![](../assets/1_a025qp5vgMY2H4sAPfqe9g.jpeg)

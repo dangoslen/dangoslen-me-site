@@ -5,9 +5,8 @@ title: How to Introduce Kaizen to Your Team
 description: Convincing your team to embrace continuous improvement.
 tags: 
   - devops
-  - kaizen
   - teams
-  - growth
+  - software engineering
 ---
 ![small child looking at daunting steps](../assets/1_oyeeax1t-pdzp-hel9cxvq.jpeg "Photo by Jukan Tateisi on Unsplash")
 

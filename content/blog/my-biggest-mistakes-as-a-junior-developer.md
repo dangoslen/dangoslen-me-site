@@ -5,9 +5,7 @@ title: My Biggest Mistakes as a Junior Developer
 description: Writing simple code is hard. Here are some patterns to help!
 tags:
   - stories
-  - growth
-  - junior developers
-  - mentorship
+  - career
 ---
 
 ![](../assets/1_Y_ALSRyzK-b-INPlWq8uUQ.jpeg)

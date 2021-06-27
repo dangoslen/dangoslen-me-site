@@ -5,8 +5,6 @@ title: Don’t Focus on Coding Mastery — Focus on Getting Better Each Day
 description: Why only focusing on the end game will disappoint you.
 tags: 
   - programming
-  - learning
-  - growth
   - career
 ---
 ![Master craftsman working on an anvil](../assets/1_ndvpxhffgu1hoz2cbssmuw.jpeg)
