@@ -9,13 +9,13 @@ tags:
   - software engineering
 ---
 
-![](../assets/gryffyn-m-BUYiKuAZw0w-unsplash.jpg "flowers reaching to the sun")
+![](../assets/jeet-dhanoa-BVM9Q6Qfy00-unsplash.jpg "chess board")
 
 <center>
 
 <i>
 
-Photo by [gryffyn m](https://unsplash.com/@botanicalnature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/garden-lush?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Photo by <a href="https://unsplash.com/@jeetdhanoa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeet Dhanoa</a> on <a href="https://unsplash.com/s/photos/chess?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 </i>
 
@@ -55,9 +55,33 @@ Now of course there are games with winners and losers. In fact, that is sometime
 
 > Success != victory over someone or something. 
 
+We often thing of successful people though as those who **have** beat others (or beat impossible odds) to get their. And yes - those are great stories of hardwork and preserverence. However, they are many other areas to find success in that only require you to put in the time and effort. You don't have to win against anything - execept maybe yourself.
+
+* Achieving your financial goals - with integrity
+* Being a faithful community member or neighbor
+* Staying healthy
+
+And often, the people I know who have tried "outsmarting" or "hacking" these areas of their lives end up in worse places that when they started. The ones who wake up, accept responsibility for their actions, make the best decisions with what they know, and approach those decisions with humility seem to fair better. 
 
 ## Getting Smarter > Outsmarting
 
 The biggest issue with trying to outsmart people or things though is the opportunity cost. Instead of trying to find the loophole or the uncover the "trick" the outsmart everything - focus on getting smarter!
 
 Focus on learning. Learn the rules. Understand how the mechanics of a game work. Gain a deep understanding of the long-term strategies to gain success. 
+
+When this perspective is applied, the results lead to being the smartest in the room. The person focused on learning **will** outsmart the competition. They **will** know how to use the rules to their advantage to win in the marketplace and on the field.
+
+They won't spend fruitless time trying to find the trick. They are just soo good and soo knowledgable that they have an intuition from years of study on what the right thing to do is. 
+
+* When an unexpected bonus hits, they know how to spend it to meet their financial goals
+* When a neighbor is upset with them due to a misundersanding, they know how to respond with kindness
+* They don't order that extra dessert at dinner since they are focused on living a healthy life
+
+
+--- 
+
+To summarize, I'm not advocating against getting smarter or being the smartest in the room. In fact, I **am** advocating for that! Whatever your hands take to doing, do them with intentionality and excellence. Learn and study with fervor. Practice with confidence. Lead with humility.
+
+What I am advocating against is the idea that one can side-step the process of learning by finding the loophole or trick that will make them win everytime. Such a trick or loophole doesn't exist. Even if works once or twice, eventually the lack of deep understanding will show. When that happens, just hope too much isn't at stake. Because there is always someone smarter. Someone who actually did the work too.
+
+Stop trying to outsmart the world. Put down the evergrowing list of life-hacks that actually distracts you from learning.
