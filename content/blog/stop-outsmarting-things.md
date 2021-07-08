@@ -1,8 +1,8 @@
 ---
-path: /stop-outsmarting-things
+path: /stop-tyring-to-outsmart-everything
 date: 2021-06-30T13:00:00.000Z
-title: Stop Outsmarting Things
-description: Trying to outsmart everything means you likely aren't actually learning at all.
+title: Stop Trying to Outsmart Everything
+description: Trying to outsmart everything means you likely aren't learning at all. Loopholes and tricks might give you a head start, but they won't sustain your race.
 tags:
   - software development lifecycle
   - programming
@@ -77,11 +77,10 @@ They won't spend fruitless time trying to find the trick. They are just soo good
 * When a neighbor is upset with them due to a misundersanding, they know how to respond with kindness
 * They don't order that extra dessert at dinner since they are focused on living a healthy life
 
-
 --- 
 
 To summarize, I'm not advocating against getting smarter or being the smartest in the room. In fact, I **am** advocating for that! Whatever your hands take to doing, do them with intentionality and excellence. Learn and study with fervor. Practice with confidence. Lead with humility.
 
 What I am advocating against is the idea that one can side-step the process of learning by finding the loophole or trick that will make them win everytime. Such a trick or loophole doesn't exist. Even if works once or twice, eventually the lack of deep understanding will show. When that happens, just hope too much isn't at stake. Because there is always someone smarter. Someone who actually did the work too.
 
-Stop trying to outsmart the world. Put down the evergrowing list of life-hacks that actually distracts you from learning.
+Stop trying to outsmart the world. Focus on learning and growing instead.
