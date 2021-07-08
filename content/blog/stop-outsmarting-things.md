@@ -6,7 +6,7 @@ description: Trying to outsmart everything means you likely aren't actually lear
 tags:
   - software development lifecycle
   - programming
-  - software engineering
+  - software engineering`
 ---
 
 ![](../assets/jeet-dhanoa-BVM9Q6Qfy00-unsplash.jpg "chess board")
