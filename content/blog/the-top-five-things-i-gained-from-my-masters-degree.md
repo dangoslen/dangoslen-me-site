@@ -4,6 +4,9 @@ date: 2021-02-11T18:56:17.702Z
 title: Why Getting My Master's Degree Was Worth It
 description: Degrees are falling out of style in the development community. This
   is why I think mine is still valueable.
+tags:
+  - career
+  - stories
 ---
 ![Person holding a degree](../assets/pexels-ekrulila-2292837.jpg)
 

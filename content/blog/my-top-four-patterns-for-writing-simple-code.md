@@ -3,6 +3,10 @@ path: /top-four-patterns-for-simple-code
 date: 2019-10-19T04:00:00.000Z
 title: My Top Four Patterns for Writing Simple Code
 description: Writing simple code is hard. Here are some patterns to help!
+tags: 
+  - programming
+  - software design
+  - software engineering
 ---
 ![young child building with LEGO](../assets/1_s-smr49rffj0kibfsz98fa.jpeg)
 
@@ -34,7 +38,7 @@ From a code perspective, is usually looks a bit like:
 interface Factory<T> {
     T build(Metadata d);
 }
-
+ 
 class ClientFactory implements Factory<Client> {
     Client build(Metadata d) {
         // Build actual object and return      

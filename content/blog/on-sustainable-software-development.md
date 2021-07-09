@@ -3,6 +3,11 @@ path: /on-sustainable-software-development
 date: 2020-07-11T04:00:00.000Z
 title: On Sustainable Software Development
 description: “Hero” programming only lasts so long.
+tags:
+  - software engineering
+  - teams
+  - devops
+  - career
 ---
 ![The Hulk action figure](../assets/limor-zellermayer-j5mcxwap0r0-unsplash.jpg "Photo by Limor Zellermayer on Unsplash")
 
