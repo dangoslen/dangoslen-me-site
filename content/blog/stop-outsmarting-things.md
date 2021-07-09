@@ -2,7 +2,9 @@
 path: /stop-trying-to-outsmart-everything
 date: 2021-06-30T13:00:00.000Z
 title: Stop Trying to Outsmart Everything
-description: Trying to outsmart everything means you likely aren't learning at all. Loopholes and tricks might give you a head start, but they won't sustain your race.
+description: Trying to outsmart everything means you likely aren't learning at
+  all. Loopholes and tricks might give you a head start, but they won't sustain
+  your race.
 tags:
   - career
 ---
@@ -81,6 +83,6 @@ To summarize, I'm not advocating against getting smarter or being the smartest i
 
 Whatever your hands take to doing, do them with intentionality and excellence. Learn and study with fervor. Practice with confidence. Lead with humility.
 
-What I am advocating against is the idea that somone can sidestep the process of learning via a loophole or trick that will make them win every time. Even if a trick works once or twice, eventually, the lack of deep understanding will show. When that happens, just hope too much isn't at stake. Because there is always someone smarter. Someone who actually did the work too.
+What I am advocating against is the idea that someone can sidestep the process of learning via a loophole or trick that will make them win every time. Even if a trick works once or twice, eventually, the lack of deep understanding will show. When that happens, just hope too much isn't at stake. Because there is always someone smarter. Someone who actually did the work too.
 
 Stop trying to outsmart the world. Focus on learning and growing instead.
