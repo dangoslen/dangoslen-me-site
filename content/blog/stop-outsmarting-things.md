@@ -1,12 +1,10 @@
 ---
-path: /stop-tyring-to-outsmart-everything
+path: /stop-trying-to-outsmart-everything
 date: 2021-06-30T13:00:00.000Z
 title: Stop Trying to Outsmart Everything
 description: Trying to outsmart everything means you likely aren't learning at all. Loopholes and tricks might give you a head start, but they won't sustain your race.
 tags:
-  - software development lifecycle
-  - programming
-  - software engineering
+  - career
 ---
 
 ![](../assets/jeet-dhanoa-BVM9Q6Qfy00-unsplash.jpg "chess board")
