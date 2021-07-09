@@ -2,14 +2,14 @@ import React from "react"
 import styled from "styled-components"
 
 
-const EmailSignup = props => (
+const EmailSignup = ({ prompt }) => (
     <EmailWrapper>
         <div style={{ display: `flex`,          
             alignItems: `center`,
             justifyContent: `center`,
             width: `100%`
         }} >
-            <div style={{ textAlign: `center`, marginBottom: `7px` }}>Never miss an update from me!</div>
+            <div style={{ textAlign: `center`, marginBottom: `7px` }}>{prompt}</div>
         </div>
         <form action="https://gumroad.com/follow_from_embed_form" method="post"> 
             <input name="seller_id" type="hidden" value="1354486934874" /> 

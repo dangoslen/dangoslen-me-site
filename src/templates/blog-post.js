@@ -51,7 +51,7 @@ class BlogPostTemplate extends React.Component {
           marginBottom: `40px`
        }}>
           <div> 
-            <EmailSignup />
+            <EmailSignup prompt="Did you enjoy this post? Sign-up below to never miss an update from me!" />
           </div>
         </div>
 
