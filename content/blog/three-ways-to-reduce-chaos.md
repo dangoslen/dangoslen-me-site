@@ -8,6 +8,18 @@ tags:
   - software development lifecycle
 ---
 
+![](../assets/alina-grubnyak-ZiQkhI7417A-unsplash.jpg)
+
+<center>
+
+<i>
+
+Photo by <a href="https://unsplash.com/@alinnnaaaa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alina Grubnyak</a> on <a href="https://unsplash.com/s/photos/complex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+</i>
+
+</center>
+
 
 
 The software industry is chaotic. 
@@ -60,5 +72,5 @@ It won't be easy. Being able to have automated deployments to production require
 
 If you want more, take a look at [The DevOps Handbook](https://www.amazon.com/dp/1942788002/ref=cm_sw_r_tw_dp_DM172Z4HB3RAGBEM2E1Q?_encoding=UTF8&psc=1) and my own post on [whats the point of CI anyway?](https://dangoslen.me/blog/whats-the-point-of-ci-anyway/)
 
----
+- - -
 
