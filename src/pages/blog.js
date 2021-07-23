@@ -5,13 +5,14 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
+import Tags from "../components/tags"
 import styled from "styled-components"
 
 class Blog extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = "Blog"
-    const posts = data.allMdx.edges
+    const posts = data.posts.edges
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -21,21 +22,17 @@ class Blog extends React.Component {
             const title = node.frontmatter.title || node.fields.slug
             return (
               <div key={node.fields.slug}>
-                <h2
-                  style={{ marginTop: `1.75rem`, marginBottom: `0px`}}
-                >
-                  <BlogLink 
-                      to={`/blog${node.fields.slug}`}>
+                <BlogTitle>
+                  <BlogLink to={`/blog${node.fields.slug}`}>
                       {title}
                   </BlogLink>
-                </h2>
-                <small>{node.frontmatter.date}</small>{"  ::  "}
-                <small>{node.fields.readingTime.text}</small>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
+                </BlogTitle>
+                <BlogSummary>
+                  <span>{node.frontmatter.date}{"  ::  "}{node.fields.readingTime.text}</span>
+                  <div>
+                    <span>{node.frontmatter.description || node.excerpt}</span>        
+                  </div>
+                </BlogSummary>
               </div>
             )
           })}
@@ -54,13 +51,27 @@ class Blog extends React.Component {
   }
 }
 
+const BlogTitle = styled.h2`
+margin-bottom: 0rem;
+`
+
 const BlogLink = styled(Link)`
 box-shadow: none;
-color: black;
+color: #1a1a1a;
 &:hover {
-  color: #303131
+  color: #e09b76;
 }
+transition: all .2s;
+transition-timing-function: ease;
+text-decoration: none;
 `
+
+const BlogSummary = styled.div`
+
+`
+
+export default Blog
+
 export const pageQuery = graphql`
   query {
     site {
@@ -68,7 +79,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+    posts: allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           excerpt
@@ -82,10 +93,10 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            tags
           }
         }
       }
     }
   }
 `
-export default Blog

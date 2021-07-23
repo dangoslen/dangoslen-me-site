@@ -3,7 +3,10 @@ path: /why-i-got-my-masters-degree
 date: 2021-01-23T01:41:34.554Z
 title: Why I Got My Masters Degree In Computer Science
 description: "In world where software development educations can happen
-  completely online (and for free!) why would I got back to school? "
+  completely online (and for free!) why would I got back to school?"
+tags:
+  - stories
+  - career
 ---
 ![Man walking from degree ceremony](../assets/charles-deloye-2roumsg9rnw-unsplash.jpg)
 

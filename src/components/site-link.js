@@ -1,20 +1,20 @@
 import React from "react"
 import styled from "styled-components"
 
-const SocialLink = props => {
+const SiteLink = props => {
   return (
     <Link href={props.to}>{props.children}</Link>
   )
 }
 
 const Link = styled.a`
-color: var(--primary);
+color: #d69066;
 font-size: 3rem;
 box-shadow: none;
 &:hover {
-  color: var(--primary-hover);
+  color: #e68d5e;
 }
-transition: all .2s;
+transition: color .2s;
 transition-timing-function: ease;
 `
 

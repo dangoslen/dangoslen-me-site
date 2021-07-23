@@ -1,8 +1,11 @@
 ---
-path: /why-simple-code -better-than-reusable-code
+path: /why-simple-code-better-than-reusable-code
 date: 2019-10-05T01:08:12.828Z
 title: Why Simple Code is Better Than Reusable Code
 description: Simple is always the priority.
+tags:
+  - programming
+  - software engineering
 ---
 ![Open car hood showing simple engine](../assets/1_jlwznm7natvmss8h8g1zyw.jpeg)
 

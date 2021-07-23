@@ -3,6 +3,10 @@ path: /how-to-introduce-kaizen-to-your-team
 date: 2020-06-06T01:02:27.200Z
 title: How to Introduce Kaizen to Your Team
 description: Convincing your team to embrace continuous improvement.
+tags: 
+  - devops
+  - teams
+  - software engineering
 ---
 ![small child looking at daunting steps](../assets/1_oyeeax1t-pdzp-hel9cxvq.jpeg "Photo by Jukan Tateisi on Unsplash")
 

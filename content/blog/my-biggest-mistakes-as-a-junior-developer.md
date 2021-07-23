@@ -3,6 +3,9 @@ path: /my-biggest-mistakes-as-a-junior-developer
 date: 2019-10-19T04:00:00.000Z
 title: My Biggest Mistakes as a Junior Developer
 description: Writing simple code is hard. Here are some patterns to help!
+tags:
+  - stories
+  - career
 ---
 
 ![](../assets/1_Y_ALSRyzK-b-INPlWq8uUQ.jpeg)

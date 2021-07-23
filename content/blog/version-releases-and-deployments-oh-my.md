@@ -4,6 +4,10 @@ date: 2021-05-15T18:50:43.656Z
 title: Version, Releases, and Deployments! Oh My!
 description: Software is full of overloaded terms. Let's clarify what we mean by
   a few of them.
+tags:
+  - software development lifecycle
+  - software engineering
+  - changelogs
 ---
 
 ![](../assets/john-moeses-bauan-WG1HNF8PGHo-unsplash.jpeg)
