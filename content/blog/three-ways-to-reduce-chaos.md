@@ -6,6 +6,7 @@ description: Software development can be chaotic and full of frustrating situati
 tags:
   - software engineering
   - software development lifecycle
+  - changelogs
 ---
 
 ![](../assets/alina-grubnyak-ZiQkhI7417A-unsplash.jpg)
@@ -28,21 +29,21 @@ Even the best team's in the world deal with chaos. It isn't the absence of chaos
 
 But what is the chaos I'm talking about?
 
-Chaos is trying to keeping straight who is working on what, when, and why. It is not knowing what changes are in a version, what version is in production, and when the next deployment is (though automation can help in all of these cases). Chaos is drowning in meetings, support tickets, and coordinating all of the communication around each.
+Chaos is trying to keeping straight who is working on what, when, and why. It is not knowing what changes are in a software version, what version is in production, and when the next deployment is (though automation can help in all of these cases). Chaos is drowning in meetings, support tickets, and coordinating all of the communication around each, unable to get work accomplished.
 
-And while I don't have all the answers (I'm not a guru), I do know tools that can help reduce some of the unnecessary chaos in your team. The teams I work with employ these tools each day to help, and we have seen great results.
+And while I don't have all the answers, I do know tools that can help reduce some of this unnecessary chaos. I want to share three tools my teams use to help. We've been using these tools for a while and have seen great results.
 
 Let's dive in!
 
 ### Changelogs
 
-Changelogs are exactly what they sound like - a log of notable changes made in a software project. While it seems silly that keeping a simple markdown file would make such a difference, it does.
+Changelogs are exactly what they sound like - a log of notable changes made in a software project. While it seems silly that keeping a simple log file would make such a difference, it does.
 
 When you keep a changelog, you are committing to keeping an accurate record of history. If that doesn't sound useful, think of the many questions often asked of a software team. "When did that change go out?" or "who worked on that story?" I'll wager these questions inevitably arise in your work every day. If you had an ideally kept log of the history of a project, it would be easier to answer those questions. A changelog helps teams do just that.
 
 Of course, changelogs aren't perfect. They have maintenance costs associated with keeping them up to date, which can get burdensome. In my experience, however, the pros outweigh the cons.
 
-_If you are interested in keeping a changelog, check out the tools and articles I've already written on this topic!_
+_If you are interested in keeping a changelog, check out the [tools](https://github.com/dangoslen/changelog-enforcer) and [articles](https://dangoslen.me/tags/changelogs) I've already written on this topic!_
 
 ### Designated On-Call and Interrupt
 
@@ -56,9 +57,9 @@ What I've found helpful is to have a designated on-call/interrupt person at all 
 
 In my experience, this has two major benefits.
 
-First, because everyone shares the roles of being on-call or support, everyone gets extremely comfortable with those tasks. Better yet, it forces everyone on the team to understand the good _and_ bad parts of those operations - which means everyone has the motivation to make it better. If only one person (say an SRE) is on the team, it can be difficult for the team to understand what needs to change in the code, deployments, etc., to make it easier to manage and support.
+1. First, because everyone shares the roles of being on-call or support, everyone gets extremely comfortable with those tasks. Better yet, it forces everyone on the team to understand the good _and_ bad parts of those operations - which means everyone has the motivation to make it better. If only one person (say an SRE) is on the team, it can be difficult for the team to understand what needs to change in the code, deployments, etc., to make it easier to manage and support.
 
-Second, it allows those not on-call to focus. By having the on-call/interrupt person handling incoming requests and disruptions, the rest of the team can focus on writing code or doing their "typical" work. They can protect their most valuable asset - time.
+2. Second, it allows those not on-call to focus. By having the on-call/interrupt person handling incoming requests and disruptions, the rest of the team can focus on writing code or doing their "typical" work. They can protect their most valuable asset - time.
 
 _One quick word of caution: the on-call/interrupt person isn't - and shouldn't - be expected to handle every incoming disruption! The rest of the team can and needs to help if many requests come in. Most of the time, however, only a few will come in at a time and can be handled by the designated team member._
 

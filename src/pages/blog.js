@@ -5,7 +5,6 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
-import Tags from "../components/tags"
 import styled from "styled-components"
 
 class Blog extends React.Component {

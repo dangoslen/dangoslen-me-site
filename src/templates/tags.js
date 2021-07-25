@@ -1,13 +1,14 @@
 import React from "react"
 
 // Components
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 import { Link, graphql } from "gatsby"
 
 class TagsTemplate extends React.Component {
   render() {
     const { tag } = this.props.pageContext
-    const siteTitle = this.props.data.site.siteMetadata.title
+    const siteTitle = `Tags - ${tag}`
     const { edges, totalCount } = this.props.data.tags
     const tagHeader = `${totalCount} post${
       totalCount === 1 ? "" : "s"
@@ -15,6 +16,7 @@ class TagsTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
+      <SEO title={ siteTitle } />
         <h1>{tagHeader}</h1>
         <ul>
           {edges.map(({ node }) => {
