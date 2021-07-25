@@ -16,7 +16,7 @@ class Layout extends React.Component {
               marginLeft: `auto`,
               marginRight: `auto`,
               maxWidth: rhythm(40),
-              padding: `${rhythm(2)} ${rhythm(.75)}`,
+              padding: `${rhythm(1.25)} ${rhythm(.75)}`,
             }}>
             <Menu title={title} />
           </div>
