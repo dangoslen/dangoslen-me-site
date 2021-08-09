@@ -1,6 +1,6 @@
 ---
 path: /lets-talk-about-trust
-date: 2020-05-18T12:47:34.001Z
+date: 2021-08-10T00:00:00.001Z
 title: Let's Talk About Trust
 description: Trust is really important, but often illusive. How do we build it on our teams to help oursleves build great software? 
 tags:
@@ -22,7 +22,7 @@ Photo by <a href="https://unsplash.com/@elmuff?utm_source=unsplash&utm_medium=re
 </center>
   
 
-_:wave: Hi there! This article is a response to some comments and critiques on a previous article - . These comments and critiques raised some **great** questions that I've spent some time thinking about. I hope I've put together a reasonable and seasoned response and one that inspires software teams to think and work together! Lets dive in._
+_👋 Hi there! This article is a response to some comments and critiques on a previous article - [I'm Changing How I Review Code](https://dangoslen.me/blog/changing-how-i-review-code/). These [comments and critiques](https://dev.to/dangoslen/i-m-changing-how-i-review-code-328g) raised some **great** questions that I've spent some time thinking about. I hope I've put together a reasonable and seasoned response and one that inspires software teams to think and work together! Lets dive in._
 
 - - -
 
@@ -83,3 +83,5 @@ Aim to build trust with every interaction you have amongst your team. Bring humi
 - - - 
 
 In summary, we need to trust each other on a team. High-trust also doesn't mean we accept each other's work as is without additional thought or inspection. In fact, it allows us to continually improve upon each other's work because we trust their intentions and effort vs expecting code to be perfect.
+
+Happy coding!
