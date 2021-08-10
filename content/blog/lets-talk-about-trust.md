@@ -21,12 +21,14 @@ Photo by <a href="https://unsplash.com/@elmuff?utm_source=unsplash&utm_medium=re
 </center>
   
 
-👋 Hi there! This article is a response to some comments and critiques on a previous article - I'm Changing How I Review Code. These comments and critiques raised some great questions that I've spent some time thinking about. I hope I've put together a reasonable response, one that inspires software teams to think and work together! Let's dive in.
+_👋 Hi there! This article is a response to some comments and critiques on a previous article - [I'm Changing How I Review Code](https://dangoslen.me/blog/changing-how-i-review-code/). These [comments and critiques](https://dev.to/dangoslen/i-m-changing-how-i-review-code-328g) raised some **great** questions that I've spent some time thinking about. I hope I've put together a reasonable and seasoned response and one that inspires software teams to think and work together! Lets dive in._
 
 Trust is a complicated topic.
 
 Some might disagree with that. They might say trust is simple: you trust someone, or you don't. Others might think trust is impossible to attain - it's an ideal, not a real thing.
-Regardless of what others might think, research has found that trust is vital to a team's success. However, it can be hard to pinpoint what trust is. One of those "you'll know it when you see it" situations. It requires intuition rather than computation.
+
+Regardless of what others might think, [research has found](https://www.ccl.org/wp-content/uploads/2017/05/why-trust-is-critical-team-success-research-report.pdf) that trust is vital to a team's success. However, it can be hard to pinpoint what trust is. One of those "you'll know it when you see it" situations. It requires intuition rather than computation.
+
 This leads to confusion about what trust means on teams (especially on software engineering teams where computation is what we do). Trust isn't thinking a teammate will never make a mistake. Instead, it's the assumption of good intent and effort. Trust is about knowing that you are safe to do your best work within your team, that you can depend on one another, and everyone else feels the same way.
 
 Let's dig into this a little bit.
@@ -34,7 +36,7 @@ Let's dig into this a little bit.
 ### Trust Is Important
 Before going further, let's go back to why we need to talk about trust.
 
-In their re:work-study, Google found that high-performing teams had a handful of traits in common - and they had nothing to do with individual performers or ability. Instead, they found that other factors about how the team operated were more critical. The top two factors were psychological safety (do team members feel safe to take risks without feeling insecure or embarrassed?) and dependability (are team members delivering high-quality work on time?).
+In their famous [re:work-study](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/), Google found that high-performing teams had a handful of traits in common - and they had nothing to do with individual performers or ability. Instead, they found that other factors about how the team operated were more critical. The top two factors were psychological safety (do team members feel safe to take risks without feeling insecure or embarrassed?) and dependability (are team members delivering high-quality work on time?).
 
 When taken together, these two items form what I think of as trust. **If I feel safe on a team and know that I can depend on them, I can trust their intentions and efforts**. This makes it easier to focus on my work without worrying about if others are doing theirs. I can feel confident when collaborating with them as I am sure they aren't trying to embarrass me.
 
@@ -55,7 +57,7 @@ We, of course, know that this isn't true! The best software teams are ones that,
 
 Now let's go back to that initial question and change it a bit. If I were asked to trust that my teammates have put their best effort forward, I would say absolutely. Imperfect code written by an imperfect person can still be trusted in the sense that it changes how I approach them, their code, and even reviewing it.
 
-If trust is about our teammate's intentions, it opens up a lot of possibilities. We can approach our teammates with humility but with a keen eye for problems or bugs. We can be collaborative since neither of us is perfect.
+**If trust is about our teammate's intentions, it opens up a lot of possibilities. We can approach our teammates with humility but with a keen eye for problems or bugs. We can be collaborative since neither of us is perfect.**
 
 ### How To Create Trust?
 The obvious question then is this: how do we create trust in our teams? If it is so important, what steps does our team need to take the build it?
