@@ -23,6 +23,8 @@ Photo by <a href="https://unsplash.com/@elmuff?utm_source=unsplash&utm_medium=re
 
 _👋 Hi there! This article is a response to some comments and critiques on a previous article - [I'm Changing How I Review Code](https://dangoslen.me/blog/changing-how-i-review-code/). These [comments and critiques](https://dev.to/dangoslen/i-m-changing-how-i-review-code-328g) raised some **great** questions that I've spent some time thinking about. I hope I've put together a reasonable and seasoned response and one that inspires software teams to think and work together! Lets dive in._
 
+---
+
 Trust is a complicated topic.
 
 Some might disagree with that. They might say trust is simple: you trust someone, or you don't. Others might think trust is impossible to attain - it's an ideal, not a real thing.
