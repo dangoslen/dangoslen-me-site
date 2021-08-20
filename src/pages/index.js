@@ -101,7 +101,7 @@ function Links() {
     <Social>
       <SocialLink to="https://twitter.com/dangoslen"><AiFillTwitterCircle /></SocialLink>
       <SocialLink to="https://linkedin.com/in/dangoslen"><AiFillLinkedin /></SocialLink>
-      <SocialLink to="https://medium.com/@dangoslen"><AiFillMediumCircle /></SocialLink>
+      <SocialLink to="https://dangoslen.medium.com/membership"><AiFillMediumCircle /></SocialLink>
       <SocialLink to="https://github.com/dangoslen"><AiFillGithub /></SocialLink>
     </Social>
   )
