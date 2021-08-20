@@ -6,6 +6,7 @@ description: Why only focusing on the end game will disappoint you.
 tags: 
   - programming
   - career
+image: /assets/1_ndvpxhffgu1hoz2cbssmuw.jpeg
 ---
 ![Master craftsman working on an anvil](../assets/1_ndvpxhffgu1hoz2cbssmuw.jpeg)
 

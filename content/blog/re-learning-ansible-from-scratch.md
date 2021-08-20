@@ -5,10 +5,11 @@ title: Re-learning Ansible From Scratch
 description: Why I stopped, why I'm starting again, and what I'm learning.
 tags:
   - programming
-  - career
   - devops
   - ansible
+image: /assets/ansible_logo.svg.png
 ---
+
 ![Ansible logo](../assets/ansible_logo.svg.png "Ansible logo")
 
 For several years, all I heard about was [Ansible](ansible.com). It was going to solve every one of your deployment problems. It was going to make life easier. Heck, it was going to take us to Mars - well as long as SpaceX used it...

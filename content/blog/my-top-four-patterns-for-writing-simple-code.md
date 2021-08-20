@@ -7,6 +7,7 @@ tags:
   - programming
   - software design
   - software engineering
+image: /assets/1_s-smr49rffj0kibfsz98fa.jpeg
 ---
 ![young child building with LEGO](../assets/1_s-smr49rffj0kibfsz98fa.jpeg)
 

@@ -7,6 +7,7 @@ tags:
   - career
   - communication
   - teams
+image: /assets/portuguese-gravity-mflgvcy9ooy-unsplash.jpg
 ---
 <center>
 

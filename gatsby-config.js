@@ -10,6 +10,7 @@ module.exports = {
       linkedin: `dangoslen`,
       devto: `dangoslen`
     },
+    defaultImage: `content/assets/icon.png`
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,

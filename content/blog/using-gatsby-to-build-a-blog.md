@@ -7,6 +7,7 @@ tags:
   - programming
   - gatsby
   - blogging
+image: /assets/gatsby-cover.jpg
 ---
 ![Gatsby Logo](../assets/gatsby-cover.jpg)
 
