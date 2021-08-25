@@ -35,16 +35,15 @@ class Blog extends React.Component {
               </div>
             )
           })}
+
           <hr/>
+
           <div>
             <p><span role='img' aria-label='person raising hand'> 🙋 </span> p.s. I'm slowly brining over all of my content from <Link to='https://medium.com/@dangoslen'>Medium</Link>! If you find a missing link, feel free to <Link to='https://github.com/dangoslen/dangoslen-me-site/issues/new'>open an issue in this repo on GitHub </Link>. Thanks!</p>
           </div>
           <hr/>
           <Bio />
         </div>
-        <Link to="/">
-          <Button marginTop="85px">Go Home</Button>
-        </Link>
       </Layout>
     )
   }
@@ -66,7 +65,7 @@ text-decoration: none;
 `
 
 const BlogSummary = styled.div`
-
+  margin-bottom: 5px; 
 `
 
 export default Blog

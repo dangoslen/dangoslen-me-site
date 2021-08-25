@@ -7,6 +7,8 @@ tags:
   - software development lifecycle
   - software engineering
   - continuous integration
+  - what's the point
+image: https://miro.medium.com/max/1000/1*w_LF-WitILhyNNCkVCm99Q.jpeg
 ---
 ![](https://miro.medium.com/max/1000/1*w_LF-WitILhyNNCkVCm99Q.jpeg) *Image by Ken Suarez on Unsplash*
 

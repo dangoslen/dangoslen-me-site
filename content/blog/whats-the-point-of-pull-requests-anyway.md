@@ -8,6 +8,7 @@ tags:
   - software engineering
   - teams
   - code reviews
+  - what's the point
 ---
 ![sharing a bowl of tomateos](../assets/elaine-casap-qghgdbbsnm8-unsplash.jpg)
 

@@ -6,6 +6,7 @@ description: But I want to move towards a place of inspiration
 tags: 
   - stories
   - career
+image: /assets/1_a025qp5vgMY2H4sAPfqe9g.jpeg
 ---
 
 ![](../assets/1_a025qp5vgMY2H4sAPfqe9g.jpeg)

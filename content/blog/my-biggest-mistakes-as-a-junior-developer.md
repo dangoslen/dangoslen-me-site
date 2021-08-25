@@ -6,6 +6,7 @@ description: Writing simple code is hard. Here are some patterns to help!
 tags:
   - stories
   - career
+image: /assets/1_Y_ALSRyzK-b-INPlWq8uUQ.jpeg
 ---
 
 ![](../assets/1_Y_ALSRyzK-b-INPlWq8uUQ.jpeg)

@@ -7,6 +7,7 @@ tags:
   - github actions
   - changelogs
   - devops
+image: /assets/logan-weaver-_-aqiq8y_sy-unsplash.jpg
 ---
 
 ![](../assets/logan-weaver-_-aqiq8y_sy-unsplash.jpg "Photo by LOGAN WEAVER on Unsplash")

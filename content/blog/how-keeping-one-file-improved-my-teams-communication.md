@@ -9,6 +9,7 @@ tags:
   - communication
   - changelogs
   - software development lifecycle
+image: /assets/photo-nic-co-uk-nic-_IL9n-5Ou6c-unsplash.jpeg
 ---
 
 ![](../assets/photo-nic-co-uk-nic-_IL9n-5Ou6c-unsplash.jpeg "Camera bringing a bright scene into focus")

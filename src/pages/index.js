@@ -39,20 +39,18 @@ class IndexPage extends React.Component {
                 </span>
                 {" "}Hi, I'm Dan.
               </Greeting>
-              <p>I'm a software engineer. I mostly work on distributed systems. I really like DevOps too.</p>
-              <p>In my short career, I've worked for small companies ({"<"} 20 employees), large companies ({">"} 50,000) and a few medium ones too.</p>
-              <p>What I have found is that at all of these compnaies, developers are <b>tired and burned out.</b> They never feel like they can learn enough, code quick enough, or keep quality high enough.</p>
+              <p>I'm a software engineer and an avid coffee drinker.</p>
+              <p>In my short career, I've come to learn that no matter where developers are, they are <b>tired and burned out.</b> They never feel like they can learn enough, code quick enough, or keep quality high enough.</p>
               <p>Coding harder or longer doesn't work. We have to do something different.</p>
-              <p>We need to develop processes that serve the team rather burden them. We need tools to make it easy to do the right thing rather than the wrong one. We need transparency between peers, managers, and other stakeholders. We need engineers that understood how to lead rather than being heros.</p>
-              <p>When these pieces exists, a team should be able to create a pace they can sustain almost indefintely.</p>
-              <p><b>I'm trying to help developers achieve sustainable pace.</b></p>
-              <p>I'm writing about software engineering practices, building small tools to automated processes, and creating other resources to help teams work better together.</p>
+              <p>Teams need processes that serve them rather than burden them. They need tools to make it easy to do the right thing rather than the wrong one. Teams need transparency between peers, managers, and other stakeholders. Leaders that lead rather than being heros.</p>
+              <p>When these pieces exists, a team can create a pace they can sustain almost indefintely.</p>
+              <p><b>I'm trying to help developers achieve that kind of sustainable pace.</b></p>
+              <p>I'm writing about <a href="https://dangoslen.me/tags/software-engineering">software engineering practices</a>, building tools to <a href="https://github.com/dangoslen">automate processes</a>, and creating resources to help teams work towards a sustainable pace.</p>
               <p>Happy coding!</p>
           </Biography>
         </Profile>
 
         <hr />
-
 
         <div style={{ 
           display: `flex`,
@@ -102,7 +100,7 @@ function Links() {
     <Social>
       <SocialLink to="https://twitter.com/dangoslen"><AiFillTwitterCircle /></SocialLink>
       <SocialLink to="https://linkedin.com/in/dangoslen"><AiFillLinkedin /></SocialLink>
-      <SocialLink to="https://medium.com/@dangoslen"><AiFillMediumCircle /></SocialLink>
+      <SocialLink to="https://dangoslen.medium.com/membership"><AiFillMediumCircle /></SocialLink>
       <SocialLink to="https://github.com/dangoslen"><AiFillGithub /></SocialLink>
     </Social>
   )
