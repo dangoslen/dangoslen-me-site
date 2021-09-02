@@ -2,7 +2,7 @@
 path: /my-biggest-mistakes-as-a-junior-developer
 date: 2019-10-19T04:00:00.000Z
 title: My Biggest Mistakes as a Junior Developer
-description: Writing simple code is hard. Here are some patterns to help!
+description: The biggest mistakes I made before becoming a senior engineer.
 tags:
   - stories
   - career
