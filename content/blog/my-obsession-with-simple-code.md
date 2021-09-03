@@ -44,7 +44,7 @@ Moreover, if we want our software to succeed, it must be maintainable. Maintaina
 
 ## Simple vs Trivial
 
-Often in the conversation about simplicity, a confusion arises about the nature of simple code. Simple code can easily start to sound like trivial code. But there is a difference.
+Often in the conversation about simplicity, confusion arises about the nature of simple code. Simple code can easily start to sound like trivial code. But there is a difference.
 
 Going back to the dictionary, triviality is defined  as:
 
@@ -62,7 +62,7 @@ Simple code, on the other hand, _does_ something! It's important! Being able to 
 
 ## Abstractions Will Come
 
-When writing software, many engineers fall captive to speculating about the future of their project. After writing somthing simple, they think "I should abstract this for use later on." What usually happens is that the abstractions built are rather cumbersome and difficult to use. 
+When writing software, many engineers fall captive to speculating about the future of their projects. After writing somthing simple, they think "I should abstract this for use later on." What usually happens is that the abstractions built are rather cumbersome and difficult to use. 
 
 Instead, we need to focus on emergent design or emergent abstractions. Let the abstractions happen over time and by constant refactoring rather than conjecture about the future. Follow the "three strikes" rule - if you find duplicated code three or more times, you have a need for refactoring and potentially abstracting it away.
 
