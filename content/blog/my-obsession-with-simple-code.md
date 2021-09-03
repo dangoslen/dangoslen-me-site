@@ -24,7 +24,7 @@ p.s. love the mini-Christmas tree!
 
 Writing simple code has become something of an obsession for me. 
 
-I find myself trying to simplify any and every piece of code I write. I also find myself commenting on pull requests that we don't need to plan too far ahead into the future with abstractions; the existing code is simple enough to maintain. Why use a pattern if the current code just needs a `switch` statement? If you need to change it later, you will.
+I find myself trying to simplify any and every piece of code I write. I often add comments on pull requests that we don't need to complicate things or too far ahead; the existing code is simple enough to maintain. Why use a pattern if the current code just needs a `switch` statement? If you need to change it later, you will.
 
 Did I just lose all of the clean coders? I thought so.
 
