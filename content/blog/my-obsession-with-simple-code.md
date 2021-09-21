@@ -24,11 +24,11 @@ p.s. love the mini-Christmas tree!
 
 Writing simple code has become something of an obsession for me. 
 
-I find myself trying to simplify any and every piece of code I write. I often add comments on pull requests that we don't need to complicate things or too far ahead; the existing code is simple enough to maintain. Why use a pattern if the current code just needs a `switch` statement? If you need to change it later, you will.
+I find myself trying to simplify any and every piece of code I write. I often add comments on pull requests that we don't need to complicate things or plan too far ahead; the existing code is simple enough to maintain. Why use a pattern if the current code just needs a `switch` statement? If you need to change it later, you will.
 
 Did I just lose all of the clean coders? I thought so.
 
-I want to layout how an obsession for simple code can lead to better outcomes for your team. Better yet, how an obsession for simple code can often lead you to solve problems faster than when trying to implement something complex. None of this is new - [Martin Fowler](https://martinfowler.com/bliki/Yagni.html), [Eric Elliot](https://medium.com/javascript-scene/the-secret-of-simple-code-a2cacd8004dd) and many more - have talked about this idea for a long time. 
+I want to lay out how an obsession for simple code can lead to better outcomes for your team. Better yet, how an obsession for simple code can often lead you to solve problems faster than when trying to implement something complex. None of this is new - [Martin Fowler](https://martinfowler.com/bliki/Yagni.html), [Eric Elliot](https://medium.com/javascript-scene/the-secret-of-simple-code-a2cacd8004dd), and many more - have talked about this idea for a long time. 
 
 What I want to add to the conversation is that sometimes simple code _isn't_ the clean code we often think of. Simple code might be a `switch` statement. 
 
@@ -44,7 +44,7 @@ Moreover, if we want our software to succeed, it must be maintainable. Maintaina
 
 ## Simple vs Trivial
 
-Often in the conversation about simplicity, a confusion arises about the nature of simple code. Simple code can easily start to sound like trivial code. But there is a difference.
+Often in the conversation about simplicity, confusion arises about the nature of simple code. Simple code can easily start to sound like trivial code. But there is a difference.
 
 Going back to the dictionary, triviality is defined  as:
 
@@ -62,7 +62,7 @@ Simple code, on the other hand, _does_ something! It's important! Being able to 
 
 ## Abstractions Will Come
 
-When writing software, many engineers fall captive to speculating about the future of their project. After writing somthing simple, they think "I should abstract this for use later on." What usually happens is that the abstractions built are rather cumbersome and difficult to use. 
+When writing software, many engineers fall captive to speculating about the future of their projects. After writing somthing simple, they think "I should abstract this for use later on." What usually happens is that the abstractions built are rather cumbersome and difficult to use. 
 
 Instead, we need to focus on emergent design or emergent abstractions. Let the abstractions happen over time and by constant refactoring rather than conjecture about the future. Follow the "three strikes" rule - if you find duplicated code three or more times, you have a need for refactoring and potentially abstracting it away.
 
