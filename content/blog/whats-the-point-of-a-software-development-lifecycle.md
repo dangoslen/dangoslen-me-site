@@ -29,23 +29,25 @@ Let's start today's post with a quick "day-in-the-life" story.
 
 <i>
 
-It's a Tuesday morning. After logging into Slack, I see that there are several pull requests to review. And while I enjoy reviewing code, sometimes I'd prefer writing my own code. But since our team requires two reviews from team members before any code can get merged.
+It's a Tuesday morning. After logging into Slack, I see that there are several pull requests to review. And while I enjoy reviewing code, sometimes I'd prefer writing my own. But since our team requires two reviews from team members before any code can get merged, I make sure to prioritize them.
 
 During standup later that day, a few teammates show a demo of a feature they have been developing. The demo is good overall, but one small detail starts a discussion: should the feature work this way or that? We eventually agree and decide there is a little more coding to do before calling the work done.
 
-Later in the day, I start to prepare for our weekly deployment. While prepping the release, I make sure to properly log our change in our tracking system and provide our deployment and rollback methods. I also include links to the version and the automated build that created the version artifacts. All of this helps our change management team to approval our change quickly.
+Later in the day I start to prepare for our weekly deployment. While prepping the release, I make sure to properly log our change in our tracking system and provide our deployment and rollback methods. I also include links to the version and the automated build that created the version artifacts. All of this helps our change management team to approval our change quickly.
 
 </i>
 
-Ok - why tell you this story? This story illustrates an example of a [software development lifecycle](https://www.techopedia.com/definition/22193/software-development-life-cycle-sdlc) at work. If you have never heard of a software development lifecycle (SDLC), then you have come to the right post. We are talking all about the SDLC and the implications it has for the software teams build.
+Ok - why tell you this story? This story illustrates an example of a [software development lifecycle](https://www.techopedia.com/definition/22193/software-development-life-cycle-sdlc) at work. If you have never heard of a software development lifecycle (SDLC), then you have come to the right post. We are talking all about the SDLC and the implications it has for how teams build software.
 
 ## What is a Software Development Lifecycle Anyway?
 
-A software development lifecycle is simply a list of processes and tools that a team (or organization) follows to develop software products. Pretty simple, right? 
+A software development lifecycle is simply a list of processes, statements, and rules that a team (or organization) follows to develop software products. Nothing much too it. 
 
-I think the term lifecycle is essential here. While software isn't a living thing, it exhibits many of the characteristics of a living thing: software grows and develops, responds to its environment, consumes energy, and might even exhibit forms of homeostasis (load-shedding) and reproduction (scaling). 
+But SDLCs can feel really daunting. The goal of this post is to help you feel less intimidated by the SDLC and to understand the role it plays in how your team or organization operates as a software engineer.
 
-It also means that, like any living thing, there might be parts of our software that is unhealthy or dying. Our software might be reaching end-of-life which might change how we monitor/maintain it. We might have bugs or performances issues in our software that we must tend to. And, of course, we have new features that our users - or even ourselves - want. 
+Before going much further, pay attention to the term lifecycle. In my view, this is critically important. While software isn't a living thing, it exhibits many of the characteristics of a living thing: software grows and develops, responds to its environment, consumes energy, and might even exhibit forms of homeostasis (load-shedding, steady-state) and reproduction (scaling). 
+
+It also means that like any living thing, there might be parts of our software that is unhealthy or dying. Our software might be reaching end-of-life which might change how we monitor/maintain it. We might have bugs or performances issues in our software that we must tend to. And, of course, we have new features that our users - or even ourselves - want. 
 
 Much like how a garden has a lifecycle based on the season and the plants within it, so our software has a lifecycle too. We have to understand what our software should do, how to build it, how to care for it properly.
 
