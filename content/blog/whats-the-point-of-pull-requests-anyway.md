@@ -9,6 +9,7 @@ tags:
   - teams
   - code reviews
   - what's the point
+image: /assets/elaine-casap-qghgdbbsnm8-unsplash.jpg 
 ---
 ![sharing a bowl of tomateos](../assets/elaine-casap-qghgdbbsnm8-unsplash.jpg)
 
