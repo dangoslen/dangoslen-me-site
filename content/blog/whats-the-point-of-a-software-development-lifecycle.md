@@ -1,59 +1,30 @@
----
-path: /whats-the-point-of-a-sofware-development-lifecycle
-date: 2021-10-04T04:00:00.000Z
-title: What's the Point of a Software Development Lifecycle Anyway?
-description: The reasons why having a software development lifecycle will help your team.
-tags:
-  - software development lifecycle
-  - software engineering
-  - what's the point
-image: /assets/annie-spratt-kZO9xqmO_TA-unsplash.jpeg
-
----
-
-<center>
-
-![](../assets/annie-spratt-kZO9xqmO_TA-unsplash.jpeg) 
-
-<i>
-
-Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/map?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-</i>
-
-</center>
-
-
 Let's start today's post with a quick "day-in-the-life" story.
 
-
 <i>
 
-It's a Tuesday morning. After logging into Slack, I see that there are several pull requests to review. And while I enjoy reviewing code, sometimes I'd prefer writing my own. But since our team requires two reviews from team members before any code can get merged, I make sure to prioritize them.
+It's a Tuesday morning. After logging into Slack, I see that there are several pull requests to review. And while I enjoy reviewing code, sometimes I'd prefer writing my own code. But since our team requires two reviews from team members before any code can get merged.
 
 During standup later that day, a few teammates show a demo of a feature they have been developing. The demo is good overall, but one small detail starts a discussion: should the feature work this way or that? We eventually agree and decide there is a little more coding to do before calling the work done.
 
-Later in the day I start to prepare for our weekly deployment. While prepping the release, I make sure to properly log our change in our tracking system and provide our deployment and rollback methods. I also include links to the version and the automated build that created the version artifacts. All of this helps our change management team to approval our change quickly.
+Later in the day, I start to prepare for our weekly deployment. While prepping the release, I make sure to properly log our change in our tracking system and provide our deployment and rollback methods. I also include links to the version and the automated build that created the version artifacts. All of this helps our change management team to approval our change quickly.
 
 </i>
 
-Ok - why tell you this story? This story illustrates an example of a [software development lifecycle](https://www.techopedia.com/definition/22193/software-development-life-cycle-sdlc) at work. If you have never heard of a software development lifecycle (SDLC), then you have come to the right post. We are talking all about the SDLC and the implications it has for how teams build software.
+Ok - why tell you this story? This story illustrates an example of a [software development lifecycle](https://www.techopedia.com/definition/22193/software-development-life-cycle-sdlc) at work. If you have never heard of a software development lifecycle (SDLC), then you have come to the right post. We are talking all about the SDLC and the implications it has for the software teams build.
 
 ## What is a Software Development Lifecycle Anyway?
 
-A software development lifecycle is simply a list of processes, statements, and rules that a team (or organization) follows to develop software products. Nothing much too it. 
+A software development lifecycle is simply a list of processes and tools that a team (or organization) follows to develop software products. Pretty simple, right? 
 
-But SDLCs can feel really daunting. The goal of this post is to help you feel less intimidated by the SDLC and to understand the role it plays in how your team or organization operates as a software engineer.
+I think the term lifecycle is essential here. While software isn't a living thing, it exhibits many of the characteristics of a living thing: software grows and develops, responds to its environment, consumes energy, and might even exhibit forms of homeostasis (load-shedding) and reproduction (scaling). 
 
-Before going much further, pay attention to the term lifecycle. In my view, this is critically important. While software isn't a living thing, it exhibits many of the characteristics of a living thing: software grows and develops, responds to its environment, consumes energy, and might even exhibit forms of homeostasis (load-shedding, steady-state) and reproduction (scaling). 
+It also means that, like any living thing, there might be parts of our software that is unhealthy or dying. Our software might be reaching end-of-life which might change how we monitor/maintain it. We might have bugs or performances issues in our software that we must tend to. And, of course, we have new features that our users - or even ourselves - want. 
 
-It also means that like any living thing, there might be parts of our software that is unhealthy or dying. Our software might be reaching end-of-life which might change how we monitor/maintain it. We might have bugs or performances issues in our software that we must tend to. And, of course, we have new features that our users - or even ourselves - want. 
-
-Much like how a garden has a lifecycle based on the season and the plants within it, so our software has a lifecycle too. We have to understand what our software should do, how to build it, how to care for it properly.
+Much like how a garden has a lifecycle tied to seasons and the plants within it, so our software has a lifecycle too. We have to understand what our software should do, how to build it, how to care for it properly.
 
 ## A Guide for How to Build Software
 
-At its most basic form, the SDLC is simply a guide for how to build our software. These rules can be extremely specific or vague based on the scope of the lifecycle and the group that must comply with it. For example, a lifecycle might say, "No developer should be able to write code and deploy it to production on their own." (more on why this might be a rule later). It could also say, "Any bug found in production must be logged, categorized, and prioritized within 24 hours."
+At its most basic form, the SDLC is simply a guide for how to build our software. These rules can be extremely specific or vague based on the scope of the policy and the group that must comply with it. For example, a lifecycle policy might say, "No developer should be able to write code and deploy it to production on their own." (more on why this might be a rule later). It could also say, "Any bug found in production must be logged, categorized, and prioritized within 24 hours."
 
 Many articles might say the SDLC is just a methodology - waterfall, agile, etc. - however, the SDLC is much more than that. It _might_ specify agile vs. waterfall, but it might not. Or it might layout additional security practices to meet or where source code must be stored. There are many other things too, but this is just to show the SDLC isn't only about methodology statement.
 
