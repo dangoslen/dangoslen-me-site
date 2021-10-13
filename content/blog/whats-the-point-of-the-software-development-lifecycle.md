@@ -1,6 +1,6 @@
 ---
 path: /whats-the-point-of-the-software-development-lifecycle
-date: 2020-10-12T00:00:00.000Z
+date: 2021-10-12T00:00:00.000Z
 title: What's the Point of the Software Development Lifecycle Anyway?
 description: The importance of a guide for how you build software.
 tags:
