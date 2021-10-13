@@ -1,3 +1,27 @@
+---
+path: /whats-the-point-of-the-software-development-lifecycle
+date: 2021-10-12T00:00:00.000Z
+title: What's the Point of the Software Development Lifecycle Anyway?
+description: The importance of a guide for how you build software.
+tags:
+  - software development lifecycle
+  - software engineering
+  - what's the point
+image: /assets/annie-spratt-kZO9xqmO_TA-unsplash.jpeg 
+---
+
+<center>
+
+![](../assets/annie-spratt-kZO9xqmO_TA-unsplash.jpeg)
+
+<i>
+
+Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/visual/9fb65126-dee1-436b-94e4-b28f7181ef6f?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+</i>
+
+</center>
+
 Let's start today's post with a quick "day-in-the-life" story.
 
 <i>
