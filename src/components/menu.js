@@ -32,6 +32,7 @@ const Menu = props => {
                         <LinksContainer>
                             <NavLink to='/' text="About" />
                             <NavLink to='/blog' text="Blog" add/>
+                            <NavLink to='/whats-the-point' text="Learn Best Pratices" add/>
                             <NavLink to='/talks' text="Talks" />
                         </LinksContainer>
                     </TopNav>
