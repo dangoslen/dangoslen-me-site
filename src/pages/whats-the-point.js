@@ -24,7 +24,7 @@ class WhatsThePoint extends React.Component {
             <li>What value that pratice brings to software engineering?</li>
             <li>Will adopting this practice in our team actually help our team?</li>
           </ul>
-          <p><b>That is what this section is supposed to be!</b></p>
+          <p><b>These are articles are meant to help!</b></p>
           <p>I want to help show how different best practices in the software engineering space can help your team become even better. Some pratices will help you team improve quality while others will improve time-to-market or how you team operates. This page will walk you through such pratices and help you know how to incorporate them into your team.</p>
           <p>Let's dive in!</p>
         </div>
