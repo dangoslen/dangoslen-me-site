@@ -6,18 +6,17 @@ const _ = require(`lodash`)
 
 const Tags = props => {
   const { tags } = props;
-
-  let tagNames = tags || []
-
-  console.log(tagNames)
+  const tagNames = tags || []
 
   return (
     <TagsContainer>     
-      {tagNames.map((tag) => {      
+      {tagNames.map((tag) => {     
+        let href = `/tags/${_.kebabCase(tag)}`
+        if (tag === "what's the point") {
+          href = `/whats-the-point`
+        }
         return <TagSpan key={tag}>
-            <Link
-                to={`/tags/${_.kebabCase(tag)}`}
-            >{`${tag}`}</Link>
+            <Link to={ href }>{`${tag}`}</Link>
         </TagSpan>
     })}
     </TagsContainer>
