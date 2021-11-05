@@ -45,10 +45,11 @@ Going back to Docker, then, the core takeaway is that if you are building and ru
 
 Ok, ok. We've talked about a few details of containers and engines, etc. But we still haven't answered this question: what are containers so popular? Why is everyone talking about them (and why is my manager telling me to use it even though they can't tell me why)?
 
-In a nutshell, containers have become popular for two core reasons: 
+In a nutshell, containers have become popular for three core reasons: 
 
 * Portability
 * Infrastructue as Code
+* Simplicity
 
 ### Portability
 
@@ -62,5 +63,21 @@ The other reason for the popularization of containers - especially for managers 
 
 But what if application B is really simple and lightweight? It doesn't need a _whole_ virtual machine to run. It could do with just a few CPU cycles and a little bit of RAM. Containers make this easy. Because the containers have proper isolation from each other, a single container engine could be running a Java EE server and a Node JS sever side by side. If a virtual machine world, this could get complicated since the system requirements could start to get gnarly.
 
+### Simplicity
+
+Pigg-backing off of the Portability aspect, running a container is much easier than setting up a virtual machine or installing a service on a computer. This is especially true for local development. Instead of installing `mysql`, `kafka` or something else, you can just install a container with all of the configuration, dependencies, etc. available. While it wouldn't be appriopriate for a production environment, for a local developer, it is quick and easy to type `docker run the-app` and have something running.
+
+Additionally, because of the "just run it" mentality of containers, the configuration of most images is also simple. Many images come with pre-baked in configuration, with the ability to set additional or neccesary environement specific values via environment variables. While this sounds like a no-brainer, many applications before containers would be a slew of nested configuration files in different formats. Containers make this type of configuration and setup simple and promotes [convention > configuration](https://en.wikipedia.org/wiki/Convention_over_configuration).
+
 ## What's the Point?
+
+The point of containers is really simple: containers help development teams ship code in a more portable and cost effective way. While that might not sound powerful, once you work on a team that users containers effectively, you will see that they can indeed be really powerful tools.  
+
+However, tread carefully. Containers are not a walk in the park. For one thing, where do you put them? How do you version them? How do you debug a running container in production? 
+
+Think critically about why containers would work for you. A starting point might be encouraging your team to use containers for local development tools such as a database, server, or even just an OpenAPI editor. Start trying to use tools like Docker or Podman to run containers locally and get comfortable using them. Nothing would be worse than trying to containerize your whole application if you aren't comfortable running and debugging containers in general.
+
+Also, think in a step-wise fashion. Before throwing out your infrastructure and installing Kubernetes - start with just building an image for your application. Start pushing it up to an internal repository and asking teams that use your application to try running it on their own local machines. Get the hang of what it means to build and version your images in lock-step with your existing release stategy. If you can do all of that before trying to run your application in a cloud, you will be in great shape.
+
+Happy coding!
 
