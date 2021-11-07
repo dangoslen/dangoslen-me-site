@@ -30,7 +30,7 @@ There also might be a chance that you have _no idea_ what these technologies are
 
 The fact is that containers are an incredible technology that brings many exciting benefits to development. They introduce some new challenges too. Deciding to go all-in on containers isn't one to be made lightly. You need to understand what containers are, how they work, and if they are right for your team.
 
-Let's dive into the benefits and challenges of these technologies and find out what's the point behind them.
+Let's dive into some of the details behind containers and what's the point in using them.
 
 ## What is a Container?
 
