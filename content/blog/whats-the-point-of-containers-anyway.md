@@ -2,7 +2,7 @@
 path: /whats-the-point-of-containers-anyway
 date: 2021-11-07T05:00:00.000Z
 title: What's the Point of Containers Anyway?
-description: "Containers are becoming more and more popular. Here is my take on why they continue to grow in use and reasons your team might want to jump on the bandwagon"
+description: "Containers are becoming more and more popular. Here is my take on why and if your team should to jump on the bandwagon."
 tags:
   - software engineering
   - DevOps
