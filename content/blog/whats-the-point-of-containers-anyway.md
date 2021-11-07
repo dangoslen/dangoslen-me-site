@@ -40,7 +40,7 @@ To go a bit deeper, a container allows a team to package software assets, depend
 
 But you might be thinking - doesn't the software need an operating system? How does the application in the image know how to interact with the operating system? These are great questions!
 
-For this article, the answer is that containers take advantage of operating system level virtualization. The container engine abstracts the specific operations system away but allows system calls from the application to "pass-through" to the OS. While that is simple in theory, many interesting kernel abilities exist to provide proper isolation (keep containers separate from each other) and resource limits (keep containers from hogging all of the resources from themselves) to keep running containers from stomping on each other.
+For this article, the answer is that containers take advantage of operating system-level virtualization. The container engine abstracts the specific operations system away but allows system calls from the application to "pass-through" to the OS. While that is simple in theory, many interesting kernel abilities exist to provide proper isolation (keep containers separate from each other) and resource limits (keep containers from hogging all of the resources from themselves) to keep running containers from stomping on each other.
 
 For more details on the internals of how a container works and how the OS works to support it, check out [this zine from Julie Evans](https://wizardzines.com/zines/containers/).
 
@@ -48,7 +48,7 @@ For more details on the internals of how a container works and how the OS works 
 
 So we know what a container is, but we still need a container engine or runtime. Where do you find one of those? 
 
-Enter Docker. Docker was one of the first container engines in the mid-2000s that made running containers simple and feasibility. You can easily install it on most computers, and boom - you can start running containers. Many developers starting using containers around this time to run things like databases or other software on their computers while developing applications.
+Enter Docker. Docker was one of the first container engines in the mid-2000s that made running containers simple and feasible. You can easily install it on most computers, and boom - you can start running containers. Many developers started using containers around this time to run things like databases or other software on their computers while developing applications.
 
 If this is the case, why are containers and Docker separate? Well, this is because there are many more engines than Docker. Docker happens to be the most popular. Other companies are have created alternative engines that run within their own eco-systems to avoid paying additional costs to Docker to be the engine.
 
@@ -90,7 +90,7 @@ Pigg-backing off of the Portability aspect, running a container is much easier t
 
 Additionally, because of the "just run it" mentality of containers, the configuration of most images is also simple. Many images come with pre-baked configuration, with the ability to set additional or necessary environment-specific values via environment variables. 
 
-While this sounds like a no-brainer, many applications before containers would be a slew of nested configuration files in different formats. Containers make this type of configuration and setup simple and promotes [convention > configuration](https://en.wikipedia.org/wiki/Convention_over_configuration).
+While this sounds like a no-brainer, many applications before containers would be a slew of nested configuration files in different formats. Containers make this type of configuration simple and it promotes [convention > configuration](https://en.wikipedia.org/wiki/Convention_over_configuration).
 
 ## What's the Point?
 
