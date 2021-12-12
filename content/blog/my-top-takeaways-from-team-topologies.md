@@ -7,18 +7,18 @@ tags:
   - teamworks
   - software engineering
   - collaboration
-image: /assets/francesco-gallarotti-ruQHpukrN7c-unsplash.jpeg
+image: /assets/cas-holmes-PwyApMZFyx4-unsplash.jpeg
 
 ---
 
 <center>
 
-!["growing sapling"](../assets/francesco-gallarotti-ruQHpukrN7c-unsplash.jpeg)
+!["growing sapling"](../assets/cas-holmes-PwyApMZFyx4-unsplash.jpeg)
 
 <i> 
 
-Photo by <a href="https://unsplash.com/@gallarotti?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Francesco Gallarotti</a> on <a href="https://unsplash.com/s/photos/prune?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+Photo by <a href="https://unsplash.com/@cas1111?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cas Holmes</a> on <a href="https://unsplash.com/s/photos/formation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    
 </i>
 
 </center>
