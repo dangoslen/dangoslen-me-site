@@ -63,7 +63,8 @@ Along with domain ownership and boundaries, the code within an organization need
 
 Ownership doesn't mean that only one team can contribute to a codebase. Hardly. A good software organization should allow any software engineer to contribute to any project as long as it has the approval of the owners of that code, which can help alleviate bottlenecks. An engineer who uses a module or service provided by a different team can make the necessary changes to finish their work instead of waiting for another team's availability. The owning team, of course, needs to participate in code reviews or other approval processes required, but this is often much less time than writing the code itself.
 
-However, without oversight from a clear team of owners, such changes would likely lead to confusing and fractured codebases that are hard to maintain over time. Such "shared-source" models sound great at first but can slow any high-performing team down to halt even if the initial first few interactions seem to show a decreased cycle time for some product initiatives. Be really careful about this model.
+However, without oversight from owners, such changes would likely lead to confusing and fractured codebases that are hard to maintain over time. Such "shared-source" models sound great at first but can slow any high-performing team down to halt even if the initial first few interactions seem to show a decreased cycle time for some product initiatives. Be really careful about this model.
+
 In short, just like domain boundaries and ownership, code needs the exact same treatment. Take an inventory of codebases that teams' interact with identify the owners. If there is a disagreement, work together and appoint an owner as clearly as possible. Keep revisiting the codebase based on who makes the most contributions or has a clear vision for the code. And remember: you can change the owner in the future if needed.
 
 
@@ -71,15 +72,15 @@ In short, just like domain boundaries and ownership, code needs the exact same t
 
 Lastly, each team within the organization needs to align their priorities to a workstream. No matter the concrete team type, they all need to be aligned to a specific workstream within the organization. This priority enables all teams to work with the flow of change within the organization rather than against it.
 
-Finding this alignment is, unfortunately, simple but not easy. The book recommends a few ways to gain this alignment, all based on the teams operating within the organization.
+Finding this alignment is, unfortunately, not easy. The book recommends a few steps to gain this alignment, all based on the teams operating within the organization. 
 
-First, and simplest, is that a work steams need to be defined. What are we building here? Why? How many products should we have, and how will we organize them? Compare the current product offerings and make some critical decisions about how work should flow within your organization.
+The first step, and the simplest, is that work steams need to be defined. What are we building here? Why? How many products should we have, and how will we organize them? Compare the current product offerings and make some critical decisions about how work should flow within your organization.
 
 Second, platform, subsystem, and enabling teams (aka supporting teams) should gather their requirements from the stream-aligned teams. This allows the work to flow from the root source of customer needs properly. i.e., if a stream-aligned team says, "we need a better and simpler way to monitor our applications," the proper supporting teams can then take that requirement, perform additional discovery, and help those teams find the right solution. Otherwise, they might be working on the wrong thing.
 
 ## Wrapping Up
 
-There you have it—my top takeaways from Team Topologies. There is much more to cover from the book, but these key things to me are the core things you can start thinking about with your team to level up tomorrow. Even if the rest of the organization isn't on board, if your team can define their API, identify domain boundaries, and gather their work according to a workstream, many other conversations can occur.
+There you have it — my top takeaways from Team Topologies. There is much more to cover from the book, but these key things to me are the core things you can start thinking about with your team to level up tomorrow. Even if the rest of the organization isn't on board, if your team can define their API, identify domain boundaries, and gather their work according to a workstream, many other conversations can occur.
 Happy coding!
 
 _p.s. I know a big part of Team Topologies is all about [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law). And it is indeed. However, focusing on Conway's law might be premature. The reason is that leaders might see a poor architecture and decide to change it via the inverse Conway maneuver (using Conway's law to design your system). The problem is that there is often a large disconnect between a leader's perception of what is happening in the organization vs. the team's perception. Therefore, before an organization can start talking about how to re-design their architecture with Conway's law, I believe they first need to understand how their teams are currently operating. And no one else except the team is prepared to speak about how they operate._
