@@ -81,6 +81,7 @@ Second, platform, subsystem, and enabling teams (aka supporting teams) should ga
 ## Wrapping Up
 
 There you have it — my top takeaways from Team Topologies. There is much more to cover from the book, but these key things to me are the core things you can start thinking about with your team to level up tomorrow. Even if the rest of the organization isn't on board, if your team can define their API, identify domain boundaries, and gather their work according to a workstream, many other conversations can occur.
+
 Happy coding!
 
 _p.s. I know a big part of Team Topologies is all about [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law). And it is indeed. However, focusing on Conway's law might be premature. The reason is that leaders might see a poor architecture and decide to change it via the inverse Conway maneuver (using Conway's law to design your system). The problem is that there is often a large disconnect between a leader's perception of what is happening in the organization vs. the team's perception. Therefore, before an organization can start talking about how to re-design their architecture with Conway's law, I believe they first need to understand how their teams are currently operating. And no one else except the team is prepared to speak about how they operate._
