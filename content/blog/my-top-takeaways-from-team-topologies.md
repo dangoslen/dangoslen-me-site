@@ -27,9 +27,9 @@ I've played team sports my whole life, and I learned the unique power and abilit
 
 In many contexts, the structure and identity of a team are relatively easy to understand. In sports, a team has a clear mission - win games. A band has a clear mission of creating incredible music. The structure of such teams is also usually pretty simple - a captain or band-leader is primarily held responsible for setting the team's tone, vision, and direction. Other team members still work together around a common goal with well-defined roles within the team. Forming a team is easier when you know the roles.
 
-In software and other business contexts, though, things can get murky. We know teams are good, but we don't know what a great should look like. The mission and structure can get complicated - should this team be building that? Do we need to hire a database administrator for a team or hire one to support multiple teams? And when mission and structure are lacking on a team, the team itself can begin to suffer.
+In software and other business contexts, though, things can get murky. We know teams are good, but we don't know what a great team should look like. The mission and structure can get complicated - should this team be building that? Do we need to hire a database administrator for a team or hire one to support multiple teams? Is a manager a tech lead? And when mission and structure are lacking, the team itself can begin to suffer.
 
-[Team Topologies](https://www.amazon.com/dp/1942788819/ref=cm_sw_r_tw_dp_HNAAY7T48G4ZAHAQ1644) is a book targeted to help fix that problem. Written by X and Y, the book captures their insight into the world's top software organizations. Focusing on teams that have undergone various DevOps and Agile transformations, the authors provide an inside scoop onto the secret sauce for these companies. While being a little dense and academic, the book still provides direct actions for organizations trying to make changes to increase their productivity.
+[Team Topologies](https://www.amazon.com/dp/1942788819/ref=cm_sw_r_tw_dp_HNAAY7T48G4ZAHAQ1644) is a book targeted to help fix this problem. Written by Manuel Pais and Matthew Skelton, the book captures their insight into the world's top software organizations. Focusing on teams that have undergone various DevOps and Agile transformations, the authors provide an inside scoop onto the secret sauce for these companies. While being a little dense and academic, the book still provides direct actions for organizations trying to make changes to increase their productivity.
 
 Let's dig into their findings.
 
@@ -44,17 +44,18 @@ That was my initial reaction as well. However, the book does a great job of iden
 I won't get into each in this article as you can [see them summarized easily](https://danlebrero.com/2021/01/20/team-topologies-summary/). Instead, I want to focus on the underpinning concepts that can help your team(s) start to discover what type they are and how they should begin interacting with other teams.
 
 ### Create a Team API
-Software engineers know all about APIs. An API defines a responsibility boundary between different systems and a contract used to enforce those responsibilities. This is similar to how a legal contract is written between two parties to define responsibilities and the consequences of breaking those responsibilities.
 
-Teams also should have such an API. Teams should have defined boundaries (often referred to as domains) that they own. As such, teams need to know how to interact when a system or a design requires collaboration between those domains. Hence, an API should be defined to help establish the "what is yours" and "what is ours."
+Software engineers know all about APIs. An API defines a responsibility boundary between different systems and a contract used to enforce those responsibilities. This is similar to how a legal contract is written between two parties. The contract defines the responsibilities of each party and consequences of breaking those responsibilities.
+
+Teams also should have such an API. Teams should have defined boundaries (often referred to as domains) that they own. As such, teams need to know how to interact when a system or a design requires collaboration across domains. Hence, an API should be defined to help establish the "what is yours" and "what is ours."
 
 A team API should likely include
 * the team's mission
-* how to contact that team
-* a definition of the domain they own (and what they don't)
+* how to contact them
+* a definition of the domain they own
 * the preferred way to collaborate with that team
 
-Don't pretend this will be easy. In many organizations, lines have become blurry over years and years of shared code (we'll address this next), constant collaboration, and even bad software design. Teams might even have to collaborate with one another to agree on domains ("you own that - not us"). Many teams' might never have even thought about their core mission - they've just been writing code according to the product specs from their product owner without giving a second thought.
+Don't pretend this will be easy. In many organizations, lines have become blurry over years and years of shared code (we'll address this next), constant collaboration, and even bad software design. Teams might even have to collaborate with one another to agree on domains ("you own that - not us"). Many teams might have never even thought about their core mission - they've just been writing code according to the product specs from their product owner without giving a second thought. All this to say, creating a team API will take a good amount of effort.
 
 ### Define Code Ownership
 
