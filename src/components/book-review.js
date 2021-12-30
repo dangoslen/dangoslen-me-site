@@ -18,8 +18,8 @@ const BookReview = props => (
 
 const BookReviewWrapper = styled.div`
     display: flex;
-    align-items: end;
-    margin-bottom: 12px;
+    align-items: flex-start;
+    margin-bottom: 20px;
 `
 
 const Cover = styled.div`
@@ -28,7 +28,7 @@ const Cover = styled.div`
   }
   display: block;
   min-width: 25%;
-  margin-right: 12px;
+  margin-right: 20px;
   @media ${Device.tablet} {
     display: flex;
     justify-content: space-around;
@@ -37,6 +37,9 @@ const Cover = styled.div`
 `
 
 const Review = styled.div`
+  h2 {
+    margin-top: 4px;
+  }
   @media ${Device.tablet} {
    margin-top: 0px;
    text-align: left;
