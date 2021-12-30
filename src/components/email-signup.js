@@ -21,7 +21,7 @@ const EmailSignup = ({ prompt }) => (
 
 const EmailWrapper = styled.div`
      zoom: 1; 
-     width: 400px;
+     width: 480px;
      
      :before, :after { 
          display: table; 
@@ -61,7 +61,7 @@ const EmailWrapper = styled.div`
         font-smoothing: antialiased; 
         -webkit-appearance: none; 
         -moz-appearance: caret; 
-        width: 300px !important; 
+        width: 380px !important; 
         height: 40px !important; 
     } 
     
