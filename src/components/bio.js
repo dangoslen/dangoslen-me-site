@@ -35,7 +35,7 @@
              />
              <p>
              Dan Goslen is a software engineer and sustainable development advocate. He has spent 10 years writing quality software systems that range
-             from monoliths to micro-services and everywhere in between. He currently works { <a href="https://bandwidth.com">@Bandwidth</a> } (and we are <a href="https://grnh.se/rvdtbj8b1">hiring right now!</a>) in Raleigh, NC where he lives with his wife.
+             from monoliths to micro-services and everywhere in between. He currently works { <a href="https://policygenius.com">@PolicyGenius</a> } (and we are <a href="https://grnh.se/0ebea2c41us">hiring right now!</a>) in Raleigh, NC where he lives with his wife.
              </p>
            </Container>
          )
