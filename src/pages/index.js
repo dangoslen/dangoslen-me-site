@@ -1,8 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-import { Link, useStaticQuery, graphql} from "gatsby"
+import { useStaticQuery, graphql} from "gatsby"
 import Img from "gatsby-image"
-import Email from "../components/email-signup"
 
 import { 
   AiFillTwitterCircle, 

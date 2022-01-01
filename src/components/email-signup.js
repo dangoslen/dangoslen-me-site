@@ -14,7 +14,7 @@ const EmailSignup = ({ prompt }) => (
         <form action="https://gumroad.com/follow_from_embed_form" method="post"> 
             <input name="seller_id" type="hidden" value="1354486934874" /> 
             <input name="email" placeholder="Your email address" type="email" /> 
-            <button data-custom-highlight-color="" type="submit">Follow</button> 
+            <button data-custom-highlight-color="" type="submit">Subscribe</button> 
         </form>
     </EmailWrapper>
 ) 
