@@ -1,7 +1,7 @@
 import React from "react"
-import { MDXProvider } from "@mdx-js/react"
 
 import Layout from "../components/layout"
+import Device from "../components/sizing"
 import SEO from "../components/seo"
 import EmailSignup from "../components/email-signup"
 import styled from "styled-components"
@@ -41,9 +41,30 @@ class Book extends React.Component {
         <hr />
 
         <TocWrapper>
-          <Toc />
+          <Title>
+            <center>
+
+              <h1>Code Review Champion: The Power of Getting Code Reviews Right</h1>
+              <h4>A book to help engineers learn how to be great code reviewers.</h4>
+
+              </center>
+
+              <hr/>
+          </Title>
+          <TocContent>
+            <Toc />
+          </TocContent>
         </TocWrapper>
 
+        <div style={{ 
+              display: `flex`,
+              alignItems: `center`,
+              justifyContent: `center`,
+              marginTop: `10px`,
+              marginBottom: `40px`
+          }}>
+              <EmailSignup prompt="And don't forget to signup for my newsletter to hear more about it!"/>
+          </div>
       </Layout>
     )
   }
@@ -57,6 +78,24 @@ const TocWrapper =  styled.div`
   border-radius: 8px;
   background: #f19066;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
+`
+
+const Title = styled.div`
+`
+
+const TocContent = styled.div`
+  display: block;
+  @media ${Device.tablet} {
+    display: flex;
+  }
+
+  div {
+    width: 100%;
+    padding: 5px;
+    @media ${Device.tablet} {
+      width: 50%;
+    }
+  }
 `
 
 export default Book
