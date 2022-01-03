@@ -25,7 +25,7 @@ class Book extends React.Component {
           <p><b>I believe it's because many engineers weren't taught how to actually effectively review code.</b></p>
           <p>Even more so, many teams don't know how to manage the process to know if they are actually getting value or if they are just rubber-stamping code.</p>
           <p>I'm writing a book to help engineers and teams do just that - build the skills neccesary to be code review champions!</p>
-          <p>Below is what I'm hoping to write about. It's still in the works, so I'd <i>love</i> your <a href="">feedback!</a>.</p>
+          <p>Below is what I'm hoping to write about. It's still in the works, so I'd <i>love</i> your <a href="https://forms.gle/fgucFk8kHyS5tY9D9" target="_blank">feedback!</a>.</p>
           <p>If you want more updates as I progress on writing and to get <i>exclusive</i> first access, subscribe to my emails below:</p>
           <div style={{ 
               display: `flex`,
@@ -57,13 +57,19 @@ class Book extends React.Component {
         </TocWrapper>
 
         <div style={{ 
-              display: `flex`,
+              display: `grid`,
               alignItems: `center`,
               justifyContent: `center`,
               marginTop: `10px`,
               marginBottom: `40px`
           }}>
+            <div>
+              <h3>Seriously - I'd <i>love</i> <a href="https://forms.gle/fgucFk8kHyS5tY9D9" target="_blank">to get your feedback!</a></h3>
+            </div>
+
+            <div>
               <EmailSignup prompt="And don't forget to signup for my newsletter to hear more about it!"/>
+            </div>
           </div>
       </Layout>
     )
