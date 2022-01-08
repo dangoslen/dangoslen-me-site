@@ -59,7 +59,7 @@ class IndexPage extends React.Component {
           marginBottom: `40px`
        }}>
           <div> 
-            <EmailSignup prompt="Sign-up below to never miss an update from me! I'll send you my latest articles as well as tools and resources I'm building! 😊"/>
+            <EmailSignup prompt="Sign-up below to never miss an update from me! 😊"/>
           </div>
         </div>
       </Layout>
