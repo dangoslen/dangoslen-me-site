@@ -1,15 +1,23 @@
 ---
-path: /how-to-gett-software-documentation-right
-date: 2020-06-06T01:02:27.200Z
+path: /how-to-get-software-documentation-right
+date: 2022-01-17T01:02:27.200Z
 title: How to Get Software Documentation Right
 description: What to write down, what to generate, and coming to terms that documentation is always out of date.
 tags: 
   - documentation
   - teams
   - software engineering
+image: ../assets/papers-g21f5bc9e0_1920.jpeg
 ---
 
-I recently joined a new team. An entirely new company actually. I'm now an engineer working for [PolicyGenius]() - the leading online insurance marketplace (in the US at least). I've enjoyed the change so far; it was well needed.
+<center>
+
+![stack of papers](../assets/papers-g21f5bc9e0_1920.jpeg)
+_[https://pixabay.com/photos/papers-projects-documents-3819540](https://pixabay.com/photos/papers-projects-documents-3819540/)_
+
+</center>
+
+I recently joined a new team. An entirely new company actually. I'm now an engineer working for [PolicyGenius](https://grnh.se/0ebea2c41us) - the leading online insurance marketplace (in the US at least). I've enjoyed the change so far; it was well needed.
 
 When joining a new team - and a new company - there are a _lot_ of things to learn. Most of that learning starts with loads of things to read, including process documentation, system diagrams, API specifications, and data models for software teams. Then there are even more docs on culture, how to respond to incidents, and decision logs. 
 
@@ -17,7 +25,7 @@ It can be a lot.
 
 As I've been going through the docs of our engineering team, I had a few takeaways about how to do documentation right - and why it is so hard to do so. Today, I want to share my perspectives while still fresh as a recently onboarded engineer.
 
-_And to be clear, I've been blown away with how **good** the documentation as PG (PolicyGenius) has been. I don't think there hasn't been a question I've asked that didn't have an answer with a document, Wiki, or slide presentation to help me understand the answer in more depth._
+_And to be clear, I've been blown away with how **good** the documentation at PG (PolicyGenius) has been. I don't think there hasn't been a question I've asked that didn't have an answer with a document, Wiki, or slide presentation to help me understand the answer in more depth._
 
 ## Understand There are Different Kinds of Documentation
 
@@ -33,7 +41,7 @@ This is why engineers can be [pedantic about comments](). Comments explaining wh
 
 ## Generating Docs is Usually a Good Idea
 
-Given that code is truth, anything we can do to keep our documentation in line with our code is usually a good idea. If you can generate docs _from_ your code, you minimize documentation drift as much as possible. Tools like JavaDoc or godoc make it easy to turn comments in code to HTML, text, or even `man` pages for the software. Standards like [yuml]() allow teams to store easy-to-change and understand text documents into UML diagrams. 
+Given that code is truth, anything we can do to keep our documentation in line with our code is usually a good idea. If you can generate docs _from_ your code, you minimize documentation drift as much as possible. Tools like JavaDoc or godoc make it easy to turn comments in code to HTML, text, or even `man` pages for the software. Standards like [yuml](https://yuml.me/) allow teams to store easy-to-change and understand text documents into UML diagrams. 
 
 These tools, coupled with continuous integration and the API-driven web, can allow you to generate documentation from your source with every commit to your code mainline. Just think how great that is! Every time you change a data model, a new ER diagram is generated and stored in your team's Wiki! Such low-friction tools can be a game-changer to how your team operates.
 
