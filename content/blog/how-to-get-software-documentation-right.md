@@ -37,7 +37,9 @@ One of the best things I've seen to help with this is a flowchart to help the wh
 
 When describing software systems, we _must_ trust the code over the docs. Why? Because the code _is_ what your software is doing. There is no way to avoid that. 
 
-This is why engineers can be [pedantic about comments](). Comments explaining what code is doing can easily get out of date and confuse the next engineer trying to change it (or even understand it). I won't open up the comment wars here, but it is good to be aware that your code serves as a form of documentation for your software - because it _is_ your software.
+This is why engineers can be [pedantic about comments](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/). Comments explaining what code is doing can easily get out of date and confuse the next engineer trying to change it (or even understand it). I won't open up the comment wars here, but it is good to be aware that your code serves as a form of documentation for your software - because it _is_ your software.
+
+It is up to the maintainers to make sure that the drift between documentation and the running code is minimized by looking at the what the code is doing. If there is a question about what an API is doing, go to the code. If there is a difference between what the API is doing in documentation vs code, the team needs to decide which is incorrect and then correct it. This is especially important when it comes to public APIs and API specifications which will be discussed in a moment. In either case, if a gap is identified, don't be silent. Raise the issue and work to understand what the code is doing and which decide which thing - the code or docs  - needs to change.
 
 ## Generating Docs is Usually a Good Idea
 
