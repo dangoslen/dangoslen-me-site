@@ -62,10 +62,10 @@ Instead of avoiding this, opt to minimize it and be quick to make changes when y
 ## Documentation is a Tool
 
 After all of this, remember:
-Documentation is a tool for helping your team succeed.
-Effective documenation will tell your team members what you do, how you do it, and - most importantly - why.
-Go to the code when you can - generating anything possible to minimize drift.
-Make the docs easy to change - just like code.
+* Documentation is a tool for helping your team succeed.
+* Effective documenation will tell your team members what you do, how you do it, and - most importantly - why.
+* Go to the code when you can - generating anything possible to minimize drift.
+* Make the docs easy to change - just like code.
 
 Happy coding!
 
