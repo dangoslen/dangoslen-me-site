@@ -17,7 +17,7 @@ image: ../assets/papers-g21f5bc9e0_1920.jpeg
 
 </center>
 
-I recently joined a new team. An entirely new company actually. I'm now an engineer working for [PolicyGenius](https://grnh.se/0ebea2c41us) - the leading online insurance marketplace (in the US at least). I've enjoyed the change so far; it was well needed.
+I recently joined a new team. An entirely new company actually. I'm now an engineer working for [Policygenius](https://grnh.se/0ebea2c41us) - the leading online insurance marketplace (in the US at least). I've enjoyed the change so far; it was well needed.
 
 When joining a new team - and a new company - there are a *lot* of things to learn. Most of that learning starts with loads of things to read, including process documentation, system diagrams, API specifications, and data models for software teams. Then there are even more docs on culture, how to respond to incidents, and decision logs. 
 
@@ -25,7 +25,7 @@ It can be a lot.
 
 As I've been going through the docs of our engineering team, I had a few takeaways about how to do documentation right - and why it is so hard to do so. Today, I want to share my perspectives while still fresh as a recently onboarded engineer.
 
-*And to be clear, I've been blown away by how **good** the documentation at PG (PolicyGenius) has been. I don't think there hasn't been a question I've asked that didn't have an answer with a document, Wiki, or slide presentation to help me understand the answer in more depth.*
+*And to be clear, I've been blown away by how **good** the documentation at PG (Policygenius) has been. I don't think there hasn't been a question I've asked that didn't have an answer with a document, Wiki, or slide presentation to help me understand the answer in more depth.*
 
 ## Understand There are Different Kinds of Documentation
 
