@@ -31,19 +31,21 @@ But how can someone take a house in shambles and turn it into a dream home? How 
 
 Many qualities are required; persistence, skill, sacrifice, etc. 
 
-But there is one quality that is overlooked and is the difference-maker. That difference is vision.
+But there is one quality that is neccesary. One thing that is the predictor for success or failure.
+
+That difference is vision.
 
 ## What is Vision?
 
-Vision is the ability to see. In the creative context, vision is the ability to see how things could be. The ability to grasp a different perspective unique to everyone else. The ability to imagine a different world than the current reality. 
+Simply put pision is the ability to see. In the creative context, vision is the ability to see how things could be. The ability to grasp a different perspective unique to everyone else. The ability to imagine a different world than the current reality. 
 
-This is why we call visionaries, well, visionary. They can envision things no one else can. And the household names we remember are the ones who had vision _and_ the ability to bring it to fruition.
+This is why we call visionaries, well, visionary. They can envision things no one else can. And the household names we remember are the ones who had vision _and_ the ability to bring it to fruition: Bell, Edison, Earheart, Jobs, etc.
 
 But it all starts with vision.
 
 ## Why is Vision So Important?
 
-Why is vision so important? Isn't just the same as having a goal or plan?
+Why is vision so important? Isn't it just the same as having a goal or plan?
 
 I'd argue that true vision comes before creating goals or laying out a plan. Vision is something more significant. A vision says, "We can do something different. We can change how the world works. We don't have to accept the status quo." 
 
@@ -55,13 +57,13 @@ Vision like this acts as both a direction and a motivator. It sets the course fo
 
 ## Vision in Development
 
-If that sounds like a bit of mumble-jumbo self-help garbage to you, stay with me just a little bit longer. Vision isn't just about achieving your dreams of changing the world. It's also crucial for building anything significant or complex.
+If that sounds like a bit of mumble-jumbo self-help garbage to you, stay with me just a little bit longer. Vision isn't just about achieving your dreams of changing the world. It's also crucial for building anything significant or complex - like software.
 
 Let's go back to house-flipping for a second. If you bought a house with the goal of flipping it for profit, you might get stuck halfway confused about what to do, how to do it, and what direction to focus your energy. You might have been so focused on the goal of making money that you forgot to see what was possible - and if it would be profitable. Even if you did have a thought-out detailed plan, you might run into a roadblock and realize that your perfect plan wasn't so perfect after all.
 
-But vision is different. Bringing a vision to fruition can still be possible, even if the concrete plan changes frequently. 
+But vision is different. Bringing a vision to fruition can still be possible, even if the concrete plan changes frequently. In software, vision is critical for that exact reason: plans and goals can change quickly, but we still need a motivator for technical excellence and a direction to march towards. 
 
-In software, vision is critical for that exact reason: plans and goals can change quickly, but we still need a motivator for technical excellence and a direction to march towards. An excellent technical vision describes how developers feel when writing code and the ease with which they can monitor their software. It explains how teams work together and the breadcrumbs they leave along the way to make the path clear for the next team. How people feel working on the engineering team and how they feel supported by management might be included too.
+An excellent technical vision describes how developers feel when writing code and the ease with which they can monitor their software. It explains how teams work together and the breadcrumbs they leave along the way to make the path clear for the next team. How people feel working on the engineering team and how they feel supported by management might be included too.
 
 Vision can also be micro. A senior engineer might have a vision for how a particular codebase is organized. They might describe the reliability of their service or how easy it is to be on-call for that service because it rarely goes down. They might even discuss the throughput they think is possible to supercharge the business.
 
@@ -70,8 +72,9 @@ Vision can also be micro. A senior engineer might have a vision for how a partic
 If you're still here, the next logical question is, of course: how do you create a vision?
 
 While there is a lot to explore in the answer - much of which can't be covered in this article - there are a few key things to cover. The most important aspect is found in answering two primary questions:
-1) What will the future _feel_ like when your vision is achieved?
-2) _How_ will things be different from today? 
+
+1. What will the future _feel_ like when your vision is achieved?
+2. _How_ will things be different from today? 
 
 Be as detailed as possible. Don't say, "Work will be easier." Say, "Work will be easier to accomplish because our codebase is easy to understand, and we have tests to identify when we've broken functionality." 
 
