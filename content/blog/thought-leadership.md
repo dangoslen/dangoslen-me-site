@@ -20,7 +20,7 @@ The other week I saw a pretty upsetting Tweet by Allen Holub. Holub is an Agile 
 
 This kind of statement isn't unlike Holub either, and his style tends to be controversial and intentionally provocative. His whole business relies on convincing people he has a better way to do Agile, which means convincing people they need his help. 
 
-I usually don't find his takes offensive or frustrating. Even if I disagree with his perspective, he usually brings a helpful insight to think through. However, I find his statement baseless and naive in this particular case. I've even written about the subject of code reviews, pull requests, and trust before. Using a tool doesn't mean there is no trust. It might be a symptom, but not enough to diagnose a disease of mistrust.
+I usually don't find his takes offensive or frustrating. Even if I disagree with his perspective, he usually brings a helpful insight to think through. However, I find his statement baseless and naive in this particular case. I've even [written about the subject of code reviews, pull requests, and trust before](https://dangoslen.me/blog/lets-talk-about-trust/). Using a tool doesn't mean there is no trust. It might be a symptom, but not enough to diagnose a disease of mistrust.
 
 I mention all of this because I'm beginning to grow tired of harsh definitive statements like Holub's. I don't believe it helps the software engineering community grow and learn. Are there times we should voice strong opinions? Absolutely. And yet, the best declarations of an opinion also make it clear the idea is based on individual experience and offered with humility, knowing they don't know everything.
 
