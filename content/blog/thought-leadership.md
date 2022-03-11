@@ -16,7 +16,9 @@ image: ../assets/jana-sabeth-_mm85Sy-q4w-unsplash.jpeg
 
 </center>
 
-The other week I saw a pretty upsetting Tweet by Allen Holub. Holub is an Agile coach and software thought leader. He wrote the following:
+The other week I saw a pretty upsetting Tweet by Allen Holub. Holub is an Agile coach and software thought leader. A lot of his focus is on helping teams get away from process and "Agile-ish" workflows to workflows centered on team productivity.
+
+He wrote the following:
 
 <a href="https://twitter.com/allenholub/status/1491168642586710016">
 
