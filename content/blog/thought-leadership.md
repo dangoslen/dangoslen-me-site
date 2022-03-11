@@ -7,8 +7,14 @@ tags:
   - vision
   - software leadership
   - software engineering
-image: /assets/matt-noble-BpTMNN9JSmQ-unsplash.jpeg
+image: ../assets/jana-sabeth-_mm85Sy-q4w-unsplash.jpeg
 ---
+
+<center>
+
+!["bearded man in background thinking with blurred foreground characters"](../assets/jana-sabeth-_mm85Sy-q4w-unsplash.jpeg)
+
+</center>
 
 The other week I saw a pretty upsetting Tweet by Allen Holub. Holub is an Agile coach and software thought leader. He wrote the following:
 
@@ -44,7 +50,7 @@ Now before going further, I'm not trying to say that thought leaders today haven
 
 In the internet era, you can find thought leaders anywhere. Some write blogs (codinghorror), some Tweet or post on LinkedIn. Others still have an old-school approach and write books or papers. No matter the medium, many gain an audience of followers on social media platforms or in niche circles.
 
-Turning specifically to software engineering, many thought leaders are either engineers who wrote about their experience building software or wrote about the feats of technical mastery they accomplished. The engineering industry has built a collection of books/papers often viewed as cannon for how to build software. These are books like Clean Code, Pragmatic Programmer, or Designing Data-Intensive Applications. Papers like Google's MapReduce, or Roy Fielding's dissertation are also esteemed by many engineers.
+Turning specifically to software engineering, many thought leaders are either engineers who wrote about their experience building software or wrote about the feats of technical mastery they accomplished. The engineering industry has built a collection of books/papers often viewed as cannon for how to build software. These are books like [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code), [Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer), or [Designing Data-Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications). Papers like [Google's MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf), or [Roy Fielding's dissertation](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) are also esteemed by many engineers.
 
 Since the area of software engineering and computer science is so vast, the space for a thought leader is as well. Some focus on process and others focus on specific breakthroughs in building computers themselves. Effective thought leadership also includes creating a bit of a niche so that the ideas being promoted can be clear and hyper-specific.
 
@@ -78,6 +84,6 @@ These tools often are in the form of situational awareness: when this team probl
 
 Knowing when to use each and which one will be the most effective is the art of software engineering. And the context is most often missed by hardline statements on the internet.
 
-And yet, we need to have the tools in the first place. And so, we should listen carefully, think critically, and be judicious about the tools we deploy.
+And yet, we need to have the tools in the first place. And so, we should be listening. We need to be paying attention to the the thoughts and trends in our industry. But we need to listen carefully, think critically, and be judicious about when to deploy the tools we have.
 
 Happy coding!
