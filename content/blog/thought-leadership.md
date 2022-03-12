@@ -1,6 +1,6 @@
 ---
 path: /some-thoughts-on-thought-leadership
-date: 2022-02-17T00:00:00.000Z
+date: 2022-03-14T00:00:00.000Z
 title: Some Thoughts on Thought Leadership
 description: Let's listen in, but still think critically.
 tags:
