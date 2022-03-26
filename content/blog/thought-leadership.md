@@ -14,7 +14,7 @@ image: ../assets/jana-sabeth-_mm85Sy-q4w-unsplash.jpeg
 
 !["bearded man in background thinking with blurred foreground characters"](../assets/jana-sabeth-_mm85Sy-q4w-unsplash.jpeg)
 
-<i>Photo by <a href="https://unsplash.com/@janasabeth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jana Sabeth</a> on <a href="https://unsplash.com/@janasabeth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> </i>
+<i>Photo by <a href="https://unsplash.com/@janasabeth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jana Sabeth</a> on <a href="https://unsplash.com/@janasabeth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></i>
 
 </center>
 
