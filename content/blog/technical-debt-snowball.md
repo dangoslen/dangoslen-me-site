@@ -6,17 +6,30 @@ description: Paying down debt via small wins can create a huge impact.
 tags: 
   - programming
   - career
-image: /assets/1_ndvpxhffgu1hoz2cbssmuw.jpeg
+image: /assets/pauline-bernfeld-16l2ezZQ_Yw-unsplash.jpeg
+
 ---
+
+<center>
+
+!["Boy with huge snowball falling over it"](../assets/pauline-bernfeld-16l2ezZQ_Yw-unsplash.jpeg)
+
+Photo by <a href="https://unsplash.com/@pizbern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pauline Bernfeld</a> on <a href="https://unsplash.com/s/photos/snowball?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+</center>
+
+
 [Technical debt](https://www.productplan.com/glossary/technical-debt/). Many software engineers will be familiar with this term and the constant arguments about its definition.
 
-A popular analogy or definition of technical debt is much like borrowing financial debt in the marketplace. For example, buyers often take a loan instead of paying the total cost in cash when purchasing a home. They often bring a 10% down payment and pay the rest off over 15 - 30 years. The buyer can get the house today vs. waiting 15 - 30 years to save up a huge mountain of cash.
+A popular analogy of technical debt is personal financial debt. People often take out loans on large purchases to allow them to make the purchase much sooner. 
 
-But there is a trade. Loans often come with interest. The interest is like a "fee" for the lender giving money for the purchase. The buyer, then, will ultimately pay more than the home's original sale price. The lower the interest rate, the closer the total loan repayment is to the purchase price (low-interest rates are also partially responsible for the current inflation of home prices as everyone wants to buy a home when rates are low). 
+For example, buyers often take a loan instead of paying the total cost in cash when purchasing a home. They often bring a 10 - 15% down payment and pay the rest off over 15 - 30 years. The buyer can get the house today vs. waiting 15 - 30 years to save up a huge mountain of cash.
 
-Technical debt in software has similar properties: a software team is willing to take a loan on effort, completeness, and even time to deliver something faster to their customers. If the team can complete a sufficiently large set of the required functionality to release a new feature by the end of the week vs. waiting two months for it to be fully complete, the team might choose to release it at the end of the week. They take a "loan" to complete the rest of the functionality as soon as the core functionality is released.
+But there is a trade. Loans often come with interest. The interest is like a "fee" for the lender giving money for the purchase. The buyer, then, will ultimately pay more than the home's original sale price. The lower the interest rate, the closer the total loan repayment is to the purchase price (low-interest rates are also partially responsible for how crazy the real estate market has been recently as everyone wants to buy a home when rates are low).
 
-But this loan has an interest rate too. And since the loan is in effort and time, the total effort the team will pay to develop the feature set (or even maintain the work already released) will be greater than if they had waited the initial two weeks. But, it's up to the team and the product owner to determine if saving development time now is worth it to reap the benefits of getting to market faster. It often is.
+Technical debt in software has similar properties: a software team is willing to take a loan on effort, time, and even completeness to deliver something faster to their customers. If the team can complete a sufficient set of the required functionality to release a new feature by the end of the week vs. waiting two months for it to be fully complete, the team might choose to release it at the end of the week. They take a "loan" to complete the rest of the functionality as soon as the core functionality is released.
+
+But technical debt loans have interest too. And since the loan is in effort and time, the total effort the team will pay to develop the feature set (or even maintain the work already released) will be greater than if they had waited the initial two weeks. But, it's up to the team and the product owner to determine if saving development time now is worth it to reap the benefits of getting to market faster. It often is.
 
 _Side note: this is all based on the **intentional** decision to incur technical debt. It **does not** include general cruft or poor engineering._
 
@@ -41,6 +54,7 @@ I want to talk about how my team over at [Policygenius](www.policygenius.com)([w
 Let's jump in!
 
 ## The Debt Snowball
+
 The Debt Snowball is essentially a debt repayment strategy where you list debts smallest to largest and tackle the smallest debts first. This process has been made famous by [Dave Ramsey](https://www.ramseysolutions.com/dave-ramsey-7-baby-steps) - a money guru who has built his whole brand on getting rid of debt. 
 
 Once you have an ordered list of your debts, you pay minimum payments on the largest debts while throwing all extra money at the smallest ones. Once the first one is paid off, you apply _all_ the money you had been paying on the smallest debt towards the next one. And the next one. 
@@ -48,6 +62,7 @@ Once you have an ordered list of your debts, you pay minimum payments on the lar
 This creates _momentum_ - much like how a snowball as it travels down a mountain. It gets bigger and faster with every new piece of snow it accumulates on its surface until it looks more like a boulder tumbling down. When it comes time to pay off the largest debt, there is such momentum and _motiviation_ that you'll pay it off in no time.
 
 ## Applying this to Technical Debt
+
 Applying these principles to software engineering is more-or-less the same. Following the steps again, we need to
 
 1. Track and list our technical debt from smallest to largest
@@ -57,6 +72,7 @@ Applying these principles to software engineering is more-or-less the same. Foll
 Let's dig into them each one-by-one
 
 ### Track and List Your Debt
+
 In many ways, this is the hardest part. Tracking technical debt can be difficult, and ordering it even more. In an ideal world, we would write a task or development work item to track that new debt is being taken out. We can decide what to do with it later.
 
 However, as every software engineer knows, we don't always know we are taking out debt when making a decision, and we realize it only later. 
@@ -76,11 +92,12 @@ Making minimum payments is akin to "keeping the lights on." For example, you can
 Another example of this might be dependencies. You know you are a major version behind, but you can still - and should - try to keep up with minor or patch versions as best as you can. You mitigate security vulnerabilities by making the minimum payment here, even though you can't fully upgrade to the latest version without additional effort.
 
 ### Paying Extra
+
 In the first step, we discussed identifying the smallest debt that is achievable and beneficial to work on. 
 
 But there is a subtle catch: you need time to work on it.
 
-While the step says to "pay extra," many software teams, in practice, need to protect their time and effort. If your team allocates all its time towards product work, you can't give any time towards your technical debt outside of the minimum payments you make doing product work.
+While the step says to "pay extra," many software teams, in practice, need to start with protecting their time and effort. This makes sense; if time and effort are the unit of measurement for technical debt, you pay with time and effort. If your team allocates all its time towards product work, you can't give any time towards your technical debt outside of the minimum payments you make doing product work.
 
 A great way to do this is to never fully allocate your team's capacity towards product work when planning your next iteration. Reserve 10-20% of your team's capacity (which _should_ translate into time and effort) to work on technical debt or innovative projects. 
 
@@ -92,7 +109,7 @@ With all of that back-story, I want to share how our team has been using the tec
 
 First, we protect our time. We keep good metrics about our team's capacity and only pull in 80% of our total for product work. We work together to allocate the remaining 20% and decide what other work we want to bring in. It might be a bug, a refactor, or thinking about a new problem. A lot of our effort gets used to pay down technical debt here.
 
-Second, we make sure to keep our technical debt tasks small. Like _really_ small. They aren't "Re-do our address data model from the ground up." They are more often "Stop using this function and use this other one instead." While it can sometimes feel a little too prescriptive, we've embraced that it helps all see the value and the amount of debt we are paying down.
+Second, we make sure to keep our technical debt tasks small. Like _really_ small. They aren't "Re-do our address data model from the ground up." They are more often "Stop using this function and use this other one instead." While it can sometimes feel a little too prescriptive, we've embraced that it helps the whole team see the value and the amount of debt we are paying down.
 
 Third, we embrace that we don't need an isolated technical debt story to pay down technical debt. If we realize that a piece of product work will be best suited for some additional debt repayment, we size that story appropriately. We use story points for estimating, so we usually bump a story to the next story point increment to account for the additional time and effort.
 
@@ -100,7 +117,9 @@ Fourth, for large pieces of technical debt - we make them smaller. While loan co
 
 Last, we do our best to identify technical debt early. When reviewing upcoming work, if we think we need to make a strategic decision and take out more debt, we discuss why, build consensus and write stories to address our debt soon after we take it out. This helps us have an accurate view of our debt.
 
-The result of these practices is that our team is gaining momentum by achieving the wins of paying down small tech debt quickly. Our codebase becomes easier to work in when we do so, making it easier to tackle the next debt; the snowball keeps growing. We've outperformed our velocity (and work items completed) over the past two sprints with no sign of slowing down. And while velocity **is not** a perfect measure of performance, if our team is completing more work during an iteration and we all feel energized by the work we are doing, which is a tough sentiment of performance to beat.
+The result of these practices is that our team is gaining momentum by achieving the wins of paying down small tech debt quickly. Our codebase becomes easier to work in when we do so, making it easier to tackle the next debt; the snowball keeps growing. 
+
+We've outperformed our velocity (and work items completed) over the past two sprints with no sign of slowing down. And while velocity **is not** a perfect measure of performance, if our team is completing more work during an iteration and we all feel energized by the work we are doing, which is a tough sentiment of performance to beat.
 
 ## When the Repayment Period is Up
 
