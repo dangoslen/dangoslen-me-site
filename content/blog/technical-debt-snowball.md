@@ -41,7 +41,7 @@ I want to talk about how my team over at [Policygenius](www.policygenius.com)([w
 Let's jump in!
 
 ## The Debt Snowball
-The Debt Snowball is essentially a debt repayment strategy where you list debts smallest to largest and tackle the smallest debts first. This process has been made famous by [Dave Ramsey](https://www.ramseysolutions.com/dave-ramsey-7-baby-steps?snid=guided-plans.pay-off-debt-and-build-wealth.ramsey+.the-7-baby-steps) - a money guru who has built his whole brand on getting rid of debt. 
+The Debt Snowball is essentially a debt repayment strategy where you list debts smallest to largest and tackle the smallest debts first. This process has been made famous by [Dave Ramsey](https://www.ramseysolutions.com/dave-ramsey-7-baby-steps) - a money guru who has built his whole brand on getting rid of debt. 
 
 Once you have an ordered list of your debts, you pay minimum payments on the largest debts while throwing all extra money at the smallest ones. Once the first one is paid off, you apply _all_ the money you had been paying on the smallest debt towards the next one. And the next one. 
 
@@ -71,7 +71,7 @@ While it might not be the same as smallest to largest ordering, you will at leas
 
 ### Make Minimum Payments
 
-Making minimum payments is akin to "keeping the lights on." For example, you can't just decide not to change any code in a "forbidden module" if you have a bug causing daily headaches for your customers. You have to pay the debt and do the best you can to fix the bug or at least make it less painful (more on this in a bit). You might not be able to do the big refactor you want to do, but perhaps you can change one or two things to make it better.
+Making minimum payments is akin to "keeping the lights on." For example, you can't ignore a bug causing daily headaches for your customers because [your team is too afraid to change code](https://agileotter.blogspot.com/2009/01/fear-of-changing-code.html). You have to pay the debt and do the best you can to fix the bug or at least make it less painful (more on this in a bit). You might not be able to do the big refactor you want to do, but perhaps you can change one or two things to make it better.
 
 Another example of this might be dependencies. You know you are a major version behind, but you can still - and should - try to keep up with minor or patch versions as best as you can. You mitigate security vulnerabilities by making the minimum payment here, even though you can't fully upgrade to the latest version without additional effort.
 

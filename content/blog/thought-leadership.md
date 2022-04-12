@@ -28,8 +28,6 @@ He wrote the following:
 
 <i><a href="https://twitter.com/allenholub/status/1491168642586710016">https://twitter.com/allenholub/status/1491168642586710016</a></i>
 
-</a>
-
 </center>
 
 This kind of statement isn't unlike Holub either, and his style tends to be controversial and intentionally provocative. His whole business relies on convincing people he has a better way to do Agile, which means convincing people they need his help. 
