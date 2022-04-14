@@ -16,6 +16,8 @@ image: ../assets/jana-sabeth-_mm85Sy-q4w-unsplash.jpeg
 
 <i>Photo by <a href="https://unsplash.com/@janasabeth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jana Sabeth</a> on <a href="https://unsplash.com/@janasabeth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></i>
 
+<br/>
+
 </center>
 
 The other week I saw a pretty upsetting Tweet by Allen Holub. Holub is an Agile coach and software thought leader. A lot of his focus is on helping teams get away from process and "Agile-ish" workflows to workflows centered on team productivity.
@@ -27,8 +29,6 @@ He wrote the following:
 !["tweet by allen hollub"](../assets/allen_tweet.png)
 
 <i><a href="https://twitter.com/allenholub/status/1491168642586710016">https://twitter.com/allenholub/status/1491168642586710016</a></i>
-
-</a>
 
 </center>
 
