@@ -60,7 +60,7 @@ The Debt Snowball is essentially a debt repayment strategy where you list debts 
 
 Once you have an ordered list of your debts, you pay minimum payments on the largest debts while throwing all extra money at the smallest ones. Once the first one is paid off, you apply _all_ the money you had been paying on the smallest debt towards the next one. And the next one. 
 
-This creates _momentum_ - much like how a snowball as it travels down a mountain. It gets bigger and faster with every new piece of snow it accumulates on its surface until it looks more like a boulder tumbling down. When it comes time to pay off the largest debt, there is such momentum and _motiviation_ that you'll pay it off in no time.
+This creates _momentum_ - much like how a snowball as it travels down a mountain. It gets bigger and faster with every new piece of snow it accumulates on its surface until it looks more like a boulder tumbling down. When it comes time to pay off the largest debt, there is such momentum and _motivation_ that you'll pay it off in no time.
 
 ## Applying this to Technical Debt
 
