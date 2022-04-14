@@ -1,24 +1,24 @@
 ---
-path: /technical-debt-snowball
-date: 2022-04-07T04:00:00.000Z
-title: Technical Debt Snowball
+path: /the-technical-debt-snowball
+date: 2022-04-014T04:00:00.000Z
+title: The Technical Debt Snowball
 description: Paying down debt via small wins can create a huge impact.
 tags: 
   - programming
   - career
-  - technical debt
+  - tech debt
   - technical leadership
 image: /assets/pauline-bernfeld-16l2ezZQ_Yw-unsplash.jpeg
 
 ---
-
 <center>
 
 !["Boy with huge snowball falling over it"](../assets/pauline-bernfeld-16l2ezZQ_Yw-unsplash.jpeg)
 <i>Photo by <a href="https://unsplash.com/@pizbern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pauline Bernfeld</a> on <a href="https://unsplash.com/s/photos/snowball?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></i>
 
-</center>
+<br/>
 
+</center>
 
 [Technical debt](https://www.productplan.com/glossary/technical-debt/). Many software engineers will be familiar with this term and the constant arguments about its definition.
 
@@ -44,7 +44,7 @@ But there are consequences.
 
 If someone has too much personal debt, they eventually lose their house or car, and they might even have to declare bankruptcy. Too much debt becomes a burden that weighs them down and keeps them from moving forward.
 
-In software, this looks like never shipping features, constant bugs creating frustrated customers, and excess maintenance costs that cause developers to leave. 
+In software, this looks like never shipping features, constant bugs creating frustrated customers, and excess maintenance costs that cause developers to leave. Bankruptcy for a software team looks like a lot burnout.
 
 As engineers, we have to be vigilant about tracking, paying down, and using technical debt strategically. For many teams, this likely starts with admitting there is a good chunk of debt to pay down. 
 
@@ -108,7 +108,7 @@ Each team will do this subtly different, so we won't focus too much on how indiv
 
 With all of that back-story, I want to share how our team has been using the technical debt snowball to pay down debt and over-achieve our iteration goals over the last several months.
 
-First, we protect our time. We keep good metrics about our team's capacity and only pull in 80% of our total for product work. We work together to allocate the remaining 20% and decide what other work we want to bring in. It might be a bug, a refactor, or thinking about a new problem. A lot of our effort gets used to pay down technical debt here.
+First, we protect our time. We keep good metrics about our team's capacity and only allocate 80% of our capacity towards product work. We work together to allocate the remaining 20% and decide what other work we want to bring in. It might be a bug, a refactor, or thinking about a new problem. A lot of our effort gets used to pay down technical debt here.
 
 Second, we make sure to keep our technical debt tasks small. Like _really_ small. They aren't "Re-do our address data model from the ground up." They are more often "Stop using this function and use this other one instead." While it can sometimes feel a little too prescriptive, we've embraced that it helps the whole team see the value and the amount of debt we are paying down.
 
