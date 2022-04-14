@@ -1,6 +1,6 @@
 ---
 path: /the-technical-debt-snowball
-date: 2022-04-014T04:00:00.000Z
+date: 2022-04-14T04:00:00.000Z
 title: The Technical Debt Snowball
 description: Paying down debt via small wins can create a huge impact.
 tags: 
