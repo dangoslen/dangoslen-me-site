@@ -62,6 +62,16 @@ Once you have an ordered list of your debts, you pay minimum payments on the lar
 
 This creates _momentum_ - much like how a snowball as it travels down a mountain. It gets bigger and faster with every new piece of snow it accumulates on its surface until it looks more like a boulder tumbling down. When it comes time to pay off the largest debt, there is such momentum and _motivation_ that you'll pay it off in no time.
 
+<center>
+
+!["snowball rolling down hill"](../assets/1_AtpiyBgwQWP1mDyizzKvbg.png)<i><a href="https://medium.com/@derreckstratton/the-snowball-effect-646d4fe7167a">https://medium.com/@derreckstratton/the-snowball-effect-646d4fe7167a</a></i>
+
+<br/>
+
+</center>
+
+---
+
 ## Applying this to Technical Debt
 
 Applying these principles to software engineering is more-or-less the same. Following the steps again, we need to
