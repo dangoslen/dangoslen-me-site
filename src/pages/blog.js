@@ -27,7 +27,7 @@ class Blog extends React.Component {
                   </BlogLink>
                 </BlogTitle>
                 <BlogSummary>
-                  <span>{node.frontmatter.date}{"  ::  "}{node.fields.readingTime.text}</span>
+                  <span>{node.frontmatter.date}</span>
                   <div>
                     <span>{node.frontmatter.description || node.excerpt}</span>        
                   </div>
@@ -83,9 +83,6 @@ export const pageQuery = graphql`
           excerpt
           fields {
             slug
-            readingTime {
-              text
-            }
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
