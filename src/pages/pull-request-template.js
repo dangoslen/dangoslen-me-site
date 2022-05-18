@@ -6,8 +6,9 @@ import SEO from "../components/seo"
 import EmailSignup from "../components/email-signup"
 import styled from "styled-components"
 import PrTemplateMdx from "../components/pr-template.mdx"
+import { BiCopy } from "@react-icons/all-files/bi/BiCopy";
 
-class Book extends React.Component {
+class PrTemplate extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = "Pull Request Template"
@@ -45,6 +46,12 @@ class Book extends React.Component {
 
         <PrTemplateWrapper>
           <PrTemplateContent>
+            <CopyButton><BiCopy style={{
+              color: `inherit`,
+              backgroundColor: `inherit`,
+              width: `100%`,
+              height: `100%`
+            }}/></CopyButton>
             <PrTemplateMdx />
           </PrTemplateContent>
         </PrTemplateWrapper>
@@ -77,6 +84,23 @@ const PrTemplateContent = styled.div`
     }
   }
 ` 
+
+const CopyButton = styled.button`
+    color: rgba(255,255,255,0.45);
+    width: 32px;
+    height: 32px;
+    background-color: inherit;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    opacity: 40%;
+    cursor: pointer;
+
+    &:hover {
+      color: rgba(255,255,255);
+    }
+`
 
 // Needed for Copy to Clipboard
 const PrTemplateText = `
@@ -124,4 +148,4 @@ const PrTemplateText = `
 -->
 `
 
-export default Book
+export default PrTemplate
