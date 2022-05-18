@@ -37,6 +37,7 @@
     "react-helmet": "^5.2.0",
     "react-media-hook": "^0.4.7",
     "react-refresh": "^0.8.3",
+    "react-tooltip": "^4.2.21",
     "react-typography": "^0.16.19",
     "request": "^2.88.2",
     "styled-components": "^5.1.0",

@@ -1,5 +1,7 @@
 import React from "react"
 
+import Cliboard from "clipboard"
+import ReactTooltip from 'react-tooltip';
 import Layout from "../components/layout"
 import Device from "../components/sizing"
 import SEO from "../components/seo"
@@ -12,6 +14,7 @@ class PrTemplate extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = "Pull Request Template"
+    const clipboard = new Cliboard('#copy')
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -21,14 +24,13 @@ class PrTemplate extends React.Component {
           <h1>A great way to help your team's async code review process is to outline a set of standard questions and information for each pull request.</h1>
           <h2>And thankfully, this is easy to do with GitHub!</h2>
           <p>Below is a pull request template that you can add to your repository to prompt a author to add specific details whenever they open a new PR. </p>
-          <p>Simply follow the steps:
-            <ul>
-              <li>Copy the contents of the markdown file below</li>
-              <li>Paste the contents into a file called `PULL_REQUEST_TEMPLATE.md`</li>
-              <li>Navigate to your repository</li>
-              <li>Move the file into the `.github` directory (if you don't have one, create it)</li>
-            </ul>
-          </p>
+          <p>Simply follow the steps:</p>
+          <ul>
+            <li>Copy the contents of the markdown file below</li>
+            <li>Paste the contents into a file called `PULL_REQUEST_TEMPLATE.md`</li>
+            <li>Navigate to your repository</li>
+            <li>Move the file into the `.github` directory (if you don't have one, create it)</li>
+          </ul>
           <p>This template comes right out of Chapter 5 in my book: <a href="../book">Code Review Champion</a>. If you want to learn more about how to build a great code review process on your team, check it out!</p>
           <p>If you want more updates and resources like this, subscribe to my newsletter below:</p>
           <div style={{ 
@@ -46,16 +48,28 @@ class PrTemplate extends React.Component {
 
         <PrTemplateWrapper>
           <PrTemplateContent>
-            <CopyButton><BiCopy style={{
-              color: `inherit`,
-              backgroundColor: `inherit`,
-              width: `100%`,
-              height: `100%`
-            }}/></CopyButton>
+            <CopyButton id="copy" 
+              onClick={ () => { ReactTooltip.show(this.copyRef) } }
+              data-clipboard-text={ PrTemplateText }>
+                <Tootip ref={ref => this.copyRef = ref} 
+                  data-offset="{ 'top': 10, 'right': 30 }"
+                  data-place="right"
+                  data-tip='Copied!'>
+                </Tootip>
+                <BiCopy style={{
+                  color: `inherit`,
+                  backgroundColor: `inherit`,
+                  width: `100%`,
+                  height: `100%`
+                }}/>
+              </CopyButton>
             <PrTemplateMdx />
           </PrTemplateContent>
         </PrTemplateWrapper>
-      </Layout>
+
+        <ReactTooltip />
+
+      </Layout>      
     )
   }
 }
@@ -100,6 +114,10 @@ const CopyButton = styled.button`
     &:hover {
       color: rgba(255,255,255);
     }
+`
+
+const Tootip = styled.span`
+
 `
 
 // Needed for Copy to Clipboard
