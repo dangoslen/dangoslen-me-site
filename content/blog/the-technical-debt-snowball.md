@@ -14,6 +14,7 @@ image: /assets/pauline-bernfeld-16l2ezZQ_Yw-unsplash.jpeg
 <center>
 
 !["Boy with huge snowball falling over it"](../assets/pauline-bernfeld-16l2ezZQ_Yw-unsplash.jpeg)
+
 <i>Photo by <a href="https://unsplash.com/@pizbern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pauline Bernfeld</a> on <a href="https://unsplash.com/s/photos/snowball?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></i>
 
 <br/>

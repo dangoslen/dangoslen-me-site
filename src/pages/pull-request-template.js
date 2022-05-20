@@ -12,10 +12,14 @@ import PrTemplateMdx from "../components/pr-template.mdx"
 import { BiCopy } from "@react-icons/all-files/bi/BiCopy";
 
 class PrTemplate extends React.Component {
+
+  componentDidMount() {
+    const clipboard = new Cliboard('#copy')
+  }
+  
   render() {
     const { data } = this.props
     const siteTitle = "Pull Request Template"
-    const clipboard = new Cliboard('#copy')
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -49,15 +53,19 @@ class PrTemplate extends React.Component {
 
         <PrTemplateWrapper id='pr-template'>
           <PrTemplateContent>
+
             <CopyButton id="copy" 
               onClick={ () => { ReactTooltip.show(this.copyRef) } }
               data-clipboard-text={ PrTemplateText }>
-                <Tootip ref={ref => this.copyRef = ref} 
+                
+                <Tooltip ref={ref => this.copyRef = ref} 
                   data-offset="{ 'top': 10, 'right': 30 }"
                   data-place="right"
                   data-tip='Copied!'>
-                </Tootip>
+                </Tooltip>
+
                 <CopyIcon />
+
               </CopyButton>
             <PrTemplateMdx />
           </PrTemplateContent>
@@ -119,7 +127,7 @@ const CopyIcon = styled(BiCopy)`
   height: 100%;
 `
 
-const Tootip = styled.span`
+const Tooltip = styled.span`
 
 `
 
