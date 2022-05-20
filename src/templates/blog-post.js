@@ -31,7 +31,7 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date}{"  ::  "}{post.fields.readingTime.text}
+          {post.frontmatter.date}
           <Tags tags={post.frontmatter.tags} />
         </p>
 
@@ -100,11 +100,6 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       body
-      fields {
-        readingTime {
-          text
-        }
-      } 
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")

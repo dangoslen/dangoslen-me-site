@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Button from "../components/button"
 import styled from "styled-components"
 
 class Blog extends React.Component {
@@ -27,7 +26,7 @@ class Blog extends React.Component {
                   </BlogLink>
                 </BlogTitle>
                 <BlogSummary>
-                  <span>{node.frontmatter.date}{"  ::  "}{node.fields.readingTime.text}</span>
+                  <span>{node.frontmatter.date}</span>
                   <div>
                     <span>{node.frontmatter.description || node.excerpt}</span>        
                   </div>
@@ -83,9 +82,6 @@ export const pageQuery = graphql`
           excerpt
           fields {
             slug
-            readingTime {
-              text
-            }
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")

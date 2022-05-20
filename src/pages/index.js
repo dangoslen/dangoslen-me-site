@@ -3,12 +3,10 @@ import styled from "styled-components"
 import { useStaticQuery, graphql} from "gatsby"
 import Img from "gatsby-image"
 
-import { 
-  AiFillTwitterCircle, 
-  AiFillLinkedin, 
-  AiFillMediumCircle,
-  AiFillGithub
-} from "react-icons/ai"
+import { AiFillTwitterCircle } from "@react-icons/all-files/ai/AiFillTwitterCircle"
+import { AiFillLinkedin } from "@react-icons/all-files/ai/AiFillLinkedin"
+import { AiFillMediumCircle } from "@react-icons/all-files/ai/AiFillMediumCircle"
+import { AiFillGithub } from "@react-icons/all-files/ai/AiFillGithub"
 
 import SocialLink from "../components/social-link"
 import Device from "../components/sizing"

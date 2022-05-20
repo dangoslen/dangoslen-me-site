@@ -17,9 +17,3 @@
 # Teams and product owners must agree on goals and delivery dates that both satisfy business goals while maintain a sustainable pace
 
 # Teams should publish and maintain documentation for how other teams should interact with them and with their software
-
-
-
-
-
-new meeting: Triangle Recovery Lunch, Fridays 12:00-12:45 Zoom: 839 3828 0602
