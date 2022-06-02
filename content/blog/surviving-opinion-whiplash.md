@@ -13,7 +13,7 @@ image: /assets/kees-streefkerk-O3g3s-K3xKI-unsplash.jpeg
 
 <center>
 
-!["growing sapling"](../assets/kees-streefkerk-O3g3s-K3xKI-unsplash.jpeg)
+!["winding road"](../assets/kees-streefkerk-O3g3s-K3xKI-unsplash.jpeg)
 
 <i> 
 
