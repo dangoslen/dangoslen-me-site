@@ -79,6 +79,8 @@ Sadly, many of us lose our fundamentals. We get caught up in a specific problem 
 
 ---
 
-Don't let "the internet" tell you too much about what to do. Be thoughtful, engage and gain experience, and go back to fundamentals and you'll be able to make decisions rather than decisions being made for you. And that is what leading is all about.
+Don't let the internet tell you too much about what to do. Be thoughtful, engage with those around you, gain experience, and go back to fundamentals.
+
+You'll be able to make decisions rather than decisions being made for you. And that is what leading is all about.
 
 Happy coding!
