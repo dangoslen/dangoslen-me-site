@@ -5,7 +5,6 @@ title: Surviving Opinion Whiplash
 description: Everyone has an opinion about how to do anything in the software industry. This is how you can survive the whiplash of running in one direction and then be told to run the opposite direction
 tags:
   - software engineering
-  - collaboration
   - critical thinking
   - leadership
 image: /assets/kees-streefkerk-O3g3s-K3xKI-unsplash.jpeg
