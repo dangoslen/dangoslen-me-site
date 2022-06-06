@@ -41,7 +41,7 @@ I think we can.
 
 ## Developing Mental Models
 
-We are continuously developing mental models of how the world works. From how our cars work to how to keep ourselves healthy, we can turn our knowledge, feelings, and experiences into a holistic interpretation of how things happen to help us make decisions in the future. As we learn new things or have new experiences, we refine our model to be more accurate about what is happening.
+We are continuously developing [mental models](https://en.wikipedia.org/wiki/Mental_model) of how the world works. From how our cars work to how to keep ourselves healthy, we can turn our knowledge, feelings, and experiences into a holistic interpretation of how things happen to help us make decisions in the future. As we learn new things or have new experiences, we refine our model to be more accurate about what is happening.
 
 The same is true for computers. When we first learned how to program, we didn't understand all the complexity of how a computer worked. Writing to a file, for instance, is often so well-abstracted that we don't need to know about how the OS handles the file. We know that some signal gets sent to a bus; then a driver for a hard drive (or SSD now!) reads the data on the bus; the driver schedules the disk head to go to a specific location on the drive... and so it goes.
 
