@@ -62,8 +62,6 @@ And when it comes to experience, remember that while time and experience are cor
 
 > "Technical Experience" comes from experiencing different situations and then learning from those experiences to improve your response to the same or similar situations in the future. Another way to say "situations" is "problems." Engineers who make the most of their "experience time investment" are the ones who intentionally expose themselves to various software-related problems and then work hard to overcome or find/build solutions to those problems.
 
-Listen to and build your own experience.
-
 ## Fundamentals Always Work
 
 Every technology, framework, database, or what-have-you was built on computer science fundamentals. Most significant innovations happen in software, not because of a new data structure or finding a radically new sorting algorithm, but by applying those fundamentals slightly different from before to optimize for a very particular use case. 
