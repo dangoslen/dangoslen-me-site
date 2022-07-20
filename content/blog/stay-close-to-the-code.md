@@ -26,9 +26,9 @@ Everyone wants to progress in their careers. To go from junior to senior; from a
 
 It's a noble pursuit, and for most of us, with enough work and skill, we will get there.
 
-And as we do, there is a phenomenon that happens: we spend less time _doing_ and more time _deciding_. As Ryan Holiday writes in his book:
+And as we do, there is a phenomenon that happens: we spend less time _doing_ and more time _deciding_. As Ryan Holiday writes in his book [Ego is the Enemy](https://www.goodreads.com/book/show/27036528-ego-is-the-enemy):
 
-> 
+> As you become successful in your field, your responsbilities may begin to change. Days become less about doing and more and more abouthing making decisions. Such is the nature of leadership.
 
 As a senior engineer, I can attest that this is true for engineers as well. As we progress, we find ourselves reviewing documents, thinking about long-term strategy, and maybe even starting to look at those dreaded budgets. 
 
