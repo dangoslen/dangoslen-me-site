@@ -1,11 +1,12 @@
 ---
 path: /flow-and-developer-productivity
-date: 2021-06-10T00:00:00.000Z
+date: 2022-08-10T00:00:00.000Z
 title: Flow and Developer Productivity
 description: Not all time and effort is created equal. Learn how to capitalize on 
 tags:
   - productivity
-  - flow
+  - career
+  - deep work
 image: /assets/randy-fath-ymf4_9Y9S_A-unsplash.jpeg
 ---
 
@@ -21,7 +22,8 @@ Photo by <a href="https://unsplash.com/es/@randyfath?utm_source=unsplash&utm_med
 </i>
 
 </center>
-We live in a culture obsessed with productivity. We want to read the morning routines of successful people. We analyze our calendars to avoid wasting a single minute. We track our output over time and learn every trick to increase it daily.
+
+We live in a culture obsessed with productivity. We want to read the [morning routines of successful people](https://www.fastcompany.com/3033652/the-morning-routines-of-the-most-successful-people). We analyze our calendars to avoid wasting a single minute. We track our output over time and learn every trick to increase it daily.
 
 While I caution against such an obsession, I also recognize the need to be productive. To produce something of value rather than consuming something made by someone else is part of being human. It's one of the reasons I have this blog. I wanted to use some of my free time to create and spur thought rather than watching too much TV. 
 
@@ -29,7 +31,7 @@ I also recognize the need for rest. We can't be "on" all of the time; we need at
 
 We need a balance of all of this to be whole.
 
-As software engineers, we risk falling into the productivity trap. In an industry where many of the best engineers go to startups with 80-hour work weeks, and managers must review proposals overnight, there is a real risk of _not_ working all the time. At least it seems that way.
+As software engineers, we risk falling into the productivity trap. In an industry where many of the best engineers go to startups with 80-hour work weeks and managers asked to review proposals overnight, there is a real risk of _not_ working all the time. At least it seems that way.
 
 But the truth is that we can't work all the time. Some may be able to push further than others, and it varies widely from person to person. However, one truth applies to everyone: not all of our time is created equal.
 
@@ -53,7 +55,7 @@ Instead, we need to see our unstructured time as an opportunity for deep work.
 
 ## Shallow Work and Deep Work
 
-Deep work comes from writer and professor Cal Newport. Cal has written several books focused on productivity, with Deep Work being one of his best. 
+[Deep Work](https://www.calnewport.com/books/deep-work/) comes from writer and professor [Cal Newport](https://www.calnewport.com/). Cal has written several books focused on productivity, with Deep Work being one of his best. 
 
 He argues that real value in the marketplace these days doesn't come from running to meetings, staying on top of your email, or building an online presence. It comes from times of deep thinking and focused work. 
 
