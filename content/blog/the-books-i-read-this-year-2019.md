@@ -5,7 +5,6 @@ title: The Books I Read This Year (2019)
 description: My annual list of books I read in the previous year.
 tags:
   - books
-image:
 ---
 Posting a little late, but meh, that is life sometimes. Every year I try to keep track of the books that I read and give a brief summary of each. Mostly so that I can have a catalog of them for later, but also just in case someone was interested in the same books and needed a review.
 

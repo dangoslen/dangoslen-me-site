@@ -7,7 +7,7 @@ tags:
   - programming
   - software engineering
   - software design
-image: /assets/1_dst6edwapmjfwawjnykeja.jpeg
+image: "../assets/1_dst6edwapmjfwawjnykeja.jpeg"
 ---
 ![Broken down control center](../assets/1_dst6edwapmjfwawjnykeja.jpeg "Photo by Caroline Methot on Unsplash")
 

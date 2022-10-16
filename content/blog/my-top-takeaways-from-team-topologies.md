@@ -7,7 +7,7 @@ tags:
   - teamworks
   - software engineering
   - collaboration
-image: /assets/cas-holmes-PwyApMZFyx4-unsplash.jpeg
+image: "../assets/cas-holmes-PwyApMZFyx4-unsplash.jpeg"
 
 ---
 

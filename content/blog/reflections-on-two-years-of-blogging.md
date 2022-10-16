@@ -7,7 +7,7 @@ description: Some thoughts about blogging, learning in public, and sharing what
 tags:
   - blogging
   - in public
-image: /assets/aaron-burden-cklhktcjzkk-unsplash.jpg
+image: "../assets/aaron-burden-cklhktcjzkk-unsplash.jpg"
 ---
 ![Fountain pen on blurred notebook](../assets/aaron-burden-cklhktcjzkk-unsplash.jpg)
 

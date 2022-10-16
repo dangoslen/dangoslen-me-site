@@ -6,7 +6,7 @@ description: Degrees are falling out of style in the development community. This
   is why I think mine is still valueable.
 tags:
   - career
-image: /assets/pexels-ekrulila-2292837.jpg
+image: "../assets/pexels-ekrulila-2292837.jpg"
 ---
 ![Person holding a degree](../assets/pexels-ekrulila-2292837.jpg)
 

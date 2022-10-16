@@ -7,7 +7,7 @@ tags:
   - programming
   - software engineering
   - career
-image: /assets/hs-spender-ien1wzqg4t0-unsplash.jpg
+image: "../assets/hs-spender-ien1wzqg4t0-unsplash.jpg"
 ---
 ![Building being rebuilt with scaffolding ](../assets/hs-spender-ien1wzqg4t0-unsplash.jpg)
 

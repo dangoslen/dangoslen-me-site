@@ -7,7 +7,7 @@ description: Trying to outsmart everything means you likely aren't learning at
   your race.
 tags:
   - career
-image: /assets/jeet-dhanoa-BVM9Q6Qfy00-unsplash.jpg
+image: "../assets/jeet-dhanoa-BVM9Q6Qfy00-unsplash.jpg"
 ---
 
 ![](../assets/jeet-dhanoa-BVM9Q6Qfy00-unsplash.jpg "chess board")

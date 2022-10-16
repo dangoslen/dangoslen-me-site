@@ -8,7 +8,7 @@ tags:
   - DevOps
   - CI/CD
   - what's the point
-image: /assets/paul-teysen-bukjsECgmeU-unsplash.jpeg
+image: "../assets/paul-teysen-bukjsECgmeU-unsplash.jpeg"
 ---
 
 <center>

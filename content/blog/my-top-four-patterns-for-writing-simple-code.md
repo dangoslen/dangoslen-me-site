@@ -7,11 +7,16 @@ tags:
   - programming
   - software design
   - software engineering
-image: /assets/1_s-smr49rffj0kibfsz98fa.jpeg
+image: "../assests/1_s-smr49rffj0kibfsz98fa.jpeg"
 ---
+
+<center>
+
 ![young child building with LEGO](../assets/1_s-smr49rffj0kibfsz98fa.jpeg)
 
 <p align="center"><i><a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/building-blocks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></i></p>
+
+</center>
 
 When it comes to writing code, I aim to write simple code. What Bob Martin calls clean code. What others refer to as readable or maintainable. In many, ways, they all refer to the same thing.
 

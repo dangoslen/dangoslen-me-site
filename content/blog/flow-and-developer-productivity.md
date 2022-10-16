@@ -7,7 +7,7 @@ tags:
   - productivity
   - career
   - deep work
-image: /assets/randy-fath-ymf4_9Y9S_A-unsplash.jpeg
+image: "../assets/randy-fath-ymf4_9Y9S_A-unsplash.jpeg"
 ---
 
 <center>

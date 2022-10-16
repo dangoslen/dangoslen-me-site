@@ -8,7 +8,7 @@ tags:
   - career
   - tech debt
   - technical leadership
-image: /assets/pauline-bernfeld-16l2ezZQ_Yw-unsplash.jpeg
+image: "../assets/pauline-bernfeld-16l2ezZQ_Yw-unsplash.jpeg"
 
 ---
 <center>

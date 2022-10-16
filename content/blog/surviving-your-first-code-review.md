@@ -11,7 +11,7 @@ tags:
   - software engineering
   - teams
   - code reviews
-image: /assets/vincent-tom-8yrjq0srdro-unsplash.jpg
+image: "../assets/vincent-tom-8yrjq0srdro-unsplash.jpg"
 ---
 ![](../assets/vincent-tom-8yrjq0srdro-unsplash.jpg)
 

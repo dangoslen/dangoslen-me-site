@@ -7,7 +7,7 @@ tags:
   - software engineering
   - teams
   - devops
-image: /assets/limor-zellermayer-j5mcxwap0r0-unsplash.jpg
+image: "../assets/limor-zellermayer-j5mcxwap0r0-unsplash.jpg"
 ---
 ![The Hulk action figure](../assets/limor-zellermayer-j5mcxwap0r0-unsplash.jpg "Photo by Limor Zellermayer on Unsplash")
 

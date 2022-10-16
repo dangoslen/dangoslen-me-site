@@ -8,7 +8,7 @@ tags:
   - documentation
   - teams
   - software engineering
-image: ../assets/papers-g21f5bc9e0_1920.jpeg
+image: "../assets/papers-g21f5bc9e0_1920.jpeg"
 ---
 <center>
 

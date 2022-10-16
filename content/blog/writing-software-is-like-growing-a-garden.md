@@ -7,7 +7,7 @@ tags:
   - software development lifecycle
   - programming
   - software engineering
-image: /assets/gryffyn-m-BUYiKuAZw0w-unsplash.jpg
+image: "../assets/gryffyn-m-BUYiKuAZw0w-unsplash.jpg"
 ---
 
 ![](../assets/gryffyn-m-BUYiKuAZw0w-unsplash.jpg "flowers reaching to the sun")

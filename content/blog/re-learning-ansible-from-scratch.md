@@ -7,7 +7,7 @@ tags:
   - programming
   - devops
   - ansible
-image: /assets/ansible_logo.svg.png
+image: "../assets/ansible_logo.svg.png"
 ---
 
 ![Ansible logo](../assets/ansible_logo.svg.png "Ansible logo")

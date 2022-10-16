@@ -7,7 +7,7 @@ tags:
   - code reviews
   - software engineering
   - collaboration
-image: /assets/francesco-gallarotti-ruQHpukrN7c-unsplash.jpeg
+image: "../assets/francesco-gallarotti-ruQHpukrN7c-unsplash.jpeg"
 ---
 
 <center>
