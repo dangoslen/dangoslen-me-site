@@ -1,6 +1,6 @@
 ---
 path: /the-point-to-observability
-date: 2022-10-13T00:00:00.000Z
+date: 2022-10-17T00:00:00.000Z
 title: What's the Point to Observability Anyway
 description: Observability is more than metrics and cool dashboards. It is a fundamental shift in how you write software.
 tags:
