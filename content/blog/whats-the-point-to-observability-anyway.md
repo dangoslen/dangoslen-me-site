@@ -6,7 +6,8 @@ description: Observability is more than metrics and cool dashboards. It is a fun
 tags:
   - what's the point
   - software engineering
-  - collaboration
+  - teams
+  - best practices
 image: "../assets/markus-winkler-cS2eQHB7wE4-unsplash.jpeg"
 ---
 
