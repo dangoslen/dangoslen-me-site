@@ -30,7 +30,7 @@ function SEO({ description, lang, meta, keywords, title, image }) {
   const metaDescription = description || site.siteMetadata.description
   let img = `${site.siteMetadata.defaultImage}`
   if (image) {
-    img = getSrc(image)
+    img = `https://dangoslen.me/${ getSrc(image) }`
   }
 
   return (
