@@ -7,7 +7,7 @@ tags:
   - what's the point
   - software engineering
   - teams
-  - best practices
+  - observability
 image: "../assets/markus-winkler-cS2eQHB7wE4-unsplash.jpeg"
 ---
 
