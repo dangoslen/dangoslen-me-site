@@ -7,7 +7,7 @@ tags:
   - vision
   - software leadership
   - software engineering
-image: ../assets/jana-sabeth-_mm85Sy-q4w-unsplash.jpeg
+image: "../assets/jana-sabeth-_mm85Sy-q4w-unsplash.jpeg"
 ---
 
 <center>

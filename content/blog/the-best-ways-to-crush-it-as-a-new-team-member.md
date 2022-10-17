@@ -6,7 +6,7 @@ description: How to join a team as an engineer
 tags:
   - teams
   - career
-image: /assets/1_jjwonhfic9g7q5qnnni0aa.jpeg
+image: "../assets/1_jjwonhfic9g7q5qnnni0aa.jpeg"
 ---
 ![Boy about to shoot a basketball free throw](../assets/1_jjwonhfic9g7q5qnnni0aa.jpeg)
 

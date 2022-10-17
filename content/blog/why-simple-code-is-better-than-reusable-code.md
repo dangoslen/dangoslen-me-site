@@ -6,7 +6,7 @@ description: Simple is always the priority.
 tags:
   - programming
   - software engineering
-image: /assets/1_jlwznm7natvmss8h8g1zyw.jpeg
+image: "../assets/1_jlwznm7natvmss8h8g1zyw.jpeg"
 ---
 ![Open car hood showing simple engine](../assets/1_jlwznm7natvmss8h8g1zyw.jpeg)
 

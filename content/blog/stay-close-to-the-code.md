@@ -7,7 +7,7 @@ tags:
   - software leadership
   - software engineering
   - career
-image: /assets/laura-chouette-6tdfx_gvHf0-unsplash.jpeg
+image: "../assets/laura-chouette-6tdfx_gvHf0-unsplash.jpeg"
 ---
 
 ![](../assets/laura-chouette-6tdfx_gvHf0-unsplash.jpeg "Upclose of the keys of a typewriter")

@@ -7,7 +7,7 @@ tags:
   - software engineering
   - critical thinking
   - leadership
-image: /assets/kees-streefkerk-O3g3s-K3xKI-unsplash.jpeg
+image: "../assets/kees-streefkerk-O3g3s-K3xKI-unsplash.jpeg"
 ---
 
 <center>

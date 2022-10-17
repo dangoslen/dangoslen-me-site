@@ -6,7 +6,7 @@ description: Why I write the simplest code I can everytime.
 tags:
   - programming
   - software engineering
-image: /assets/1_Y_ALSRyzK-b-INPlWq8uUQ.jpeg
+image: "../assets/1_Y_ALSRyzK-b-INPlWq8uUQ.jpeg"
 ---
 
 <center>

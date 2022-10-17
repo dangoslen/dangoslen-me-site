@@ -7,7 +7,7 @@ tags:
   - vision
   - software leadership
   - software engineering
-image: /assets/matt-noble-BpTMNN9JSmQ-unsplash.jpeg
+image: "../assets/matt-noble-BpTMNN9JSmQ-unsplash.jpeg"
 ---
 
 <center>

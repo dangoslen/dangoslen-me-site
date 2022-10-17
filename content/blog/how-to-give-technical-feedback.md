@@ -8,7 +8,7 @@ tags:
   - communication
   - teams
   - code reviews
-image: /assets/portuguese-gravity-mflgvcy9ooy-unsplash.jpg
+image: "../assets/portuguese-gravity-mflgvcy9ooy-unsplash.jpg"
 ---
 <center>
 

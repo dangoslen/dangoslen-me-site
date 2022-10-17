@@ -16,11 +16,12 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext
 
     return (
-      <Layout location={this.props.location} title={siteTitle} image={post.frontmatter.image} >
+      <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
           keywords={post.frontmatter.tags || []}
+          image={post.frontmatter.image}
         />
         <h1>{post.frontmatter.title}</h1>
         <p
@@ -105,7 +106,11 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         tags
-        image
+        image {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
     }
   }

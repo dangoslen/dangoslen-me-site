@@ -6,7 +6,7 @@ description: Trust is really important, but often illusive. How do we build it o
 tags:
   - teams
   - software development lifecycle
-image: /assets/sandra-grunewald-erqADkxgbKM-unsplash.jpg
+image: "../assets/sandra-grunewald-erqADkxgbKM-unsplash.jpg"
 ---
 
 ![](../assets/sandra-grunewald-erqADkxgbKM-unsplash.jpg)

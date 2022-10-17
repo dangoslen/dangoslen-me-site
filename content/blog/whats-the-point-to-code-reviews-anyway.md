@@ -9,7 +9,7 @@ tags:
   - teams
   - code reviews
   - what's the point
-image: /assets/1_kmaqpsinlcdankzwymk3gq.jpeg
+image: "../assets/1_kmaqpsinlcdankzwymk3gq.jpeg"
 ---
 ![](../assets/1_kmaqpsinlcdankzwymk3gq.jpeg)
 

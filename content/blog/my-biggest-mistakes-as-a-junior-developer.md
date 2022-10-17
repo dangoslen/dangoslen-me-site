@@ -6,7 +6,7 @@ description: The biggest mistakes I made before becoming a senior engineer.
 tags:
   - stories
   - career
-image: /assets/1_Y_ALSRyzK-b-INPlWq8uUQ.jpeg
+image: "../assets/1_Y_ALSRyzK-b-INPlWq8uUQ.jpeg"
 ---
 
 ![](../assets/1_Y_ALSRyzK-b-INPlWq8uUQ.jpeg)

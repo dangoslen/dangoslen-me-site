@@ -7,7 +7,7 @@ tags:
   - software development lifecycle
   - software engineering
   - what's the point
-image: /assets/annie-spratt-kZO9xqmO_TA-unsplash.jpeg 
+image: "../assets/annie-spratt-kZO9xqmO_TA-unsplash.jpeg"
 ---
 
 <center>

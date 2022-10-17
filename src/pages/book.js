@@ -17,7 +17,9 @@ class Book extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Code Review Champion" />
+        <SEO title="Code Review Champion" 
+            image={`https://dangoslen.me/static/book-cover.png`}
+        />
 
         <div style={{
           textAlign: `center`

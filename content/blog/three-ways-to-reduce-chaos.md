@@ -7,7 +7,7 @@ tags:
   - software engineering
   - software development lifecycle
   - changelogs
-image: /assets/alina-grubnyak-ZiQkhI7417A-unsplash.jpg
+image: "../assets/alina-grubnyak-ZiQkhI7417A-unsplash.jpg"
 ---
 
 ![](../assets/alina-grubnyak-ZiQkhI7417A-unsplash.jpg)

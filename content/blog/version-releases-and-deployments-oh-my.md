@@ -8,7 +8,7 @@ tags:
   - software development lifecycle
   - software engineering
   - changelogs
-image: /assets/john-moeses-bauan-WG1HNF8PGHo-unsplash.jpeg
+image: "../assets/john-moeses-bauan-WG1HNF8PGHo-unsplash.jpeg"
 ---
 
 ![](../assets/john-moeses-bauan-WG1HNF8PGHo-unsplash.jpeg)

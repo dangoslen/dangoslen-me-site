@@ -8,7 +8,7 @@ tags:
   - programming
   - software engineering
   - software design
-image: /assets/clem-onojeghuo-t7gi_cyrkdg-unsplash.jpg
+image: "../assets/clem-onojeghuo-t7gi_cyrkdg-unsplash.jpg"
 ---
 
 ![Patterns in King's Cross London](../assets/clem-onojeghuo-t7gi_cyrkdg-unsplash.jpg)
