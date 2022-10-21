@@ -67,7 +67,7 @@ class Book extends React.Component {
         <BookDescription>
           <DescriptionSection>
             <DescriptionIcon>💡</DescriptionIcon> 
-            <p>How to reive and give feedback with humility.</p>
+            <p>How to receive and give feedback with humility.</p>
           </DescriptionSection>
           <DescriptionSection>
             <DescriptionIcon>🕵️</DescriptionIcon> 
@@ -83,6 +83,18 @@ class Book extends React.Component {
           </DescriptionSection>
         </BookDescription>
 
+
+        <div style={{ 
+              display: `grid`,
+              alignItems: `center`,
+              justifyContent: `center`,
+              marginTop: `10px`,
+              marginBottom: `10px`
+          }}>
+
+            <h3>This book is the book I wish I could have read a early in my career to avoid the pitfalls around code reviews.</h3>
+
+          </div>
 
         <hr />
 
