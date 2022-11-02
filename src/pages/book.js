@@ -93,6 +93,7 @@ class Book extends React.Component {
           }}>
 
             <h3>This book is the book I wish I could have read a early in my career to avoid the pitfalls around code reviews.</h3>
+            <h3>If you want to get early access, signup below! I hope you'll pick it up when it's ready.</h3>
 
           </div>
 
