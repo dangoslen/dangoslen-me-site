@@ -5,7 +5,6 @@ import styled from "styled-components"
 const NavLink = props => {
   const { to, text, activeStyle } = props;
   const activeStyleApplied = activeStyle ? activeStyle : { borderBottom: `${ActiveBorder}` };
-  console.log(activeStyleApplied)
   return (
     <NavLinkWrapper>
       <Link

@@ -52,36 +52,62 @@ class Book extends React.Component {
 
         <hr />
 
-        <TocWrapper>
-          <Title>
-            <center>
+        <div style={{ 
+              display: `grid`,
+              alignItems: `center`,
+              justifyContent: `center`,
+              marginTop: `10px`,
+              marginBottom: `10px`
+          }}>
 
-              <h1>Code Review Champion: Embracing the Power of Technical Feedback</h1>
+            <h2>In this book I cover</h2>
 
-              </center>
+          </div>
 
-              <hr/>
-          </Title>
-          <TocContent>
-            <Toc />
-          </TocContent>
-        </TocWrapper>
+        <BookDescription>
+          <DescriptionSection>
+            <DescriptionIcon>💡</DescriptionIcon> 
+            <p>How to receive and give feedback with humility.</p>
+          </DescriptionSection>
+          <DescriptionSection>
+            <DescriptionIcon>🕵️</DescriptionIcon> 
+            <p>What to pay attention to as a reviewer - and what to let go of.</p>
+          </DescriptionSection>
+          <DescriptionSection>
+            <DescriptionIcon>🏗️</DescriptionIcon> 
+            <p>How to build a team practice that sets your team apart.</p>
+          </DescriptionSection>
+          <DescriptionSection>
+            <DescriptionIcon>🚀</DescriptionIcon> 
+            <p>The best way to ask for a review to get through the process quickly.</p>
+          </DescriptionSection>
+        </BookDescription>
+
 
         <div style={{ 
               display: `grid`,
               alignItems: `center`,
               justifyContent: `center`,
               marginTop: `10px`,
+              marginBottom: `10px`
+          }}>
+
+            <h3>This book is the book I wish I could have read a early in my career to avoid the pitfalls around code reviews.</h3>
+            <h3>If you want to get early access, signup below! I hope you'll pick it up when it's ready.</h3>
+
+          </div>
+
+        <hr />
+
+        <div style={{ 
+              display: `grid`,
+              alignItems: `center`,
+              justifyContent: `center`,
+              marginTop: `20px`,
               marginBottom: `40px`
           }}>
-            <div>
-              <h3>Seriously - I'd <i>love</i> <a href="https://forms.gle/fgucFk8kHyS5tY9D9" target="_blank">to get your feedback!</a></h3>
-            </div>
-
-            <div>
-              <EmailSignup prompt="And don't forget to signup for my newsletter to hear more about it!"/>
-            </div>
-          </div>
+          <EmailSignup prompt="Signup for my newsletter to hear more about it!"/>
+        </div>
       </Layout>
     )
   }
@@ -132,32 +158,49 @@ const BookCoverWrapper = styled.div`
 const BookIntroduction = styled.div`
 `
 
-const TocWrapper =  styled.div`
-  position: relative;
-  right: 15%;
-  width: 130%;
-  padding: 12px;
-  border-radius: 8px;
-  background: #f19066;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
-`
-
-const Title = styled.div`
-`
-
-const TocContent = styled.div`
-  display: block;
+const BookDescription =  styled.div`
   @media ${Device.tablet} {
     display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    right: 10%;
+    width: 120%;
+  }
+
+  margin-bottom: 30px;
+`
+
+const DescriptionSection = styled.div`
+  font-size: 1.3em;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 15px;
+
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 5px 10px 0px;
+
+  @media ${Device.tablet} {
+    width: 40%;
+    margin-bottom: 20px;
   }
 
   div {
     width: 100%;
-    padding: 5px;
+    padding: 15px;
     @media ${Device.tablet} {
       width: 50%;
     }
   }
+`
+
+const DescriptionIcon = styled.p`
+  width: 100%;
+  display: block;
+  align-text: center;
+  font-size: 2.2em
 `
 
 export default Book
