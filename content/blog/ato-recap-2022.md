@@ -60,7 +60,7 @@ A big takeaway for me was what makes good release notes. I'm planning on bringin
 - **easy navigation** - inlcude links from the release notes to issues, pull requests, or external materials
 - **contributors** - recognize those that contributed to the release
 
-[Check out the resources from here talk](https://github.com/mishmanners/TalksandEvents/blob/main/Talks/ReleaseRadarAllThingsOpen2022.md) if you want to help your own projects start releasing better!
+Check out the [resources from her talk](https://github.com/mishmanners/TalksandEvents/blob/main/Talks/ReleaseRadarAllThingsOpen2022.md) if you want to help your own projects start releasing better!
 
 ### Rules Engines and ML
 
