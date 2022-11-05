@@ -44,18 +44,8 @@ class BlogPostTemplate extends React.Component {
           }}
         />
 
-       <div style={{ 
-          display: `flex`,
-          alignItems: `center`,
-          justifyContent: `center`,
-          marginTop: `10px`,
-          marginBottom: `40px`
-       }}>
-          <div> 
-            <EmailSignup prompt="Did you enjoy this post? Sign-up below to never miss an update from me!" />
-          </div>
-        </div>
-
+        <EmailSignup margins={{ top: `10px`, bottom: `40px` }} prompt="Did you enjoy this post? Sign-up below to never miss an update from me!" />
+  
         <Bio />
 
         <ul

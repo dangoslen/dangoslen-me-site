@@ -49,18 +49,18 @@ class Blog extends React.Component {
 }
 
 const BlogTitle = styled.h2`
-margin-bottom: 0rem;
+  margin-bottom: 0rem;
 `
 
 const BlogLink = styled(Link)`
-box-shadow: none;
-color: #1a1a1a;
-&:hover {
-  color: #e09b76;
-}
-transition: all .2s;
-transition-timing-function: ease;
-text-decoration: none;
+  box-shadow: none;
+  color: #1a1a1a;
+  &:hover {
+    color: #e09b76;
+  }
+  transition: all .2s;
+  transition-timing-function: ease;
+  text-decoration: none;
 `
 
 const BlogSummary = styled.div`

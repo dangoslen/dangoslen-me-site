@@ -2,36 +2,30 @@ import React from "react"
 import styled from "styled-components"
 
 
-const EmailSignup = ({ prompt }) => (
-    <EmailWrapper>
-        <div style={{ display: `flex`,          
-            alignItems: `center`,
-            justifyContent: `center`,
-            width: `100%`
-        }} >
-            <div style={{ textAlign: `center`, marginBottom: `7px` }}>{prompt}</div>
-        </div>
-        <form action="https://gumroad.com/follow_from_embed_form" method="post"> 
-            <input name="seller_id" type="hidden" value="1354486934874" /> 
-            <input name="email" placeholder="Your email address" type="email" /> 
-            <button data-custom-highlight-color="" type="submit">Subscribe</button> 
-        </form>
-    </EmailWrapper>
-) 
+const EmailSignup = ({ margins, prompt }) => (
+    <div style={{
+        marginTop: margins?.top || `10px`,
+        marginBottom: margins?.bottom || `10px`,
+    }}>
+        
+        <div style={{ textAlign: `center`, marginBottom: `7px` }}>{prompt}</div>
 
-const EmailWrapper = styled.div`
-     zoom: 1; 
-     width: 480px;
-     
-     :before, :after { 
-         display: table; 
-         line-height: 0; 
-         content: ""; 
-    } 
-    
-    :after { 
-        clear: both; 
-    } 
+        <FormWrapper>   
+            <form action="https://gumroad.com/follow_from_embed_form" method="post"> 
+                <input name="seller_id" type="hidden" value="1354486934874" /> 
+                <input name="email" placeholder="Your email address" type="email" /> 
+                <button data-custom-highlight-color="" type="submit">Subscribe</button> 
+            </form>   
+        </FormWrapper>
+
+    </div>
+)
+
+const FormWrapper = styled.div`
+    zoom: 1; 
+
+    display: flex;
+    justify-content:center;
     
     * { 
         margin: 0; 
@@ -61,9 +55,13 @@ const EmailWrapper = styled.div`
         font-smoothing: antialiased; 
         -webkit-appearance: none; 
         -moz-appearance: caret; 
-        width: 380px !important; 
+        min-width: 300px;
         height: 40px !important; 
     } 
+
+    form {
+
+    }
     
     button { 
         border-radius: 4px; 
@@ -84,8 +82,7 @@ const EmailWrapper = styled.div`
         filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#f19066, endColorstr=#df855e, GradientType=0)"; 
         background: -webkit-linear-gradient(#f19066, #df855e); 
         background: linear-gradient(to bottom, #f19066, #df855e); 
-        height: 40px !important; 
-        width: 100px !important; 
+        height: 40px !important;
     }
 ` 
 
