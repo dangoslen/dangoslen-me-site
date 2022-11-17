@@ -70,6 +70,19 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-XZ4B4FVPLX",
+        ],
+        pluginConfig: {
+          head: true,
+          respectDNT: true,
+          exclude: [""],
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Dan Goslen`,

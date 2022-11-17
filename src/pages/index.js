@@ -22,7 +22,7 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`blog`, `software engineering`, `software design`, `api`, `design`, `changelogs`, `software development lifecycle`]}
+          keywords={[`software engineering`, `software design`, `software patterns`, `coding pattern`, `code reviews`, `reviewing code`, `pull requests`, `code review champion`]}
         />
         <Profile>
           <div>
