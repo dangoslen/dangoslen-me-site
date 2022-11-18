@@ -4,6 +4,7 @@ date: 2022-01-17T01:02:27.200Z
 title: How to Get Software Documentation Right
 description: What to write down, what to generate, and coming to terms that
   documentation is always out of date.
+keywords:
 tags:
   - documentation
   - teams

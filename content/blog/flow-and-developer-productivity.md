@@ -3,6 +3,7 @@ path: /flow-and-developer-productivity
 date: 2022-08-10T00:00:00.000Z
 title: Flow and Developer Productivity
 description: Not all time and effort is created equal. Learn how to capitalize your time and effort as an engineer effectively.
+keywords:
 tags:
   - productivity
   - career

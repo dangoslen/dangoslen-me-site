@@ -3,9 +3,10 @@ path: /writing-software-is-like-growing-a-garden
 date: 2021-04-20T13:00:00.000Z
 title: Writing Software Is Like Growing a Garden
 description: Gardens won't grow if neglected, and neither will your software.
+keywords:
 tags:
   - software development lifecycle
-  - programming
+  - coding
   - software engineering
 image: "../assets/gryffyn-m-BUYiKuAZw0w-unsplash.jpg"
 ---

@@ -3,8 +3,9 @@ path: /my-top-takeaways-from-team-topologies
 date: 2021-12-13T00:00:00.000Z
 title: My Top Takeaways from Team Topologies
 description: The most important things I learned from the popular book and how I'm trying to apply them.
+keywords:
 tags:
-  - teamworks
+  - teams
   - software engineering
   - collaboration
 image: "../assets/cas-holmes-PwyApMZFyx4-unsplash.jpeg"

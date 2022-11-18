@@ -3,8 +3,9 @@ path: /stay-close-to-the-code
 date: 2022-07-18T00:00:00.000Z
 title: Stay Close to the Code
 description: As we grow in our careers, we can't get too far away from the code. At least, not too quickly.
+keywords:
 tags:
-  - software leadership
+  - leadership
   - software engineering
   - career
 image: "../assets/laura-chouette-6tdfx_gvHf0-unsplash.jpeg"

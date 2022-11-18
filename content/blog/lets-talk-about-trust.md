@@ -3,9 +3,11 @@ path: /lets-talk-about-trust
 date: 2021-08-10T00:00:00.001Z
 title: Let's Talk About Trust
 description: Trust is really important, but often illusive. How do we build it on our teams to help oursleves build great software? 
+keywords:
 tags:
   - teams
-  - software development lifecycle
+  - leadership
+  - software engineering
 image: "../assets/sandra-grunewald-erqADkxgbKM-unsplash.jpg"
 ---
 

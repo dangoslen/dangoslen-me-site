@@ -3,9 +3,10 @@ path: /the-importance-of-vsion-as-developer
 date: 2022-02-17T00:00:00.000Z
 title: The Importance of Vision as a Developer
 description: How to set a direction and build motivation as a software leader.
+keywords:
 tags:
-  - vision
-  - software leadership
+  - career
+  - leadership
   - software engineering
 image: "../assets/matt-noble-BpTMNN9JSmQ-unsplash.jpeg"
 ---

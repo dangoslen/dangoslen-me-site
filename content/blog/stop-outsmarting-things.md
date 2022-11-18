@@ -5,6 +5,7 @@ title: Stop Trying to Outsmart Everything
 description: Trying to outsmart everything means you likely aren't learning at
   all. Loopholes and tricks might give you a head start, but they won't sustain
   your race.
+keywords:
 tags:
   - career
 image: "../assets/jeet-dhanoa-BVM9Q6Qfy00-unsplash.jpg"

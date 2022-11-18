@@ -3,6 +3,7 @@ path: /crush-it-as-a-new-team-member
 date: 2019-07-05T04:00:00.000Z
 title: The Best Ways to Crush It as a New Team Member
 description: How to join a team as an engineer
+keywords:
 tags:
   - teams
   - career

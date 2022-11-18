@@ -3,6 +3,7 @@ path: /the-books-i-read-2019
 date: 2020-01-03T20:45:42.160Z
 title: The Books I Read This Year (2019)
 description: My annual list of books I read in the previous year.
+keywords:
 tags:
   - books
 ---

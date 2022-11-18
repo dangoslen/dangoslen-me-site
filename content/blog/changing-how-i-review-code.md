@@ -3,6 +3,7 @@ path: /changing-how-i-review-code
 date: 2021-06-10T00:00:00.000Z
 title: I'm Changing How I Review Code
 description: There is more to code reviewing the writing comments on the internet.
+keywords:
 tags:
   - code reviews
   - software engineering

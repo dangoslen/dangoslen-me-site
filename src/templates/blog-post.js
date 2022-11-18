@@ -14,13 +14,15 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.post
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+    const keywords = post.frontmatter.keywords || []
+    keywords.push(post.frontmatter.tags || [])
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
-          keywords={post.frontmatter.tags || []}
+          keywords={keywords}
           image={post.frontmatter.image}
         />
         <h1>{post.frontmatter.title}</h1>
@@ -96,6 +98,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         tags
+        keywords
         image {
           childImageSharp {
             gatsbyImageData
