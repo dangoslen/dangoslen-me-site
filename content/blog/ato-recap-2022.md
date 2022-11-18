@@ -56,7 +56,7 @@ I'm a _huge_ fan of release notes and automating them for projects. Many automat
 A big takeaway for me was what makes good release notes. I'm planning on bringing these to my own teams too. In particular, their research highlighted that good release notes have these elements:
 - **a why** - tell users why you are releasing a new release
 - **a summary** - give a summary before breaking down the details
-- **conventions** - use a versioning strategy like [semantic versioning](semver.org) and how you do your release notes like [kee-a-changelog](keep a changelog.com)
+- **conventions** - use a versioning strategy like [semantic versioning](https://semver.org) and how you do your release notes like [keep-a-changelog](https://keepachangelog.com/)
 - **easy navigation** - inlcude links from the release notes to issues, pull requests, or external materials
 - **contributors** - recognize those that contributed to the release
 
