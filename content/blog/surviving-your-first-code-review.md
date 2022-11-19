@@ -6,6 +6,7 @@ description: "It can be difficult when you submit your first pull request and
   your first code review feedback is, well, overwhelming. How do you find the
   right way to address the feedback but also not just cater to every whim of
   your reviewer?"
+keywords:
 tags:
   - career
   - software engineering

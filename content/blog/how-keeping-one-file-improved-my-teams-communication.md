@@ -4,6 +4,7 @@ date: 2021-05-07T00:00:00.000Z
 title: One File Improved My Team's Communication
 description: How maintaining one simple file in our repository improved how my
   team communicated about the software we built.
+keywords:
 tags:
   - teams
   - communication

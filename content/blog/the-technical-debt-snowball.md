@@ -3,13 +3,13 @@ path: /the-technical-debt-snowball
 date: 2022-04-14T04:00:00.000Z
 title: The Technical Debt Snowball
 description: Paying down debt via small wins can create a huge impact.
+keywords:
 tags: 
-  - programming
+  - coding
   - career
   - tech debt
-  - technical leadership
+  - leadership
 image: "../assets/pauline-bernfeld-16l2ezZQ_Yw-unsplash.jpeg"
-
 ---
 <center>
 

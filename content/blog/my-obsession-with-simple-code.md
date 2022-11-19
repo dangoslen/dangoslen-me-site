@@ -3,9 +3,11 @@ path: /my-obsession-with-simple-code
 date: 2021-09-03T00:00:00.000Z
 title: My Obsession with Simple Code
 description: Why I write the simplest code I can everytime.
+keywords:
 tags:
-  - programming
+  - coding
   - software engineering
+  - software design
 image: "../assets/1_Y_ALSRyzK-b-INPlWq8uUQ.jpeg"
 ---
 

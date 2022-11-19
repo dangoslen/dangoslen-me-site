@@ -4,7 +4,9 @@ date: 2021-03-30T11:22:09.309Z
 title: Reflections on Two(ish) Years of Blogging
 description: Some thoughts about blogging, learning in public, and sharing what
   I've learned along the way.
+keywords:
 tags:
+  - stories
   - blogging
   - in public
 image: "../assets/aaron-burden-cklhktcjzkk-unsplash.jpg"

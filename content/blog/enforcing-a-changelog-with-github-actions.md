@@ -3,6 +3,7 @@ path: /enforcing-a-changelog-with-github-actions
 date: 2020-07-15T00:00:00.000Z
 title: Enforcing a Changelog with GitHub Actions
 description: How to keep your team's changelog up to date.
+keywords:
 tags: 
   - github actions
   - changelogs

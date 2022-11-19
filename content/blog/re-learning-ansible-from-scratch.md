@@ -3,10 +3,11 @@ path: relearning-ansible-from-scrath
 date: 2021-03-25T21:23:45.226Z
 title: Re-learning Ansible From Scratch
 description: Why I stopped, why I'm starting again, and what I'm learning.
+keywords:
 tags:
-  - programming
+  - coding
   - devops
-  - ansible
+  - tools/languages/tutorials
 image: "../assets/ansible_logo.svg.png"
 ---
 

@@ -3,6 +3,7 @@ path: /building-abstractions-too-soon
 date: 2018-08-14T04:00:00.000Z
 title: On Building Abstractions Too Soon
 description: Why abstractions are emergent instead of dictated
+keywords:
 tags:
   - programming
   - software engineering

@@ -3,6 +3,7 @@ path: /three-ways-to-reduce-chaos
 date: 2021-07-29T00:00:00.000Z
 title: Three Ways to Reduce Chaos on Your Team
 description: Software development can be chaotic and full of frustrating situations. Here are some ways to reduce the unneccesary chaos.
+keywords:
 tags:
   - software engineering
   - software development lifecycle

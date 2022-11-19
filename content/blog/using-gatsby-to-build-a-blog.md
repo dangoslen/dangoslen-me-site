@@ -3,10 +3,11 @@ path: /using-gatsby-to-build-a-blog
 date: 2020-05-18T12:47:34.001Z
 title: Using Gatsby to Build a Blog
 description: Using an SSG as a Backend Engineer
+keywords:
 tags:
-  - programming
-  - gatsby
+  - coding
   - blogging
+  - tools/languages/tutorials
 image: "../assets/gatsby-cover.jpg"
 ---
 ![Gatsby Logo](../assets/gatsby-cover.jpg)

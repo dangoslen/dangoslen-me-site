@@ -3,9 +3,10 @@ path: /top-four-patterns-for-simple-code
 date: 2019-10-19T04:00:00.000Z
 title: My Top Four Patterns for Writing Simple Code
 description: Writing simple code is hard. Here are some patterns to help!
+keywords:
 tags: 
-  - programming
-  - software design
+  - coding
+  - design design
   - software engineering
 image: "../assests/1_s-smr49rffj0kibfsz98fa.jpeg"
 ---

@@ -3,6 +3,7 @@ path: /ill-admit-it-im-a-jealous-developer
 date: 2020-07-15T23:20:37.905Z
 title: I'll Admit It. I'm a Jealous Developer
 description: But I want to move towards a place of inspiration
+keywords:
 tags: 
   - stories
   - career
