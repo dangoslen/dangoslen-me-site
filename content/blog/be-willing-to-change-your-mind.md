@@ -73,7 +73,7 @@ This is especially true in software engineer. We often have an array of options 
 
 If we approach these decisions with a mindset of right vs. wrong, we are likely to miss the best solution. We'll be so focused on defending our idea that we won't listen to other solutions - even when they are extensions of our own idea!
 
-This happened to me not too long ago. I had spent a lot of time thinking about a solution to a problem, and I was optimistic it would work really well. During a design session, one of my teammates threw out an idea that was pretty aligned with what I had thought about already, but I was so convinced I was right that I didn't pay attention. It wasn't until the next day that I realized, "oh, that is a much better idea!":facepalm: 
+This happened to me not too long ago. I had spent a lot of time thinking about a solution to a problem, and I was optimistic it would work really well. During a design session, one of my teammates threw out an idea that was pretty aligned with what I had thought about already, but I was so convinced I was right that I didn't pay attention. It wasn't until the next day that I realized, "oh, that is a much better idea!" 🤦
 
 ---
 
