@@ -2,7 +2,7 @@
 path: /ato-recap-2022
 date: 2022-11-19T00:00:00.000Z
 title: Be Willing to Change You Mind
-description: Changing your mind isn't always bad thing. Nor is it a sign of weakness. It might even be a sign of strength.
+description: Changing your mind isn't neccesarily bad thing. Nor is it a sign of weakness. It might even be a sign of strength.
 keywords:
   - changing your mind
   - strong opinions loosely held
@@ -37,6 +37,8 @@ Unfortunately, software engineers are some of the least likely people to change 
 
 However, growth and learning are often predicated on being willing to change - or at least morph - our understanding of the world. We will only learn if we are willing to change and challenge our current mental models.
 
+![The Change My Mind Meme](https://pbs.twimg.com/media/DWi8HGAW0AAHCjf?format=jpg&name=900x900)
+
 ## Why Don't We Change Our Minds?
 
 If changing our minds is foundational to learning and growth, why are we so resistant to it? I think there are a few reasons.
@@ -64,6 +66,7 @@ I also noticed that even though I knew these tools were coming up short, I would
 By building a toolbox, I'm more willing to put down a tool that isn't working in favor of another. I'm also much more willing to replace or supplement my existing tools with new ones rather than searching for a singular perfect tool to replace my entire toolbox.
 
 ## Good, Better, and Best
+
 Another helpful way I've been rethinking how and when to change my mind is by remembering that not everything is a right or wrong decision. Many ideas fall along a spectrum of good, better, and best.
 
 This is especially true in software engineer. We often have an array of options to choose from when faced with a problem. The solutions we come up with are rarely entirely wrong, but there will likely be better ideas too. There will also be worse ideas, but even those ideas aren't wrong either.

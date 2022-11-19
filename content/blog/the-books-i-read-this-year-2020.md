@@ -3,6 +3,7 @@ path: /the-books-i-read-2020
 date: 2021-01-02T21:38:07.445Z
 title: The Books I Read This Year (2020)
 description: A summary of the books I've read during the year when we all watched Netflix.
+keywords:
 tags:
   - books
 ---
