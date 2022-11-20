@@ -30,7 +30,7 @@ Photo by <a href="https://unsplash.com/@tabithabrooke?utm_source=unsplash&utm_me
 
 I heard something not too long ago that stopped me in my tracks. I was listening to a podcast while doing some yard work. The guest on the show was an author who had recently unpublished a book of theirs, citing it has caused more damage than good. They had come to realize their stance on an issue was wrong.
 
-The host said something I found profound. "You changed your mind!" she exclaimed. "Do you know how rare that is today?"
+The host said something profound. "You changed your mind!" she exclaimed. "Do you know how rare that is today?"
 
 It's true. Humans are often unwilling to change their minds on many things. We get entrenched in our opinions often without being open or willing to listen to another perspective.
 Unfortunately, software engineers are some of the least likely people to change their minds; I've been one of them. We learn to think so critically and deeply about complex ideas that it is hard to shift them once we make our conclusions.
@@ -77,7 +77,7 @@ This happened to me not too long ago. I had spent a lot of time thinking about a
 
 ---
 
-Let's practice willingness to change our minds. Let's bring humility to the table when discussing tradeoffs with our teams. We don't have to change our minds on everything either. When you have an idea worth advocating for, advocate, for it! 
+Let's practice willingness to change our minds. Let's bring humility to the table when discussing trade-offs with our teams. We don't have to change our minds on everything either. When you have an idea worth advocating for, advocate, for it! 
 
 The point is we need to be _willing_ to. We must be reflective and humble enough to question our conclusions and opinions. We need to let go of bravado and be willing to come to the table admitting we were wrong about something. It takes strength to do those things.
 But we won't reach our full potential until we do.
