@@ -1,7 +1,7 @@
 ---
 path: /ato-recap-2022
 date: 2022-11-19T00:00:00.000Z
-title: Be Willing to Change You Mind
+title: Be Willing to Change Your Mind
 description: Changing your mind isn't neccesarily bad thing. Nor is it a sign of weakness. It might even be a sign of strength.
 keywords:
   - changing your mind
