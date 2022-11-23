@@ -93,6 +93,20 @@ module.exports = {
       options: {
         siteUrl: `https://dangoslen.me`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-XZ4B4FVPLX",
+        ],
+        // This object gets passed directly to the gtag config command
+        // This config will be shared across all trackingIds
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+      }
     }
   ],
 }
