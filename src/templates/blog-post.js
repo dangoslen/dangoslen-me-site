@@ -4,6 +4,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Bio from "../components/bio"
 import EmailSignup from "../components/email-signup"
+import StickyEmail from "../components/sticky-email"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Tags from "../components/tags"
