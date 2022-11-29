@@ -51,7 +51,7 @@ As engineers, we have to be vigilant about tracking, paying down, and using tech
 
 And it feels daunting.
 
-I want to talk about how my team over at [Policygenius](www.policygenius.com)([we're hiring!](https://grnh.se/0ebea2c41us)) has been approaching some of our technical debt using the famous [debt snowball](https://www.nerdwallet.com/article/finance/what-is-a-debt-snowball) technique. We've been using the snowball to help us pay down debt faster than we thought we could be focusing on small wins rather than trying to re-build and refactor whole components at once. 
+I want to talk about how my team over at [Policygenius](https://www.policygenius.com)([we're hiring!](https://grnh.se/0ebea2c41us)) has been approaching some of our technical debt using the famous [debt snowball](https://www.nerdwallet.com/article/finance/what-is-a-debt-snowball) technique. We've been using the snowball to help us pay down debt faster than we thought we could be focusing on small wins rather than trying to re-build and refactor whole components at once. 
 
 Let's jump in!
 

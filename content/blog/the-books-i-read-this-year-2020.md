@@ -7,7 +7,7 @@ keywords:
 tags:
   - books
 ---
-Every year I try to take a short inventory of the books I read through that year. I find that doing so helps me solidify the concrete things I learned from each. You can see [last year's list](http://bit.ly/dg-books-2019) too if you would like.
+Every year I try to take a short inventory of the books I read through that year. I find that doing so helps me solidify the concrete things I learned from each. You can see [last year's list](https://dangoslen.me/blog/the-books-i-read-this-year-2019/) too if you would like.
 
 Let's jump right in.
 

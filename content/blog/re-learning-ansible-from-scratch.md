@@ -13,7 +13,7 @@ image: "../assets/ansible_logo.svg.png"
 
 ![Ansible logo](../assets/ansible_logo.svg.png "Ansible logo")
 
-For several years, all I heard about was [Ansible](ansible.com). It was going to solve every one of your deployment problems. It was going to make life easier. Heck, it was going to take us to Mars - well as long as SpaceX used it...
+For several years, all I heard about was [Ansible](https://ansible.com). It was going to solve every one of your deployment problems. It was going to make life easier. Heck, it was going to take us to Mars - well as long as SpaceX used it...
 
 But after a short while, Ansible seemed to fall flat. As the [infrastructure-as-code](https://en.wikipedia.org/wiki/Infrastructure_as_code) movement grew and the immutable infrastructure alongside it, other tools seemed to overtake Ansible. I stopped learning it at this point since I started work on Kubernetes-based applications, which fully embraced immutable infrastructure.
 

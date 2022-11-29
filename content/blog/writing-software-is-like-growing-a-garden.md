@@ -96,6 +96,6 @@ Happy coding!
 
 _p.s. - if you enjoyed this post, you might enjoy some of my other posts on software engineering! Thanks for reading!_ 😁
 
-* #### [On Building Abstractions Too Soon](/blog/building-abstractions-too-soon)
-* #### [Signs You Should Refactor Your Code](/blog/when-should-you-should-refactor-your-code)
-* #### [Why Simple Code is Better Than Reusable Code](/blog/why-simple-code-better-than-reusable-code)
+* #### [On Building Abstractions Too Soon](/blog/on-building-abstractions-too-soon/)
+* #### [Signs You Should Refactor Your Code](/blog/signs-you-should-refactor-your-code/)
+* #### [Why Simple Code is Better Than Reusable Code](/blog/why-simple-code-is-better-than-reusable-code)
