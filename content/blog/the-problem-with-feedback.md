@@ -38,9 +38,9 @@ In his version of the US national anthem, Hendrix utilized something known as fe
 
 When Hendrix used feedback, though, it was intentional, and it was part of the melody and part of the timbre. He used feedback as a tool rather than something he had to work around or avoid. 
 
-But it's a delicate balance between using feedback to create music and creating a cacophony of screeches. Even when a guitarest uses feedback creatively, as a listener you still have to learn that it's intended to sound that way. It's still hard to listen to. There is always that inclination to wonder, "is this correct?" and start looking around to make sure the guitarist on stage or the AV guy in the back doesn't look frustrated about what is happening.
+But it's a delicate balance between using feedback to create music and creating a cacophony of screeches. Even when a guitarist uses feedback creatively, as a listener you still have to learn that it's intended to sound that way. It's still hard to listen to. There is always that inclination to wonder, "is this correct?" and start looking around to make sure the guitarist on stage or the AV guy in the back doesn't look frustrated about what is happening.
 
-The same is true for feedback workplaces, and teams. Feedback can be hard to listen to.
+The same is true for feedback in our workplaces, and on our teams. Feedback can be hard to listen to.
 
 ## It's Often Loud
 
@@ -52,7 +52,7 @@ If we want to hear the feedback, we might have to listen to it through ear muffs
 
 Of course, we can't put literal headphones in our next one-on-one or performance review. So how do we turn down the volume? How do we make it easier to listen to? Everyone is different, but here are a few strategies that have helped me:
 
-* Ask for written feedback instead of just having a conversation. While written feedback might not work for you, having a written set of feedback delivered an hour or so before any formal conversations helps me process it. I can more easily respond rather than react to it after reading it a few times. This is especially helpful for performance reviews or formal check-ins.
+* Ask for written feedback instead of just having a conversation. While written feedback might not work for you, having a written set of feedback delivered an hour or so before any formal conversations helps me process it. I can  respond more easily rather than react to it after reading it a few times. This is especially helpful for performance reviews or formal check-ins.
 * Be willing to say you need more time to before hearing feedback. If someone wants to offer you feedback about a meeting or situation before you are ready, say so. Not everyone will do this, but many ask, "Can I give you some feedback?" A valid answer to that question is, "Not right now." Admitting I'm not ready to hear feedback gives me the time to compose myself (if needed) and process the situation on my own ahead of time.
 * Focus on hearing the feedback first and processing later. Instead of trying to react or respond in a conversation, I'll focus on listening to what the other person has to say, writing it down, and processing it later. Even if I'm asked, "What do you think about that?" I'll often say, "I'm not sure right now, but I'll get back to you."
 
@@ -79,7 +79,7 @@ There are many posts on [how to deliver feedback](https://www.15five.com/blog/9-
 
 It's like going to see a high school garage band concert. We know what everyone is trying to do, and we hear the places there are pretty close, but we also recognize it's still just high school. Their skills aren't there yet. 
 
-Of course, if you are receiving feedback from someone who isn't working to be kind, humble, and objective in their feedback, it can be frustrating. I'm not saying we excuse that behavior. But if someone is trying to do those things, let's lean in rather than pull away. Work to see through the fumbled delivery if you can. Then be ready and willing to deliver feedback to the deliverer on how they could improve in their delivery.
+Of course, if you are receiving feedback from someone who isn't working to be kind, humble, and objective in their feedback, it can be frustrating. I'm not saying we excuse that behavior. But if someone is trying to do those things, let's lean in rather than pull away. Work to see through the fumbled delivery if you can. Then be ready and willing to deliver feedback to the deliverer on how they could improve their delivery.
 
 --- 
 
