@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `DanGoslen.me`,
+    title: `Dan Goslen | Team Driven Developer`,
     author: `Dan Goslen`,
-    description: `Personal Site for Dan Goslen`,
+    description: `Where I live on the internet`,
     siteUrl: `https://dangoslen.me`,
     social: {
       twitter: `@dangoslen`,
@@ -105,6 +105,77 @@ module.exports = {
         gtagConfig: {
           anonymize_ip: true,
           cookie_expires: 0,
+        },
+      }
+    },
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+          allMdx(sort: {fields: frontmatter___date, order: DESC}, filter: {slug: {glob: "!*wip*"}}) {
+            nodes {
+              slug
+              frontmatter {
+                date(formatString: "YYYY-MM-DD")
+              }
+            }
+          }
+        }
+        `,
+        resolveSiteUrl: ({ site: { siteMetadata: { siteUrl } } }) => siteUrl,
+        resolvePages: ({ allMdx: { nodes: posts } }) => {
+          const entries = posts.map(post => {
+            return {
+              path: `/blog/${post.slug}`,
+              lastmod: post.frontmatter.date,
+              changefreq: 'weekly',
+              priority: 0.7,
+            }
+          })
+
+          const home = {
+            path: '/',
+            lastmod: posts[0].lastmod,
+            changefreq: 'daily',
+            priority: 0.3,
+          }
+
+          const blog = {
+            path: '/blog',
+            lastmod: posts[0].lastmod,
+            changefreq: 'daily',
+            priority: 0.3,
+          }
+
+          const book = {
+            path: '/book',
+            lastmod: posts[0].lastmod,
+            changefreq: 'monthly',
+            priority: 0.3,
+          }
+
+          const talks = {
+            path: '/talks',
+            lastmod: posts[0].lastmod,
+            changefreq: 'yearly',
+            priority: 0.3,
+          }
+
+          return [home, blog, book, talks, ...entries]
+        },
+        serialize: ({ path, lastmod, changefreq, priority }) => {
+          return {
+            url: path,
+            lastmod,
+            changefreq,
+            priority,
+          }
         },
       }
     }
