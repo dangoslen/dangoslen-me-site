@@ -4,6 +4,7 @@
   status = 301
   force = true
 
+[[redirects]]
   from = "/book-test"
   to = "https://codereviewchampion.dangoslen.me"
   status = 301
