@@ -31,9 +31,9 @@ const Menu = props => {
                         </Logo>
                         <LinksContainer>
                             <NavLink to='/' text="About" />
-                            <NavLink to='/book' text="📙 Book" />
                             <NavLink to='/blog' text="Blog" add/>
                             <NavLink to='/talks' text="Talks" />
+                            <NavLink to='/book' text="📙 Book" />
                         </LinksContainer>
                     </TopNav>
                 )
