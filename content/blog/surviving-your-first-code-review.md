@@ -7,6 +7,8 @@ description: "It can be difficult when you submit your first pull request and
   right way to address the feedback but also not just cater to every whim of
   your reviewer?"
 keywords:
+  - how to review code
+  - code review best practices
 tags:
   - career
   - software engineering
