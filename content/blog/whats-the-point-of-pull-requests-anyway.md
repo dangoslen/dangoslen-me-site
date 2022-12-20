@@ -4,6 +4,8 @@ date: 2020-08-28T20:07:13.491Z
 title: What's the Point of Pull Requests Anyway?
 description: Why pull requests are one of the best tools in modern software.
 keywords:
+  - code review best practices
+  - github pull requests
 tags:
   - software development lifecycle
   - software engineering

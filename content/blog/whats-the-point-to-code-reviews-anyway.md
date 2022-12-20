@@ -4,6 +4,9 @@ date: 2018-02-19T05:00:00.000Z
 title: What's the Point to Code Reviews Anyway?
 description: "Hint: it's not aboutt bugs."
 keywords:
+  - code review best practices
+  - what is a code review
+  - how to review code
 tags:
   - software development lifecycle
   - software engineering
