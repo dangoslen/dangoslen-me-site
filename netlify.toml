@@ -5,7 +5,7 @@
   force = true
 
 [[redirects]]
-  from = "/book-test"
+  from = "/book"
   to = "https://codereviewchampion.dangoslen.me"
   status = 301
   force = true
