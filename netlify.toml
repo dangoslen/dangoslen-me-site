@@ -3,9 +3,3 @@
   to = "https://woozy-hyacinth-5bd.notion.site/Coffee-Guide-c73217b1581040d69c5fc08190bd1183"
   status = 301
   force = true
-
-[[redirects]]
-  from = "/book"
-  to = "https://codereviewchampion.dangoslen.me"
-  status = 301
-  force = true

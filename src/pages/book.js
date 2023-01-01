@@ -6,9 +6,8 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import Device from "../components/sizing"
 import SEO from "../components/seo"
-import EmailSignup from "../components/email-signup"
 import styled from "styled-components"
-import Toc from "../components/toc.mdx"
+import BookEmail from "../components/book-email"
 
 class Book extends React.Component {
   render() {
@@ -45,7 +44,9 @@ class Book extends React.Component {
                 marginTop: `10px`,
                 marginBottom: `40px`
             }}>
-                <EmailSignup />
+          
+            <BookEmail />
+
             </div>
           </BookIntroduction>
         </BookSplit>
@@ -99,15 +100,10 @@ class Book extends React.Component {
 
         <hr />
 
-        <div style={{ 
-              display: `grid`,
-              alignItems: `center`,
-              justifyContent: `center`,
-              marginTop: `20px`,
-              marginBottom: `40px`
-          }}>
-          <EmailSignup prompt="Signup for my newsletter to hear more about it!"/>
-        </div>
+        <EmailContainer >
+          <BookEmail />
+        </EmailContainer>
+
       </Layout>
     )
   }
@@ -201,6 +197,12 @@ const DescriptionIcon = styled.p`
   display: block;
   align-text: center;
   font-size: 2.2em
+`
+
+const EmailContainer = styled.div`
+  form {
+    margin: 0 auto;
+  }
 `
 
 export default Book
