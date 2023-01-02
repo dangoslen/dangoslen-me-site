@@ -12,7 +12,6 @@ import SocialLink from "../components/social-link"
 import Device from "../components/sizing"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import EmailSignup from "../components/email-signup"
 
 class IndexPage extends React.Component {
   render() {
@@ -49,17 +48,6 @@ class IndexPage extends React.Component {
 
         <hr />
 
-        <div style={{ 
-          display: `flex`,
-          alignItems: `center`,
-          justifyContent: `center`,
-          marginTop: `10px`,
-          marginBottom: `40px`
-       }}>
-          <div> 
-            <EmailSignup prompt="Sign-up below to never miss an update from me! 😊"/>
-          </div>
-        </div>
       </Layout>
     )
   }

@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Bio from "../components/bio"
-import EmailSignup from "../components/email-signup"
 import StickyEmail from "../components/sticky-email"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -26,6 +25,7 @@ class BlogPostTemplate extends React.Component {
           keywords={keywords}
           image={post.frontmatter.image}
         />
+        <StickyEmail />
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -46,8 +46,6 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-
-        <EmailSignup margins={{ top: `10px`, bottom: `40px` }} prompt="Did you enjoy this post? Sign-up below to never miss an update from me!" />
   
         <Bio />
 
