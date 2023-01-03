@@ -50,9 +50,9 @@ When we start with external forces such as systems and goals, we divorce them fr
 
 When we start with identity, however, we flip the whole thing on its head. We begin with internal motivation rather than external motivation. We start to think about the person we are _becoming_. We start to consider the (hard!) questions of "Who am I?" "Who do I want to become?" "What do I want?" 
 
-These questions are hard to answer because they are the core of who we are. The Greek Philosophers, the Stoics, the Israelites, and nearly all other people groups throughout history have had to find answers to these questions.
+These questions are hard to answer because they are the core of who we are. The Greek Philosophers, the Stoics, the ancient Israelites, and nearly all other people groups throughout history have had to find answers to these questions.
 
-Additionally, we often forget who we are. I know it sounds cliche, but it's true. We get caught up following trends, responding to the crisis of the day, or simply treading water. 
+Even after we find our identity, we often forget it. It sounds cliche, but it's true: we forget who we are. We get caught up following trends, responding to the crisis of the day, or simply treading water. 
 
 But we can take time to meditate, reflect, and find our identities amidst the chaos. It isn't easy, but it's worth it.
 
