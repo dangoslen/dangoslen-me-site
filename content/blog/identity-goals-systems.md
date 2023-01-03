@@ -2,7 +2,7 @@
 path: /identity-goals-systems
 date: 2023-01-03T00:00:00.000Z
 title: "Identity, Goals, and Systems: A Better Approach to 2023 Resolutions"
-description: During the season of goal settings (New Years'), people often set goals with no real reasons why. Instead of setting goals, we need to focus on developing and deeper sense of identity.
+description: During the season of goal settings at the begginning of the year, people often set goals with no real reasons why. Instead of setting goals, we need to focus on developing and deeper sense of identity.
 keywords:
   - new years resolutions
   - identity formation
@@ -30,7 +30,7 @@ Photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_me
 
 While wandering the streets during New Year's Eve several years ago (pre-COVID), I came upon a tree. Our fellow NYE participants had covered the tree with small strips of paper using bits of twine or string to affix them to the branches. On each was a short phrase written in squiggly marker with phrases like "Get in shape," "Get on a budget," or "Stop drinking." Each was a resolution for the coming year.
 
-I wondered: how many people gave more than 30 seconds of thought to their so-called resolution? Did they ever write it down somewhere else? 
+I wondered: how many people gave more than 30 seconds of thought to their so-called resolution? Did they ever write it down somewhere else? How will they remember it?
 
 Our culture loves the idea of a resolution and making significant changes about ourselves in the New Year. But we know the data: most [resolutions don't work](https://www.businessinsider.com/reasons-why-most-new-years-resolutions-dont-stick). Resolutions are often vague, unplanned, and without any accountability structure - ingredients required for successful behavior change. If we want to change our lives in the coming year, we need more than a resolution: we need actionable goals and a system to put them in place.
 
@@ -40,9 +40,13 @@ A popular book on behavior change is the now famous _[Atomic Habits](https://www
 
 The idea is that to achieve goals, we have to do the work ahead of time to develop a system or a plan in which to accomplish it. If you want to work out more, you need to state which gym, what time, for how long, etc. You should pick some form of workout plan ahead of time. If you show up at the gym and have to create an agenda on the spot, you are likely to be disengaged, do a short workout, see no results, and ultimately quit. 
 
+If we want to achieve our goals, we need to develop systems. But how do we choose our goals? We need to look somewhere else for that. 
+
+We need to start with identity.
+
 ## Identity
 
-But even deeper than the need for systems is the need for _identity_. When we start with external forces such as systems and goals, we divorce them from our internal motivation. We forget the why. We come up with goals that, even well-intentioned, can feel arbitrary or forced.
+When we start with external forces such as systems and goals, we divorce them from our internal motivation. We forget the why. We come up with goals that, even well-intentioned, can feel arbitrary or forced.
 
 When we start with identity, however, we flip the whole thing on its head. We begin with internal motivation rather than external motivation. We start to think about the person we are _becoming_. We start to consider the (hard!) questions of "Who am I?" "Who do I want to become?" "What do I want?" 
 
