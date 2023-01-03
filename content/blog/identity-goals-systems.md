@@ -68,7 +68,7 @@ Once we have formed our identities (which might take a while), we often start to
 
 For example, I'm a climber. I love climbing, and my love for it has only grown in the past few years. And what do climbers do? They climb. This year I want to climb consistently and achieve a V7 boulder problem and a 5.11+ route.
 
-Another example might be someone who considers themselves a software leader (whether as a tech lead, a Staff role, a distinguished role, or even an open source maintainer). They might step back and wonder how they can further their identity as one. It might mean getting a new certification this upcoming year, learning a new language, or speaking at a conference. It could also be a goal to help someone on your team get promoted.
+Another example might be someone who considers themselves a software leader (whether as a tech lead, a Staff role, a distinguished role, or even an open source maintainer). They might step back and wonder how they can further their identity as a leader. It might mean getting a new certification this upcoming year, learning a new language, or speaking at a conference. It could also be a goal to help someone on your team get promoted.
 
 In either case, there is an _identity_ formed and a few _goals_ worth pursuing. 
 
