@@ -2,16 +2,30 @@
 path: /whats-the-point-of-ci-anyway
 date: 2020-05-05T04:00:00.000Z
 title: What's the Point of CI Anyway?
-description: The reasons why your team should be leveraging continuous integration.
+description: Continuous integration (CI) is a powerful and neccesary tool to maximize your team's effort. This article explains what CI is and how to start leveraging it to it's full potential.
 keywords:
+  - continuous integration
+  - what does ci stand for
+  - leveraging ci
+  - software ci
 tags:
-  - software development lifecycle
   - software engineering
   - continuous integration
   - what's the point
 image: https://miro.medium.com/max/1000/1*w_LF-WitILhyNNCkVCm99Q.jpeg
 ---
-![](https://miro.medium.com/max/1000/1*w_LF-WitILhyNNCkVCm99Q.jpeg) *Image by Ken Suarez on Unsplash*
+
+<center>
+
+![](https://miro.medium.com/max/1000/1*w_LF-WitILhyNNCkVCm99Q.jpeg) 
+
+<i>
+
+Image by Ken Suarez on Unsplash
+
+</i>
+
+</center>
 
 “Tell me about your team’s CI/CD journey!” — some message from a guy on LinkedIn.
 
@@ -67,6 +81,8 @@ Investing time to define and build a consistent environment allows you to have c
 If the goal of a CI workflow should allow developers to be integrating their changes as quickly as possible, we need the ability for developers to be testing their changes at the same time. We need the ability for parallel builds to be happening. This is where the difference between a home-grown tool and a real enterprise tool really starts to show. Most decent developers could figure out how to grab a githook or webhook, run a script on a server that builds and tests the software and be done. But it would likely be limited to a single build at a time.
 
 Enterprise tools have the ability to easily scale as a project scales by configuring additional “replicas” that are the actual build machines with a “master” master that coordinates which build is happening on different build machines. This looks different, of course, from tool to tool. In fact, many new tools obfuscate this from the user completely — build machines are just docker containers or VMs in the cloud waiting for a build to be run on them.
+
+---
 
 You might be reading and thinking, “Sounds great, but you still haven’t told me what the point of CI is.” Well, here you go:
 
