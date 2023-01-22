@@ -33,15 +33,16 @@ class IndexPage extends React.Component {
                 <span role="img" aria-label="wave emoji">
                 👋
                 </span>
-                {" "}Hi, I'm Dan.
+                {" "}Hi there! I'm Dan.
               </Greeting>
-              <p>I'm a software engineer and an avid coffee drinker.</p>
-              <p>In my short career, I've come to learn that no matter where developers are, they are <b>tired and burned out.</b> They never feel like they can learn enough, code quick enough, or keep quality high enough.</p>
-              <p>Coding harder or longer doesn't work. We have to do something different.</p>
-              <p>Teams need processes that serve them rather than burden them. They need tools to make it easy to do the right thing rather than the wrong one. Teams need transparency between peers, managers, and other stakeholders. Leaders that lead rather than being heros.</p>
+              <p>I'm a software engineer, climber, and an avid coffee drinker.</p>
+              <p>As an engineer, I've made an observation about the software industry: developers everywhere, are <b>tired and burned out.</b> It feels hard to keep pace with the speed of software with new technologies and tight project timelines.</p>
+              <p>What I've discovered is that coding harder or longer doesn't work. We have to do something different.</p>
+              <p>Teams need processes that serve them rather than burden them. They need tools to make it easy to do the right thing rather than the wrong one. Teams need leaders that lead rather than being <a href="https://dangoslen.me/blog/on-sustainable-software-development/">heros.</a> We need team-driven development.</p>
               <p>When these pieces exists, a team can create a pace they can sustain almost indefintely.</p>
               <p><b>I'm trying to help developers achieve that kind of sustainable pace.</b></p>
-              <p>I'm writing about <a href="https://dangoslen.me/tags/software-engineering">software engineering practices</a>, building tools to <a href="https://github.com/dangoslen">automate processes</a>, and creating resources to help teams work towards a sustainable pace.</p>
+              <p>I'm writing about <a href="https://dangoslen.me/whats-the-point">software engineering best practices</a>, building tools to <a href="https://github.com/dangoslen">automate processes</a>, and creating <a href="https://dangoslen.me/blog/">resources</a> to help teams work together and thrive.</p>
+              <p>I hope my experiences can help you and your teams become great. Because great teams write great software.</p>
               <p>Happy coding!</p>
           </Biography>
         </Profile>

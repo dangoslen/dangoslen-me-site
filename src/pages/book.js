@@ -23,7 +23,7 @@ class Book extends React.Component {
         <div style={{
           textAlign: `center`
         }}>
-          <h1>I'm Writing a Book! 🖊️ 📗</h1>
+          <h1>I'm Writing a Book! 📙</h1>
         </div>
 
         <hr />
