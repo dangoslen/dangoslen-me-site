@@ -10,57 +10,64 @@ import styled from "styled-components"
 import BookEmail from "../components/book-email"
 import NewsletterEmail from "../components/newsletter-email"
 
-class Book extends React.Component {
+class Newsletter extends React.Component {
   render() {
     const { data } = this.props
-    const siteTitle = "Code Review Champion"
+    const siteTitle = "Join the Newsletter"
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Code Review Champion" 
-            image={`https://dangoslen.me/static/book-cover.png`}
-        />
+        <SEO title="Team Driven Developer Newsletter" />
 
         <div style={{
           textAlign: `center`
         }}>
-          <h1>Join my newsletter! 📄</h1>
+          <h1>Join my newsletter! 🖊️</h1>
         </div>
 
         <hr />
 
         <div>    
             
-            <h3>I'm a firm believer that great teams write great software.</h3>
-            <h3>But soo often we don't spend enough time building our teams into great ones.</h3>
-            
-            <p>This newsletter is meant to help you do just that - starting building your team.</p>
+          <h3>Are you trying to build a great software team?</h3>
 
-            <p>Every two weeks I send you:</p>
+          <p>Building great software teams is tricky. Whether it's a team you manage or a team you are on, there are lots of ingredients to get right.</p>
 
-            <ul>
-                <li>My most recent article centered on software engineering practices (with occasional other topics)</li>
-                <li>Resouces that I've created or have discovered to help build your team</li>
-                <li>Links to tools you can use in your workflows to improve communication and measure effectiveness</li>
-            </ul>
-            
-            <div style={{ 
-                display: `flex`,
-                alignItems: `center`,
-                justifyContent: `center`,
-                marginTop: `10px`,
-                marginBottom: `40px`
-            }}>
-
-                <h3>Let's build great teams together!</h3>
+          <p>But when we <i>do</i> get it right, a great software team is seemingly unstoppable.</p>
           
-                <NewsletterEmail />
+          <p><b>Yet we only focus on individual growth instead of team growth.</b></p>
+          
+          <p>This newsletter is meant to give you some tools and tips on how to build your team. After a decade in the industry, I've seen how the wrong person can destroy a team, the right challenge can motivate one, and the incredible power of focusing on team success over individual success.</p>
+          
+          <NewsletterContainer>
+            <NewsletterEmail />
+          </NewsletterContainer>
 
-            </div>
+          <br />
+
+          <h3>Every two weeks I send you:</h3>
+
+          <ul>
+              <li>My most recent article centered on software engineering practices (with occasional other topics)</li>
+              <li>Resouces that I've created or have discovered to help build your team</li>
+              <li>Links to tools you can use in your workflows to improve communication and measure effectiveness</li>
+          </ul>
+
+          <div style={{
+            textAlign: `center`
+          }}>
+            <h2>Let's build great teams together!</h2>
           </div>
+        </div>
+
       </Layout>
     )
   }
 }
 
-export default Book
+const NewsletterContainer = styled.div`
+    width: 124%;
+    margin-left: -12%;
+`
+
+export default Newsletter
