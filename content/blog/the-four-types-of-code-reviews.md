@@ -1,6 +1,6 @@
 ---
 path: /the-four-types-of-code-reviews
-date: 2022-11-19T00:00:00.000Z
+date: 2023-01-31T00:00:00.000Z
 title: The Four Types of Code Reviews
 description: Code reviewing has been going on long before the pull request model. Here are four methods worth knowing to help your team review code effectively.
 keywords:
@@ -14,9 +14,22 @@ tags:
 image: "../assets/tabitha-turner-rhcllVy2zBU-unsplash.jpeg"
 ---
 
+<center>
+
+!["a man with a backpack in the middle of a trail in a grove of tall trees"](../assets/caleb-jones-J3JMyXWQHXU-unsplash.jpeg)
+
+<i>
+
+Photo by <a href="https://unsplash.com/@gcalebjones?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Caleb Jones</a> on <a href="https://unsplash.com/photos/J3JMyXWQHXU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+</i>
+
+</center>
+
 Many engineers who have read my blog will know I talk a lot about code reviews. I firmly believe that a healthy code review practice is a critical tool for building a great team. It's easier to build great software if people feel safe enough to ask questions, are generous in sharing their knowledge, and welcome feedback. Code reviews help build all of those things.
 
-But many engineers assume that the only way to review code is via the pull request model. Pull requests are the default method for reviewing code - my [writings on code reviews]() center around the pull request model, too, including my [upcoming book!]() - but it isn't the only way to review code.
+But many engineers assume that the only way to review code is via the pull request model. Pull requests are the default method for reviewing code - my [writings on code reviews](https://dangoslen.me/tags/code-reviews) center around the pull request model, too, including my [upcoming book!](https://dangoslen.me/book) - but it isn't the only way to review code.
 
 In this article, I want to give a _brief_ overview of four types of code reviews I've seen used by teams. The goal isn't to show that one is better or worse than the other; the goal is to show that each is different. As an engineer, knowing when and how to utilize each of these methods properly will help your career. I know they've helped mine. 
 
@@ -30,7 +43,7 @@ Speed is the combination of both lead time and cycle time. Lead time is the time
 
 ### Thoroughness
 
-Thoroughness is how complete or detailed a code review method is. Thoroughness is a direct correlation to the rigor of the method. A more detailed and prescriptive process is often more rigorous than one with fewer rules and directives. The higher the thoroughness, the more likely the review will find a defect or bug.
+Thoroughness is how complete or detailed a code review method is. Thoroughness is a direct correlation to the rigor of the method. A more detailed and prescriptive process is often more rigorous than one with fewer rules or directives. The higher the thoroughness, the more likely the review will find a defect or bug.
 
 ### Collaboration
 
@@ -48,13 +61,13 @@ Pull requests are the standard in the industry. Originally brought to life by Gi
 
 Developers can discuss the code by leaving comments on specific lines of code or the code overall. Reviewers can also approve or reject the changes and require a certain number of approvals before being allowed to merge in the code.
 
-Many tools also work well with the pull request model. Linters, automated tests, etc., can all run and report back on the pull request the status of the tests - all with links and visual queues. Process checks (did the author remember to update the changelog or apply the proper tags) are helpful here too.
+Many tools also work well with the pull request model. Linters, automated tests, etc., can all run and report back on the pull request the status of each action - all with links and visual queues. Process checks (did the author remember to update the changelog or apply the proper tags) are helpful here too.
 
 Pull requests grew in popularity as it was beneficial for open-source projects as they facilitated low-trust code from forked repositories. Prospective contributors fork the repo, make changes in their repo, and ask maintainers to pull their code into the original repository. 
 
-In some ways, a pull request is akin to a formal review, as every line of code _can_ be reviewed by the reviewer. It depends on the reviewer's thoroughness, as the process isn't strict about enforcing every line _is_ reviewed. It, therefore, rates pretty high on thoroughness but below a formal review.
+In some ways, a pull request is akin to a formal review, as every line of code _can_ be reviewed by the reviewer. It depends largely on the reviewer's thoroughness, however, as the process isn't strict about enforcing every line _is_ reviewed. It, therefore, rates pretty high on thoroughness but below a formal review.
 
-Pull requests are generally quick as long as the request size isn't too large. The larger the request - measured usually as total lines changed - the longer it takes to go through review. 
+Pull requests are generally quick (though that is a hot debate) as long as the request size isn't too large. The larger the request - measured usually as total lines changed - the longer it takes to go through review. 
 
 Pull requests also score decently on collaboration. Much of this collaboration is facilitated by the tools developed by GitHub (or other git SaaS providers) to easily suggest a line change or comment on the changes overall. Many engineers, however, don't love the [pull request process](https://jessitron.com/2021/03/27/those-pesky-pull-request-reviews/), citing that the asynchronous nature of a pull request introduces additional lag in the system (which is correct). In my experience, however, this waiting time is only pronounced when the team isn't working together already.
 
@@ -76,6 +89,8 @@ Formal reviews are now often reserved for the most critical and safety-conscious
 
 ## "Over the Shoulder"
 
+![](../assets/over-the-shoulder.png)
+
 Over the should is precisely what it sounds like: an engineer invites a colleague to peer over their shoulder to double-check their work or look at a specific problem with them. 
 
 While this method might not _feel_ like a code review, it certainly is. One engineer asks another engineer to review their code for either help, direction, or even a quick affirming approval. 
@@ -89,6 +104,8 @@ Interestingly enough, because over-the-shoulder reviews often focus on a specifi
 Where over-the-shoulder reviews suffer is in the area of knowledge preservation. If a pair of engineers discovered a new bit of knowledge while working together, there is no natural place to store that knowledge (at least no place immediately close to code). Even if there was, it might be challenging to make that knowledge discoverable for other team members as the context - the change they were working on - can be easily lost.
 
 ## Pair Programming
+
+![](../assets/pair-programming.png)
 
 Pair programming is similar to the over-the-shoulder review but requires more prescription and rigor. In pair programming, two engineers work together on a specific piece of code with assigned roles and responsibilities for working together. They are often co-located, sharing a single computer but each with their own mouse and keyboard.
 
@@ -119,4 +136,10 @@ All of this is to say that each of these methods has different strengths and wea
 But they are all valuable in their own right.
 
 Happy coding! (and reviewing!)
+
+---
+
+Here is a side-by-side comparison of how each of these methods rank in terms of speed, thoroughness, collaboration, and knowledge preservation:
+
+![](../assets/all-reviews.png)
 
