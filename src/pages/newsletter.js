@@ -13,16 +13,18 @@ import NewsletterEmail from "../components/newsletter-email"
 class Newsletter extends React.Component {
   render() {
     const { data } = this.props
-    const siteTitle = "Join the Newsletter"
+    const siteTitle = "Team Driven Developer Newsletter"
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Team Driven Developer Newsletter" />
+      <Layout location={this.props.location} title={ siteTitle }>
+        <SEO title={ siteTitle } description="Team Driven Developer Newsletter" />
 
         <div style={{
           textAlign: `center`
         }}>
+          
           <h1>Join my newsletter! 🖊️</h1>
+        
         </div>
 
         <hr />

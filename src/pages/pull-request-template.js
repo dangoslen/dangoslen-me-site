@@ -22,12 +22,20 @@ class PrTemplate extends React.Component {
     const siteTitle = "Pull Request Template"
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Pull Request Template" />
+      <Layout location={ this.props.location } title={ siteTitle} >
+        <SEO title={ siteTitle } description={ "A pull request template to boost your team's code reviews" } />
 
         <div>
-          <h1>A great way to help your team's async code review pratice is to outline a set of standard questions and information for each pull request.</h1>
-          <h2>And thankfully, this is easy to do with GitHub!</h2>
+          <div style={{
+            textAlign: "center"
+          }}>
+            <h1>🚀 Boost your teams' code review practice!</h1>
+          </div>
+
+          <hr />
+          
+          <h2>A great way to help your team's async code review pratice is to outline a set of standard questions and information for each pull request.</h2>
+          <h3>And thankfully, this is easy to do with GitHub!</h3>
           <p><Link href="#pr-template">Below</Link> is a pull request template that you can add to your repository to prompt a author to add specific details whenever they open a new PR. </p>
           <p>Simply follow the steps:</p>
           <ul>

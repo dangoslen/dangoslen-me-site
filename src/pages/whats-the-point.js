@@ -12,8 +12,9 @@ class WhatsThePoint extends React.Component {
     const posts = data.posts.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="What's the Point?" />
+      <Layout location={ this.props.location } title={ siteTitle }>
+        <SEO title={ siteTitle } 
+          description="A breakdown of top software engineering practices and why they matter" />
 
         <div>
           <h1>What's the Point?</h1>

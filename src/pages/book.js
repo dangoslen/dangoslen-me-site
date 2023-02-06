@@ -11,13 +11,14 @@ import BookEmail from "../components/book-email"
 
 class Book extends React.Component {
   render() {
-    const { data } = this.props
     const siteTitle = "Code Review Champion"
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Code Review Champion" 
+      <Layout location={ this.props.location } title={ siteTitle }>
+        <SEO title={ siteTitle } 
             image={`https://dangoslen.me/static/book-cover.png`}
+            description="Code Review Champion: Embracing the Power of Technical Feedback"
+            keywords={ ["code review", "reviewing code", "code review book", "how to review code", "code review champion"] }
         />
 
         <div style={{

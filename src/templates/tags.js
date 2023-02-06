@@ -9,6 +9,7 @@ class TagsTemplate extends React.Component {
   render() {
     const { tag } = this.props.pageContext
     const siteTitle = `Tags - ${tag}`
+    const description = `Dan Goslen's posts about '${tag}'`
     const { edges, totalCount } = this.props.data.tags
     const tagHeader = `${totalCount} post${
       totalCount === 1 ? "" : "s"
@@ -16,7 +17,7 @@ class TagsTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-      <SEO title={ siteTitle } />
+      <SEO title={ siteTitle } description={ description } />
         <h1>{tagHeader}</h1>
         <ul>
           {edges.map(({ node }) => {

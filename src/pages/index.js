@@ -23,18 +23,24 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `software engineering`, `software design`, `api`, `design`, `changelogs`, `software development lifecycle`]}
         />
+        <Greeting>
+            <span role="img" aria-label="wave emoji">
+            👋
+            </span>
+            {" "}Hi there! I'm Dan.
+        </Greeting>
+
+        <hr />
+
         <Profile>
+
           <div>
             <ProfilePic />
             <Links />
           </div>
+
           <Biography>
-              <Greeting>
-                <span role="img" aria-label="wave emoji">
-                👋
-                </span>
-                {" "}Hi there! I'm Dan.
-              </Greeting>
+              
               <p>I'm a software engineer, climber, and an avid coffee drinker.</p>
               <p>As an engineer, I've made an observation about the software industry: developers everywhere, are <b>tired and burned out.</b> It feels hard to keep pace with the speed of software with new technologies and tight project timelines.</p>
               <p>What I've discovered is that coding harder or longer doesn't work. We have to do something different.</p>
@@ -101,11 +107,10 @@ const Profile = styled.div`
   }
 `
 
-const Greeting = styled.h2`
+const Greeting = styled.h1`
   text-align: center;
   @media ${Device.tablet} {
     margin-top: 0px;
-    text-align: left;
   }
 `
 
