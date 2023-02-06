@@ -12,6 +12,7 @@ class TalksPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Talks"
+          description="Dan Goslen's public talks on software engineering"
           keywords={[`software`, `engineering`, `slides`, `talks`]}
         />
          <Card title="Keep a Changelog!"
