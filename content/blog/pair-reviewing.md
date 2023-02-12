@@ -1,6 +1,6 @@
 ---
 path: /pair-reviewing
-date: 2022-11-03T00:00:00.000Z
+date: 2023-02-15T00:00:00.000Z
 title: Pair Reviewing
 description: Pair programming is a fantastic tool to improve code and share knowledge. Pair reviewing can be just as beneficial.
 keywords:
