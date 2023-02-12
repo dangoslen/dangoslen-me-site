@@ -7,6 +7,8 @@ keywords:
   - pair reviewing
   - code reviewing
   - pair programming
+  - how to review code
+  - how to leave a code review
 tags:
   - code reviews
   - pair programming
@@ -99,3 +101,12 @@ Plus, any skills learned from reviewing code asyncronously will translate to pai
 
 ---
 
+The point of this article isn't to start booking pair reviewing sessions. The point is that pair reviewing can be a tool to help junior devs learn how to read code, give thoughtful feedback, and be a better reviewer. 
+
+If you are a senior dev, ask a dev that might be intimidated by cod reviewing if they want to see what you do. If you are a junior dev looking to excel, ask a senior dev you respect if you can join them during a review. 
+
+As mentioned earlier, if you do have the option to do pair programming directly vs. only async reviews - take it! But this can be another tool your toolbox to help everyone on your team write better code and spot issues early (regardless of the context). 
+
+If pair programming makes devs better programmers, pair reviewing can help programmers be better reviewers.
+
+Happy coding!
