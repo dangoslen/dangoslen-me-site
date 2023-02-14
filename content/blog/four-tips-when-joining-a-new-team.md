@@ -4,12 +4,11 @@ date: 2023-01-17T00:00:00.000Z
 title: Four Tips When Joining a New Team
 description: Joining a team as a software engineer can be intimidating. There is a lot of pressure and alot of unknowns. Here are some tips to maximize your first few weeks for maximum long-term success.
 keywords:
-- joining a team
-- teamwork
-- good first impression
+  - joining a team
+  - good first impression
 tags:
-  - teamwork
   - career
+  - teams
 image: "../assets/hudson-hintze-vpxeE7s-my4-unsplash.jpeg"
 ---
 

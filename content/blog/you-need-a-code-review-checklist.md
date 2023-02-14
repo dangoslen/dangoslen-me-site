@@ -6,9 +6,10 @@ description: "Level-up your code review practice by using one of the best tools 
 keywords:
   - code review best practices
   - code review checklist
+  - reviewing code
 tags:
-  - code review
-  - teamwork
+  - code reviews
+  - teams
 image: "../assets/1_7j8UyB8TCMxIuqIo9U3VgQ.jpeg"
 ---
 
