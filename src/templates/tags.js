@@ -3,33 +3,32 @@ import React from "react"
 // Components
 import SEO from "../components/seo"
 import Layout from "../components/layout"
-import { Link, graphql } from "gatsby"
+import BlogSummary from "../components/blog-summary"
+import { graphql } from "gatsby"
+
 
 class TagsTemplate extends React.Component {
   render() {
     const { tag } = this.props.pageContext
     const siteTitle = `Tags - ${tag}`
     const description = `Dan Goslen's posts about '${tag}'`
-    const { edges, totalCount } = this.props.data.tags
+    const { edges, totalCount } = this.props.data.tagged
     const tagHeader = `${totalCount} post${
       totalCount === 1 ? "" : "s"
     } tagged with "${tag}"`
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
+
       <SEO title={ siteTitle } description={ description } />
         <h1>{tagHeader}</h1>
-        <ul>
-          {edges.map(({ node }) => {
-            const { slug } = node.fields
-            const { title } = node.frontmatter
-            return (
-              <li key={slug}>
-                <h2><Link to={`/blog${slug}`} >{title}</Link></h2>
-              </li>
-            )
-          })}
-        </ul>
+
+        <hr/>
+      
+        {edges.map(({ node }) => {
+          return ( <BlogSummary node={ node } key={node.fields.slug} /> )
+        })}
+        
       </Layout>
     )
   }
@@ -45,7 +44,7 @@ export const pageQuery = graphql`
         author
       }
     }
-    tags: allMdx (
+    tagged: allMdx (
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
@@ -57,7 +56,9 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            date(formatString: "MMMM DD, YYYY")
             title
+            description
           }
         }
       }
