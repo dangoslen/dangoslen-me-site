@@ -124,16 +124,29 @@ Here is a brief guide on how to run a retro like a Lean Coffee meeting:
 
 ### A Few Notes On Facilitation
 
-As the faciliator of the meeting, you pay a very important role. Not just around keeping the meeting on time, but setting the tone for the meeting. Be diligent on the time. Focus on where there is agreement over disagreement.
+As the faciliator of the meeting, you pay a very important role. Not just around keeping the meeting on time, but about seting the tone.
+
+For a retrospective to be insightful, there needs to be [pyschological safey](). The team must feel safe to share their opinions about what went well, poorly, or where the team is lacking. If they don't feel safe, they will withhold those opinions, which is exactly what the team is suppossed to be sharing.  
+
+Part of your job is making sure that safety is upheld (at least within the meeting). If there is a disagreement, try to affirm everyone's perspectives and keep the converstaion from escalting. If people share an opinion that was difficult to share of vulnerable in any way, thank them for sharing their perspective. If people begin blaming or making assumptions about others, do your best to bring it back to facts.
+
+It may take time for everyone to feel safe in this meeting, so don't try to rush it. Take it one step at a time.
 
 ## My Top Takeaway
 
-**Agree on one action item; actually do it**
+Of all the retros I've been apart of there is one top takeaway that separates the good ones from the bad ones: they focus on just *one* key thing to improve on from retro to retro, committing to make changes by the next meeting.
+
+One might not sound like it's enough action. And you could be right. What I've found, though, is that by focusing one action item, the team actually makes progress and finds the value of the retro more meaningful. Too many action items can often be a distraction, especially when there are competing priorities for development (which is always the case). 
+
+Focus the team on making impact through one action item, commit to it, and make sure to discuss it at next retro.
 
 --- 
 
+All this to say, retrospectives are an underutilized meeting for a software development team. Just like you should be measuring and evaluating the software you write and deploy, pay attention to how your team is doing on a regular basis. You'll be amazed at all of the ideas your team has for improvement.
 
+And it's where the fun begins.
 
+Happy coding!
 
   
 
