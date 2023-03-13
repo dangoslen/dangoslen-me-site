@@ -20,9 +20,8 @@ image: "../assets/natalie-pedigo-wJK9eTiEZHY-unsplash.jpeg"
 
 <i> 
 
-Photo by <a href="https://unsplash.com/@nataliepedigo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Natalie Pedigo</a> on <a href="https://unsplash.com/photos/wJK9eTiEZHY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-  
+Photo by <a href="https://unsplash.com/@josemreyes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">José M. Reyes</a> on <a href="https://unsplash.com/photos/0GBxtiFvzXE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 </i>
 
 
@@ -126,7 +125,7 @@ Here is a brief guide on how to run a retro like a Lean Coffee meeting:
 
 As the faciliator of the meeting, you pay a very important role. Not just around keeping the meeting on time, but about seting the tone.
 
-For a retrospective to be insightful, there needs to be [pyschological safey](). The team must feel safe to share their opinions about what went well, poorly, or where the team is lacking. If they don't feel safe, they will withhold those opinions, which is exactly what the team is suppossed to be sharing.  
+For a retrospective to be insightful, there needs to be [pyschological safey](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/foster-psychological-safety/). The team must feel safe to share their opinions about what went well, poorly, or where the team is lacking. If they don't feel safe, they will withhold those opinions, which is exactly what the team is suppossed to be sharing.  
 
 Part of your job is making sure that safety is upheld (at least within the meeting). If there is a disagreement, try to affirm everyone's perspectives and keep the converstaion from escalting. If people share an opinion that was difficult to share of vulnerable in any way, thank them for sharing their perspective. If people begin blaming or making assumptions about others, do your best to bring it back to facts.
 
@@ -147,7 +146,3 @@ All this to say, retrospectives are an underutilized meeting for a software deve
 And it's where the fun begins.
 
 Happy coding!
-
-  
-
-
