@@ -82,7 +82,7 @@ One format I've always turned to time and time again is 4 "what" questions.
 
 * What can we do?
 
-  After asking the earlier questions, focus on actions items the team could take. It might mean purchasing a tool. It might mean experimenting with a process. It could even be as simply as making an attempt to communicate on Slack or to improve documentation. 
+  This is where you will list your team's action items at the end of the meeting. Don't have your team fill this out yet, but having it as a group ahead of the meeting will start getting people thinking about possible actions and solutions. 
 
 Once you decide on a format, create a document in whatever online collaboration tool your team uses (Google Docs, Trello, Lucidchart, etc.). Group the document into sections under the questions you choose to use. 
 
@@ -92,7 +92,7 @@ A day or so before the retro, send the document out asking the team to provide t
 
 Speaking of time, a critical component to running a good retro is using the time wisely. Your retro needs a good agenda to help keep the meeting flowing without going over.
 
-A good method for this is running the retro in a [Lean Coffee]() format. In this format, everyone brings their ideas to the meeting and follows a lightweight process to determine what the group should discuss. The agenda is focused purely on the allocation of time and the activity during that time of time rather than the actual content.
+A good method for this is running the retro in a [Lean Coffee]() format. In this format, everyone brings their ideas to the meeting and follows a lightweight process to determine what the group should discuss. The idea is that a Lean Coffee meeting has a strcuture, but not a set agenda. It focuses on allocation of time and the activity during that time of time rather than the actual content.
 
 Here is a brief guide on how to run a retro like a Lean Coffee meeting:
 
@@ -118,11 +118,13 @@ Here is a brief guide on how to run a retro like a Lean Coffee meeting:
 
 * Identify and assign action items
 
+  Once all the themes have been discussed, it is time to turn from discussing the past iteration towards actions to take in the upcoming iteration. Actions items don't need to be grand or all encompassing. Heck, a good action item from a retro might be "Let's see what happens without pointing stories this sprint" or "Let's try being more intentional about discussion acceptance criteria in out stories." 
   
+  The key is to put down action items that are actually actionable. It can be easy to put an action that is so vague and verbose that the team can't make any progress on it. If possible, it is always a good idea to assign each action to a specific owner. This isn't always possible (like in a few of the examples above) but if the action is around getting access to a tool or starting a converstaion, having an owner will go a long way.
 
 ### A Few Notes On Facilitation
 
-Be diligent on the time. Focus on where there is agreement over disagreement.
+As the faciliator of the meeting, you pay a very important role. Not just around keeping the meeting on time, but setting the tone for the meeting. Be diligent on the time. Focus on where there is agreement over disagreement.
 
 ## My Top Takeaway
 
