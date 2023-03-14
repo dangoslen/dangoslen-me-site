@@ -92,7 +92,7 @@ A day or so before the retro, send the document out, asking the team to provide 
 
 Speaking of time, a critical component of running a good retro is using time wisely. Your retro needs a structure to help keep the meeting flowing without going over.
 
-A good method for this is running the retro in a [Lean Coffee]() format. In this format, everyone brings their ideas to the meeting and follows a lightweight process to determine what the group should discuss. The idea is that a Lean Coffee meeting has a structure but not a set agenda. It focuses on the allocation of time and the activity during that time of time rather than the actual content.
+A good method for this is running the retro in a [Lean Coffee](https://leancoffee.org/) format. In this format, everyone brings their ideas to the meeting and follows a lightweight process to determine what the group should discuss. The idea is that a Lean Coffee meeting has a structure but not a set agenda. It focuses on the allocation of time and the activity during that time of time rather than the actual content.
 
 Here is a brief guide on how to run a retro like a Lean Coffee meeting:
 
@@ -139,3 +139,11 @@ Of all the retros I've been a part of there is one top takeaway that separates t
 One action likely doesn't sound like much. And you could be right. What I've found, though, is that by focusing on one action item, the team actually makes progress and sees the value of the retro more meaningful. Too many action items can often be a distraction, especially when there are competing priorities for development (which is always the case). 
 
 Focus the team on making an impact through one action item, commit to it, and make sure to discuss it at the next retro.
+
+--- 
+
+All this to say, retrospectives are an underutilized meeting for a software development team. Just like you should be measuring and evaluating the software you write and deploy, pay attention to how your team is doing on a regular basis. You'll be amazed at all of the ideas your team has for improvement.
+
+And it's where the fun begins.
+
+Happy coding!
