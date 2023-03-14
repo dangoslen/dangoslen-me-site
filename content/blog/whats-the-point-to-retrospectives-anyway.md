@@ -2,7 +2,7 @@
 path: /whats-the-point-to-retrospectives-anyway
 date: 2023-03-14T00:00:00.000Z
 title: What's the Point to Retrospectives Anyway?
-description: Accomplishing goals through others is an important aspect when moving from a invidiviual contributor to a leader (as a manager, director, or Staff+ role, etc.) But how do you do so? Here are four ways I've been finding success in my own career.
+description: Teams need to set aside time to reflect and recalibrate where they are headed. They need to consider how to continually improve their code, process, and tools. Retrospectices are the meeting to do just that. 
 keywords:
   - agile retrospective
   - scrum retrospective
