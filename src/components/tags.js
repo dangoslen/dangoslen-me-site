@@ -24,13 +24,14 @@ const Tags = props => {
 }
 
 const TagsContainer = styled.div`
-
+  display: flex;
+  flex-flow: row wrap;
 `
 
 const TagSpan = styled.span`
-    padding: 3px 6px;
+    padding: 0px 10px;
     margin: 2px;
-    border-radius: 12px;
+    border-radius: 14px;
     background-color: var(--primary);
     a {
       color: white;

@@ -1,9 +1,9 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import styled from "styled-components"
+import BlogSummary from "../components/blog-summary"
 
 class WhatsThePoint extends React.Component {
   render() {
@@ -33,53 +33,14 @@ class WhatsThePoint extends React.Component {
         <hr/>
 
         <div style={{ margin: "20px 0 40px" }}>
-          {posts.map(({ node }) => {
-            const title = node.frontmatter.title || node.fields.slug
-            return (
-              <div key={node.fields.slug}>
-                <BlogTitle>
-                  <BlogLink to={`/blog${node.fields.slug}`}>
-                      {title}
-                  </BlogLink>
-                </BlogTitle>
-                <BlogSummary>
-                  <span>{node.frontmatter.date}</span>
-                  <div>
-                    <span>{node.frontmatter.description || node.excerpt}</span>        
-                  </div>
-                </BlogSummary>
-              </div>
-            )
+          { posts.map(({ node }) => {
+            return ( <BlogSummary node={ node } key={ node.fields.slug } /> )
           })}
-
-          <p></p>
-
-          <hr/>
-
         </div>
       </Layout>
     )
   }
 }
-
-const BlogTitle = styled.h2`
-margin-bottom: 0rem;
-`
-
-const BlogLink = styled(Link)`
-box-shadow: none;
-color: #1a1a1a;
-&:hover {
-  color: #e09b76;
-}
-transition: all .2s;
-transition-timing-function: ease;
-text-decoration: none;
-`
-
-const BlogSummary = styled.div`
-  margin-bottom: 5px; 
-`
 
 export default WhatsThePoint
 
@@ -96,7 +57,6 @@ export const pageQuery = graphql`
       ) {
       edges {
         node {
-          excerpt
           fields {
             slug
           }
@@ -104,7 +64,6 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
-            tags
           }
         }
       }
