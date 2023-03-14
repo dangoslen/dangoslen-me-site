@@ -9,7 +9,6 @@ keywords:
   - building software teams
 tags:
   - what's the point
-  - scrum
   - software engineering
 image: "../assets/jose-m-reyes-0GBxtiFvzXE-unsplash.jpg"
 ---
