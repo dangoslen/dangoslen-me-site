@@ -45,7 +45,7 @@ class PrTemplate extends React.Component {
             <li>Move the file into the <code>.github</code> directory (if you don't have one, create it)</li>
           </ul>
           <p><b>🎉 Now every new pull request will prompt the author to fill in the sections of the template!</b></p>
-          <p>This template comes right out of Chapter 5 in my book: <a href="../book">Code Review Champion</a>. If you want to learn more about how to build a great code review practice on your team, check it out!</p>
+          <p>This template comes right out of the pages in my book: <a href="../book">Code Review Champion</a>. If you want to learn more about how to build a great code review practice on your team, check it out!</p>
           <div style={{ 
               display: `flex`,
               alignItems: `center`,
@@ -53,7 +53,6 @@ class PrTemplate extends React.Component {
               marginTop: `10px`,
               marginBottom: `40px`
           }}>
-              <EmailSignup prompt="If you like this resource, sign up below to be the first to get resources from me!"/>
           </div>
         </div>
 
