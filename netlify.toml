@@ -3,3 +3,10 @@
   to = "https://woozy-hyacinth-5bd.notion.site/Coffee-Guide-c73217b1581040d69c5fc08190bd1183"
   status = 301
   force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; script-src https://example.com"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"

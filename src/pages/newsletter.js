@@ -1,13 +1,8 @@
 import React from "react"
-import { useStaticQuery, graphql} from "gatsby"
-
-import Img from "gatsby-image"
 
 import Layout from "../components/layout"
-import Device from "../components/sizing"
 import SEO from "../components/seo"
 import styled from "styled-components"
-import BookEmail from "../components/book-email"
 import NewsletterEmail from "../components/newsletter-email"
 
 class Newsletter extends React.Component {
