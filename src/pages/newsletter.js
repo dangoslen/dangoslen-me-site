@@ -31,14 +31,12 @@ class Newsletter extends React.Component {
 
         <div>    
             
-          <h3>Are you trying to build a great software team?</h3>
+          <h3>Building great software teams is tricky.</h3>
 
-          <p>Building great software teams is tricky. Whether it's a team you manage or a team you are on, there are lots of ingredients to get right.</p>
+          <p>Whether it's a team you manage or a team you are on, there are lots of ingredients to get right.</p>
 
           <p>But when we <i>do</i> get it right, a great software team is seemingly unstoppable.</p>
-          
-          <p><b>Yet we only focus on individual growth instead of team growth.</b></p>
-          
+                    
           <p>This newsletter is meant to give you some tools and tips on how to build your team. After a decade in the industry, I've seen how the wrong person can destroy a team, the right challenge can motivate one, and the incredible power of focusing on team success over individual success.</p>
           
           <NewsletterContainer>
@@ -47,7 +45,7 @@ class Newsletter extends React.Component {
 
           <br />
 
-          <h3>Every two weeks I send you:</h3>
+          <h3>Every other Tuesday you'll get:</h3>
 
           <ul>
               <li>My most recent article centered on software engineering practices (with occasional other topics)</li>
@@ -68,8 +66,6 @@ class Newsletter extends React.Component {
 }
 
 const NewsletterContainer = styled.div`
-    width: 124%;
-    margin-left: -12%;
 `
 
 export default Newsletter
