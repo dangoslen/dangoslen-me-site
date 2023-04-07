@@ -21,6 +21,10 @@ class NewsletterEmail extends Component {
 }
 
 const Signup = styled.div`
+    .formkit-form {
+      max-width: 2000px !important;
+    }
+
     .formkit-powered-by-convertkit-container {
         display: none !important;
     }
