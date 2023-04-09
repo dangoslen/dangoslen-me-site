@@ -4,9 +4,14 @@ date: 2023-03-25T17:59:41
 title: Know Your Audience
 description: 
 keywords:
-  - keyword
+  - know your audience
+  - how to communicate clearly
+  - tips on communication
+  - tips on knowing your audience
+  - software communication
 tags:
-  - tag
+  - career
+  - communication
 image: "../assets/natalie-pedigo-wJK9eTiEZHY-unsplash.jpeg" 
 ---
 
