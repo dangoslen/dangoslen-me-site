@@ -46,7 +46,11 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
+
+        <p>If you enjoyed this article you should <a href="https://dangoslen.me/newsletter">join my newsletter!</a> Every other Tuesday you get a new article and resources from me about building software and building great software teams!</p>
   
+        <hr />
+          
         <Bio />
 
         <ul
