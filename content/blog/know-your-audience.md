@@ -66,6 +66,16 @@ To make things even more difficult, your audience will likely be a mix of these 
 
 ![](https://media.tenor.com/_c8RgO7aX7MAAAAC/zach-galifianakis-dfx.gif)
 
+<center>
+
+<i>
+
+Trying to consider all the different people in your audience
+
+</i>
+
+</center>
+
 ## Team Proximity
 
 The last axis to consider is team proximity. 
