@@ -1,6 +1,6 @@
 ---
 path: /know-your-audience
-date: 2023-03-25T17:59:41
+date: 2023-04-11T00:00:00
 title: Know Your Audience
 description: 
 keywords:
@@ -24,7 +24,6 @@ image: "../assets/natalie-pedigo-wJK9eTiEZHY-unsplash.jpeg"
 Photo by <a href="https://unsplash.com/@purzlbaum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Claudio Schwarz</a> on <a href="https://unsplash.com/photos/_wDZkpybAfY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 </i>
-
 
 </center>
 
@@ -91,7 +90,6 @@ A good rule of thumb for these answers is to go back to talking about high-level
 Ideally, you anticipate these questions and include them in your presentation materials. This gives you extra time to consider all of the factors involved. You can tweak and refine your wording, order, and details several times.
 
 ---
-
 
 ## Communication Is Difficult
 
