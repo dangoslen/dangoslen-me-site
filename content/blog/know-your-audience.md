@@ -63,16 +63,9 @@ Let's go to our example about garbage collection and service reliability. Your e
 
 To make things even more difficult, your audience will likely be a mix of these roles. It's common to have your teammates, a product owner, your manager, and potentially a director all in attendenace to hera a great idea. If you can, tailor your communication toward the primary audience members you expect to have, especially if they are for leadership roles.
 
-<div style="max-width: 600px; margin: 0 auto; text-align:center;">
-  
-<img src="https://media.tenor.com/_c8RgO7aX7MAAAAC/zach-galifianakis-dfx.gif" />
-
-<i>
-
-Trying to consider all the different people in your audience
-
-</i>
-
+<div style="max-width: 500px; margin: 0 auto; text-align: center;">
+  <img src="https://media.tenor.com/_c8RgO7aX7MAAAAC/zach-galifianakis-dfx.gif" />
+  <i>Trying to figure out who is in your audience</i>
 </div>
 
 ## Team Proximity
@@ -97,7 +90,7 @@ If you've stayed with me this far (hi, BTW!), you can see this is a tough road w
 
 I tend to think of all of these factors as they relate to each other as a cone. 
 
-<div style="max-width: 250px; margin: 0 auto;">
+<div style="max-width: 300px; margin: 0 auto;">
 
 ![](../assets/audience-axis-cone.png)
 
