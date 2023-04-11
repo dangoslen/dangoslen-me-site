@@ -32,7 +32,7 @@ Photo by <a href="https://unsplash.com/@purzlbaum?utm_source=unsplash&utm_medium
 
 One of my favorite quotes from [The Pragmatic Programmer](https://amzn.to/3GuXI71) has nothing to do with programming, and it has to do with communication. They write:
 
-> If you can't clearly communicate your idea, it might as well not exist
+> Having the best ideas, the finest code, or the most pragmatic thinking is ultimately sterile unless you can communicate with other people.
 
 In many ways, communication is the crux of the software engineer. Software is tricky to grasp, and communicating our ideas about software is even more challenging. It's a complex task, and it's why we've built up vocabulary around [patterns](https://dangoslen.me/blog/our-obsession-with-patterns/) and architecture.
 
@@ -97,7 +97,11 @@ Ideally, you anticipate these questions and include them in your presentation ma
 
 If you've stayed with me this far (hi, BTW!), you can see this is a tough road with a lot of considerations. From audience roles, experience, proximity, and even size, there is a lot to factor in.
 
-I tend to think of all of these factors as they relate to each other as a cone. At the bottom, we see technical experience, and while it plays a vital role in how you communicate, you still have a lot of room to explore how to best share an idea with those in the room. The further your audience moves away from your team and in leadership, however, the less "surface area" you have to walk around in. You have to be much more "on point" when presenting to those groups.
+I tend to think of all of these factors as they relate to each other as a cone. 
+
+![](../assets/audience-axis-cone.png)
+
+At the bottom, we see technical experience, and while it plays a vital role in how you communicate, you still have a lot of room to explore how to best share an idea with those in the room. The further your audience moves away from your team and in leadership, however, the less "surface area" you have to walk around in. You have to be much more "on point" when presenting to those groups.
 
 ---
 
@@ -107,7 +111,7 @@ I'll leave you with one last tip that has never failed me when I think about it 
 
 If you can communicate complicated succinctly and clearer, you will be ahead of the curve. Adding more words to clear up a confusing paragraph will not help; it will only increase the confusion.
 
-I'm not saying send memos or write RFCs that don't have meaningful details or evidence to support your ideas. But you should remove any and every non-essential word that you can. You should use the same terms throughout your communication for your ideas vs. redefining them in subtly different ways. You should make sure the high-level goals are clear and the details put into appriopriate sections for those that case.
+I'm not saying send memos or write RFCs that don't have meaningful details or evidence to support your ideas. But you should remove any and every non-essential word that you can. You should use the same terms throughout your communication for your ideas vs. redefining them in subtly different ways. You should make sure the high-level goals are clear and the details put into appropriate sections for those that case.
 
 Being good at communicating in this way is learning the art of editing. You write your heart out, then remove the cruft and cobwebs, considering how to benefit your audience with each word. 
 
