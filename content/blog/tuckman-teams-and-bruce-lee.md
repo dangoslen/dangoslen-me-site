@@ -15,17 +15,21 @@ tags:
 image: "../assets/man-chung-wWX7Zex_BQY-unsplash.jpeg" 
 ---
 
+<div class="hero">
+
 <center>
 
 ![](../assets/man-chung-wWX7Zex_BQY-unsplash.jpeg)
+
 <i> 
     
 Photo by <a href="https://unsplash.com/@cmc_sky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Man Chung</a> on <a href="https://unsplash.com/photos/wWX7Zex_BQY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 </i>
 
-
 </center>
+
+</div>
 
 Working as a software engineer in today's world often requires working with others. The top tech companies, fintechs, and even up-and-coming disruptors organize their engineers into teams with specific missions, goals, and ownership. It might be the fabled two-pizza team, or it might be a team of ten or more.
 
@@ -108,7 +112,7 @@ In this stage, team members also learn a deeper sense of what they can contribut
 
 This stage can continue for a long time, and that's ok. This process is vital for cementing long-term culture and behaviors that will carry the team into long-term success.
 
-Use tools like [retrospectives]() and blameless post-mortems so the team can see where they have room for improvement and define action items to do so. 
+Use tools like [retrospectives](https://dangoslen.me/blog/whats-the-point-to-retrospectives-anyway/) and blameless post-mortems so the team can see where they have room for improvement and define action items to do so. 
 
 ### Performing
 
