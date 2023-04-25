@@ -51,7 +51,7 @@ The further away from technical skills your audience becomes, the more you need 
 
 It isn't always possible to hide all of the technical details. Sometimes the details around a tricky bug or outage need to be discussed. In these cases, do your best to explain those details at a high level without talking about specific code paths or services, etc. The less you can discuss the nitty gritty and focus on product implications or business outcomes, the better.
 
-It's also important to note that even within your engineering organization, there is a vast range of experience and knowledge. Even when presenting an idea to other engineers, they might have never heard of a particular pattern, concept, or strategy your are discussing. Be prepared to explain them briefly if asked. Avoid the dangerous assumption that "every engineer knows that."
+It's also important to note that even within your engineering organization, there is a vast range of experience and knowledge. Even when presenting an idea to other engineers, they might have never heard of a particular pattern, concept, or strategy you are discussing. Be prepared to explain them briefly if asked. Avoid the dangerous assumption that "every engineer knows that."
 
 ## Role
 
@@ -110,6 +110,6 @@ I'm not saying send memos or write RFCs that don't have meaningful details or ev
 
 Being good at communicating in this way is learning the art of editing. You write your heart out, then remove the cruft and cobwebs, considering how to benefit your audience with each word. 
 
-All of this will take time and effort. It's tedious and challenging. It won't happen overnight, but the results if you stick with it are worth it.
+All of this will take time and effort. It's tedious and challenging. It won't happen overnight, but if you stick with it, the result will be worth it.
 
 Happy coding!
