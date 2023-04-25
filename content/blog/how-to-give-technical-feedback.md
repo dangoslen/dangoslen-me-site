@@ -4,9 +4,11 @@ date: 2020-11-24T16:55:33.325Z
 title: How to Give Feedback
 description: Feedback is hard. Here are some tips to help you give feedback well.
 keywords:
+  - how to review code
+  - how to give technical feedback
+  - giving good feedback
 tags: 
   - career
-  - communication
   - teams
   - code reviews
 image: "../assets/portuguese-gravity-mflgvcy9ooy-unsplash.jpg"

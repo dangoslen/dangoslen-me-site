@@ -4,8 +4,8 @@ date: 2020-06-06T01:02:27.200Z
 title: How to Introduce Kaizen to Your Team
 description: Convincing your team to embrace continuous improvement.
 keywords:
+  - kaizen in software development
 tags: 
-  - devops
   - teams
   - software engineering
 image: "../assets/1_oyeeax1t-pdzp-hel9cxvq.jpeg"

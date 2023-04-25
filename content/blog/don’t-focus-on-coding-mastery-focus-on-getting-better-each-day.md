@@ -4,8 +4,9 @@ date: 2020-06-25T04:00:00.000Z
 title: Don’t Focus on Coding Mastery — Focus on Getting Better Each Day
 description: Why only focusing on the end game will disappoint you.
 keywords:
+  - growing as a software engineer
 tags: 
-  - programming
+  - software engineering
   - career
 image: "../assets/1_ndvpxhffgu1hoz2cbssmuw.jpeg"
 ---

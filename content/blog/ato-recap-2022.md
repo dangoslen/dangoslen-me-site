@@ -4,9 +4,10 @@ date: 2022-11-03T00:00:00.000Z
 title: All Things Open Recap 2022
 description: Some of my favorite talks and resources from All Things Open 2022.
 keywords:
+  - all things open talks 
+  - all things open review
 tags:
   - conferences
-  - OSS
   - all things open
 image: "../assets/ato-2022.jpeg"
 ---

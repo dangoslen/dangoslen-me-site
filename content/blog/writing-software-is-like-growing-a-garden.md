@@ -4,6 +4,7 @@ date: 2021-04-20T13:00:00.000Z
 title: Writing Software Is Like Growing a Garden
 description: Gardens won't grow if neglected, and neither will your software.
 keywords:
+  - software gardner
 tags:
   - software development lifecycle
   - coding

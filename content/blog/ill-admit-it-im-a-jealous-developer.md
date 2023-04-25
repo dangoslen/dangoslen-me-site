@@ -4,8 +4,9 @@ date: 2020-07-15T23:20:37.905Z
 title: I'll Admit It. I'm a Jealous Developer
 description: But I want to move towards a place of inspiration
 keywords:
+  - how to grow as a software engineer
+  - dealing with jealousy
 tags: 
-  - stories
   - career
 image: "../assets/1_a025qp5vgMY2H4sAPfqe9g.jpeg"
 ---

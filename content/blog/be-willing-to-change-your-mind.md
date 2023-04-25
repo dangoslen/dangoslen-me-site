@@ -1,13 +1,13 @@
 ---
-path: /ato-recap-2022
+path: /be-willing-to-change-your-mind
 date: 2022-11-19T00:00:00.000Z
 title: Be Willing to Change Your Mind
 description: Changing your mind isn't neccesarily bad thing. Nor is it a sign of weakness. It might even be a sign of strength.
 keywords:
   - changing your mind
   - strong opinions loosely held
-  - humility
-  - decision making
+  - humility as a software eningeer
+  - softwar engineering decision making
 tags:
   - leadership
   - software engineering

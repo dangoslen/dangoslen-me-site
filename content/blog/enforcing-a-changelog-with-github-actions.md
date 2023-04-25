@@ -4,6 +4,10 @@ date: 2020-07-15T00:00:00.000Z
 title: Enforcing a Changelog with GitHub Actions
 description: How to keep your team's changelog up to date.
 keywords:
+  - github action changelog
+  - automated changelogs
+  - software development lifecycle
+  - github actions release notes
 tags: 
   - github actions
   - changelogs

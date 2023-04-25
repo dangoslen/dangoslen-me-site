@@ -4,6 +4,8 @@ date: 2021-08-10T00:00:00.001Z
 title: Let's Talk About Trust
 description: Trust is really important, but often illusive. How do we build it on our teams to help oursleves build great software? 
 keywords:
+  - building trust on teams
+  - how to build trust
 tags:
   - teams
   - leadership
