@@ -2,3 +2,11 @@
     --primary:#d69066;
     --primary-hover: #e09b76;
 }
+
+.hero {
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 5px;
+}
