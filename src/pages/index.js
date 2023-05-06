@@ -12,6 +12,8 @@ import SocialLink from "../components/social-link"
 import Device from "../components/sizing"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import FrontPageEmail from "../components/front-page-email"
+import TeamDrivenDev from "../components/team-driven-dev"
 
 class IndexPage extends React.Component {
   render() {
@@ -23,6 +25,27 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `software engineering`, `software design`, `api`, `design`, `changelogs`, `software development lifecycle`]}
         />
+
+        <TopCard>
+
+          <TeamDrivenDev />
+
+          <CallToAction>
+
+            <h1>Grow your career by building your team.</h1>
+
+            <p>Join to the Team Driven-Developer Newsletter. Every other Tuesday you'll get tips and tools to help you build a high-performing software teams.</p> 
+
+            <p>Because great teams build great software.</p>
+
+            <FrontPageEmail />
+
+          </CallToAction>
+
+        </TopCard>
+
+        <hr />
+
         <Greeting>
             <span role="img" aria-label="wave emoji">
             👋
@@ -30,30 +53,28 @@ class IndexPage extends React.Component {
             {" "}Hi there! I'm Dan.
         </Greeting>
 
-        <hr />
-
         <Profile>
 
-          <div>
-            <ProfilePic />
-            <Links />
-          </div>
+          <ProfilePic />
 
-          <Biography>
-              
-              <p>I'm a software engineer, climber, and an avid coffee drinker.</p>
-              <p>As an engineer, I've made an observation about the software industry: developers everywhere, are <b>tired and burned out.</b> It feels hard to keep pace with the speed of software with new technologies and tight project timelines.</p>
-              <p>What I've discovered is that coding harder or longer doesn't work. We have to do something different.</p>
-              <p>Teams need processes that serve them rather than burden them. They need tools to make it easy to do the right thing rather than the wrong one. Teams need leaders that lead rather than being <a href="https://dangoslen.me/blog/on-sustainable-software-development/">heros.</a> We need team-driven development.</p>
-              <p>When these pieces exists, a team can create a pace they can sustain almost indefintely.</p>
-              <p><b>I'm trying to help developers achieve that kind of sustainable pace.</b></p>
-              <p>I'm writing about <a href="https://dangoslen.me/whats-the-point">software engineering best practices</a>, building tools to <a href="https://github.com/dangoslen">automate processes</a>, and creating <a href="https://dangoslen.me/blog/">resources</a> to help teams work together and thrive.</p>
-              <p>I hope my experiences can help you and your teams become great. Because great teams write great software.</p>
-              <p>Happy coding!</p>
-          </Biography>
+          <Bio>
+
+            <p>I'm a software engineer, climber, and an avid coffee drinker.</p>
+            <p>As an engineer, I've made an observation about the software industry: developers everywhere, are <b>tired and burned out.</b> It feels hard to keep pace with the speed of software with new technologies and tight project timelines.</p>
+            <p>What I've discovered is that coding harder or longer doesn't work. We have to do something different.</p>
+            <p>Teams need processes that serve them rather than burden them. They need tools to make it easy to do the right thing rather than the wrong one. Teams need leaders that lead rather than being <a href="https://dangoslen.me/blog/on-sustainable-software-development/">heros.</a> We need team-driven development.</p>
+            <p>When these pieces exists, a team can create a pace they can sustain almost indefintely.</p>
+            <p><b>I'm trying to help developers achieve that kind of sustainable pace.</b></p>
+            <p>I'm writing about <a href="https://dangoslen.me/whats-the-point">software engineering best practices</a>, building tools to <a href="https://github.com/dangoslen">automate processes</a>, and creating <a href="https://dangoslen.me/blog/">resources</a> to help teams work together and thrive.</p>
+            <p>I hope my experiences can help you and your teams become great. Because great teams write great software.</p>
+            <p>Happy coding!</p>
+          </Bio>
+
         </Profile>
 
         <hr />
+
+        <Links />
 
       </Layout>
     )
@@ -98,8 +119,12 @@ function Links() {
   )
 }
 
-const Profile = styled.div`
-  margin-top: 10px;
+const TopCard = styled.div`
+  @media ${Device.laptopL} {
+    width: 130%;
+    margin-left: -15%;
+  }
+
   @media ${Device.tablet} {
     display: flex;
     justify-content: space-around;
@@ -114,7 +139,24 @@ const Greeting = styled.h1`
   }
 `
 
-const Biography = styled.div`
+const Profile = styled.div`
+  margin-top: 50px;
+  @media ${Device.tablet} {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+`
+
+const Bio = styled.div`
+  @media ${Device.tablet} {
+    margin-left: 20px;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+`
+
+const CallToAction = styled.div`
   @media ${Device.tablet} {
     width: 60%;
     margin-left: 20px;
