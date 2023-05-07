@@ -6,7 +6,6 @@ import ReactTooltip from 'react-tooltip';
 import Layout from "../components/layout"
 import Device from "../components/sizing"
 import SEO from "../components/seo"
-import EmailSignup from "../components/email-signup"
 import styled from "styled-components"
 import PrTemplateMdx from "../components/pr-template.mdx"
 import { BiCopy } from "@react-icons/all-files/bi/BiCopy";
