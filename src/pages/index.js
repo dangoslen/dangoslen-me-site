@@ -154,7 +154,7 @@ const Profile = styled.div`
 
 const Bio = styled.div`
   @media ${Device.tablet} {
-    margin-left: 20px;
+    margin-left: 50px;
     justify-content: space-around;
     align-items: flex-start;
   }
