@@ -34,7 +34,7 @@ class IndexPage extends React.Component {
 
             <h1>Grow your career by building your team.</h1>
 
-            <p>Join to the Team Driven-Developer Newsletter. Every other Tuesday you'll get tips and tools to help you build a high-performing software teams.</p> 
+            <p>Join the Team Driven-Developer Newsletter to get tips and tools to help you build a high-performing software team. Issues go out every other Tuesday.</p> 
 
             <p>Because great teams build great software.</p>
 
@@ -59,8 +59,8 @@ class IndexPage extends React.Component {
 
           <Bio>
             <p>I'm a software engineer, climber, and an avid coffee drinker.</p>
-            <p>I've made an observation about the software industry: developers everywhere, are <b>tired and burned out.</b> It feels hard to keep pace with the speed of software with new technologies and tight project timelines.</p>
-            <p>What I've discovered is that coding harder or longer doesn't work. We have to do something different.</p>
+            <p>I've noticed in the software industry that developers everywhere are <b>tired and burned out.</b> It feels impossible to keep pace with the speed of software and tight project timelines.</p>
+            <p>What I've discovered is that the solution isn't coding harder or longer. We have to do something different.</p>
             <p>Teams need processes that serve them rather than burden them. They need tools to make it easy to do the right thing. Teams need leaders that lead rather than being <a href="https://dangoslen.me/blog/on-sustainable-software-development/">heros.</a></p>
             <p><b>We need team-driven development.</b></p>
             <p>I'm writing about <a href="https://dangoslen.me/whats-the-point">software engineering best practices</a>, building tools to <a href="https://github.com/dangoslen">automate processes</a>, and creating <a href="https://dangoslen.me/blog/">resources</a> to help teams work together and thrive.</p>
