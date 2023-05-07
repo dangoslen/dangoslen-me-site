@@ -28,7 +28,7 @@ function TeamDrivenDev() {
 }
 
 const ImgContainer = styled.div`
-  width: 300px;
+  width: 200px;
   margin: 0 auto;
 
   @media ${Device.tablet} {
