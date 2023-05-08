@@ -23,7 +23,7 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`blog`, `software engineering`, `software design`, `api`, `design`, `changelogs`, `software development lifecycle`]}
+          keywords={[`blog`, `software engineering`, `software design`, `team-driven developer`, `changelogs`, `software development lifecycle`]}
         />
 
         <TopCard>
@@ -34,7 +34,7 @@ class IndexPage extends React.Component {
 
             <h1>Grow your career by building your team.</h1>
 
-            <p>Join the Team Driven-Developer Newsletter to get tips and tools to help you build a high-performing software team. Issues go out every other Tuesday.</p> 
+            <p>Join the Team-Driven Developer Newsletter to get tips and tools to help you build a high-performing software team. Issues go out every other Tuesday.</p> 
 
             <p>Because great teams build great software.</p>
 
