@@ -12,7 +12,7 @@ image: "../assets/chuttersnap-Odc4dcsjUBw-unsplash.jpeg"
 
 <center>
 
-![](../assets/bob-ross.jpg)
+!["Bob Ross painting on a canvas"](../assets/bob-ross.jpg)
 
 </center>
 
@@ -42,7 +42,7 @@ The action items after: what steps will teams take to avoid incidents like this 
 
 Postmortem docs are often also usually written by the primary incident on-call team and then reviewed by the entire engineering org. Large organizations (think 100+ engineers) might restrict the review to only closely related teams. Keep in mind, though, that the broader the audience, the more opportunities there are for learning.
 
-This article won't cover the inner workings of writing a great postmortem document as there are plenty of [articles for that from Atlassian](https://www.atlassian.com/incident-management/postmortem), [real-life examples from GitHub](https://github.blog/2018-10-30-oct21-post-incident-analysis/) and many other resources. ]
+This article won't cover the inner workings of writing a great postmortem document as there are plenty of [articles for that from Atlassian](https://www.atlassian.com/incident-management/postmortem), [real-life examples from GitHub](https://github.blog/2018-10-30-oct21-post-incident-analysis/) and many other resources.
 
 Instead, I want to focus on the importance of making them blameless and the cultural shift that has to occur for it to be possible.
 
@@ -95,7 +95,10 @@ These teams also tried to keep a low profile on what went wrong in their inciden
 
 On the flip side, by learning to focus on what happened and what we can do next time to avoid it, teams focus on solutions and action. Teams take ownership of their failures (absent from pressure or pointing fingers) and also own the action steps to avoid them in the future. Everyone learns from each other's successes and failures rather than insights remaining siloed within team boundaries.
 
-Accidents Happen
+---
+
+### Accidents Happen
+
 The takeaway from this, I hope you see, is that accidents happen. Instead of focusing on removing those who make accidents, we need to build a culture that doesn't default to anger or punishment for an accident. 
 
 There are times, of course, when someone does need to be let go after repeated carelessness or downright lack of concern. But more often than not, someone simply logged into the wrong terminal and thought they were in a different environment.
