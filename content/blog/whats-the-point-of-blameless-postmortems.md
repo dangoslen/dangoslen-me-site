@@ -1,7 +1,6 @@
 ---
 path: /whats-the-point-of-blameless-postmortems
 date: 2023-05-08T21:13:12
-<<<<<<< HEAD
 title: Whats the Point of Blameless Postmortems?
 description: The way we respond to incidents says a lot about our culture. Are are we learning from our mistakes and accidents or creating a culture of fear?
 keywords:
@@ -11,30 +10,17 @@ keywords:
 tags:
   - leadership
   - whats the point
-=======
-title: Whats the Point of Blamess Postmortems?
-description: 
-keywords:
-  - keyword
-tags:
-  - tag
->>>>>>> main
 image: "../assets/chuttersnap-Odc4dcsjUBw-unsplash.jpeg" 
 ---
 
 <center>
 
-<<<<<<< HEAD
 !["Bob Ross painting on a canvas"](../assets/bob-ross.jpg)
-=======
-![](../assets/bob-ross.jpg)
->>>>>>> main
 
 </center>
 
 Do you remember Bob Ross?
 
-<<<<<<< HEAD
 Bob Ross was (and still is) an icon to many Americans. He hosted a program on PBS called _The Joy of Painting_ in which he would paint a new painting every episode, usually of a serence landscape.
 
 Ross was known (at least on TV) for being soft-spoken and had a mentality to his painting that has lived on as his legacy. To him, you didn't make mistakes; you made "happy little accidents."
@@ -46,17 +32,6 @@ This idea is often referred to within the software industry as having a blameles
 This characteristic often comes up during the writing and review of a postmortem document. How your team goes about reviewing an incident and the next steps after says a lot about how your team accomplishes work.
 
 Let's dive into how to build a team that hosts blameless postmortems and how it helps them succeed.
-=======
-Bob Ross was (and still is) an icon to many Americans. He hosted a program on PBS called The Joy of Painting in which he would paint a new painting (usually of a serene landscape) every episode.
-
-Ross was known (at least on TV) for being soft-spoken and had a mentality to his painting that has lived on as his legacy. To him, you didn't make mistakes; you made "happy little accidents."
-
-Our team at [Policygenius](https://www.policygenius.com/careers/) has tried to adopt this phrase in our engineering culture around outages. We want to see everything as an accident - no one did anything intentionally, and no single person is to blame.
-
-This idea is often referred to within the software industry as blameless postmortems. Instead of searching for some individual or team to blame for an outage, the idea is that the outage is likely due to a series of failures rather than one responsible party. 
-
-Let's dive into why this practice is growing in popularity and how it helps you build a strong engineering culture and strong team.
->>>>>>> main
 
 ### What Exactly is Postmortem? 
 
@@ -72,11 +47,7 @@ The action items after: what steps will teams take to avoid incidents like this 
 
 Postmortem docs are often also usually written by the primary incident on-call team and then reviewed by the entire engineering org. Large organizations (think 100+ engineers) might restrict the review to only closely related teams. Keep in mind, though, that the broader the audience, the more opportunities there are for learning.
 
-<<<<<<< HEAD
 This article won't cover the inner workings of writing a great postmortem document as there are plenty of [articles for that from Atlassian](https://www.atlassian.com/incident-management/postmortem), [real-life examples from GitHub](https://github.blog/2018-10-30-oct21-post-incident-analysis/) and many other resources.
-=======
-This article won't cover the inner workings of writing a great postmortem document as there are plenty of [articles for that from Atlassian](https://www.atlassian.com/incident-management/postmortem), [real-life examples from GitHub](https://github.blog/2018-10-30-oct21-post-incident-analysis/) and many other resources. ]
->>>>>>> main
 
 Instead, I want to focus on the importance of making them blameless and the cultural shift that has to occur for it to be possible.
 
@@ -129,14 +100,10 @@ These teams also tried to keep a low profile on what went wrong in their inciden
 
 On the flip side, by learning to focus on what happened and what we can do next time to avoid it, teams focus on solutions and action. Teams take ownership of their failures (absent from pressure or pointing fingers) and also own the action steps to avoid them in the future. Everyone learns from each other's successes and failures rather than insights remaining siloed within team boundaries.
 
-<<<<<<< HEAD
 ---
 
 ### Accidents Happen
 
-=======
-Accidents Happen
->>>>>>> main
 The takeaway from this, I hope you see, is that accidents happen. Instead of focusing on removing those who make accidents, we need to build a culture that doesn't default to anger or punishment for an accident. 
 
 There are times, of course, when someone does need to be let go after repeated carelessness or downright lack of concern. But more often than not, someone simply logged into the wrong terminal and thought they were in a different environment.
