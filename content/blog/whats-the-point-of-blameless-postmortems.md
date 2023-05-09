@@ -1,12 +1,15 @@
 ---
 path: /whats-the-point-of-blameless-postmortems
 date: 2023-05-08T21:13:12
-title: Whats the Point of Blamess Postmortems?
-description: 
+title: Whats the Point of Blameless Postmortems?
+description: The way we respond to incidents says a lot about our culture. Are are we learning from our mistakes and accidents or creating a culture of fear?
 keywords:
-  - keyword
+  - blameless postmortems
+  - postmortems in software
+  - learning culture
 tags:
-  - tag
+  - leadership
+  - whats the point
 image: "../assets/chuttersnap-Odc4dcsjUBw-unsplash.jpeg" 
 ---
 
@@ -18,15 +21,17 @@ image: "../assets/chuttersnap-Odc4dcsjUBw-unsplash.jpeg"
 
 Do you remember Bob Ross?
 
-Bob Ross was (and still is) an icon to many Americans. He hosted a program on PBS called The Joy of Painting in which he would paint a new painting (usually of a serene landscape) every episode.
+Bob Ross was (and still is) an icon to many Americans. He hosted a program on PBS called _The Joy of Painting_ in which he would paint a new painting every episode, usually of a serence landscape.
 
 Ross was known (at least on TV) for being soft-spoken and had a mentality to his painting that has lived on as his legacy. To him, you didn't make mistakes; you made "happy little accidents."
 
-Our team at [Policygenius](https://www.policygenius.com/careers/) has tried to adopt this phrase in our engineering culture around outages. We want to see everything as an accident - no one did anything intentionally, and no single person is to blame.
+Our team at [Policygenius](https://www.policygenius.com/careers/) has tried to adopt this phrase in our engineering culture around incidents and outages. We want to see everything as an accident - no one did anything intentionally, and no single person is to blame.
 
-This idea is often referred to within the software industry as blameless postmortems. Instead of searching for some individual or team to blame for an outage, the idea is that the outage is likely due to a series of failures rather than one responsible party. 
+This idea is often referred to within the software industry as having a blameless  culture. Instead of searching for some individual or team to blame for an outage, the idea is that the outage is likely due to a series of failures rather than one responsible party. 
 
-Let's dive into why this practice is growing in popularity and how it helps you build a strong engineering culture and strong team.
+This characteristic often comes up during the writing and review of a postmortem document. How your team goes about reviewing an incident and the next steps after says a lot about how your team accomplishes work.
+
+Let's dive into how to build a team that hosts blameless postmortems and how it helps them succeed.
 
 ### What Exactly is Postmortem? 
 
