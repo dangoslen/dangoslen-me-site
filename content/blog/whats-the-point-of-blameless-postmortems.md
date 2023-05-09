@@ -21,7 +21,7 @@ image: "../assets/chuttersnap-Odc4dcsjUBw-unsplash.jpeg"
 
 Do you remember Bob Ross?
 
-Bob Ross was (and still is) an icon to many Americans. He hosted a program on PBS called _The Joy of Painting_ in which he would paint a new painting every episode, usually of a serence landscape.
+Bob Ross was (and still is) an icon to many Americans. He hosted a program on PBS called _The Joy of Painting_ in which he would paint a new painting every episode, usually of a serene landscape.
 
 Ross was known (at least on TV) for being soft-spoken and had a mentality to his painting that has lived on as his legacy. To him, you didn't make mistakes; you made "happy little accidents."
 
