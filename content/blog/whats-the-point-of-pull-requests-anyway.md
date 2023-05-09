@@ -6,8 +6,8 @@ description: Why pull requests are one of the best tools in modern software.
 keywords:
   - code review best practices
   - github pull requests
-tags:
   - software development lifecycle
+tags:
   - software engineering
   - teams
   - code reviews

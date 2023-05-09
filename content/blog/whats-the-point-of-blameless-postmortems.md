@@ -6,10 +6,11 @@ description: The way we respond to incidents says a lot about our culture. Are a
 keywords:
   - blameless postmortems
   - postmortems in software
-  - learning culture
+  - building a learning culture
+  - benefits of a blameless postmortem
 tags:
   - leadership
-  - whats the point
+  - what's the point
 image: "../assets/chuttersnap-Odc4dcsjUBw-unsplash.jpeg" 
 ---
 
