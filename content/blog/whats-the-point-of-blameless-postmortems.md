@@ -88,7 +88,8 @@ Concurrently, you should advocate for these changes to your manager and other le
 
 You might not fully convince them, and that's ok. Shifts like this often take time and many rounds of effort to happen. Just don't sit idle and watch it all happen.
 
-Does it Work?
+### Does it Work?
+
 But what if all of these changes don't affect anything? Will a blameless postmortem help to prevent outages in the future? 
 
 Thankfully, we have a lot of data that says emphatically: yes.
@@ -101,8 +102,11 @@ These teams also tried to keep a low profile on what went wrong in their inciden
 
 On the flip side, by learning to focus on what happened and what we can do next time to avoid it, teams focus on solutions and action. Teams take ownership of their failures (absent from pressure or pointing fingers) and also own the action steps to avoid them in the future. Everyone learns from each other's successes and failures rather than insights remaining siloed within team boundaries.
 
+<<<<<<< Updated upstream
 ---
 
+=======
+>>>>>>> Stashed changes
 ### Accidents Happen
 
 The takeaway from this, I hope you see, is that accidents happen. Instead of focusing on removing those who make accidents, we need to build a culture that doesn't default to anger or punishment for an accident. 
@@ -111,7 +115,7 @@ There are times, of course, when someone does need to be let go after repeated c
 
 Let's work on learning from accidents to prevent the next one rather than scolding for failures that have already happened. A culture in which we reward those who do the right thing more than punishing those who make a mistake.
 
-And our teams will grow as a result.
+And our teams will grow as a result. And that is what it's all about.
 
 Happy coding!
 
