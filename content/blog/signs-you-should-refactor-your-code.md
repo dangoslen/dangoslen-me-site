@@ -4,8 +4,11 @@ date: 2020-07-30T04:00:00.000Z
 title: When Should You Refactor Your Code?
 description: "The simple answer: it's probably right now."
 keywords:
+  - code refactoring
+  - refactoring
+  - when to refactor code
+  - what is a refactor
 tags:
-  - coding
   - software engineering
   - software design
 image: "../assets/hs-spender-ien1wzqg4t0-unsplash.jpg"

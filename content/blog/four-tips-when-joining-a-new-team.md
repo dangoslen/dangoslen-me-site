@@ -10,7 +10,7 @@ keywords:
   - team onboarding
 tags:
   - career
-  - teams
+  - team-driven developer
 image: "../assets/hudson-hintze-vpxeE7s-my4-unsplash.jpeg"
 ---
 

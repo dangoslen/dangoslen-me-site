@@ -4,6 +4,8 @@ date: 2022-07-18T00:00:00.000Z
 title: Stay Close to the Code
 description: As we grow in our careers, we can't get too far away from the code. At least, not too quickly.
 keywords:
+  - coding tips
+  - from junior to senior engineer
 tags:
   - leadership
   - software engineering

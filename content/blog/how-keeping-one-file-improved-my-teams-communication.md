@@ -6,8 +6,9 @@ description: How maintaining one simple file in our repository improved how my t
 keywords:
   - changelogs
   - software engineering communication
+  - what is the purpose of changelogs
 tags:
-  - teams
+  - team-driven developer
   - communication
   - software development lifecycle
 image: "../assets/photo-nic-co-uk-nic-_IL9n-5Ou6c-unsplash.jpeg"

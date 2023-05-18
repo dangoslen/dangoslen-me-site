@@ -12,7 +12,7 @@ keywords:
 tags:
   - code reviews
   - pair programming
-  - teams
+  - team-driven developer
 image: "../assets/john-schnobrich-FlPc9_VocJ4-unsplash.jpeg"
 ---
 

@@ -6,6 +6,7 @@ description: Accomplishing goals through others is an important aspect when movi
 keywords:
   - accomplishing through others
   - sponsorship in software
+  - what is a sponsor in software
   - mentoring
   - building software teams
 tags:

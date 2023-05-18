@@ -6,8 +6,10 @@ description: Trust is really important, but often illusive. How do we build it o
 keywords:
   - building trust on teams
   - how to build trust
+  - how to trust my team
+  - trusting my team
 tags:
-  - teams
+  - team-driven developer
   - leadership
   - software engineering
 image: "../assets/sandra-grunewald-erqADkxgbKM-unsplash.jpg"
