@@ -5,8 +5,11 @@ title: How to Introduce Kaizen to Your Team
 description: Convincing your team to embrace continuous improvement.
 keywords:
   - kaizen in software development
+  - continous improvement
+  - daily improvement
+  - agile manifesto
 tags: 
-  - teams
+  - team-driven developer
   - software engineering
 image: "../assets/1_oyeeax1t-pdzp-hel9cxvq.jpeg"
 ---

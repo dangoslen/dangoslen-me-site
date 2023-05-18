@@ -6,6 +6,7 @@ description: Not all time and effort is created equal. Learn how to capitalize y
 keywords:
   - software engineering flow
   - how to find flow and focus
+  - what is physchological flow
 tags:
   - developer productivity
   - career

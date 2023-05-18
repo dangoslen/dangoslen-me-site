@@ -4,6 +4,9 @@ date: 2019-10-19T04:00:00.000Z
 title: My Biggest Mistakes as a Junior Developer
 description: The biggest mistakes I made before becoming a senior engineer.
 keywords:
+  - developer biggest mistakes 
+  - mistakes to avoid as a developer
+  - from junior to senior engineer
 tags:
   - stories
   - career

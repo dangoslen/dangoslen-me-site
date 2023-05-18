@@ -6,6 +6,8 @@ description: Some of my favorite talks and resources from All Things Open 2022.
 keywords:
   - all things open talks 
   - all things open review
+  - all things open conference
+  - top conference talks
 tags:
   - conferences
   - all things open

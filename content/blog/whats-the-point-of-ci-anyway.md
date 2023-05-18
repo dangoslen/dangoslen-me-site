@@ -6,6 +6,7 @@ description: Continuous integration (CI) is a powerful and neccesary tool to max
 keywords:
   - continuous integration
   - what does ci stand for
+  - what does ci stands for
   - leveraging ci
   - software ci
 tags:

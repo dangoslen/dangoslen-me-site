@@ -6,8 +6,9 @@ description: What to write down, what to generate, and coming to terms that docu
 keywords:
   - software documentation
   - documentation
+  - how to document software right
 tags:
-  - teams
+  - team-driven developer
   - software engineering
 image: "../assets/papers-g21f5bc9e0_1920.jpeg"
 ---

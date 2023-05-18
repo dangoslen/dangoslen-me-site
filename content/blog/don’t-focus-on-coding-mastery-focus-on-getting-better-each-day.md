@@ -5,6 +5,7 @@ title: Don’t Focus on Coding Mastery — Focus on Getting Better Each Day
 description: Why only focusing on the end game will disappoint you.
 keywords:
   - growing as a software engineer
+  - from junior to senior engineer
 tags: 
   - software engineering
   - career

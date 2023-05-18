@@ -5,10 +5,13 @@ title: Reflections on Two(ish) Years of Blogging
 description: Some thoughts about blogging, learning in public, and sharing what
   I've learned along the way.
 keywords:
+  - writing a blog
+  - how to write a blog
+  - blogging in review
+  - is blogging successful
 tags:
   - stories
   - blogging
-  - in public
 image: "../assets/aaron-burden-cklhktcjzkk-unsplash.jpg"
 ---
 ![Fountain pen on blurred notebook](../assets/aaron-burden-cklhktcjzkk-unsplash.jpg)

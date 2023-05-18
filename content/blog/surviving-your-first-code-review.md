@@ -9,10 +9,10 @@ description: "It can be difficult when you submit your first pull request and
 keywords:
   - how to review code
   - code review best practices
+  - first code review
 tags:
   - career
-  - software engineering
-  - teams
+  - team-driven developer
   - code reviews
 image: "../assets/vincent-tom-8yrjq0srdro-unsplash.jpg"
 ---
