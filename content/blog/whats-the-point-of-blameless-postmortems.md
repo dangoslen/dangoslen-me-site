@@ -1,7 +1,7 @@
 ---
 path: /whats-the-point-of-blameless-postmortems
 date: 2023-05-08T21:13:12
-title: Whats the Point of Blameless Postmortems?
+title: What's the Point of Blameless Postmortems?
 description: The way we respond to incidents says a lot about our culture. Are are we learning from our mistakes and accidents or creating a culture of fear?
 keywords:
   - blameless postmortems
@@ -102,11 +102,6 @@ These teams also tried to keep a low profile on what went wrong in their inciden
 
 On the flip side, by learning to focus on what happened and what we can do next time to avoid it, teams focus on solutions and action. Teams take ownership of their failures (absent from pressure or pointing fingers) and also own the action steps to avoid them in the future. Everyone learns from each other's successes and failures rather than insights remaining siloed within team boundaries.
 
-<<<<<<< Updated upstream
----
-
-=======
->>>>>>> Stashed changes
 ### Accidents Happen
 
 The takeaway from this, I hope you see, is that accidents happen. Instead of focusing on removing those who make accidents, we need to build a culture that doesn't default to anger or punishment for an accident. 
