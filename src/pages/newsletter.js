@@ -13,17 +13,17 @@ import NewsletterEmail from "../components/newsletter-email"
 class Newsletter extends React.Component {
   render() {
     const { data } = this.props
-    const siteTitle = "Team Driven Developer Newsletter"
+    const siteTitle = "Team-Driven Developer Newsletter"
 
     return (
       <Layout location={this.props.location} title={ siteTitle }>
-        <SEO title={ siteTitle } description="Team Driven Developer Newsletter" />
+        <SEO title={ siteTitle } description="Team-Driven Developer Newsletter" />
 
         <div style={{
           textAlign: `center`
         }}>
           
-          <h1>Join my newsletter! 🖊️</h1>
+          <h1>Join the Team-Driven Developer Newsletter!</h1>
         
         </div>
 
@@ -35,9 +35,9 @@ class Newsletter extends React.Component {
 
           <p>Whether it's a team you manage or a team you are on, there are lots of ingredients to get right.</p>
 
-          <p>But when we <i>do</i> get it right, a great software team is seemingly unstoppable.</p>
+          <p>But when we <i>do</i> get it right, you get a high-performance software team that is unstoppable.</p>
                     
-          <p>This newsletter is meant to give you some tools and tips on how to build your team. After a decade in the industry, I've seen how the wrong person can destroy a team, the right challenge can motivate one, and the incredible power of focusing on team success over individual success.</p>
+          <p>In this newsletter you'll get the tips, tools, and mindsets I've learned after a decade in the industry to build such a team.</p>
           
           <NewsletterContainer>
             <NewsletterEmail />
@@ -48,15 +48,19 @@ class Newsletter extends React.Component {
           <h3>Every other Tuesday you'll get:</h3>
 
           <ul>
-              <li>My most recent article centered on software engineering practices (with occasional other topics)</li>
-              <li>Resouces that I've created or have discovered to help build your team</li>
-              <li>Links to tools you can use in your workflows to improve communication and measure effectiveness</li>
+              <li>A long-form article centered on team-driven software engineering practices</li>
+              <li>Additional resources to help your team grow</li>
+              <li>Tools you can use in your workflows to improve communication and measure effectiveness</li>
           </ul>
+
+          <hr />
 
           <div style={{
             textAlign: `center`
           }}>
             <h2>Let's build great teams together!</h2>
+
+            <h3>Because great teams build great software</h3>
           </div>
         </div>
 
