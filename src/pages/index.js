@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { useStaticQuery, graphql} from "gatsby"
+import { useStaticQuery, graphql, Link} from "gatsby"
 import Img from "gatsby-image"
 
 import { AiFillTwitterCircle } from "@react-icons/all-files/ai/AiFillTwitterCircle"
@@ -34,7 +34,7 @@ class IndexPage extends React.Component {
 
             <h1>Grow your career by building your team.</h1>
 
-            <p>Join the Team-Driven Developer Newsletter to get tips and tools to help you build a high-performing software team. Issues go out every other Tuesday.</p> 
+            <p>Join the <Link to="/newsletter" style={{ color: `hsl(0deg 0% 0% / 90%)`}}>Team-Driven Developer Newsletter</Link> to get tips and tools to help you build a high-performing software team. Issues go out every other Tuesday.</p> 
 
             <p>Because great teams build great software.</p>
 
