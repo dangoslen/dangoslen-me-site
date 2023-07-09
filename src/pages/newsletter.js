@@ -43,8 +43,6 @@ class Newsletter extends React.Component {
             <NewsletterEmail />
           </NewsletterContainer>
 
-          <br />
-
           <h3>Every other Tuesday you'll get:</h3>
 
           <ul>
