@@ -7,9 +7,10 @@ keywords:
   - code review best practices
   - code review checklist
   - reviewing code
+  - how to review code
 tags:
   - code reviews
-  - teams
+  - team-driven development
 image: "../assets/1_7j8UyB8TCMxIuqIo9U3VgQ.jpeg"
 ---
 
