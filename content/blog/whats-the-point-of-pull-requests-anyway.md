@@ -9,7 +9,7 @@ keywords:
   - software development lifecycle
 tags:
   - software engineering
-  - teams
+  - team-driven development
   - code reviews
   - what's the point
 image: "../assets/elaine-casap-qghgdbbsnm8-unsplash.jpg"
