@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Tags from "../components/tags"
 
 import styled from "styled-components"
 
@@ -13,6 +14,7 @@ const BlogSummary = ({ node }) => {
             </Title>
             <Description>
                 <span>{node.frontmatter.date}</span>
+                <Tags tags={node.frontmatter.tags} />
                 <div>
                     <span>{node.frontmatter.description || node.excerpt}</span>        
                 </div>
