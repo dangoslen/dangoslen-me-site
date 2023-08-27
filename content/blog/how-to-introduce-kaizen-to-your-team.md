@@ -19,7 +19,8 @@ I first heard the term kaizen in the popular book *[The Phoenix Project](https:/
 
 One of the biggest realizations of this character is that without making continuous improvement, things deteriorate. The law of entropy always wins. Additionally, the character in the book realizes that one person can’t merely mandate change, and it happens overnight. He realizes that big-bang rewrites, accusations from team to team, or mandates “from above” won’t fix his IT problems.
 
-Instead, small, consistent, daily improvements will result in better outcomes in the long run. Change happens little by little over time. His teams need to be constantly identifying and solving issues, bugs, and shortcomings.\
+Instead, small, consistent, daily improvements will result in better outcomes in the long run. Change happens little by little over time. His teams need to be constantly identifying and solving issues, bugs, and shortcomings.
+
 How does a team go about accomplishing that? What is a useful framework for doing so?
 
 ## [](https://dev.to/dangoslen/how-to-introduce-kaizen-to-your-team-355d#enter-kaizen)Enter Kaizen
