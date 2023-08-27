@@ -24,7 +24,7 @@ How does a team go about accomplishing that? What is a useful framework for doin
 
 ## [](https://dev.to/dangoslen/how-to-introduce-kaizen-to-your-team-355d#enter-kaizen)Enter Kaizen
 
-Kaizen is a Japenese word that has come to encapsulate the idea of “continuous improvement.” Formally, its actual definition is simply “improvement.” It was made into a business concept after Toyota took this idea as a way to improve their manufacturing lines. You can read all about the history [here](https://www.kanbanchi.com/what-is-kaizen).
+Kaizen is a Japenese word that has come to encapsulate the idea of continuous improvement. Formally, its actual definition is simply “improvement.” It was made into a business concept after Toyota took this idea as a way to improve their manufacturing lines. You can read all about the history [here](https://www.kanbanchi.com/what-is-kaizen).
 
 I don’t want to re-define kaizen or go into all of the benefits of it in this article. There have been MANY [books](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592) and[ articles](https://simpleprogrammer.com/kaizen-developers/) written for that.
 
@@ -50,7 +50,7 @@ Once you have identified your problem and evaluated the problem, you need to bra
 
 You might need to have a brainstorming session with your team, or you might need just to write up an idea and ask for feedback. It just depends on the dynamics of your team.
 
-For the larger problems needing more extensive solutions, start by laying out a vision for where you want to go. Don’t just settle for “get better.” If your team currently doesn’t have monitoring at all, maybe a single “vision sentence” like the following can help:
+For the larger problems needing more extensive solutions, start by laying out a vision for where you want to go. Don’t just settle for goals like do better.” If your team currently doesn’t have monitoring at all, try forming a vision for where you want to go in a single sentence. Something like the following might help:
 
 > We want to have active monitoring and alarming such that our team is notified of a problem before other teams are aware. We want these alarms to have clear indicators of what is going wrong and where.
 
@@ -58,7 +58,15 @@ What I have found helpful is to always come up with at least one idea to present
 
 [![Alt Text](https://res.cloudinary.com/practicaldev/image/fetch/s--RaodFtbX--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/qpekjlzgft6q3kq270rb.jpeg)](https://res.cloudinary.com/practicaldev/image/fetch/s--RaodFtbX--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/qpekjlzgft6q3kq270rb.jpeg)
 
+<center>
+
+<i>
+
 Photo by [Lefteris kallergis](https://unsplash.com/@lefterisk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/step?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+</i>
+
+</center>
 
 ## [](https://dev.to/dangoslen/how-to-introduce-kaizen-to-your-team-355d#identify-the-smallest-meaningful-step-to-improve)Identify the Smallest Meaningful Step To Improve
 
