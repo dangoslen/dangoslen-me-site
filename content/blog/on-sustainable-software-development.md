@@ -8,7 +8,7 @@ keywords:
   - hero programming
 tags:
   - software engineering
-  - team-driven developer
+  - team-driven development
   - leadership
 image: "../assets/limor-zellermayer-j5mcxwap0r0-unsplash.jpg"
 ---

@@ -9,8 +9,7 @@ keywords:
   - leading through team change
   - adapting to changing teams
 tags:
-  - teamwork
-  - team formation
+  - team-driven development
   - leadership
 image: "../assets/man-chung-wWX7Zex_BQY-unsplash.jpeg" 
 ---

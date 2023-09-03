@@ -4,10 +4,12 @@ date: 2021-11-07T05:00:00.000Z
 title: What's the Point of Containers Anyway?
 description: "Containers are becoming more and more popular. Here is my take on why and if your team should to jump on the bandwagon."
 keywords:
+  - continous integration
+  - how to use containers
+  - are containers worth using
 tags:
   - software engineering
   - devops
-  - continuous integration
   - what's the point
 image: "../assets/paul-teysen-bukjsECgmeU-unsplash.jpeg"
 ---

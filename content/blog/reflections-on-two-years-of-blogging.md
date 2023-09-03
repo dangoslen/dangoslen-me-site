@@ -11,7 +11,6 @@ keywords:
   - is blogging successful
 tags:
   - stories
-  - blogging
 image: "../assets/aaron-burden-cklhktcjzkk-unsplash.jpg"
 ---
 ![Fountain pen on blurred notebook](../assets/aaron-burden-cklhktcjzkk-unsplash.jpg)

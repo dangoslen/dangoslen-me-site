@@ -8,7 +8,7 @@ keywords:
   - documentation
   - how to document software right
 tags:
-  - team-driven developer
+  - team-driven development
   - software engineering
 image: "../assets/papers-g21f5bc9e0_1920.jpeg"
 ---

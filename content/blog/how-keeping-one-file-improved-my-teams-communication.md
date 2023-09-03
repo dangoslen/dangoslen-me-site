@@ -8,7 +8,7 @@ keywords:
   - software engineering communication
   - what is the purpose of changelogs
 tags:
-  - team-driven developer
+  - software engineering
   - communication
   - software development lifecycle
 image: "../assets/photo-nic-co-uk-nic-_IL9n-5Ou6c-unsplash.jpeg"

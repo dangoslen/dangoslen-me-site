@@ -7,9 +7,9 @@ keywords:
   - team topologies book
   - team topologies book review
 tags:
-  - team-driven developer
+  - team-driven development
   - software engineering
-  - collaboration
+  - leadership
 image: "../assets/cas-holmes-PwyApMZFyx4-unsplash.jpeg"
 
 ---

@@ -5,10 +5,11 @@ title: Version, Releases, and Deployments! Oh My!
 description: Software is full of overloaded terms. Let's clarify what we mean by
   a few of them.
 keywords:
+  - versions in software engineering
+  - software versions vs software releases 
 tags:
   - software development lifecycle
   - software engineering
-  - changelogs
 image: "../assets/john-moeses-bauan-WG1HNF8PGHo-unsplash.jpeg"
 ---
 

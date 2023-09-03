@@ -5,6 +5,8 @@ title: Why I Got My Masters Degree In Computer Science
 description: In world where software development educations can happen
   completely online (and for free!) why would I got back to school?
 keywords:
+  - masters degree in computer science
+  - computer science degree value
 tags:
   - career
   - stories

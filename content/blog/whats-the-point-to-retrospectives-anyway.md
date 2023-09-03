@@ -6,7 +6,7 @@ description: Teams need to set aside time to reflect and recalibrate where they 
 keywords:
   - agile retrospective
   - scrum retrospective
-  - building software teams
+  - team-driven development
 tags:
   - what's the point
   - software engineering

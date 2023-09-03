@@ -4,10 +4,12 @@ date: 2022-04-14T04:00:00.000Z
 title: The Technical Debt Snowball
 description: Paying down debt via small wins can create a huge impact.
 keywords:
+  - paying down technical debt
+  - what is technical debt
+  - debt snowball
 tags: 
   - coding
-  - career
-  - tech debt
+  - technical debt
   - leadership
 image: "../assets/pauline-bernfeld-16l2ezZQ_Yw-unsplash.jpeg"
 ---

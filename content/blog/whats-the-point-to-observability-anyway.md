@@ -9,7 +9,7 @@ keywords:
 tags:
   - what's the point
   - software engineering
-  - team driven development
+  - team-driven development
   - observability
 image: "../assets/markus-winkler-cS2eQHB7wE4-unsplash.jpeg"
 ---

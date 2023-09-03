@@ -9,7 +9,7 @@ keywords:
   - giving technical feedback
 tags: 
   - career
-  - team-driven developer
+  - team-driven development
   - code reviews
 image: "../assets/portuguese-gravity-mflgvcy9ooy-unsplash.jpg"
 ---

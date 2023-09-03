@@ -6,8 +6,6 @@ description: Using an SSG as a Backend Engineer
 keywords:
 tags:
   - coding
-  - blogging
-  - tools/languages/tutorials
 image: "../assets/gatsby-cover.jpg"
 ---
 ![Gatsby Logo](../assets/gatsby-cover.jpg)

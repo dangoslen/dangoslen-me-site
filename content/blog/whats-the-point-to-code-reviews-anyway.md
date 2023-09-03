@@ -8,9 +8,8 @@ keywords:
   - what is a code review
   - how to review code
 tags:
-  - software development lifecycle
   - software engineering
-  - teams
+  - team-driven development
   - code reviews
   - what's the point
 image: "../assets/1_kmaqpsinlcdankzwymk3gq.jpeg"

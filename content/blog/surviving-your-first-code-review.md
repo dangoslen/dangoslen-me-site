@@ -12,7 +12,7 @@ keywords:
   - first code review
 tags:
   - career
-  - team-driven developer
+  - team-driven development
   - code reviews
 image: "../assets/vincent-tom-8yrjq0srdro-unsplash.jpg"
 ---

@@ -10,7 +10,6 @@ keywords:
   - softwar engineering decision making
 tags:
   - leadership
-  - software engineering
 image: "../assets/tabitha-turner-rhcllVy2zBU-unsplash.jpeg"
 ---
 

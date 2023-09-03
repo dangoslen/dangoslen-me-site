@@ -9,7 +9,7 @@ keywords:
   - how to trust my team
   - trusting my team
 tags:
-  - team-driven developer
+  - team-driven development
   - leadership
   - software engineering
 image: "../assets/sandra-grunewald-erqADkxgbKM-unsplash.jpg"

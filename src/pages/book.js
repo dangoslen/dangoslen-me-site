@@ -24,7 +24,7 @@ class Book extends React.Component {
         <div style={{
           textAlign: `center`
         }}>
-          <h1>I'm Writing a Book! 📙</h1>
+          <h1>Become a world class code reviewer!</h1>
         </div>
 
         <hr />
@@ -32,12 +32,12 @@ class Book extends React.Component {
         <BookSplit>
           <BookCover/>
           <BookIntroduction>    
-            <p>Code reviews continue to be a point of contention in our industry. Some teams have adopted code reviews really well and others have nearly outlawed them. Other teams think they "should" do reviews, but they treat them as a formality or a rubber-stamp.</p>
+            <p>Code reviews continue to be a point of contention in our industry. Some teams have adopted code reviews wholeheartedly while others have nearly outlawed the practice. Other teams think they "should" do reviews, but they treat them as a formality or a rubber-stamp.</p>
             <p>But we have great data that show code reviews work. So what is the gap?</p>
             <p><b>I believe it's because most engineers were never taught how to effectively review code.</b></p>
             <p>Even more so, many teams don't know how to manage the process to know if they are actually getting value or if they are just rubber-stamping code.</p>
-            <p>I'm writing this book to help engineers and teams build the skills neccesary to be code review champions!</p>
-            <p>If you want more updates as I progress on writing and to get <i>exclusive</i> first access, subscribe to my emails below:</p>
+            <p>This book will help engineers and teams build the skills neccesary to be code review champions!</p>
+            <p>Signup below to get <i>exclusive</i> first access when the book is ready!</p>
             <div style={{ 
                 display: `flex`,
                 alignItems: `center`,

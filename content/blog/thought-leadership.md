@@ -4,7 +4,6 @@ date: 2022-03-14T00:00:00.000Z
 title: Some Thoughts on Thought Leadership
 description: Let's listen in, but still think critically.
 tags:
-  - critical thinking
   - career
   - leadership
 image: "../assets/jana-sabeth-_mm85Sy-q4w-unsplash.jpeg"

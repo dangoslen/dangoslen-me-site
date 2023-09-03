@@ -7,9 +7,10 @@ keywords:
   - software patterns
   - best software patterns
   - patterns code
-tags: 
   - software design
+tags: 
   - software engineering
+  - coding
 image: "../assests/1_s-smr49rffj0kibfsz98fa.jpeg"
 ---
 

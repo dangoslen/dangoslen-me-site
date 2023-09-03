@@ -23,22 +23,12 @@ class Newsletter extends React.Component {
           textAlign: `center`
         }}>
           
-          <h1>Join the Team-Driven Developer Newsletter!</h1>
+          <h1>Grow your career by building your team!</h1>
         
         </div>
 
-        <hr />
-
         <div>    
-            
-          <h3>Building great software teams is tricky.</h3>
-
-          <p>Whether it's a team you manage or a team you are on, there are lots of ingredients to get right.</p>
-
-          <p>But when we <i>do</i> get it right, you get a high-performance software team that is unstoppable.</p>
-                    
-          <p>In this newsletter you'll get the tips, tools, and mindsets I've learned after a decade in the industry to build such a team.</p>
-          
+                
           <NewsletterContainer>
             <NewsletterEmail />
           </NewsletterContainer>
@@ -47,7 +37,7 @@ class Newsletter extends React.Component {
 
           <ul>
               <li>A long-form article centered on team-driven software engineering practices</li>
-              <li>Additional resources to help your team grow</li>
+              <li>A team building exercise so you can take action to improve your team</li>
               <li>Tools you can use in your workflows to improve communication and measure effectiveness</li>
           </ul>
 

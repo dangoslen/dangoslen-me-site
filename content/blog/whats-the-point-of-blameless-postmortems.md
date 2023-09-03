@@ -10,6 +10,7 @@ keywords:
   - benefits of a blameless postmortem
 tags:
   - leadership
+  - team-driven development
   - what's the point
 image: "../assets/chuttersnap-Odc4dcsjUBw-unsplash.jpeg" 
 ---

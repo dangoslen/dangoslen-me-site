@@ -8,6 +8,7 @@ keywords:
   - learning ansible
 tags:
   - devops
+  - coding
 image: "../assets/ansible_logo.svg.png"
 ---
 

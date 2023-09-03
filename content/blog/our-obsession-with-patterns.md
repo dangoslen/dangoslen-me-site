@@ -3,8 +3,10 @@ path: /our-obsession-with-patterns
 date: 2021-02-27T14:53:06.103Z
 title: Our Over Obsession With Patterns
 description: Why I think we use patterns too much as the solution to all problems rather than what they were designed for.
+keywords:
+  - software patterns
+  - best software patterns
 tags:
-  - programming
   - software engineering
   - software design
 image: "../assets/clem-onojeghuo-t7gi_cyrkdg-unsplash.jpg"

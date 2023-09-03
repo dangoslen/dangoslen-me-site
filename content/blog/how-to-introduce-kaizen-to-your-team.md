@@ -9,7 +9,7 @@ keywords:
   - daily improvement
   - agile manifesto
 tags: 
-  - team-driven developer
+  - team-driven development
   - software engineering
 image: "../assets/1_oyeeax1t-pdzp-hel9cxvq.jpeg"
 ---

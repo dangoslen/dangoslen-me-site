@@ -8,9 +8,10 @@ keywords:
   - how to write simple code
   - how to write clean code
   - patterns code
+  - software design
 tags:
   - software engineering
-  - software design
+  - coding
 image: "../assets/1_Y_ALSRyzK-b-INPlWq8uUQ.jpeg"
 ---
 

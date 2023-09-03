@@ -8,7 +8,7 @@ keywords:
   - how to join a team
   - steps to take when joining a new team
 tags:
-  - team-driven developer
+  - team-driven development
   - career
 image: "../assets/1_jjwonhfic9g7q5qnnni0aa.jpeg"
 ---

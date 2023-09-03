@@ -6,11 +6,10 @@ description: How to keep your team's changelog up to date.
 keywords:
   - github action changelog
   - automated changelogs
-  - software development lifecycle
   - github actions release notes
 tags: 
-  - github actions
-  - changelogs
+  - software development lifecycle
+  - software engineering
   - devops
 image: "../assets/logan-weaver-_-aqiq8y_sy-unsplash.jpg"
 ---

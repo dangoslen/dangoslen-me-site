@@ -6,11 +6,12 @@ description: "The simple answer: it's probably right now."
 keywords:
   - code refactoring
   - refactoring
+  - software design
   - when to refactor code
   - what is a refactor
 tags:
   - software engineering
-  - software design
+  - coding
 image: "../assets/hs-spender-ien1wzqg4t0-unsplash.jpg"
 ---
 ![Building being rebuilt with scaffolding ](../assets/hs-spender-ien1wzqg4t0-unsplash.jpg)

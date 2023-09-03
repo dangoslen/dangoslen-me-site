@@ -8,9 +8,10 @@ keywords:
   - iterative development
   - abstracting code
   - refactoring code
+  - software desgin
 tags:
   - software engineering
-  - software design
+  - coding
 image: "../assets/1_dst6edwapmjfwawjnykeja.jpeg"
 ---
 ![Broken down control center](../assets/1_dst6edwapmjfwawjnykeja.jpeg "Photo by Caroline Methot on Unsplash")
