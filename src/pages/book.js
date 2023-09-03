@@ -114,8 +114,8 @@ function BookCover() {
     query {
       file(relativePath:  { regex: "/book-cover.png/" }) {
         childImageSharp {
-          fixed(width: 450) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -124,7 +124,7 @@ function BookCover() {
   return (
     <BookCoverWrapper>
       <Img
-        fixed={data.file.childImageSharp.fixed}
+        fluid={data.file.childImageSharp.fluid}
         alt="Code Review Champion Book Cover"
         style={{
           margin: `0 auto`,
@@ -136,6 +136,11 @@ function BookCover() {
 }
 
 const BookSplit = styled.div`
+  @media ${Device.laptopL} {
+    width: 120%;
+    margin-left: -10%;
+  }
+
   @media ${Device.tablet} {
     display: flex;
     justify-content: space-around;
@@ -144,11 +149,12 @@ const BookSplit = styled.div`
 `
 
 const BookCoverWrapper = styled.div`
-  @media ${Device.tablet} {
+  width: 100%;
+
+  @media ${Device.laptop} {
     width: 60%;
-    margin-left: 0px;
+    margin-right: 40px;
   }
-  margin-right: 40px;
 `
 
 const BookIntroduction = styled.div`
