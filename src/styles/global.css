@@ -10,3 +10,7 @@
 .hero p {
     margin-bottom: 5px;
 }
+
+.formkit-powered-by-convertkit-container {
+    display: none !important;
+}

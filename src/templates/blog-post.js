@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Bio from "../components/bio"
-import StickyEmail from "../components/sticky-email"
+import ModalEmail from "../components/modal-email"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Tags from "../components/tags"
@@ -25,7 +25,9 @@ class BlogPostTemplate extends React.Component {
           keywords={keywords}
           image={post.frontmatter.image}
         />
-        <StickyEmail />
+
+        <ModalEmail />
+
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -36,7 +38,9 @@ class BlogPostTemplate extends React.Component {
           }}
         >
           {post.frontmatter.date}
+
           <Tags tags={post.frontmatter.tags} />
+          
         </p>
 
         <MDXRenderer>{post.body}</MDXRenderer>
