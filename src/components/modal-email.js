@@ -1,12 +1,12 @@
 import * as React from "react";
 import { Component } from "react";
 
-class StickyEmail extends Component {
+class ModalEmail extends Component {
   componentDidMount() {
     const script = document.createElement("script");
-    script.src = "https://relentless-producer-4085.ck.page/b38a988870/index.js";
+    script.src = "https://relentless-producer-4085.ck.page/dd955c1d63/index.js";
     script.async = true;
-    script.setAttribute("data-uid", "b38a988870");
+    script.setAttribute("data-uid", "dd955c1d63");
     this.instance.appendChild(script);
   }
 
@@ -19,4 +19,5 @@ class StickyEmail extends Component {
   }
 }
 
-export default StickyEmail;
+
+export default ModalEmail;
