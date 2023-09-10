@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Component } from "react";
-import styled from "styled-components"
 
 class BookEmail extends Component {
   componentDidMount() {
@@ -13,17 +12,11 @@ class BookEmail extends Component {
 
   render() {
     return (
-      <Signup>
+      <div>
         <div ref={(el) => (this.instance = el)}></div>
-      </Signup>
+      </div>
     );
   }
 }
-
-const Signup = styled.div`
-    .formkit-powered-by-convertkit-container {
-        display: none !important;
-    }
-`
 
 export default BookEmail;

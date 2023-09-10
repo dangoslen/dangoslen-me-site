@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Tags from "../components/tags"
 import BlogSummary from "../components/blog-summary"
 
 class Blog extends React.Component {

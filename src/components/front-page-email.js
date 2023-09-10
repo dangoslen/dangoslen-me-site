@@ -13,17 +13,11 @@ class FrontPageEmail extends Component {
 
   render() {
     return (
-      <Signup>
+      <div>
         <div ref={(el) => (this.instance = el)}></div>
-      </Signup>
+      </div>
     );
   }
 }
-
-const Signup = styled.div`
-    .formkit-powered-by-convertkit-container {
-        display: none !important;
-    }
-`
 
 export default FrontPageEmail;
