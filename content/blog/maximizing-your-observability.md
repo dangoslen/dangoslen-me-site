@@ -1,6 +1,6 @@
 ---
 path: /maximizing-your-observability
-date: 2023-02-28T00:00:00.000Z
+date: 2023-09-12T00:00:00.000Z
 title: Maximizing Your Observability 
 description: |
  Observability can do more than just tell us if our "stuff is working." It can also be used as a   tool to help us understand what features to build or bugs to work on, or even expose tell us the next thing we need to start tracking in our metrics.
