@@ -40,7 +40,7 @@ But observability doesn't just stop at being a grab-bag of tools to trigger Page
 
 Instead, we can harness these techniques to help us build better software vs. constantly scrambling to put out fires. When used correctly, your observability dashboards and systems can tell you where to spend your resources for the next iteration, teach you how your system is _actually_ operating, and even be a place to test ideas quickly to influence the product roadmap.
 
-Here are some ways Observability can serve your team:
+Here are some ways observability can help you and your team and mazimize it's value to you.
 
 ## Show You Where to Optimize
 
