@@ -7,7 +7,7 @@ description: |
 keywords:
   - observability patterns
   - building software
-  - maximizing your observability
+  - maximize your observability
 tags:
   - observability
   - software engineering
@@ -34,7 +34,7 @@ If you can't answer that question with a confident "Yes, it is" or "No, it's not
 
 In today's complex software landscape, we need to know whether our code is working correctly. And we need to know quickly to be able to have [3 or 4 nines (or more!) availability](https://en.wikipedia.org/wiki/High_availability#%22Nines%22).
 
-And observability tools and techniques are how you get there. [Observability](https://dangoslen.me/blog/whats-the-point-to-observability-anyway/) has become the term used throughout the industry to encapsulate logs, captured errors, metrics, alerting, and other reporting metrics to _observe_ what our systems are doing.
+And observability patterns, tools, and techniques are how you get there. [Observability](https://dangoslen.me/blog/whats-the-point-to-observability-anyway/) has become the term used throughout the industry to encapsulate logs, captured errors, metrics, alerting, and other reporting metrics to _observe_ what our systems are doing.
 
 But observability doesn't just stop at being a grab-bag of tools to trigger Pagerduty when something is wrong.
 
