@@ -50,9 +50,7 @@
      site {
        siteMetadata {
          author
-         social {
-           twitter
-         }
+         defaultImage
        }
      }
    }

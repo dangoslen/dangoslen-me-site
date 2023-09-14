@@ -11,7 +11,6 @@ class Blog extends React.Component {
     const { data } = this.props
     const siteTitle = "Blog"
     const posts = data.posts.edges
-    const tags = data.tags.distinct
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
