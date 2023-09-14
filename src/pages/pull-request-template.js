@@ -167,7 +167,7 @@ const PrTemplateText = `
 <!-- Go over all the following points, and put an \`x\` in all the boxes that apply. -->
 - [ ] I added tests to cover my changes
 - [ ] All new and existing tests are passing
-- [ ] I cleaned up code using
+- [ ] I formatted and linted the code according to repo specs
 - [ ] I rebased changes with main so that they can be merged easily
 - [ ] I have updated the documentation accordingly (if applicable)
 

@@ -26,9 +26,10 @@
                  borderRadius: `50%`,
                }}
              />
-             <p>Dan Goslen is a software engineer, climber, and coffee drinker. He has spent 10 years writing software systems that range
-             from monoliths to micro-services and everywhere in between. He's passionate about building great software teams, especially around code reviews.
-             He currently works as a software engineer at { <a href="https://policygenius.com">@Policygenius</a> } in Raleigh, NC where he lives with his wife.
+             <p>
+              Dan Goslen is a software engineer, climber, and coffee drinker. He has spent 10 years writing software systems that range
+              from monoliths to micro-services and everywhere in between. He's passionate about building great software teams that build great software.
+              He currently works as a software engineer in Raleigh, NC where he lives with his wife and son.
              </p>
            </Container>
          )
