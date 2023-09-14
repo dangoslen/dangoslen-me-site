@@ -12,7 +12,7 @@ tags:
   - leadership
   - team-driven development
   - what's the point
-image: "../assets/chuttersnap-Odc4dcsjUBw-unsplash.jpeg" 
+image: "../assets/bob-ross.jpg" 
 ---
 
 <center>

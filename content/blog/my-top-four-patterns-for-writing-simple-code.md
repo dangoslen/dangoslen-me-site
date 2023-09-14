@@ -11,7 +11,7 @@ keywords:
 tags: 
   - software engineering
   - coding
-image: "../assests/1_s-smr49rffj0kibfsz98fa.jpeg"
+image: "../assets/1_s-smr49rffj0kibfsz98fa.jpeg"
 ---
 
 <center>

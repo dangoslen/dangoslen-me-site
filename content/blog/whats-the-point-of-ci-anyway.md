@@ -13,12 +13,12 @@ tags:
   - software engineering
   - continuous integration
   - what's the point
-image: https://miro.medium.com/max/1000/1*w_LF-WitILhyNNCkVCm99Q.jpeg
+image: "../assets/lego-build-guy-keyboard.jpeg"
 ---
 
 <center>
 
-![](https://miro.medium.com/max/1000/1*w_LF-WitILhyNNCkVCm99Q.jpeg) 
+![LEGO guy building a keyboard](../assets/lego-build-guy-keyboard.jpeg) 
 
 <i>
 
