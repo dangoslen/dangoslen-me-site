@@ -5,8 +5,10 @@ title: The Books I Read This Year (2020)
 description: A summary of the books I've read during the year when we all watched Netflix.
 keywords:
   - technology book reviews
+  - software engineering book reviews
 tags:
   - book reviews
+image: ../content/assets/kazuend-DHk_mju83z0-unsplash.jpeg
 ---
 Every year I try to take a short inventory of the books I read through that year. I find that doing so helps me solidify the concrete things I learned from each. You can see [last year's list](https://dangoslen.me/blog/the-books-i-read-this-year-2019/) too if you would like.
 
