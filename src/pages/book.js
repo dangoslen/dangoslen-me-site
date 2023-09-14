@@ -17,7 +17,7 @@ class Book extends React.Component {
     return (
       <Layout location={ this.props.location } title={ siteTitle }>
         <SEO title={ siteTitle } 
-            image={ data.image.childImageSharp.fluid.src }
+            image={ data.image.childImageSharp.resize.src }
             description="Code Review Champion: Embracing the Power of Technical Feedback"
             keywords={ ["code review", "reviewing code", "code review book", "how to review code", "code review champion"] }
         />
@@ -208,6 +208,9 @@ export const pageQuery = graphql`
       childImageSharp {
         fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid
+        }
+        resize(width: 500, quality: 90) {
+          src
         }
       }
     }
