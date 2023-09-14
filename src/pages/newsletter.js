@@ -1,13 +1,9 @@
 import React from "react"
-import { useStaticQuery, graphql} from "gatsby"
-
-import Img from "gatsby-image"
+import { graphql} from "gatsby"
 
 import Layout from "../components/layout"
-import Device from "../components/sizing"
 import SEO from "../components/seo"
 import styled from "styled-components"
-import BookEmail from "../components/book-email"
 import NewsletterEmail from "../components/newsletter-email"
 
 class Newsletter extends React.Component {
@@ -17,7 +13,11 @@ class Newsletter extends React.Component {
 
     return (
       <Layout location={this.props.location} title={ siteTitle }>
-        <SEO title={ siteTitle } description="Team-Driven Developer Newsletter" />
+
+        <SEO title={ siteTitle } 
+          description="Team-Driven Developer Newsletter" 
+          image={ data.image.childImageSharp.fluid.src }
+        />
 
         <div style={{
           textAlign: `center`
@@ -61,3 +61,15 @@ const NewsletterContainer = styled.div`
 `
 
 export default Newsletter
+
+export const pageQuery = graphql`
+  query {
+    image: file(absolutePath: { regex: "/team-driven.png/" }) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`

@@ -20,7 +20,6 @@ function SEO({ description, lang, meta, keywords, title, image }) {
             title
             description
             author
-            defaultImage
           }
         }
       }
@@ -28,10 +27,7 @@ function SEO({ description, lang, meta, keywords, title, image }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  let img = `${site.siteMetadata.defaultImage}`
-  if (image) {
-    img = `https://dangoslen.me/${ getSrc(image) }`
-  }
+  const img = `https://dangoslen.me${ image }`
 
   return (
     <Helmet

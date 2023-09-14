@@ -23,7 +23,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
           keywords={keywords}
-          image={post.frontmatter.image}
+          image={post.frontmatter.image.childImageSharp.resize.src}
         />
 
         <ModalEmail />
@@ -108,6 +108,9 @@ export const pageQuery = graphql`
         keywords
         image {
           childImageSharp {
+            resize(width: 900, quality: 90) {
+              src
+            }
             gatsbyImageData
           }
         }
