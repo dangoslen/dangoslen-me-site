@@ -7,7 +7,7 @@ keywords:
   - technology book reviews
 tags:
   - book reviews
-image: ../content/assets/kazuend-DHk_mju83z0-unsplash.jpeg
+image: "../content/assets/kazuend-DHk_mju83z0-unsplash.jpeg"
 ---
 Posting a little late, but meh, that is life sometimes. Every year I try to keep track of the books that I read and give a brief summary of each. Mostly so that I can have a catalog of them for later, but also just in case someone was interested in the same books and needed a review.
 
