@@ -7,6 +7,7 @@ import ModalEmail from "../components/modal-email"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Tags from "../components/tags"
+import Sharing from "../components/sharing"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
@@ -44,6 +45,12 @@ class BlogPostTemplate extends React.Component {
         </p>
 
         <MDXRenderer>{post.body}</MDXRenderer>
+
+        <Sharing 
+          title={post.frontmatter.title}
+          description={post.frontmatter.description || post.excerpt}
+          url={`https://dangoslen.me/blog/${post.frontmatter.path}`}
+        />
         
         <hr
           style={{
@@ -102,6 +109,7 @@ export const pageQuery = graphql`
       body
       frontmatter {
         title
+        path
         date(formatString: "MMMM DD, YYYY")
         description
         tags

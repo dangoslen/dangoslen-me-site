@@ -60,6 +60,9 @@ const LinksContainer = styled.div`
         justify-content: space-around;
         align-items: center;
     }
+    @media ${Device.mobileS} {
+        margin-bottom: 10px;
+    }
 `
 
 const Logo = styled.div` 
