@@ -16,7 +16,6 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
     const keywords = post.frontmatter.keywords || []
-    keywords.push(post.frontmatter.tags || [])
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
