@@ -41,7 +41,7 @@ const SharingContainer = styled.div`
     display: flex;
     padding: 8px;
     padding-bottom: 2px;
-    background: white;
+    background: #f3f3f3;
     border: 1px solid #dcdcdc;
     border-radius: 6px;
     gap: 5px;
@@ -49,7 +49,14 @@ const SharingContainer = styled.div`
     @media ${Device.laptopL} {
         bottom: initial;
         top: 240px;
-        right: 240px;
+        right: 260px;
+        flex-direction: column;
+    }
+
+    @media ${Device.desktop} {
+        bottom: initial;
+        top: 240px;
+        right: 260px;
         flex-direction: column;
     }
 `
