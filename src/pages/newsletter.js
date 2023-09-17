@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import styled from "styled-components"
 import NewsletterEmail from "../components/newsletter-email"
 import TeamDrivenDev from "../components/team-driven-dev"
+import { SplitCard } from "../components/split-card"
 
 class Newsletter extends React.Component {
   render() {
@@ -44,9 +45,7 @@ class Newsletter extends React.Component {
 
           <hr />
 
-          <div style={{
-            textAlign: `center`
-          }}>
+          <div style={{textAlign: `center`}} >
             <h2>Let's build great teams together!</h2>
 
             <h3>Because great teams build great software</h3>

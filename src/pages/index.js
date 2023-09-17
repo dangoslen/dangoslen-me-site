@@ -14,6 +14,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import FrontPageEmail from "../components/front-page-email"
 import TeamDrivenDev from "../components/team-driven-dev"
+import { SplitCard } from "../components/split-card"
 
 class IndexPage extends React.Component {
   render() {
@@ -26,7 +27,7 @@ class IndexPage extends React.Component {
           keywords={[`blog`, `software engineering`, `software design`, `team-driven developer`, `changelogs`, `software development lifecycle`]}
         />
 
-        <TopCard>
+        <SplitCard>
 
           <TeamDrivenDev />
 
@@ -42,7 +43,7 @@ class IndexPage extends React.Component {
 
           </CallToAction>
 
-        </TopCard>
+        </SplitCard>
 
         <hr />
 
@@ -122,19 +123,6 @@ function Links() {
     </Social>
   )
 }
-
-const TopCard = styled.div`
-  @media ${Device.laptopL} {
-    width: 130%;
-    margin-left: -15%;
-  }
-
-  @media ${Device.tablet} {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-  }
-`
 
 const Greeting = styled.h1`
   text-align: center;
