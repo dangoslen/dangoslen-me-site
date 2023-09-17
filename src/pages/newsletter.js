@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
 import NewsletterEmail from "../components/newsletter-email"
+import TeamDrivenDev from "../components/team-driven-dev"
 
 class Newsletter extends React.Component {
   render() {
