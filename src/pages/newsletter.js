@@ -5,8 +5,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
 import NewsletterEmail from "../components/newsletter-email"
-import TeamDrivenDev from "../components/team-driven-dev"
-import { SplitCard } from "../components/split-card"
+import Tiles from "../components/tile"
+import SimpleNewsletterSignup from "../components/simple-newsletter-signup"
 
 class Newsletter extends React.Component {
   render() {
@@ -35,13 +35,25 @@ class Newsletter extends React.Component {
             <NewsletterEmail />
           </NewsletterContainer>
 
-          <h3>Every other Tuesday you'll get:</h3>
+        <hr />
 
-          <ul>
-              <li>A long-form article centered on team-driven software engineering practices</li>
-              <li>A team building exercise so you can take action to improve your team</li>
-              <li>Tools you can use in your workflows to improve communication and measure effectiveness</li>
-          </ul>
+        <h2>Issues got out every other week and each include cotent to help you growth your team!</h2>
+
+        <Tiles tiles={[{
+            icon: "📰",
+            description: "A long-form article centered on team-driven software engineering practices",
+          },
+          {
+            icon: "🤝",
+            description: "A team building exercise so you can take action to improve your team"
+          }, {
+            icon: "🛠️",
+            description: "Tools you can use in your workflows to improve communication and measure effectiveness"
+          }, {
+            icon: "💼",
+            description: "Additional resources for building teams from around the internet"
+          }   
+          ]} />
 
           <hr />
 
@@ -49,6 +61,11 @@ class Newsletter extends React.Component {
             <h2>Let's build great teams together!</h2>
 
             <h3>Because great teams build great software</h3>
+
+            <SignupContainer>
+              <SimpleNewsletterSignup />
+            </SignupContainer>  
+
           </div>
         </div>
 
@@ -58,6 +75,15 @@ class Newsletter extends React.Component {
 }
 
 const NewsletterContainer = styled.div`
+  form {
+    margin: 0 auto;
+  }
+`
+
+const SignupContainer = styled.div`
+  form {
+    margin: 0 auto;
+  }
 `
 
 export default Newsletter

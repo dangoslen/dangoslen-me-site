@@ -12,7 +12,7 @@ import SocialLink from "../components/social-link"
 import Device from "../components/sizing"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import FrontPageEmail from "../components/front-page-email"
+import SimpleNewsletterSignup from "../components/simple-newsletter-signup"
 import TeamDrivenDev from "../components/team-driven-dev"
 import { SplitCard } from "../components/split-card"
 
@@ -39,7 +39,7 @@ class IndexPage extends React.Component {
 
             <p>Because great teams build great software.</p>
 
-            <FrontPageEmail />
+            <SimpleNewsletterSignup />
 
           </CallToAction>
 
