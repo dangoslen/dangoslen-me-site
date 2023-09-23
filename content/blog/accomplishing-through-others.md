@@ -4,9 +4,7 @@ date: 2023-02-28T00:00:00.000Z
 title: Accomplishing Through Others
 description: Accomplishing goals through others is an important aspect when moving from a invidiviual contributor to a leader (as a manager, director, or Staff+ role, etc.) But how do you do so? Here are four ways I've been finding success in my own career.
 keywords:
-  - accomplishing through others
-  - sponsorship in software
-  - what is a sponsor in software
+  - accomplish through others
   - mentoring
   - building software teams
 tags:
@@ -37,13 +35,13 @@ The following week I mentioned how tired I was, thinking the rest of the team wo
 
 Ouch.
 
-That helped me realize that "doing it all yourself" is not only a bad idea for your mental health but can also keep others from learning, growing, and accomplishing important too. I needed to learn how to delegate. I needed to learn to accomplish goals through others.
+That helped me realize that "doing it all yourself" is not only a bad idea for your mental health but can also keep others from learning, growing, and accomplishing important tasks too. I needed to learn how to delegate. I needed to learn to accomplish through others.
 
-I've learned a lot since that week several years ago. And while I still have more to learn, I've been practicing this idea in four key ways that I wanted to share. If you follow me on [LinkedIn](https://www.linkedin.com/in/dangoslen/), this will sound familiar to a few posts from last week, but with more depth and insight (I hope).
+I've learned a lot since that week several years ago. And while I still have more to learn, I've been practicing this idea in four key ways that I wanted to share.
 
 ### Leveling-up
 
-One way we can accomplish work through others is by helping our teams level up. We can help our teams grow their skills by sharing our skills, experience, and knowledge so that our team can benefit from what we have learned in our careers.
+One way we can accomplish through others is by helping our teams level up. By mentoring to our teams, we can help our teams grow their skills by sharing our skills, experience, and knowledge. When we proactively mentor other engineers on our team, everyone can benefit from what we have learned in our careers.
 
 The specific skills your team will need to grow in will vary (naturally). You might need to help help your team learn and master their coding skills. They might be great coders but need help communicating their ideas clearly. Or it might be something else. 
 
@@ -59,7 +57,7 @@ It's also not your responsibility to make each teammate improve; you can't contr
 
 Facing problems you don't know how to solve is essential to growth as a software engineer. It requires learning new skills, thinking critically, and applying unfamiliar solutions.
 
-To accomplish more through others as an engineer, you must allow others to solve complex problems they've never seen before - even if you have. 
+To accomplish through others as an engineer, you must allow others to solve complex problems they've never seen before - even if you have. 
 
 This is harder in practice than it sounds. In moments when you see a problem you've solved before, you will want to jump in and "save the day." And sometimes, if the problem _is_ too significant or too complex, you might need to. But you can't do this for every issue.
 
@@ -75,7 +73,7 @@ Even though software engineering has some complex problems, it's easy to get stu
 
 You might stay working in the same domain for too long. Or it could be that you are never willing (or given a chance) to take on the more complex work for your team. Another day, another ticket in the same system you've been building for years. And another day without a new problem.
 
-Part of accomplishing work through others is challenging junior engineers to stretch themselves. Nudge them to tackle something ambiguous or new. Or it could be challenging them to write crisper, cleaner code.
+Part of accomplishing through others is challenging junior engineers to stretch themselves. Nudge them to tackle something ambiguous or new. Or it could be challenging them to write crisper, cleaner code.
 
 Challenging your teammates also means you are paying attention to what is happening on your team. You should be looking for new problems coming to your team you can delegate to another teammate. Be the engineer that asks your teammates to help you work on something challenging and give them a piece of the puzzle. Find a story or working group that aligns with their skills (or desired skills) for them to tackle. Identify a few engineers to challenge or sponsor in this way and help them as they go along.
 
@@ -93,7 +91,9 @@ Inspire others to do their best work by keeping the bar for yourself high.
 
 ---
 
-Accomplishing through others is a fundamental shift in how to work. You move from always volunteering to tackle complexity yourself toward offering it up for someone else. It means you hold yourself to a higher standard for others to follow. It means looking for ways to challenge and aid those around you. We should be pursuing the team's goals and not just our own.
+Accomplishing through others is a fundamental shift in how to work. You move from always volunteering to tackle complexity yourself toward offering it up for someone else. It means you hold yourself to a higher standard for others to follow. It means looking for ways to challenge and aid those around you. 
+
+It means focusing on building your team more than your own career. 
 
 This work shift is challenging, and it takes practice and repetition. Once you start practicing this skill, you'll find you can drive for change and improvement far better than if you attempt to attain it all through writing code faster or better.
 
