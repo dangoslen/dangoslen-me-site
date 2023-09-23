@@ -18,12 +18,15 @@ image: "../assets/joshua-hoehne-Nsaqv7v2V7Q-unsplash.jpeg"
 
 ![](../assets/joshua-hoehne-Nsaqv7v2V7Q-unsplash.jpeg)
 
+<span class="credit">
+
 <i> 
     
 Photo by <a href="https://unsplash.com/@mrthetrain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joshua Hoehne</a> on <a href="https://unsplash.com/photos/Nsaqv7v2V7Q?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 </i>
 
+</span>
 
 </center>
 
@@ -45,15 +48,19 @@ But getting stuff done on your software team doesn't have to be so frustrating a
 
 Focus on getting things done rather than starting new things.
 
-## Get Things Done
+## Getting Stuff Done
 
-One of my favorite books on software team delivery is from [Daniel Vacanti](https://leanpub.com/u/daniel_vacanti). His book _[When Will It Be Done?](https://amzn.to/3tbuxC5)_ helped me understand that the way we think in traditional teams is all wrong. 
+One of my favorite books on software team delivery is from [Daniel Vacanti](https://leanpub.com/u/daniel_vacanti). His book _[When Will It Be Done?](https://amzn.to/3tbuxC5)_ helped me understand the way we attempt to estimate when features or fixes in our software will be complete is tragically wrong. 
 
-There are many great takeaways from this book, but the one that has stuck with me for the past several years is this:
+For many teams, the focus needs to move away from estimates and move closer to tracking how long it takes individual items to complete. This, along with probablistic forecasting, it much better than the burndown charts and average velocity tools used today. 
+
+There are many great takeaways from the book, but the one that has stuck with me for the past several years is this:
 
 > The single most important thing you can do to improve single item forecasts is be proactive about how long it takes for them to complete
 
-In other words, if we want to get better about accomplishing our goals, we need to be more proactive about getting things done rather than starting them.Teams aren't paid to start things; they are paid to finishing things.
+In other words, if we want to get better about accomplishing our goals, we need to be more proactive about getting things done rather than starting new things. Starting a lot of work items only to let them stay perpetually open and rot away does no one any good. 
+
+I tend to phrase this ideas like this: Teams aren't paid to start things; they are paid to finish things.
 
 Would you pay a lawnkeeper if they only mowed half of your lawn? Or would you pay an electrician if they came to your house, started working on a new circuit, and said, "Oh, sorry - an urgent need came up across town. I have to finish your installation later?" 
 
