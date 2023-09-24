@@ -4,10 +4,9 @@ date: 2021-08-10T00:00:00.001Z
 title: Let's Talk About Trust
 description: Trust is really important, but often illusive. How do we build it on our teams to help oursleves build great software? 
 keywords:
-  - building trust on teams
-  - how to build trust
-  - how to trust my team
-  - trusting my team
+  - building trust within teams
+  - how to build trust on a team
+  - trusting your teammates
 tags:
   - team-driven development
   - leadership
@@ -74,9 +73,9 @@ Sadly, there is no magic checklist for building trust in a team. It requires a w
 
 There are two, however, that I have found to be particularly helpful: humility and willingness.
 
-When we are humble about our abilities (knowing that we can always get better; being open to others' opinions), we are easier to work with than if we were arrogant. We are likely to learn and improve our own skills faster since we know we can always have more to learn.
+When we are humble about our abilities (knowing that we can always improve and being open to others' opinions), we are easier to work with than if we were arrogant. We are likely to learn and improve our own skills faster since we know we can always have more to learn.
 
-When also need to be willing. We need to be willing to listen first, extend the benefit of the doubt. We need to be willing to try others' ideas. When we are willing rather than willful (trying to control how every little thing happens), we earn the trust of others by showing them we are more concerned about solving problems together rather than doing things on our own.
+When also need to be willing. We need to be willing to listen first and extend the benefit of the doubt. We need to be willing to try others' ideas. When we are willing rather than willful (trying to control how every little thing happens), we earn the trust of others by showing them we are more concerned about solving problems together rather than doing things on our own.
 
 ### Trust Can Be Lost
 Trust is also not fixed. You don't create trust one time with a teammate and never have to think about it again. Just like software, property, and physical health, trust needs to be maintained.

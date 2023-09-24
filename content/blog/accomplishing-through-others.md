@@ -43,7 +43,7 @@ I've learned a lot since that week several years ago. And while I still have mor
 
 One way we can accomplish through others is by helping our teams level up. By mentoring to our teams, we can help our teams grow their skills by sharing our skills, experience, and knowledge. When we proactively mentor other engineers on our team, everyone can benefit from what we have learned in our careers.
 
-The specific skills your team will need to grow in will vary (naturally). You might need to help help your team learn and master their coding skills. They might be great coders but need help communicating their ideas clearly. Or it might be something else. 
+The specific skills your team will need to grow in will vary (naturally). You might need to help your team learn and master their coding skills. They might be great coders but need guidance on communicating their ideas clearly. Or it might be something else. 
 
 In any case, ask your teammates what skills they want to develop, and offer help in the areas you feel competent. You'll be surprised by how many people take you up on the offer. 
 
