@@ -17,7 +17,7 @@ class Newsletter extends React.Component {
       <Layout location={this.props.location} title={ siteTitle }>
 
         <SEO title={ siteTitle } 
-          description="Team-Driven Developer Newsletter" 
+          description="Grow Your Career by Building Your Team" 
           image={ data.image.childImageSharp.fluid.src }
         />
 
