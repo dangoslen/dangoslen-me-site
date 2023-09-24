@@ -18,11 +18,15 @@ image: "../assets/sandra-grunewald-erqADkxgbKM-unsplash.jpg"
 
 <center>
 
+<span class="credit">
+
 <i>
 
 Photo by <a href="https://unsplash.com/@elmuff?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sandra Grünewald</a> on <a href="https://unsplash.com/s/photos/carabiner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 </i>
+
+</span>
 
 </center>
   
