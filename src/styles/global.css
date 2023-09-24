@@ -14,3 +14,10 @@
 .formkit-powered-by-convertkit-container {
     display: none !important;
 }
+
+.credit {
+    margin-bottom: 2em;
+    display: inline-block;
+    position: relative;
+    top: -1em;;
+}
