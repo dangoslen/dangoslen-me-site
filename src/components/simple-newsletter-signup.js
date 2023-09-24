@@ -2,7 +2,7 @@ import * as React from "react";
 import { Component } from "react";
 import styled from "styled-components"
 
-class FrontPageEmail extends Component {
+class SimpleNewsletterSignup extends Component {
   componentDidMount() {
     const script = document.createElement("script");
     script.src = "https://relentless-producer-4085.ck.page/07eaaed918/index.js";
@@ -20,4 +20,4 @@ class FrontPageEmail extends Component {
   }
 }
 
-export default FrontPageEmail;
+export default SimpleNewsletterSignup;
