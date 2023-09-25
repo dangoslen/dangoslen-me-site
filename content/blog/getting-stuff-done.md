@@ -1,6 +1,6 @@
 ---
 path: /getting-stuff-done
-date: 2023-09-18T16:05:20
+date: 2023-09-24T00:00:00
 title: Getting Stuff Done on a Software Team
 description: Instead of starting things, let's focus on finsihing them.
 keywords:
@@ -42,7 +42,7 @@ On top of that, no one seems to remember if we hit our Spring Goals - or even wh
 
 For far too many devs, this situation is _painfully_ relatable. 
 
-For all the promises of Agile software development and tools to facilitate better work streams, many dev teams find it difficult to actually get stuff done. Teams are pulled in various directions internally, working alone more than they mean to and constantly being asked to report on items they never committed to.
+For all the promises of Agile software development and tools to facilitate better work streams, many dev teams find it difficult to actually get stuff done. Teams are pulled in various directions internally, find themselves working alone more than intended, and constantly being asked to report on items they never committed to.
 
 But getting stuff done on your software team doesn't have to be so frustrating and chaotic. And it starts with a simple shift: 
 
@@ -98,7 +98,7 @@ Once your entire team starts doing this, WIP limits take care of themselves. You
 
 It may take a while for some teams to feel comfortable asking for help like this. 
 
-Sadly, Our industry has become much more focused on individual than team accomplishments. This focus can leave many engineers afraid to accept help when offered and even more afraid to ask for it.
+Sadly, our industry has become much more focused on individual than team accomplishments. This focus can leave many engineers afraid to accept help when offered and even more afraid to ask for it.
 
 The best action here is to focus on [building trust](https://dangoslen.me/blog/lets-talk-about-trust/) within your team. Don't get angry or upset when your offers are denied or ignored. And don't ignore offers from your team to help you! You have to change the team's culture, which happens through trusting relationships.
 
