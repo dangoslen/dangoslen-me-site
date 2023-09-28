@@ -2,7 +2,7 @@
 path: /getting-stuff-done
 date: 2023-09-24T00:00:00
 title: Getting Stuff Done on a Software Team
-description: Instead of starting things, let's focus on finsihing them.
+description: Instead of starting things, let's focus on finishing them.
 keywords:
   - get stuff done
   - agile software development
@@ -30,13 +30,13 @@ Photo by <a href="https://unsplash.com/@mrthetrain?utm_source=unsplash&utm_mediu
 
 </center>
 
-It's a Friday in the office—the end of another Sprint iteration. 
+It's a Friday in the office. The end of another Sprint iteration. 
 
 And everything is a bit chaotic.
 
 Multiple devs still have outstanding work awaiting approvals so they can merge them into `main.` Many of them have merge conflicts. We've also got a high-priority bug fix that we still need to start on, which is supposed to be done by the end of the day (the PM promised it would be). 
 
-On top of that, no one seems to remember if we hit our Spring Goals - or even what they were! Everyone had focused on working on our individual stories instead of completing our goals.
+On top of that, no one seems to remember if we hit our Spring Goals—or even what they were! Everyone had focused on working on our individual stories instead of completing our goals.
 
 ---
 
@@ -52,7 +52,7 @@ Focus on getting things done rather than starting new things.
 
 One of my favorite books on software team delivery is from [Daniel Vacanti](https://leanpub.com/u/daniel_vacanti). His book _[When Will It Be Done?](https://amzn.to/3tbuxC5)_ helped me understand the way we attempt to estimate when features or fixes in our software will be complete is tragically wrong. 
 
-For many teams, the focus needs to move away from estimates and move closer to tracking how long it takes individual items to complete. This, along with probablistic forecasting, it much better than the burndown charts and average velocity tools used today. 
+For many teams, the focus needs to move away from estimates and move closer to tracking how long it takes individual items to complete. This, along with probabilistic forecasting, it much better than the burndown charts and average velocity tools used today. 
 
 There are many great takeaways from the book, but the one that has stuck with me for the past several years is this:
 
@@ -60,7 +60,7 @@ There are many great takeaways from the book, but the one that has stuck with me
 
 In other words, if we want to get better about accomplishing our goals, we need to be more proactive about getting things done rather than starting new things. Starting a lot of work items only to let them stay perpetually open and rot away does no one any good. 
 
-I tend to phrase this ideas like this: Teams aren't paid to start things; they are paid to finish things.
+I tend to phrase this idea like this: Teams aren't paid to start things; they are paid to finish things.
 
 Would you pay a lawnkeeper if they only mowed half of your lawn? Or would you pay an electrician if they came to your house, started working on a new circuit, and said, "Oh, sorry - an urgent need came up across town. I have to finish your installation later?" 
 
