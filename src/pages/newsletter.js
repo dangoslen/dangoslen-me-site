@@ -19,6 +19,7 @@ class Newsletter extends React.Component {
         <SEO title={ siteTitle } 
           description="Grow Your Career by Building Your Team" 
           image={ data.image.childImageSharp.fluid.src }
+          keywords={[`team-driven developer newsletter`, `software engineering newsletter`, `software engineering career growth`, `software engineering teams`]}
         />
 
         <div style={{
@@ -37,7 +38,7 @@ class Newsletter extends React.Component {
 
         <hr />
 
-        <h2>Issues got out every other week and each include cotent to help you growth your team!</h2>
+        <h3>Issues go out every other Tuesday. Every issue includes content to help you build your team!</h3>
 
         <Tiles tiles={[{
             icon: "📰",

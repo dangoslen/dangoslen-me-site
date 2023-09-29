@@ -24,7 +24,7 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`blog`, `software engineering`, `software design`, `team-driven developer`, `changelogs`, `software development lifecycle`]}
+          keywords={[`dan goslen home page`, `team-driven developer`, `software engineering newsletter`, `software engineering blog`, `software design blog`]}
         />
 
         <SplitCard>
@@ -35,7 +35,7 @@ class IndexPage extends React.Component {
 
             <h1>Grow your career by building your team.</h1>
 
-            <p>Join the <Link to="/newsletter" style={{ color: `hsl(0deg 0% 0% / 90%)`}}>Team-Driven Developer Newsletter</Link> to get tips and tools to help build your software team. Issues go out every other Tuesday.</p> 
+            <p>Join the <Link to="/newsletter" style={{ color: `hsl(0deg 0% 0% / 90%)`}}>Team-Driven Developer Newsletter</Link> to get tips and tools to help you build your software team. Issues go out every other Tuesday.</p> 
 
             <p>Because great teams build great software.</p>
 
