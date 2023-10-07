@@ -42,11 +42,9 @@ class Book extends React.Component {
               <li><Link to="/blog/my-top-four-patterns-for-writing-simple-code/"><b>My Top Four Patterns for Writing Simple Code</b></Link></li>
               <li><Link to="/blog/surviving-your-first-code-review/"><b>Surviving Your First Code Review</b></Link></li>
             </ul>
-            <p>I'd also love to hear from <i>you!</i></p> 
-            <p><a href="mailto:dan@dangoslen.me">Send me an email</a> and let me know what you are hoping to get out of it!</p>
-            <p>I hope that you get a lot out of the newsletter!</p>
+            <p>Be on the lookout for an email from me tomorrow with a few more details about the newsletter what to expect.</p> 
+            <p>SO glad to have you here!</p>
             <p>Happy coding!</p>
-
           </ThankYou>
 
         </SplitCard>
