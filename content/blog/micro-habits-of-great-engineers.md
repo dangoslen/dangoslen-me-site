@@ -143,8 +143,6 @@ Giving and receiving feedback is paramount to building a successful team culture
 
 And the best engineers I know always make sure they give feedback with care.
 
-Wrapping up this week's posts about micro-habits is 5️⃣: Pause Before Giving Feedback.
-
 Great engineers know that in order for their feedback to be received, they need to give it with kindness, respect, and humility. Whether it's about code, a document, architecture, or even working styles, giving feedback requires the giver to be thoughtful.
 
 And it's hard to be thoughtful when we give our feedback as knee-jerk reactions.
