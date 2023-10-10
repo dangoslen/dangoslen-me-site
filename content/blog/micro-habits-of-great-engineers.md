@@ -10,7 +10,7 @@ keywords:
 tags:
   - career
   - leadership
-  = software engineering
+  - software engineering
 image: "../assets/nik-qXakibuQiPU-unsplash.jpeg" 
 ---
 
