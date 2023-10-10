@@ -1,6 +1,6 @@
 ---
 path: /micro-habits-of-great-engineers
-date: 2023-10-08T13:42:27
+date: 2023-10-09T00:42:27
 title: Micro-habits of great engineers
 description: Habits are a key part of building our identity and making it easy to do the right thing. These are some habits from great engineers that do just that.
 keywords:
