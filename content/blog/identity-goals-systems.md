@@ -114,7 +114,7 @@ _Here is a short template I used for my own goals this year. I wrote one of thes
 
 **Why/What:** short paragraph describing why I want to reinforce that identity and what that kind of person is like
 
-**Goals:** short goals for the year; 2-3
+**Goals:** 2-3 short goals for the year; 1-2 goals long term goals to act as guideposts
 
 **System:** specify a (rough) plan for when/how I reinforce that identity and push for my goals
 
