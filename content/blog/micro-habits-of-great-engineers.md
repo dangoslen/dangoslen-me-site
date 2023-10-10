@@ -41,12 +41,12 @@ Today, I'm sharing six micro-habits of great engineers that you can start practi
 
 _This is a longer article, so here is a brief table of contents if you want to jump!_
 
-_* [Make Small git Commits](#1-make-small-git-commits)_
-_* [Find Time to Focus](#2-find-time-to-focus)_
-_* [Take Breaks From Screens](#3-take-breaks-from-screens)_
-_* [Create Space to Collaborate](#4-create-space-to-collaborate)_
-_* [Pause Before Giving Feedback](#5-pause-before-giving-feedback)_
-_* [Backup Opinions with Data](#6-backup-opinions-with-data)_
+* _[Make Small git Commits](#1-make-small-git-commits)_
+* _[Find Time to Focus](#2-find-time-to-focus)_
+* _[Take Breaks From Screens](#3-take-breaks-from-screens)_
+* _[Create Space to Collaborate](#4-create-space-to-collaborate)_
+* _[Pause Before Giving Feedback](#5-pause-before-giving-feedback)_
+* _[Backup Opinions with Data](#6-backup-opinions-with-data)_
 
 ---
 
@@ -72,7 +72,7 @@ Small commits also tell a clear story of what you did and when. Your future self
 
 And if you are worried about too many commits, you can always perform a rebase right or squash them right before you merge your code.
 
-<div id="1-find-time-to-focus">
+<div id="2-find-time-to-focus">
 
 # 2 - Find Time to Focus
 
