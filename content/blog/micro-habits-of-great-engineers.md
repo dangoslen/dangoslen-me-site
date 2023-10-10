@@ -41,16 +41,20 @@ Today, I'm sharing six micro-habits of great engineers that you can start practi
 
 _This is a longer article, so here is a brief table of contents if you want to jump!_
 
-_- [Make Small git Commits](#1---make-small-git-commits)_
-_- [Find Time to Focus](#2---find-time-to-focus)_
-_- [Take Breaks From Screens](#3---take-breaks-from-screens)_
-_- [Create Space to Collaborate](#4---create-space-to-collaborate)_
-_- [Pause Before Giving Feedback](#5---pause-before-giving-feedback)_
-_- [Backup Opinions with Data](#6---backup-opinions-with-data)_
+_* [Make Small git Commits](#1-make-small-git-commits)_
+_* [Find Time to Focus](#2-find-time-to-focus)_
+_* [Take Breaks From Screens](#3-take-breaks-from-screens)_
+_* [Create Space to Collaborate](#4-create-space-to-collaborate)_
+_* [Pause Before Giving Feedback](#5-pause-before-giving-feedback)_
+_* [Backup Opinions with Data](#6-backup-opinions-with-data)_
 
 ---
 
+<div id="1-make-small-git-commits">
+
 # 1 - Make small git Commits
+
+</div>
 
 As engineers, we spend a good chunk of our time coding. While we will do many other activities, becoming an efficient and productive coder is crucial to becoming a great engineer.
 
@@ -68,7 +72,11 @@ Small commits also tell a clear story of what you did and when. Your future self
 
 And if you are worried about too many commits, you can always perform a rebase right or squash them right before you merge your code.
 
+<div id="1-find-time-to-focus">
+
 # 2 - Find Time to Focus
+
+</div>
 
 At some point in your career, you will have a big problem to tackle that requires not just skill but focus. Engineers must prioritize time with minimal distractions to focus on our most important issues. 
 
@@ -82,7 +90,11 @@ If you start working on prioritizing focus and putting it on your calendar, you'
 
 Speaking of screens...
 
+<div id="3-take-breaks-from-screens">
+
 # 3 - Take Breaks From Screens
+
+</div>
 
 We all know that staring at screens all day can drain your energy and leave you exhausted. This particularly impacts software engineers since we often stare at lines of code all day, which can often be hard to read.
 
@@ -98,7 +110,11 @@ A favorite of mine is simply going on a walk while doing deep thinking. It doesn
 
 All this to say, prioritize taking regular breaks from your screen to keep your energy and productivity high.
 
+<div id="4-create-space-to-collaborate">
+
 # 4 - Create Space to Collaborate
+
+</div>
 
 Very few engineers don't find collaboration useful. And even if they did, many wouldn't admit to it.
 
@@ -117,7 +133,11 @@ To summarize this point, having lots of brainstorming, whiteboarding sessions, o
 
 Asking, listening, sharing, and trusting your team do.
 
+<div id="5-pause-before-giving-feedback">
+
 # 5 - Pause Before Giving Feedback
+
+</div>
 
 Giving and receiving feedback is paramount to building a successful team culture.
 
@@ -137,7 +157,11 @@ Full disclosure: I struggle to pause before giving feedback, especially around t
 
 My experience, though, is that things go much better when I remember to pause before giving feedback.
 
+<div id="6-backup-opinions-with-data">
+
 # 6 - Backup Opinions with Data
+
+</div>
 
 Opinions are many in the world of software engineering. From architecture to working styles to preferred technologies, we always walk a fine line between opinions vs. facts. 
 
