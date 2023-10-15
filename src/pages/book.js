@@ -9,6 +9,7 @@ import SEO from "../components/seo"
 import styled from "styled-components"
 import BookEmail from "../components/book-email"
 import Tiles from "../components/tile"
+import BookReviews from "../components/book-reviews"
 
 class Book extends React.Component {
   render() {
@@ -27,6 +28,7 @@ class Book extends React.Component {
           textAlign: `center`
         }}>
           <h1>Become a world class code reviewer!</h1>
+          <h3>📣 Launching January 30th 2024! 📣</h3>
         </div>
 
         <hr />
@@ -37,9 +39,11 @@ class Book extends React.Component {
             <p>Code reviews continue to be a point of contention in our industry. Some teams have adopted code reviews wholeheartedly while others have nearly outlawed the practice. Other teams think they "should" do reviews, but they treat them as a formality or a rubber-stamp.</p>
             <p>But we have great data that show code reviews work. So what is the gap?</p>
             <p><b>I believe it's because most engineers were never taught how to effectively review code.</b></p>
-            <p>Even more so, many teams don't know how to manage the process to know if they are actually getting value or if they are just rubber-stamping code.</p>
-            <p>This book will help engineers and teams build the skills neccesary to be code review champions!</p>
-            <p>Signup below to get <i>exclusive</i> first access when the book is ready!</p>
+            <p>On top of that, teams don't know how to manage the process to know if they are actually getting value from their reviews.</p>
+            <p>This book aims to fix all of that by teaching engineers how to effectively review code and outlining a path for teams to embrace reviews as a way to grow.</p>
+            <center>
+              <p><b><i>Signup before January 30th and get 30% off!</i></b></p>
+            </center>
             <div style={{ 
                 display: `flex`,
                 alignItems: `center`,
@@ -91,6 +95,12 @@ class Book extends React.Component {
 
         <hr />
 
+        <ReviewContainer >
+          <BookReviews />
+        </ReviewContainer>
+
+        <hr />
+
         <div style={{ 
               display: `grid`,
               alignItems: `center`,
@@ -127,12 +137,12 @@ function BookCover({image}) {
 }
 
 const BookSplit = styled.div`
-  @media ${Device.laptopL} {
+  @media ${Device.laptop} {
     width: 120%;
     margin-left: -10%;
   }
 
-  @media ${Device.tablet} {
+  @media ${Device.halfscreen} {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -141,11 +151,6 @@ const BookSplit = styled.div`
 
 const BookCoverWrapper = styled.div`
   width: 100%;
-
-  @media ${Device.laptop} {
-    width: 60%;
-    margin-right: 40px;
-  }
 `
 
 const BookIntroduction = styled.div`
@@ -157,16 +162,20 @@ const EmailContainer = styled.div`
   }
 `
 
+const ReviewContainer = styled.div`
+  height: 500px;
+`
+
 export default Book
 
 export const pageQuery = graphql`
   query {
     image: file(absolutePath: { regex: "/book-cover.png/" }) {
       childImageSharp {
-        fluid(maxWidth: 600) {
+        fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid
         }
-        resize(width: 500, quality: 90) {
+        resize(width: 800, quality: 90) {
           src
         }
       }
