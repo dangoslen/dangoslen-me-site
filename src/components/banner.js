@@ -25,7 +25,7 @@ const Banner = props => {
 
     return (
         <BannerContainer style={{ ...(isVisible && { top: 0 } )}}>
-            <BannerNotification style={{background: props.color || 'green', borderColor: props.borderColor || 'black' }}>
+            <BannerNotification style={{background: props.color || 'green' }}>
                 <BannerText style={{ marginRight: `5px` }}>{ props.text}</BannerText>
                 <Link to={ props.link } style={{  color: `hsl(0deg 0% 0% / 90%)` }} onClick={ handleDismiss } >
                     <BannerText>{ props.cta }</BannerText>
@@ -48,6 +48,7 @@ const BannerContainer = styled.div`
 const BannerNotification  = styled.div`
     padding: 40px 0px;
     text-align: center;
+    box-shadow: grey 0px 0px 14px 11px
 `
 
 const BannerText = styled.span`
@@ -58,10 +59,14 @@ const BannerText = styled.span`
 const BannerCloser = styled.span`
     display: inline-block;
     vertical-align: middle;
-    margin-left: 18px;
+    margin-left: 12px;
+    transition: 0.2s;
+    transition-timing-function: ease;
 
     :hover {
         cursor: pointer; 
+        position: relative;
+        top: 2px;
     }
 `
 
