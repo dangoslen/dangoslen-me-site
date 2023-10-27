@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql} from "gatsby"
+import { Link, graphql} from "gatsby"
 
 import Img from "gatsby-image"
 
@@ -41,20 +41,11 @@ class Book extends React.Component {
             <p><b>I believe it's because most engineers were never taught how to effectively review code.</b></p>
             <p>On top of that, teams don't know how to manage the process to know if they are actually getting value from their reviews.</p>
             <p>This book aims to fix all of that by teaching engineers how to effectively review code and outlining a path for teams to embrace reviews as a way to grow.</p>
-            <center>
-              <p><b><i>Signup before January 30th and get 30% off!</i></b></p>
-            </center>
-            <div style={{ 
-                display: `flex`,
-                alignItems: `center`,
-                justifyContent: `center`,
-                marginTop: `10px`,
-                marginBottom: `40px`
-            }}>
-          
+            
+            <p><b><i>Want 30% off? Join the <Link to="/newsletter">Team-Driven Developer</Link> newsletter before January 30th and have a coupon waiting for you on launch day!</i></b></p>
+            
             <BookEmail />
 
-            </div>
           </BookIntroduction>
         </BookSplit>
 
@@ -109,7 +100,7 @@ class Book extends React.Component {
               marginBottom: `10px`
           }}>
             <h3>This book is the book I wish I could have read a early in my career to avoid the pitfalls around code reviews.</h3>
-            <h3>Signup to know when it's ready for preorder!</h3>
+            <h3><i>Enter your email before January 30th and get 30% off!</i></h3>
           </div>
 
         <EmailContainer >
