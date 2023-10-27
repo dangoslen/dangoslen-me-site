@@ -38,7 +38,11 @@ class Newsletter extends React.Component {
 
         <hr />
 
-        <h3>Issues go out every other Tuesday. Every issue includes content to help you build your team!</h3>
+        <div style={{
+          textAlign: `center`
+        }}>
+          <h2>Here is what you can expect from each issue every other Tuesday:</h2>
+        </div>
 
         <Tiles tiles={[{
             icon: "📰",

@@ -34,11 +34,11 @@ class Book extends React.Component {
           
           <ThankYou>    
             <p>I'm <i>really</i> glad you are here!</p>
-            <p>From here on out you'll be getting issues of the Team-Driven Developer Newsletter! Issues go out every other Tuesday.</p>
+            <p>From here on out you'll be getting issues of the Team-Driven Developer Newsletter every other Tuesday!</p>
             <p>Each issue includes tips, tools, and resources to help you build your software team!</p>
             <p>While you are here, take a look around! Here are some of the top resources:</p>
             <ul style={{paddingLeft: `20px`}}>
-              <li><Link to="/tags/whats-the-point"><b>What's the point?</b></Link> Articles about applying industry best-practices to your team.</li>
+              <li><Link to="/tags/whats-the-point"><b>What's the point?</b></Link> | Articles about applying industry best-practices to your team.</li>
               <li><Link to="/blog/my-top-four-patterns-for-writing-simple-code/"><b>My Top Four Patterns for Writing Simple Code</b></Link></li>
               <li><Link to="/blog/surviving-your-first-code-review/"><b>Surviving Your First Code Review</b></Link></li>
             </ul>
