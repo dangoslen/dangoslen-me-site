@@ -7,7 +7,7 @@ keywords:
   - simple code
   - how to write simple code
   - how to write clean code
-  - patterns code
+  - writing simple code
   - software design
 tags:
   - software engineering
@@ -30,7 +30,9 @@ p.s. love the mini-Christmas tree!
 
 Writing simple code has become something of an obsession for me. 
 
-I find myself trying to simplify any and every piece of code I write. I often add comments on pull requests that we don't need to complicate things or plan too far ahead; the existing code is simple enough to maintain. Why use a pattern if the current code just needs a `switch` statement? If you need to change it later, you will.
+I find myself trying to simplify any and every piece of code I write. I often add comments on pull requests that we don't need to complicate things or plan too far ahead; the existing code is simple enough to maintain. 
+
+Why use a complex pattern or class inheritance if the current code just needs a `switch` statement? If you need to change it later, you will.
 
 Did I just lose all of the clean coders? I thought so.
 
@@ -46,7 +48,9 @@ According to the Oxford dictionary, simplicity is:
 
 In software, the "easy to understand" is the key point. We want code that is easy to understand. Why? Because we read code many more times than we write it. 
 
-Moreover, if we want our software to succeed, it must be maintainable. Maintainability requires more than simple code, but it **must** require it. Teams change over time, requirements change even quicker, and even our own code looks foreign a few months after we've written it. We have to keep our code simple so that future developers (inlcuding our future selves) can understand what is going in.
+Moreover, if we want our software to succeed, it must be maintainable. And while not all simple code is maintainable, all maintainable cost has some for of simplicity to it. 
+
+Teams change over time, requirements change even quicker, and even our own code looks foreign a few months after we've written it. We have to keep our code simple so that future developers (inlcuding our future selves) can understand what is going in.
 
 ## Simple vs Trivial
 
@@ -58,17 +62,11 @@ Going back to the dictionary, triviality is defined  as:
 
 Within the context of software, trivial code would be code that doesn't _do_ anything. It isn't important. You could remove it and all would be well. 
 
-<a href="https://twitter.com/dangoslen/status/1409669248369127441">
-
-![](../assets/dan_goslen_simple_code_tweet.png)
-
-</a>
-
-Simple code, on the other hand, _does_ something! It's important! Being able to write important code in a simple way is one of the best guidelines for growth as a software engineer. 
+Simple code, on the other hand, _does_ something! It's important! Being able to write meaningful code in a simple way is one of the best guidelines for growth as a software engineer. 
 
 ## Abstractions Will Come
 
-When writing software, many engineers fall captive to speculating about the future of their projects. After writing somthing simple, they think "I should abstract this for use later on." What usually happens is that the abstractions built are rather cumbersome and difficult to use. 
+When writing software, many engineers fall [captive to speculating about the future of their projects](https://dangoslen.me/blog/on-building-abstractions-too-soon/). After writing somthing simple, they think "I should abstract this for use later on." What usually happens is that the abstractions built are rather cumbersome and difficult to use. 
 
 Instead, we need to focus on emergent design or emergent abstractions. Let the abstractions happen over time and by constant refactoring rather than conjecture about the future. Follow the "three strikes" rule - if you find duplicated code three or more times, you have a need for refactoring and potentially abstracting it away.
 
@@ -88,7 +86,13 @@ Abstractions take a complicated thing and present a simplified way to interact w
 
 ---
 
-Write the simplest code you can. Then ruthlessly refactor it as you build out your sofware. Don't worry about the abstractions today - focus on writing simple code and the abstractions will come.
+In summary
+
+- Write the simplest code you can. 
+
+- Ruthlessly refactor it as you build out your software. 
+
+- Don't worry about the abstractions today—focus on writing simple code and the abstractions will come overtime.
 
 Happy coding!
 
