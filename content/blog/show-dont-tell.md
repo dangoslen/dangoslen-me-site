@@ -100,7 +100,7 @@ None of this is easy.
 
 Creating a demo or prototype to show your team your ideas will require more effort than putting your opinion in a Slack channel or sending a doc around for review. You'll have to focus on helping the team break out of their mental models and experience something different. 
 
-And while we [can't demo like Kelsey](https://www.youtube.com/watch?v=8NFyrEVSBT8), we can take strides to show our team our ideas rather than relying on mere words. We can show them the future.
+And while we can't demo like Kelsey, we can take strides to show our team our ideas rather than relying on mere words. We can show them the future.
 
 Happy coding!
 
