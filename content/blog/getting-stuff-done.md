@@ -9,7 +9,7 @@ keywords:
   - work-in-progress limits
   - finshing vs starting things
 tags:
-  - team-driven developer
+  - team-driven development
   - software development lifecycle
 image: "../assets/joshua-hoehne-Nsaqv7v2V7Q-unsplash.jpeg" 
 ---
