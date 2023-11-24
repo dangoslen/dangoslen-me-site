@@ -11,12 +11,12 @@ class Layout extends React.Component {
     
     return (
       <div>
-        {/* <Banner name="book-banner" 
+        <Banner name="book-banner" 
           text="🎉 Code Review Champion is out now!" 
           cta="Grab your copy today!"
           link="/book" 
           color="#d69066" 
-          /> */}
+          />
         <Header>
           <div
             style={{
