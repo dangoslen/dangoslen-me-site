@@ -11,9 +11,9 @@ class Layout extends React.Component {
     
     return (
       <div>
-        <Banner name="book-banner" 
-          text="🎉 Code Review Champion is out now!" 
-          cta="Grab your copy today!"
+        <Banner name="announcement-banner" 
+          text="🎉 Code Review Champion launch date announced!" 
+          cta="Learn more!"
           link="/book" 
           color="#d69066" 
           />

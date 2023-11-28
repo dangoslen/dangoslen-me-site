@@ -37,12 +37,12 @@ class Book extends React.Component {
           <BookCover image={ data.image.childImageSharp.fluid } />
           <BookIntroduction>    
             <p>Code reviews continue to be a point of contention in our industry. Some teams have adopted code reviews wholeheartedly while others have nearly outlawed the practice. Other teams think they "should" do reviews, but they treat them as a formality or a rubber-stamp.</p>
-            <p>But we have great data that show code reviews work. So what is the gap?</p>
-            <p><b>I believe it's because most engineers were never taught how to effectively review code.</b></p>
-            <p>On top of that, teams don't know how to manage the process to know if they are actually getting value from their reviews.</p>
-            <p>This book aims to fix all of that by teaching engineers how to effectively review code and outlining a path for teams to embrace reviews as a way to grow.</p>
+            <p>But we have great data that show code reviews work. So what's the gap?</p>
+            <p><b>The gap is that most engineers were never taught how to effectively review code.</b></p>
+            <p>This book aims to help fix that.</p>
+            <p><i>Code Review Champion</i> will teach you how to effectively navigate code reviews to grow you career. From reviewing code to authoring pull requests, and much more, this book will give you practical tools you can use everyday on your team.</p>
             
-            <p><b><i>Want 30% off? Join the <Link to="/newsletter">Team-Driven Developer</Link> newsletter before January 30th and have a coupon waiting for you on launch day!</i></b></p>
+            <p><b><i>Want 30% off? Join the <Link to="/newsletter">Team-Driven Developer</Link> newsletter before January 30th and have a discount link waiting for you on launch day!</i></b></p>
             
             <BookEmail />
 
@@ -86,21 +86,22 @@ class Book extends React.Component {
 
         <hr />
 
-        <ReviewContainer >
+        {/* <ReviewContainer >
           <BookReviews />
         </ReviewContainer>
 
-        <hr />
+        <hr /> */}
 
         <div style={{ 
               display: `grid`,
               alignItems: `center`,
               justifyContent: `center`,
               marginTop: `10px`,
-              marginBottom: `10px`
+              marginBottom: `10px`,
+              textAlign: "center"
           }}>
             <h3>This book is the book I wish I could have read a early in my career to avoid the pitfalls around code reviews.</h3>
-            <h3><i>Enter your email before January 30th and get 30% off!</i></h3>
+            <b><i>Don't wait! Enter your email before January 30th and get 30% off!</i></b>
           </div>
 
         <EmailContainer >

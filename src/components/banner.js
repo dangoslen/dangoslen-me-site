@@ -10,8 +10,7 @@ const Banner = props => {
     useEffect(() => {
         const timer = setTimeout(() => {
           const localDismissed = localStorage.getItem(props.name)
-          console.log(`${props.name} is ${localDismissed}`)
-          if (!localDismissed) {
+          if (!localDismissed && !window.location.pathname.includes(props.link)) {
             setIsVisible(true)
           }
         }, (props.delay * 1000) || 2000);
@@ -30,7 +29,7 @@ const Banner = props => {
                 <Link to={ props.link } style={{  color: `hsl(0deg 0% 0% / 90%)` }} onClick={ handleDismiss } >
                     <BannerText>{ props.cta }</BannerText>
                 </Link>
-                <BannerCloser onClick={ handleDismiss }><TiDeleteOutline fontSize={`30px`}/></BannerCloser>
+                <BannerCloser onClick={ handleDismiss }><TiDeleteOutline fontSize={`22px`}/></BannerCloser>
             </BannerNotification>
         </BannerContainer>
     );
@@ -57,6 +56,7 @@ const BannerText = styled.span`
 `
 
 const BannerCloser = styled.span`
+    font-size: 14px;
     display: inline-block;
     vertical-align: middle;
     margin-left: 12px;
