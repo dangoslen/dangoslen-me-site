@@ -27,7 +27,7 @@ class Book extends React.Component {
         <div style={{
           textAlign: `center`
         }}>
-          <h1>Become a world class code reviewer!</h1>
+          <h1>Become a world-class code reviewer!</h1>
           <h3>📣 Launching January 30th 2024! 📣</h3>
         </div>
 
@@ -36,13 +36,13 @@ class Book extends React.Component {
         <BookSplit>
           <BookCover image={ data.image.childImageSharp.fluid } />
           <BookIntroduction>    
-            <p>Code reviews continue to be a point of contention in our industry. Some teams have adopted code reviews wholeheartedly while others have nearly outlawed the practice. Other teams think they "should" do reviews, but they treat them as a formality or a rubber-stamp.</p>
+            <p>Code reviews continue to be a point of contention in our industry. Some teams have adopted code reviews wholeheartedly, while others have nearly outlawed the practice. Other teams think they "should" do reviews, but they treat them as a formality or a rubber-stamp.</p>
             <p>But we have great data that show code reviews work. So what's the gap?</p>
             <p><b>The gap is that most engineers were never taught how to effectively review code.</b></p>
             <p>This book aims to help fix that.</p>
             <p><i>Code Review Champion</i> will teach you how to effectively navigate code reviews to grow you career. From reviewing code to authoring pull requests, and much more, this book will give you practical tools you can use everyday on your team.</p>
             
-            <p><b><i>Want 30% off? Join the <Link to="/newsletter">Team-Driven Developer</Link> newsletter before January 30th and have a discount link waiting for you on launch day!</i></b></p>
+            <p><b><i>Want 25% off? Join the <Link to="/newsletter">Team-Driven Developer</Link> newsletter before January 30th and have a discount link waiting for you on launch day!</i></b></p>
             
             <BookEmail />
 
@@ -100,8 +100,8 @@ class Book extends React.Component {
               marginBottom: `10px`,
               textAlign: "center"
           }}>
-            <h3>This book is the book I wish I could have read a early in my career to avoid the pitfalls around code reviews.</h3>
-            <b><i>Don't wait! Enter your email before January 30th and get 30% off!</i></b>
+            <h3>This book is the book I wish I could have read early in my career to avoid the pitfalls around code reviews.</h3>
+            <b><i>Remember: signup before January 30th and get 25% off!</i></b>
           </div>
 
         <EmailContainer >
