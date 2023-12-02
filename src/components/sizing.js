@@ -3,6 +3,7 @@ const size = {
     mobileM: '375px',
     mobileL: '425px',
     tablet: '768px',
+    halfscreen: `900px`,
     laptop: '1024px',
     laptopL: '1440px',
     desktop: '2560px'
@@ -13,6 +14,7 @@ const Device = {
     mobileM: `screen and (min-width: ${size.mobileM})`,
     mobileL: `screen and (min-width: ${size.mobileL})`,
     tablet: `screen and (min-width: ${size.tablet})`,
+    halfscreen: `screen and (min-width: ${size.halfscreen})`,
     laptop: `screen and (min-width: ${size.laptop})`,
     laptopL: `screen and (min-width: ${size.laptopL})`,
     desktop: `screen and (min-width: ${size.desktop})`,

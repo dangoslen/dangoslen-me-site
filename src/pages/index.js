@@ -15,12 +15,13 @@ import SEO from "../components/seo"
 import SimpleNewsletterSignup from "../components/simple-newsletter-signup"
 import TeamDrivenDev from "../components/team-driven-dev"
 import { SplitCard } from "../components/split-card"
+import Banner from "../components/banner"
 
 class IndexPage extends React.Component {
   render() {
     const siteTitle = "About"
 
-    return (
+    return (      
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
