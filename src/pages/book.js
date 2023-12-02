@@ -42,7 +42,7 @@ class Book extends React.Component {
             <p>This book aims to help fix that.</p>
             <p><i>Code Review Champion</i> will teach you how to effectively navigate code reviews to grow you career. From reviewing code to authoring pull requests, and much more, this book will give you practical tools you can use everyday on your team.</p>
             
-            <p><b><i>Want 25% off? Join the <Link to="/newsletter">Team-Driven Developer</Link> newsletter before January 30th and have a discount link waiting for you on launch day!</i></b></p>
+            <p><b><i>Want 25% off? Enter your email before January 30th and get a discount link on launch day!</i></b></p>
             
             <BookEmail />
 

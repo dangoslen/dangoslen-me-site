@@ -16,6 +16,7 @@ class Layout extends React.Component {
           cta="Learn more!"
           link="/book" 
           color="#d69066" 
+          delay={ 5 }
           />
         <Header>
           <div
