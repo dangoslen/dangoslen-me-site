@@ -20,12 +20,15 @@ image: "../assets/natalie-pedigo-wJK9eTiEZHY-unsplash.jpeg"
 
 Photo
 
+<span class="credit">
+
 <i> 
     
 Credit
 
 </i>
 
+</span>
 
 </center>
 

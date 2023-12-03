@@ -9,7 +9,7 @@ const InfoCard = props => {
         <IconHolder>
             <BsInfoCircleFill color="#b1b1f1"/>
         </IconHolder>
-      <span><i>{text}</i></span>
+      <span>{ props.children }</span>
     </InfoCardWrapper>
   )
 }

@@ -1,0 +1,170 @@
+---
+path: /whats-the-point-of-slos
+date: 2023-12-02T08:59:21
+title: What's the Point of SLOs?
+description: Measuring software quality is complex. SLOs are here to help.
+keywords:
+  - SLOs software
+  - service level objectives
+tags:
+  - whats the point
+  - observability
+image: "../assets/natalie-pedigo-wJK9eTiEZHY-unsplash.jpeg" 
+---
+
+import React from 'react'
+import InfoCard from '../../src/components/info-card.js'
+
+<center>
+
+Photo
+
+<span class="credit">
+
+<i> 
+    
+Credit
+
+</i>
+
+</span>
+
+
+</center>
+
+As a good software engineer, you want to write quality code. 
+
+But what does that even mean? 
+
+Is quality software well-tested software? Is it really fast? Is it a really elegant codebase?
+
+In many ways the answer to the above is a resounding yes on all counts. We want to write code that is tested, performant, maintaintable, etc. And there is no short of measurements to help: code coverage, latency metrics, static anaylis, etc.
+
+But many years ago I had a moment that made me rethink what we mean by quality. My team had been working on a release for some time and were close to a production deployment. We were still caught up with a few patterns we didn't like and wanted to to delay the release until we had some better patterns in the code. Our VP of software asked if we could still ship what we had and refactor it later. 
+
+Our immediate reaction was "No! We need to write quality software!" His response was interesting. "Do you think our users will care if you used Pattern A or Pattern B? I don't think our CEO cares as much about software quality as much as meeting the needs of our users."
+
+I was a little frustrated by his response. Was our VP of _software_ advocating for _bad code_? Internally I screaming "Of course our CEO should care about quality!" and "Our users deserve high-quality software."
+
+What I've learned over the past few years is that that the term "quality" is actually a complex topic that needs a bit more nuance. I think we have to re-frame the question of "Is this quality?" to "Is this enough quality to keep our customers happy?"
+
+<InfoCard>
+  
+  <span>
+  
+  <i>Before diving in, another great resource on SLOs is the <a href="https://sre.google/workbook/implementing-slos/">Google SRE Book</a>. I break apart an SLO slightly differently than Google, but I've kept the end goals and core constructs the same.</i>
+  
+  </span>
+
+</InfoCard>
+
+
+## Quality => Happy Customers
+
+Many engineers will be familiar with the Project Management Triangle. A common phrase that accompanies this is "Good, fast, cheap. Choose two."
+
+The idea is quality is a constraint of other factors, namely the speed at which a project is developed, the resources (budget/cost) allotted to the work the project, and the scope of the work within the project.
+
+And while I think that is true, I also think this is a very _internally_ focused discussion. We all want to build quality into our work and we often see that quality through the lense of our role. As an engineer, a project will be quality based on our perspective of the code or architecture used to achieve the project. A project manager might focus on how well communication happenned and how close to the original estimates it was delivered. 
+
+But what about your _users_? How do this measure quality?
+
+Speaking for myself (as a user of a lot of software), I really care about one core goal: does this software help me do what I need to do? 
+
+Buried within that idea is a lot of other complexity to sort out. What do you need to do? How do you measure usefulness? Performance wasn't explicity mentioned, but perhaps if it isn't performant _enough_ it won't be helpful.
+
+How do we start to measure quality, then, from a users perspective?
+
+## Enter SLOs
+
+Service Level Objectives (SLOs) are a common way to measure quality focused on the user experience. The idea is relatively simple: identify the critical usecases that your users care about and track how often your software meets those usecases in an acceptable way.
+
+I know, I know: more abstractions idea.
+
+But, ironically, these abstract ideas actually become very concrete very quickly.
+
+Let's take LinkedIn as an example. What are the most common usecases of LinkedIn from a users perspective? Without being exhaustive, maybe we can start with job seekers searching for open roles that meet their skill set.
+
+Within that usecase, what are a few behaviors that the job seeker cares about when searching?
+
+* They care that the job search returns relevant results based on their skills
+* They care that those results are jobs that are still accepting applications
+* They care that those results are returned quickly
+
+While they are many more, we've quickly identified some core features of what helpful software would look like for a job seeker. We are on our way to identifying quality!
+
+The next step involves looking at those behaviors and understanding what is acceptable within each of them. For example, we might could articulate the second and third behaviors like so
+
+* When a user searches for a job, we want to make sure we search against job listings that are up-to-date within 30 minutes
+* What a user searches for job listing, we want to return results in under 5 seconds.
+
+Great! Not only do we now have a set of behaviors that our user cares about, we have a way to see if we are delivering _quality_ into that behavior via a definition of what is an _acceptable_ behavior as well.
+
+But how do we measure it?
+
+## What to Measure?
+
+Each SLO will need to define a Service Level Indicator (SLI) that is used to measure the identified acceptable behavior. 
+
+The second one above is the most interesting. How do you measure or track the freshness of your data? There could be many ways to do this in practice. Perhaps you run test job listings that you update some attribute on every 10 minutes and track how long that attribute shows up in a search. You could track the length of some import ETL job that loads data from a database to an index. Perhaps you don't even track a metric and have an architecture that goes to the same source of data for search as the original writes do. 
+
+All of these measurements will work based on your architecture. The key is you need to identify the trade-offs of each and understand what measurement is most closely aligned with your user's experience.
+
+Once you've identified your SLI and properly instrumented it in your code (tools like DataDog or New Relic will likely pop-up here), there is still one last question: what do you do with this measurement? Do you monitor anytime the measurement exceeds a threshold? How do you account for load across environments?
+
+These are great questions and they actually lead to us to why SLOs are such an important tool.
+
+## The Key to Good SLOs
+
+Now that we know what to measure, we can return to the orignal SLO definition with a bit more insight. To repeat the definition earlier: SLOs identify critical usecases that your users care about and track how often your software meets those usecases in an acceptable way.
+
+The last section showed us how to breakdown a use case and define what is acceptable. Now we can turn to the first part: tracking how _often_ your software behaves within that acceptable definition.
+
+An SLO turns the measured "thing" above and tracks the number of times your software behaved acceptably (or "good") against the total number of times your software acted overall. If we take our third definition from earlier, we might rephrase it now to say
+
+> When a user searches for job listing, we want to 99% of those results to return in under 5 seconds.
+
+Wow. In just a single sentence we've articulated a critical behavior, an acceptable range for that behavior to keep customers happy and a _target objective_ (99%) for how often that behavior is acceptable. 
+
+You might also notice we are using a percentage instead of the original ratio. Using a percentage has several benefits.
+
+First, percentages are fairly intuitive. Many of us were scored on a 0-100% scale in school for tests or projects. The higher the percentage, the better you did. For an SLO the idea is the same. 0% means everything is broken and 100% means everything is working fine.
+
+Second, percentages can (mostly) scale with your load. If you originally serve 1,000 requests a minute and later scale to 100,000 requests per minute, your SLO target need not change. You may, however, realize to hit your SLO you have more engineering work to do (which is subtle hint at the next section).
+
+Last, percentages can make it easy to calculate the idea of an error budget. An error budget represents how many more failures can you tolerate before violating your SLO. This concept is incredibly powerful as you can track your error budget with your SLO target without much extra work and know "hey - we have 500 more failures to before we need violate our SLO". Depending on your load that might mean you need to investigate immediately, or it might mean you have nothing to do (if your load was say 600 requests in your time window).
+
+One final caution about percentages: it may seem that 100% would then be the target of any SLO. But 100% is a _bad_ target for most software! I don't have time to cover all of the details in this article, but suffice it to say that if you were to achieve 100% - a perfectly working piece of software - you now have a piece of software that is too risky to add new features to _and_ that would never be able to tolerate a single failure. This means that you have likely invested _too_ much time into quality and not shipped features to your customers. You would have achieved 100% and have 0 customers.
+
+## When to Invest in Quality
+
+As hinted at in the previous section, SLOs formed in this way make it clear when you need to invest in quality. If SLOs are crafted around customer satisfaction with your software, you've done research to identify the right thresholds (another article perhaps!), and you have the right instrumentation and SLIs to track it, then a failing SLO means you have unsatisfied customers. And we don't want unsatisfied customers.
+
+But was also need to innovate and build new features for our customers too. Your customers care about both quality and innovation. They want your software to help them with the features you have today _and_ by creating new features to help them tomorrow. They will leave without both.
+
+In this way, SLOs go beyond metrics and reporting. In reality, they wind up being decision-making tools for your team. 
+
+Let's return to the story at the begginning of this post. If our team had defined an SLO and our best metrics in a sandboxed environment said we were meeting our targets, the decision would have been much simpler: we would have shipped our software and come back to the refactors later. Inversely, if we had data to proof the edge cases we had identified were impacting our targers (and would lead to unsatisifed customers), we would have had strong evidence we needed to fix those gaps before release.
+
+I can't stress how powerful this last point is. Don't let SLOs _only_ be metrics and reports. Utilize them to make decisions about what you work on next.
+
+## What's the Point?
+
+To quickly summarize, the point of SLOs is this: have a consistent way to identify if your customers are satisfied with your software. SLOs give you the ability to know if you've built in _enough quality_ into your system and helps make decisions on future investments.
+
+And while there is more technical details to implementing SLOs that I haven't fully covered today, the point of an SLO really is that simple.
+
+Happy coding!
+
+---
+
+<i>
+
+If you don't know where to start in creating some for your team, I suggest these _great_ resources:
+
+* [Google's SRE workbook](https://sre.google/workbook/implementing-slos/)
+* [Datadog's SLO overview](https://docs.datadoghq.com/service_management/service_level_objectives/)
+* [Dyantrace's SLO overview](https://www.dynatrace.com/news/blog/what-are-slos/)
+
+</i>
+
