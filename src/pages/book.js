@@ -64,7 +64,7 @@ class Book extends React.Component {
               marginBottom: `10px`
           }}>
 
-            <h2>In this book I cover</h2>
+            <h2>This book walks you through topics like:</h2>
 
           </div>
 
@@ -86,6 +86,10 @@ class Book extends React.Component {
           {
             icon: "🚀",
             description: "The best way to ask for a review to get through the process quickly"
+          },
+          {
+            icon: "🙌",
+            description: "Avoiding common pitfalls that keep reviews stuck in progress"
           }
         ]} />
 
@@ -98,7 +102,7 @@ class Book extends React.Component {
               marginTop: `10px`,
               marginBottom: `10px`
           }}>
-            <h3>This book is the book I wish I could have read a early in my career to avoid the pitfalls around code reviews.</h3>
+            <h3>This book is the book I wish would have existed early in my career!</h3>
             <h3>Signup to know when it's ready for preorder!</h3>
           </div>
 
