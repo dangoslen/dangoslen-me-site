@@ -105,7 +105,7 @@ class Book extends React.Component {
               textAlign: "center"
           }}>
             <h3>This book is the book I wish would have read early in my career!</h3>
-            <h3>Signup to know when it's ready for preorder!</h3>
+            <h3>Remember to signup now to grab your discount on launch day!</h3>
           </div>
 
         <EmailContainer >
