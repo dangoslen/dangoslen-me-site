@@ -40,7 +40,7 @@ class Book extends React.Component {
             <p>But we have great data that show code reviews work. So what's the gap?</p>
             <p><b>The gap is that most engineers were never taught how to effectively review code.</b></p>
             <p>This book aims to help fix that.</p>
-            <p><i>Code Review Champion</i> will teach you how to effectively navigate code reviews to grow you career. From reviewing code to authoring pull requests, and much more, this book will give you practical tools you can use everyday on your team.</p>
+            <p><i>Code Review Champion</i> will teach you how to effectively navigate code reviews to grow your career. From reviewing code to authoring pull requests, and much more, this book will give you practical tools you can use everyday on your team.</p>
             
             <p><b><i>Want 25% off? Enter your email before January 30th and get a discount link on launch day!</i></b></p>
             
