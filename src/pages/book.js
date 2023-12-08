@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql} from "gatsby"
+import { graphql} from "gatsby"
 
 import Img from "gatsby-image"
 
@@ -9,7 +9,6 @@ import SEO from "../components/seo"
 import styled from "styled-components"
 import BookEmail from "../components/book-email"
 import Tiles from "../components/tile"
-import BookReviews from "../components/book-reviews"
 
 class Book extends React.Component {
   render() {
