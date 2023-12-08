@@ -4,19 +4,19 @@ import Tags from "../components/tags"
 
 import styled from "styled-components"
 
-const BlogSummary = ({ node }) => {
+const BlogSummary = ({ node: blog }) => {
     return (
         <div>
             <Title>
-                <BlogLink to={`/blog${node.fields.slug}`}>
-                    {node.frontmatter.title || node.fields.slug}
+                <BlogLink to={`/blog${blog.slug || blog.fields.slug}`}>
+                    {blog.title || blog.frontmatter.title || blog.slug || blog.fields.slug}
                 </BlogLink>
             </Title>
             <Description>
-                <span>{node.frontmatter.date}</span>
-                <Tags tags={node.frontmatter.tags} />
+                <span>{blog.date || blog.frontmatter.date}</span>
+                <Tags tags={blog.tags || blog.frontmatter.tags} />
                 <div>
-                    <span>{node.frontmatter.description || node.excerpt}</span>        
+                    <span>{blog.description || blog.frontmatter.description || blog.excerpt}</span>        
                 </div>
             </Description>
         </div>

@@ -24,7 +24,7 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`dan goslen home page`, `team-driven developer`, `software engineering newsletter`, `software engineering blog`, `software design blog`]}
+          keywords={[`dan goslen blog page`, `team-driven developer`, `software engineering newsletter`, `software engineering blog`, `software design blog`]}
         />
 
         <SplitCard>

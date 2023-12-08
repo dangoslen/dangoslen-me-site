@@ -48,7 +48,7 @@ class BlogPostTemplate extends React.Component {
         <Sharing 
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
-          url={`https://dangoslen.me/blog/${post.frontmatter.path}`}
+          url={`https://dangoslen.me/blog${post.frontmatter.slug}`}
         />
         
         <hr

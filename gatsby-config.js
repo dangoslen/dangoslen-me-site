@@ -200,16 +200,18 @@ module.exports = {
         // required.
         query: `
           {
-            allMarkdownRemark {
+            posts: allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
               nodes {
                 id
-                frontmatter {
-                  path
-                  title
-                  tags
-                  description
+                fields {
+                  slug
                 }
-                rawMarkdownBody
+                frontmatter {
+                  date(formatString: "MMMM DD, YYYY")
+                  title
+                  description
+                  tags
+                }
               }
             }
           }
@@ -227,17 +229,19 @@ module.exports = {
         // List of keys to store and make available in your UI. The values of
         // the keys are taken from the normalizer function below.
         // Default: all fields
-        store: ['id', 'path', 'title', 'tags', 'description'],
+        store: ['id', 'slug', 'path', 'title', 'date', 'tags', 'description'],
 
         // Function used to map the result from the GraphQL query. This should
         // return an array of items to index in the form of flat objects
         // containing properties to index. The objects must contain the `ref`
         // field above (default: 'id'). This is required.
         normalizer: ({ data }) =>
-          data.allMarkdownRemark.nodes.map((node) => ({
+          data.posts.nodes.map((node) => ({
             id: node.id,
+            slug: node.fields.slug,
             path: node.frontmatter.path,
             title: node.frontmatter.title,
+            date: node.frontmatter.date,
             tags: node.frontmatter.tags,
             description: node.frontmatter.description,
             body: node.rawMarkdownBody,

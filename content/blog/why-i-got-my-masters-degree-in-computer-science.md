@@ -16,7 +16,15 @@ image: "../assets/charles-deloye-2roumsg9rnw-unsplash.jpg"
 
 <center>
 
-<i><span>Photo by <a href="https://unsplash.com/@charlesdeloye?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Charles DeLoye</a> on <a href="https://unsplash.com/s/photos/graduation-hat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></i>
+<span class="credit">
+
+<i>
+
+Photo by <a href="https://unsplash.com/@charlesdeloye?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Charles DeLoye</a> on <a href="https://unsplash.com/s/photos/graduation-hat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
+
+</i>
+
+</span>
 
 </center>
 
