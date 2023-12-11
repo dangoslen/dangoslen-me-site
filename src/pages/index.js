@@ -15,7 +15,6 @@ import SEO from "../components/seo"
 import SimpleNewsletterSignup from "../components/simple-newsletter-signup"
 import TeamDrivenDev from "../components/team-driven-dev"
 import { SplitCard } from "../components/split-card"
-import Banner from "../components/banner"
 
 class IndexPage extends React.Component {
   render() {
@@ -25,7 +24,7 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`dan goslen home page`, `team-driven developer`, `software engineering newsletter`, `software engineering blog`, `software design blog`]}
+          keywords={[`dan goslen blog page`, `team-driven developer`, `software engineering newsletter`, `software engineering blog`, `software design blog`]}
         />
 
         <SplitCard>

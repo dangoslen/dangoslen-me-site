@@ -10,7 +10,6 @@ import { SplitCard } from "../components/split-card"
 
 class Book extends React.Component {
   render() {
-    const { data } = this.props
     const siteTitle = "Team-Driven Developer Newsletter"
 
     return (
@@ -53,8 +52,6 @@ class Book extends React.Component {
     )
   }
 }
-
-
 
 const ThankYou = styled.div`
   @media ${Device.tablet} {

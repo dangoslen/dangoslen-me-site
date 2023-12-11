@@ -2,7 +2,7 @@
 path: /know-your-audience
 date: 2023-04-11T00:00:00
 title: Know Your Audience
-description: 
+description: If you want your ideas to spread, you must be able to convey them to others. And the key to that is knowing who you are talking to.
 keywords:
   - know your audience
   - how to communicate clearly

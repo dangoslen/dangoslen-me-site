@@ -1,43 +1,93 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React, { useState, useMemo } from 'react'
+import { useFlexSearch } from 'react-use-flexsearch'
+import { graphql } from "gatsby"
+import styled from 'styled-components'
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BlogSummary from "../components/blog-summary"
 
-class Blog extends React.Component {
-  render() {
-    const { data } = this.props
-    const siteTitle = "Blog"
-    const posts = data.posts.edges
+const mappedDefault = store => {
+  return Object.values(store)
+}
 
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All Posts" description="Dan Goslen's blog on software engineering" />
-      
-        <div style={{ margin: "20px 0 40px" }}>
-          { posts.map(({ node }) => {
-              return ( <BlogSummary node={ node } key={node.fields.slug} /> )
-          })}
+const Search = props => {
+  const { data } = props
+  const { site, localSearchPosts } = data
+  const { siteTitle } = site.siteMetadata
+  const { index, store } = localSearchPosts
 
-          <hr/>
+  const params = new URLSearchParams(props.location.search);
+  const searchQuery = params.get('search')
 
-          <div>
-            <p><span role='img' aria-label='person raising hand'> 🙋 </span> p.s. I'm slowly brining over all of my content from <Link to='https://medium.com/@dangoslen'>Medium</Link>! If you find a missing link, feel free to <Link to='https://github.com/dangoslen/dangoslen-me-site/issues/new'>open an issue in this repo on GitHub </Link>. Thanks!</p>
-          </div>
+  const allPosts = useMemo(() => mappedDefault(store), [store]);
+  const [query, setQuery] = useState(searchQuery || '', null)
+  const [timer, setTimer] = useState(null, null)
+  let results = useFlexSearch(query, index, store)
+  if (query === '') {
+    results = allPosts
+  }
+
+  const handleChange = event => {
+    if (timer != null) {
+      clearTimeout(timer)
+    }
+    
+    const newQuery = event.target.value
+    const newTimer = setTimeout(() => {
+      setQuery(newQuery)
+    }, newQuery === '' ? 100 : 600)
+    setTimer(newTimer)
+  }
+
+  return (
+    <Layout location={props.location} title={siteTitle}>
+      <SEO title="Dan Goslen Blog" description="Dan Goslen's blog on software engineering" />
+
+      <form>
+        <SearchBar
+          type='text' 
+          placeholder='Search a word or phrase or tag...'
+          defaultValue={ searchQuery || '' }
+          onChange={ handleChange } />
+      </form>
+
+      <PostsContainer>
+        { results.map(( node ) => {
+            return ( <BlogSummary node={ node } key={ node.slug } /> )
+        })}
+
+        <div style={{ marginTop: "40px" }}>
 
           <hr/>
 
           <Bio />
 
         </div>
-      </Layout>
-    )
-  }
+
+      </PostsContainer>
+    </Layout>
+  )
 }
 
-export default Blog
+export default Search
+
+const PostsContainer = styled.div`
+  margin: 20px 0px 40px;
+`
+
+const SearchBar = styled.input`
+  margin-top: 10px;
+  margin-bottom: -20px;
+  width: 100%;
+  border-radius: 30px;
+  padding-left: 12px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-color: #d0b6b08a;
+  border-style: solid;
+`
 
 export const pageQuery = graphql`
   query {
@@ -46,24 +96,9 @@ export const pageQuery = graphql`
         title
       }
     }
-    posts: allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            description
-            tags
-          }
-        }
-      }
-    }
-    tags: allMdx {
-      distinct(field: frontmatter___tags)
+    localSearchPosts {
+      index
+      store
     }
   }
 `
