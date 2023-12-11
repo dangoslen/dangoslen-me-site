@@ -57,7 +57,7 @@ class BlogPostTemplate extends React.Component {
           }}
         />
 
-        <p>If you enjoyed this article you should <a href="https://dangoslen.me/newsletter">join my newsletter!</a> Every other Tuesday I send you tools, resources, and a new article to help you build great teams that build great software.</p>
+        <p>If you enjoyed this article, you should <a href="https://dangoslen.me/newsletter">join my newsletter!</a> Every other Tuesday, I send you tools, resources, and a new article to help you build great teams that build great software.</p>
   
         <hr />
           
