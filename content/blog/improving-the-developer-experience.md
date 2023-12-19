@@ -47,7 +47,7 @@ In today's post, I want to talk about how to apply the idea of [Kaizen](https://
 
 I couldn't stop reading the first time I went through [The Phoenix Project](https://www.goodreads.com/en/book/show/17255186). I think I read the whole book in less than a week (which is fast for a slow reader like myself). There was something so relatable about the characters and the setting. It was so relatable, in fact, that some parts were painful to read.
 
-When I picked up [The Unicorn Project](https://www.goodreads.com/book/show/44333183-the-unicorn-project), I had a similar but even more visceral reaction. The author, [Gene Kim],() had somehow found a way to describe every pain point I had experienced in my development career! I read along and cheered (I think out loud) as Maxine navigated the complexities of code and political land mines with persistence and skill.
+When I picked up [The Unicorn Project](https://www.goodreads.com/book/show/44333183-the-unicorn-project), I had a similar but even more visceral reaction. The author, [Gene Kim](https://itrevolution.com/author/gene-kim/), had somehow found a way to describe every pain point I had experienced in my development career! I read along and cheered (I think out loud) as Maxine navigated the complexities of code and political land mines with persistence and skill.
 
 These books (among others) have significantly shaped my views on organizational structure, experimentation, and many other developer-related ideas. But the most important thing it shaped was what the most important work as a developer is: improving daily work.
 
