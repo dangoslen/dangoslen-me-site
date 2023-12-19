@@ -37,7 +37,7 @@ const Search = props => {
     const newQuery = event.target.value
     const newTimer = setTimeout(() => {
       setQuery(newQuery)
-    }, newQuery === '' ? 100 : 600)
+    }, newQuery === '' ? 100 : 550)
     setTimer(newTimer)
   }
 
