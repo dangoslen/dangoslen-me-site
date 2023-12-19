@@ -32,7 +32,6 @@ class Book extends React.Component {
           <TeamDrivenDev />
           
           <ThankYou>    
-            <p>I'm <i>really</i> glad you are here!</p>
             <p>From here on out you'll be getting issues of the Team-Driven Developer Newsletter every other Tuesday!</p>
             <p>Each issue includes tips, tools, and resources to help you build your software team!</p>
             <p>While you are here, take a look around! Here are some of the top resources:</p>
