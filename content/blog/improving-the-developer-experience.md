@@ -1,6 +1,6 @@
 ---
 path: /improving-the-developer-experience
-date: 2023-12-13T21:27:23
+date: 2023-12-19T00:00:00
 title: "One Key to Better Software: Improving the Developmer Experience"
 description: All the software design patterns in the world are for not if devs can't easily contribute code.
 keywords:
