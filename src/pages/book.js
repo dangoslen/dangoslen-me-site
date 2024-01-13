@@ -79,11 +79,11 @@ class Book extends React.Component {
           },
           {
             icon: "🚀",
-            description: "The best way to ask for a review to get through the process quickly"
+            description: "Keeping reviews from getting stuck in the waiting game"
           },
           {
             icon: "🙌",
-            description: "Avoiding common pitfalls that keep reviews stuck in progress"
+            description: "Avoiding the pitfalls that keep reviews stuck in progress"
           }
         ]} />
 

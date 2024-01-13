@@ -49,7 +49,14 @@ const SharingContainer = styled.div`
     @media ${Device.laptopL} {
         bottom: initial;
         top: 240px;
-        right: 260px;
+        right: 180px;
+        flex-direction: column;
+    }
+
+    @media ${Device.laptopXl} {
+        bottom: initial;
+        top: 240px;
+        right: 220px;
         flex-direction: column;
     }
 
