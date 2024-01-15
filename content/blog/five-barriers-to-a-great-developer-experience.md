@@ -53,9 +53,9 @@ Investing your tests is an investment I've never regretted in any codebase. And 
 ## Obstacle Two: Insufferable Setup.
 
 Sadly, many codebases suffer from setup or environment rot. It's hard to have a great experience in a codebase when setup requires:
-manually configuring dependencies like a local database
-copy/pasting secrets across configurations
-installing what feels like an endless set of system libs - and all of them seem broken or outdated
+* manually configuring dependencies like a local database
+* copy/pasting secrets across configurations
+* installing what feels like an endless set of system libs - and all of them seem broken or outdated
 
 If a developer has to go through these manual steps to set up their environment or maintain their environment, it is a headache; something is wrong. Either the setup needs to be simplified, or (more likely) it needs some more attention.
 
@@ -71,9 +71,9 @@ It just takes some intentionality.
 
 A third barrier to developer experience has less to do with code quality and more to do with communication. 
 
-Our code often changes due to either learning more about a domain or developing a new feature to extend the domain. 
+Our code often changes due to either learning more about a domain or developing a new feature to extend the domain. We need to create what Eric Evans calls "Ubiquitous Language" (from [Domain-Driven Design](https://www.goodreads.com/book/show/179133.Domain_Driven_Design)) about that domain.
 
-And when we don't work to maintain our learnings about the domain in our code, it creates confusion.
+And when we don't, it creates confusion.
 
 A developer might read a technical design document or architecture diagram describing a service and the domain it is supposed to own. That dev goes to the code for that service and finds something entirely different from what they expected.
 
@@ -88,10 +88,10 @@ When this happens, you'll notice how much faster it is to get to root causes, un
 ## Obstacle Four: Neverending Nesting
 
 Have you ever worked in a codebase that resembles one of the following?
-Functions that were hundreds of lines long with so many nested `ifs` they took up the whole screen
-Objects with four or five levels of other nested objects - all required in order to build the initial object
-Long inheritance chains where everything calls `super`, and you have to run up the whole chain to understand that `super` does nothing
-Layers and layers of delegates/wrappers that never tell what is actually happening because of the interface. You have to find some class that creates a delegate chain on app startup to find out
+* Functions that were hundreds of lines long with so many nested `ifs` they took up the whole screen
+* Objects with four or five levels of other nested objects - all required in order to build the initial object
+* Long inheritance chains where everything calls `super`, and you have to run up the whole chain to understand that `super` does nothing
+* Layers and layers of delegates/wrappers that never tell what is actually happening because of the interface. You have to find some class that creates a delegate chain on app startup to find out
 
 What is the common theme in all of these scenarios? Cognitive load and difficult code navigation. They also likely have very brittle interactions (more on that later). 
 
@@ -108,10 +108,11 @@ Avoid deep nesting and aim for small composable pieces instead.
 It's challenging to write code and build upon a codebase when every change has the risk of affecting the entire system.
 
 This is what happens when our codeshares too much state
-We use incorrect scopes, leading to side effects in classes
-We don't encapsulate information – everything is public to everyone
-We mix data from actors, thereby making mutations almost unavoidable
-A big lesson for me early on to help here is to have distinct data objects/structs and actors/functions. Even better if you can make your data immutable. If your data must change, it has to change via an operation (function!), resulting in a new value. 
+* We use incorrect scopes, leading to side effects in classes
+* We don't encapsulate information – everything is public to everyone
+* We mix data from actors, thereby making mutations almost unavoidable
+
+A big lesson for me early on was to separate data and operations. Even better if you can make your data immutable. If your data must change, it has to change via an operation (function!), resulting in a new value. 
 
 Additionally, do your best to keep as little state as possible within your application. Any state you do need, organize it and hide it from external classes as much as possible. External classes only get to access the internal state of a class via a method call.
 
