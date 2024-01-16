@@ -1,7 +1,7 @@
 ---
-path: /five-barriers-to-a-great-developer-experience
+path: /five-barriers-preventing-a-great-developer-experience
 date: 2024-01-16T00:00:00.000Z
-title: Five Barriers to a Great Developer Experience
+title: Five Barriers Preventing a Great Developer Experience
 description: Whether it's quality or communication, these are five barriers that is keeping your team from having a great developer experience with your codebase.
 keywords:
   - developer experience
