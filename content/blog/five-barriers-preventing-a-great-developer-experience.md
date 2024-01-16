@@ -40,7 +40,7 @@ Let's dive right in.
 It's hard to have a great experience in a codebase when tests are
 * hard to write or maintain
 * hard to run or take too long
-* report unreliable results (the dreaded [flaky test](https://circleci.com/blog/reducing-flaky-test-failures/)))
+* report unreliable results (the dreaded [flaky test](https://circleci.com/blog/reducing-flaky-test-failures/))
 
 In an ideal world, tests should be simple to write. The ease of your testing is often a good proxy for the quality of your code. Treat your test code like the rest of your code: avoid global scope if you can, stay away from deep inheritance, and prefer simplicity.
 
