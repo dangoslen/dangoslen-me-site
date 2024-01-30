@@ -7,7 +7,6 @@ import Layout from "../components/layout"
 import Device from "../components/sizing"
 import SEO from "../components/seo"
 import styled from "styled-components"
-import BookEmail from "../components/book-email"
 import Tiles from "../components/tile"
 
 class Book extends React.Component {
@@ -125,7 +124,7 @@ class Book extends React.Component {
           }}>
             <h3>This book is the book I wish would have read early in my career</h3>
 
-            <PurchaseButton href="https://store.dangoslen.me/products/code-review-champion?step=checkout">Get it today</PurchaseButton>
+            <PurchaseButton style={{ width: `50%`, margin: `0 auto` }} href="https://store.dangoslen.me/products/code-review-champion?step=checkout">Get it today!</PurchaseButton>
 
           </div>
       </Layout>
