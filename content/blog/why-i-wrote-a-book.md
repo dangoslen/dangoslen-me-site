@@ -1,6 +1,6 @@
 ---
 path: /why-i-wrote-a-book
-date: 2024-01-27T20:01:11
+date: 2024-01-30T20:01:11
 title: Why I Wrote a Book
 description: My answer to the question "Why did you write a book?"
 keywords:
