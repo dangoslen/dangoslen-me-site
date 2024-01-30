@@ -17,10 +17,6 @@ image: "../assets/book-cover.png"
 
 ![](../assets/me-holding-code-review-champion.jpeg)
 
-<span class="credit">
-<i>Look ma! I wrote a book!</i>
-</span>
-
 </center>
 
 Today, I'm launching _[Code Review Champion!](https://dangoslen.me/book)_ I've been working on this book over the past three years and am so excited to get it into the hands of readers!
