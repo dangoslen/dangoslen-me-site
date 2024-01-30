@@ -46,17 +46,21 @@ class Newsletter extends React.Component {
 
         <Tiles tiles={[{
             icon: "📰",
-            description: "A long-form article centered on team-driven software engineering practices",
+            description: "A long-form article",
+            secondary: "focused on software best practices"
           },
           {
             icon: "🤝",
-            description: "A team building exercise so you can take action to improve your team"
+            description: "A team building exercise",
+            secondary: "to help create an incredible team"
           }, {
             icon: "🛠️",
-            description: "Tools you can use in your workflows to improve communication and measure effectiveness"
+            description: "Tools and tips",
+            secondary: "to improve collaboration"
           }, {
             icon: "💼",
-            description: "Additional resources for building teams from around the internet"
+            description: "Additional resources",
+            secondary: "for building teams from around the internet"
           }   
           ]} />
 

@@ -29,13 +29,14 @@ const TagsContainer = styled.div`
 `
 
 const TagSpan = styled.span`
-    padding: 0px 10px;
+    padding: 1px 10px;
     margin: 2px;
     border-radius: 14px;
     background-color: var(--primary);
     a {
       color: white;
       box-shadow: none;
+      text-decoration: none;
     }
     &:hover {
       background-color: var(--primary-hover);

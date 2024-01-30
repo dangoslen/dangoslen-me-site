@@ -28,8 +28,6 @@ Photo by <a href="https://unsplash.com/@charlesdeloye?utm_source=unsplash&amp;ut
 
 </center>
 
-<br/>
-
 I remember when I first told my team lead about possibly going back to school. He simply replied, "You don't need it." and moved on.
 
 I then remember talking to People Services at my company about what it would look like to get my degree part-time while working. They agreed to discuss it, but they didn't think I would actually follow through on anything. "Let us know when you get into a program. We can talk about it further then."
@@ -64,17 +62,17 @@ After a few years of writing code, the itch to go back started to grow more noti
 
 I wouldn't say I was bored. I was learning and growing in my skills. I just recognized that the majority of the problems I was solving were pretty close together. I was being challenged in some ways, but not in the deep, technical understanding of how computers worked.
 
-Around this time, I also started looking for other roles. As I searched, I noticed that most roles I got excited about all mentioned a preference towards a higher degree. I thought this was interesting as I had always it didn't mean that much.
+Around this time, I also started looking for other roles. As I searched, I noticed that most roles I got excited about all mentioned a preference towards a higher degree. I thought this was interesting as I had always thought a higher degree it didn't mean that much in the industry.
 
-I started doing some more research. I took a look at the people around me who had the roles I was wanting to grow into. I realized that many of these people did have some form of a graduate degree, after all. Not enough reason to go back to school on its own, but there seemed to be a correlation between the roles I wanted and an advanced degree.
+I started doing some more research. I took a look at the people around me who had the roles I was wanting to grow into (Staff, Principal, etc.). I realized that many of these people did have some form of a graduate degree, after all. Not enough reason to go back to school on its own, but there seemed to be a correlation between the roles I wanted and an advanced degree.
 
-During this time, I also learned another thing about myself. I had signed up to take all of these online classes, but I never took them. I might start watching a lecture or two but never finish.
+During this time, I also learned another thing about myself. I had signed up to take all of these online classes to learn things like ML or AWS, but I had a hard time finishing them. I might watch a few lectures and do the first assignment but it would always trail off.
 
 Why?
 
-I've come to learn that for me, I need rigorous structure. I need some skin in the game. I need something to keep me pushing through when the content got hard or I got distracted by some other new shiny course to take.
+I've come to learn that for me, I need rigorous structure. I need some skin in the game. I need something to keep me pushing through when the content got hard or I got distracted by some other new shiny course to take. Some might say I needed more discipline. My take is that we all have different ways in which we create discipline and motivation within ourselves. Some people are fine with an online course and create their own schedule. I've simply come to learn that for myself, the additional structure of having a set time for class for a specific duration with deadlines is what helps me stay motivated.
 
-Putting the pieces together, I recognized that I hadn't really fulfilled my desire to learn as much as I wanted. I wasn't growing in the way I wanted to grow in my work. And I recognized that the roles I wanted to move into were employing people with advanced degrees. It made sense.
+I started realizing that I was hungry to learn, but I was going to have to make a change to enable that learning based on my learning style. I wasn't growing in the way I wanted to grow in my work. And I recognized that the roles I wanted to move into were employing people with advanced degrees. 
 
 It was time to go back.
 
@@ -100,7 +98,7 @@ The first thing was to figure out where I would go. After a lot of research, I s
 
 They each had different cost structures too. NC State was the cheapest because I was local while Carnegie was the highest due to out of state tuition, and it being one of the best programs in the country. Portland was in the middle.
 
-I then needed to prepare and take the Graduate Record Examinations or GRE. Man - that was a rough test. I would prepare nearly every morning from around 7:30 to 8:30 before work, and then usually a three to four-hour stretch on Saturdays. I would also usually do a two-hour session on Sundays. I wound up having to take the test twice but got scores I was happy with.
+I then needed to prepare and take the Graduate Record Examinations or GRE. Man - that was a rough test. I would prepare nearly every morning from around 7:30 to 8:30 before work, and then usually a three- or four-hour stretch on Saturdays. I would also usually do a two-hour session on Sundays. I wound up having to take the test twice but got a final score I was happy with.
 
 Once I got the scores I liked, I worked on an application essay, got letters of recommendation from my manager, the director of software at my company, and an old professor - a BIG thank you to them! 
 
@@ -114,13 +112,13 @@ This is the part I think most people struggle with my story on. Why would you wa
 
 Put simply - money. I needed a job. I had also just finished paying back my undergraduate student loans - I didn't want to get new ones.
 
-Additionally, I was gearing up to get married (my girlfriend had moved back to Raleigh shortly after I took the GRE). I would need something more than a minimum wage job or a student job.
+Additionally, I was preparing to get married (my fiancé had moved back to Raleigh shortly after I took the GRE). I would need something more than a minimum wage job or a student job.
 
 My plan was simple: apply to the local program, and if I got in, I would talk to my workplace about how to make it work. If it became clear that my employer was not interested in working it out, I would apply to my dream program at some other time. GRE scores are valid for five years, so I would just have that plan in my back pocket.
 
 ## Getting Accepted and Setting Expectations
 
-Thankfully, I got accepted to the local program - hooray! But this started the most complex part of this process: talking with my employer.
+Thankfully, I got accepted! Hooray! But this started the most complex part of this process: talking with my employer.
 
 While it is a bit of a stereotype, many software engineers are not good with people. Myself included. I am either way to intense and technical, or would rather not speak at all. How was I going to discuss the idea of going to school part-time and reducing my hours on the job? And were my co-workers going to hate me?
 
@@ -144,6 +142,6 @@ To summarize it briefly, I'll put it in bulleted form.
 * As I took inventory of who was employed in the roles I wanted to have, many of them had advanced degrees
 * I was able to land in a unique situation that allowed me to earn my degree without sacrificing industry experience
 
-The next question, of course, is this: "Was it worth it?". I'll answer that in another post soon. If you don't want to miss it, follow me on [Twitter](https://twitter.com/@dangoslen) or [Medium](https://medium.com/@dangoslen) or whatever platform you prefer. I'll make sure you know when it's up :)
+The next question, of course, is this: "Was it worth it?". I'll answer that in another post soon. If you don't want to miss it, follow me on [LinkedIn](https://linkedin.com/in/dangoslen) or [Medium](https://medium.com/@dangoslen) or whatever platform you prefer. I'll make sure you know when it's up :)
 
 Happy coding!

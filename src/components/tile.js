@@ -8,9 +8,10 @@ const Tiles = ({ tiles }) => (
         {
         tiles.map((tile, idx) => {
             return (
-                <Tile>
+                <Tile key={idx}>
                     <TileIcon>{ tile.icon }</TileIcon>
                     <p>{ tile.description }</p>
+                    { tile.secondary && <Secondary>{ tile.secondary }</Secondary> }
                 </Tile>
             )})
         }
@@ -63,6 +64,10 @@ const TileIcon = styled.p`
   display: block;
   align-text: center;
   font-size: 2.2em
+`
+
+const Secondary = styled.p`
+  margin-top: -1.25em;
 `
 
 export default Tiles;
