@@ -27,7 +27,7 @@ class Book extends React.Component {
         <SEO title={ siteTitle } 
             image={ data.image.childImageSharp.resize.src }
             description="Code Review Champion: Embracing the Power of Technical Feedback"
-            keywords={ ["code review", "reviewing code", "code review book", "how to review code", "code review champion"] }
+            keywords={ ["code review book", "how to code review", "book on code reviews", "code review best practices book", "purchase code review book", "how to review code", "code review champion", "technical feedback book", "software engineer code review book", "best book on code reviews"] }
         />
 
         <div style={{
@@ -44,7 +44,7 @@ class Book extends React.Component {
             <p>Code reviews continue to be a point of contention in our industry. Some teams have adopted code reviews wholeheartedly, while others have nearly outlawed the practice. Other teams think they "should" do reviews, but they treat them as a formality or a rubber-stamp.</p>
             <p>But we have great data that show code reviews work. So what's the gap?</p>
             <p><b>The gap is that most engineers were never taught how to effectively review code.</b></p>
-            <p><i>Code Review Champion</i> will teach you how to effectively navigate code reviews to grow your career. From reviewing code to authoring pull requests, and much more, this book will give you practical tools you can use everyday on your team.</p>
+            <p><i>Code Review Champion</i> will teach you how to effectively navigate code reviews to grow your career. From reviewing code to authoring pull requests, and much more, this is the code review book that gives you the practical tools you can use everyday on your team.</p>
           </BookIntroduction>
         </BookSplit>
 
@@ -96,7 +96,7 @@ class Book extends React.Component {
           },
           {
             icon: "🚀",
-            description: "Moving reviews along",
+            description: "Moving code reviews along",
             secondary: "to prevent endless waiting"
           },
           {
@@ -122,9 +122,9 @@ class Book extends React.Component {
               marginBottom: `10px`,
               textAlign: "center"
           }}>
-            <h3>This book is the book I wish would have read early in my career</h3>
+            <h3>This is the book on code reviews I wish I would have had early in my career</h3>
 
-            <PurchaseButton style={{ width: `50%`, margin: `0 auto` }} href="https://store.dangoslen.me/products/code-review-champion?step=checkout">Get it today!</PurchaseButton>
+            <PurchaseButton style={{ width: `50%`, margin: `0 auto` }} href="https://store.dangoslen.me/products/code-review-champion?step=checkout">Buy your copy today!</PurchaseButton>
 
           </div>
       </Layout>
