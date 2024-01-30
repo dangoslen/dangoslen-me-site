@@ -11,6 +11,7 @@ tags:
   - software development lifecycle
   - software engineering
   - devops
+  - changelogs
 image: "../assets/logan-weaver-_-aqiq8y_sy-unsplash.jpg"
 ---
 
