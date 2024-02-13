@@ -10,7 +10,7 @@ keywords:
   - software development lifecycle
 tags:
   - software planning
-  - team-driven developer
+  - team-driven development
 image: "../assets/tim-trad-CLm3pWXrS9Q-unsplash.jpg" 
 ---
 
