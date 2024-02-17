@@ -50,12 +50,12 @@ class Book extends React.Component {
         </BookSplit>
 
         <div style={{ 
-                display: `grid`,
-                alignItems: `center`,
-                justifyContent: `center`,
-                marginTop: `15px`,
-                marginBottom: `1.75em`,
-                textAlign: "center"
+            display: `grid`,
+            alignItems: `center`,
+            justifyContent: `center`,
+            marginTop: `15px`,
+            marginBottom: `1.75em`,
+            textAlign: "center"
         }}>
         
           <PurchaseButton href="https://store.dangoslen.me/products/code-review-champion?step=checkout">Grab your copy!</PurchaseButton>
@@ -65,15 +65,14 @@ class Book extends React.Component {
         <hr />
 
         <div style={{ 
-                display: `grid`,
-                alignItems: `center`,
-                justifyContent: `center`,
-                marginTop: `-40px`,
-                marginBottom: `15px`,
-                textAlign: "center"
+          display: `grid`,
+          alignItems: `center`,
+          justifyContent: `center`,
+          marginBottom: `15px`,
+          textAlign: "center"
         }}>
 
-          <h3>What readers are saying:</h3>
+          <h2 style={{ marginTop: '15px'}}>What readers are saying:</h2>
 
         </div>
 
@@ -87,11 +86,10 @@ class Book extends React.Component {
               display: `grid`,
               alignItems: `center`,
               justifyContent: `center`,
-              marginTop: `-40px`,
               marginBottom: `10px`
           }}>
 
-            <h2>Covers critical topics to help you succeed:</h2>
+            <h2 style={{ marginTop: '15px'}}>Covers critical topics to help you succeed:</h2>
 
           </div>
 
@@ -180,7 +178,7 @@ const BookSplit = styled.div`
 const PurchaseButton = styled.a`
   padding: 10px 50px;
   font-size: 1.3em;
-  border-radius: 20px;
+  border-radius: 13px;
   border: 2px solid;
   background-color: var(--primary);
   color: white;
@@ -214,7 +212,8 @@ const EmailContainer = styled.div`
 `
 
 const ReviewContainer = styled.div`
-  height: 500px;
+  height: 450px;
+  overflow: hidden;
 `
 
 export default Book
