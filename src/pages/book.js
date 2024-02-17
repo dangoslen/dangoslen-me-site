@@ -1,5 +1,5 @@
 import React from "react"
-import { Script, graphql} from "gatsby"
+import { graphql} from "gatsby"
 
 import Img from "gatsby-image"
 
@@ -8,6 +8,7 @@ import Device from "../components/sizing"
 import SEO from "../components/seo"
 import styled from "styled-components"
 import Tiles from "../components/tile"
+import BookReviews from "../components/book-reviews"
 
 class Book extends React.Component {
   componentDidMount() {
@@ -64,14 +65,33 @@ class Book extends React.Component {
         <hr />
 
         <div style={{ 
+                display: `grid`,
+                alignItems: `center`,
+                justifyContent: `center`,
+                marginTop: `-40px`,
+                marginBottom: `15px`,
+                textAlign: "center"
+        }}>
+
+          <h3>What readers are saying:</h3>
+
+        </div>
+
+        <ReviewContainer >
+          <BookReviews />
+        </ReviewContainer>
+
+        <hr />
+
+        <div style={{ 
               display: `grid`,
               alignItems: `center`,
               justifyContent: `center`,
-              marginTop: `10px`,
+              marginTop: `-40px`,
               marginBottom: `10px`
           }}>
 
-            <h2>This book walks you through topics like:</h2>
+            <h2>Covers critical topics to help you succeed:</h2>
 
           </div>
 
@@ -108,13 +128,8 @@ class Book extends React.Component {
 
         <hr />
 
-        {/* <ReviewContainer >
-          <BookReviews />
-        </ReviewContainer>
-
-        <hr /> */}
-
-        <div style={{ 
+        <div 
+          style={{ 
               display: `grid`,
               alignItems: `center`,
               justifyContent: `center`,
@@ -122,7 +137,9 @@ class Book extends React.Component {
               marginBottom: `10px`,
               textAlign: "center"
           }}>
-            <h3>This is the book on code reviews I wish I would have had early in my career</h3>
+            <p style={{ fontSize: '1.5em', fontFamily: "'Merriweather','Georgia','serif'" }}>This is <b>the book</b> I wish I would have had early in my career to help me sidestep the landmines of code reviews.</p>
+
+            <p style={{ fontSize: '1.5em', fontFamily: "'Merriweather','Georgia','serif'" }}><b>I'm confident it will help you in your software career journey!</b></p>
 
             <PurchaseButton style={{ width: `50%`, margin: `0 auto` }} href="https://store.dangoslen.me/products/code-review-champion?step=checkout">Buy your copy today!</PurchaseButton>
 
