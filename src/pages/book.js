@@ -28,7 +28,7 @@ class Book extends React.Component {
         <SEO title={ siteTitle } 
             image={ data.image.childImageSharp.resize.src }
             description="Code Review Champion: Embracing the Power of Technical Feedback"
-            keywords={ ["code review book", "how to code review", "book on code reviews", "code review best practices book", "purchase code review book", "how to review code", "code review champion", "technical feedback book", "software engineer code review book", "best book on code reviews"] }
+            keywords={ ["code review book", "how to code review", "book on code reviews", "code review best practices book", "purchase code review book", "how to review code", "code review champion", "technical feedback book", "software engineer code review book", "best book on code reviews", "buy code review book", "how to perform high-quality code reviews", "books on code reviews"] }
         />
 
         <div style={{
