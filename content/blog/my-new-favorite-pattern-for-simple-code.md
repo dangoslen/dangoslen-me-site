@@ -9,8 +9,9 @@ keywords:
   - software engineering patterns
   - software design
 tags:
-  - programming
-  - patterns
+  - coding
+  - software design
+  - software patterns
 image: "../assets/clay-leconey-eU_S37ZsNmA-unsplash.jpg" 
 ---
 
@@ -47,7 +48,7 @@ In the command Command Pattern language, we have three main components or object
 
 Together, they work like this:
 
-
+![](../assets/command-pattern.png)
 
 As we pointed out earlier, not all commands need a distinct `Receiver` object. Some `Commands` might be trivial enough that they simply store a small function instead of an object. In our diagram above, the `PrintCommand` might merely print the `Command` details to the console. It doesn't need any additional `Receiver` or business logic object to do that. However, the `SaveCommand` or `CopyCommand` might need to know details about _where_ (the `Receiver)` to save or copy to.
 
@@ -73,9 +74,14 @@ A way to bridge this gap is to create what I call an Execution Context or just E
 
 An Execution has a static method called `define()`, which returns an `ExecutionBuilder.` This component uses a fluent API to allow the client to call `withCommand(c: Command)` and `withExecutor(e: Executor)`. The benefit of this approach is that we can change the `Executor` at runtime to any other `Executor`, but we use a constant "style" for doing so. As a component diagram, it looks like this:
 
+![](../assets/execution-builder.png)
+
 This is especially important for packages/libraries that want to expose a default behavior but want to allow for overrides. A library could define another higher-order component, such as an `ExecutorService`, which has a default executor configured upon instantiating that module. 
 
 To make it easy for an application to define a one-off use case with a different `Executor,` the `ExecutorService` could also have a non-static method called `define()`. This method internally creates an `ExecutionBuilder`, supplies the default `Executor` to it, and then returns the `ExecutionBuilder` to the client. 
+
+![](../assets/executor-service.png)
+
 
 The result? The client can supply its `Command` to the builder and easily supply its own `Executor` as well. You can even use an extension to allow the `ExecutionBuilder` to have a fluent API for defining the `Command` itself, which makes for extremely declarative and easy-to-understand code. 
 

@@ -9,7 +9,8 @@ keywords:
   - patterns code
   - software design
 tags: 
-  - software engineering
+  - software patterns
+  - software design
   - coding
 image: "../assets/1_s-smr49rffj0kibfsz98fa.jpeg"
 ---
