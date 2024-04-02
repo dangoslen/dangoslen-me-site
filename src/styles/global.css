@@ -30,3 +30,15 @@
 .main ol, ul {
     margin-left: 14px;
 }
+
+/* .book-review-wrapper:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.book-review-wrapper:nth-child(odd) .book-review-content {
+    margin-right: 20px !important;
+}
+
+.book-review-wrapper:nth-child(odd) .book-review-image {
+    margin-right: 0px !important;
+} */

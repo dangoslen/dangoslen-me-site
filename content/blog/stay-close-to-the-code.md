@@ -89,7 +89,7 @@ Lastly, find unstructured time to mess with the code. I've learned so much from 
 
 All this to say: find ways to stay close to the code. You'll be a better mentor, a better engineer, and make better technical decisions.
 
-This might change if you move into being a manager or potentially even a staff level engineer. Those roles have different responsbilities and a wider breadth than that of a senior engineer dedicated to one team. 
+This might change if you move into being a manager or potentially even a staff level engineer. Those roles have different responsibilities and a wider breadth than that of a senior engineer dedicated to one team. 
 
 But until then...
 

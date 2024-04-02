@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 import Menu from "../components/menu"
-import Banner from "./banner"
 
 import { rhythm } from "../utils/typography"
 
@@ -11,14 +10,6 @@ class Layout extends React.Component {
     
     return (
       <div>
-        <Banner 
-          name="announcement-banner-book"
-          text="🎉 Code Review Champion is available now!" 
-          cta="Grab your copy today!"
-          link="/book" 
-          color="#d69066" 
-          delay={ 5 }
-          />
         <Header>
           <div
             style={{

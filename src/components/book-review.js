@@ -3,11 +3,11 @@ import styled from "styled-components"
 import Device from "../components/sizing"
 
 const BookReview = props => (
-    <BookReviewWrapper>
-        <Cover>
+    <BookReviewWrapper className="book-review-wrapper">
+        <Cover className="book-review-cover">
             <img src={ props.coverUrl } />
         </Cover> 
-        <Review>
+        <Review className="book-review-content">
             <h2><i><a href={props.link}>{props.title}</a> by {props.author}</i></h2>
 
             { props.children }
