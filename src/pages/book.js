@@ -83,7 +83,23 @@ class Book extends React.Component {
 
         <hr />
 
+        <h3 style={{ marginTop: '5px', textAlign: `center`}}>Hear how Anthony used this book to excel at code reviews from day one.</h3>
+
         <div style={{ 
+              display: `grid`,
+              alignItems: `center`,
+              justifyContent: `center`,
+              marginBottom: `10px`
+          }}>
+
+
+          <iframe width="500px" height="282px" src="https://embed-v2.testimonial.to/v/5595b163-ebaf-43c9-b9e5-32f9440a8df1" frameborder="0" scrolling="no" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style={{ maxWidth: `100%;`}}></iframe>
+
+        </div>
+
+        <hr />
+
+          <div style={{ 
               display: `grid`,
               alignItems: `center`,
               justifyContent: `center`,

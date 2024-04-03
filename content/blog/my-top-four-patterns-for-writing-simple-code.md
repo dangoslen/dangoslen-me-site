@@ -169,7 +169,7 @@ class HeadersEnricher implements Enricher<Headers> {
 
 Where I particularly find this useful is when you need to, well, enrich an object with new state. For instance, if you have an object coming from a Kafka stream that needs to have some data added to before you store it in a data warehouse, the enricher pattern could work well.
 
-- - -
+---
 
 Those are just some of my favorite go-to patterns for writing simple code. It’s not an exhaustive list by any means, but I use these patterns every day to solve coding problems. Just some more tools to add to your coding tool belt.
 
