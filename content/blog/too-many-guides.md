@@ -1,8 +1,8 @@
 ---
 path: /too-many-guides
 date: 2024-04-14T15:01:58
-title: "Too Many Guides: The Problem with a How-To for Everything"
-description: 
+title: "Too Many Guides"
+description: There are many guides, bu no path
 keywords:
   - software engineering
   - software engineering documentation
@@ -17,7 +17,7 @@ image: "../assets/sean-benesh-tYhCTqhdx_8-unsplash.jpg"
 
 <center>
 
-!["A man in a hard hat and harness on a trail"](/assets/sean-benesh-tYhCTqhdx_8-unsplash.jpg)
+!["A man in a hard hat and harness on a trail"](../assets/sean-benesh-tYhCTqhdx_8-unsplash.jpg)
 
 <span class="credit">
 
@@ -73,7 +73,19 @@ Before telling anyone how to get anywhere, we have to know where we are going an
 
 We need a map.
 
-### The Missing Map
+<center>
+
+!["An old map of the US"](../assets/ioann-mark-kuznietsov-gtCWBwbZNpM-unsplash.jpg)
+
+<span class="credit">
+
+Photo by <a href="https://unsplash.com/@mrrrk_smith?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ioann-Mark Kuznietsov</a> on <a href="https://unsplash.com/photos/country-map-on-brown-wooden-surface-gtCWBwbZNpM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+</span>
+
+</center>
+
+<h3 style="margin-top: 0px;"> The Missing Map </h3>
 
 Without a map, it's hard to understand where you are and where you want to go. 
 
