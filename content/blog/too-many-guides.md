@@ -2,7 +2,7 @@
 path: /too-many-guides
 date: 2024-04-14T15:01:58
 title: "Too Many Guides"
-description: There are many guides, bu no path
+description: There are many guides, but no path
 keywords:
   - software engineering
   - software engineering documentation
