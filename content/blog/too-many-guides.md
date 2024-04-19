@@ -63,9 +63,9 @@ The intention here is good—great even—but it often produces more confusion t
 
 I believe this happens for three core reasons:
 
-1) The root cause is never addressed. If there is an issue with environment setup, can you solve the issue directly instead of writing a guide on how to get around it? If a routine task is complex enough to need a guide, can you simplify the task with code or automation?
-2) Guides are often neglected. Because How-Tos are often sought out when we have a problem or need to perform a task, the guide is read infrequently. A good example is an onboarding guide. The onboarding guide is only used when, well, onboarding, so it falls out of date the moment a new hire completes it. If the environment or technology used within the team changes, the first thing a new hire does is "fix the onboarding guide," even though it will likely be wrong in a few months again
-3) Guides are often identified to solve a _specific_ problem (How-to Fix "ERROR P022") or narrowly defined process (Hot-To get your SSH key setup). But what happens when an engineer faces a series of problems or needs to complete a set of steps to accomplish a single goal? In this case, the engineer is left to finish the first How-To only to find the next problem/step and then search for another guide, etc. 
+1. The root cause is never addressed. If there is an issue with environment setup, can you solve the issue directly instead of writing a guide on how to get around it? If a routine task is complex enough to need a guide, can you simplify the task with code or automation?
+2. Guides are often neglected. Because How-Tos are often sought out when we have a problem or need to perform a task, the guide is read infrequently. A good example is an onboarding guide. The onboarding guide is only used when, well, onboarding, so it falls out of date the moment a new hire completes it. If the environment or technology used within the team changes, the first thing a new hire does is "fix the onboarding guide," even though it will likely be wrong in a few months again
+3. Guides are often identified to solve a _specific_ problem (How-to Fix "ERROR P022") or narrowly defined process (Hot-To get your SSH key setup). But what happens when an engineer faces a series of problems or needs to complete a set of steps to accomplish a single goal? In this case, the engineer is left to finish the first How-To only to find the next problem/step and then search for another guide, etc. 
 
 The last reason of those three is what I want to focus on for the rest of this article. How can we help an engineer navigate the maze of documentation to accomplish their actual goal (setting up their machine, deploying a new service, building a codebase, etc.)? 
 
@@ -99,7 +99,7 @@ Okay, so now we know where we are and where we want to go. This is where a map r
 
 A map contains the set of roads, trails, or ways to get from where you are to where you want to go. You can trace and explore the various paths to find your destination. With smartphones or GPS tools, you don't even need to figure out the directions yourself! By knowing the road systems or trails available, you can basically go anywhere you need to.
 
-But here is the key: the roads or trails need to a) exist and b) be on the map. I remember driving around with my grandparents before any of this existed. They would have HUGE maps to help us get around, but the roads in the local towns would inevitably be different than what published map indiciated. We'd find ourselves pulling to the side of the road to ask someone for directions. These "mini-guides" would help us bridge the gap between what the map could tell us and what we couldn't know.
+But here is the key: the roads or trails need to a) exist and b) be on the map. I remember driving around with my grandparents before any of this existed. They would have HUGE maps to help us get around, but the roads in the local towns would inevitably be different than what the published map indicated. We'd find ourselves pulling to the side of the road to ask someone for directions. These "mini-guides" would help us bridge the gap between what the map could tell us and what we couldn't know.
 
 But what happens when the trail or road doesn't exist at all? Well - it might be time to build it.
 
