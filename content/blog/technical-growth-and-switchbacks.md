@@ -73,15 +73,15 @@ I hope to add to the discussion how I've started to view the skill development r
 
 As [Sahil Bloom](https://www.sahilbloom.com/) talks about, people often look for opportunities without investing time in skill development. If you find a great opportunity but haven't developed the proper skills to take it on, you'll miss out.
 
-To be clear, you don't need to have mastered every skill required to take on a new challenge. Challenge is how we grow! You have to find the opporutnity that matches Flow sate: just beyond your current skills, but not so far that you're likely to fail.
+To be clear, you don't need to have mastered every skill required to take on a new challenge. Challenge is how we grow! You have to find the opportunity that matches Flow sate: just beyond your current skills, but not so far that you're likely to fail.
 
 To be prepared for those opportunities, you must develop your skill sets along the way.
 
-The new "view" I described earlier was understanding that this skill development looks a lot like switchbacks on a trail. Switchbacks are a way to climb a mountain that involves the trail going "back and forth" up the mountain rather than a direct line (sounds like growth, doesn't it?). As you hike the switchbacks, you'll often pass the same scenery over and over again but gain new perspectives as you climb higher and higher.
+The new "view" I described earlier was understanding that this skill development looks a lot like switchbacks on a trail. Switchbacks are a way to climb a mountain that involves the trail going "back and forth" up the mountain rather than a direct line (sounds like growth, doesn't it?). In this context, the switchbacks are "upside down" - instead of getting smaller as you climb higher, they only get broader.
 
-Eventually, switchbacks will naturally move to a new area or section of the mountain. You'll keep doing the back-and-forth pattern but cover different terrain. It won't happen all at once, but you'll suddenly realize, "Oh, this is different now."
+As you hike the switchbacks, you'll often pass the same scenery over and over again but gain new perspectives as you climb higher and higher Eventually, switchbacks will naturally move to a new area or section of the mountain. You'll keep doing the back-and-forth pattern but cover different terrain. It won't happen all at once, but you'll suddenly realize, "Oh, this is different now."
 
-It seemed to me this is how we tend to develop our skills. At each level, we will both broaden our skills through acquisition (learning new leadership, business strategy, or people skills, etc.) while also deepening our existing skills through new perspectives and repetition (learning the nuances of communication, building better judgment of technical decisions, etc.). We gradually climb higher and higher, even though the incline itself is (usually) not so steep.
+It seemed to me this is how we tend to develop our skills: at each level, we will both broaden our skills through acquisition (learning new leadership, business strategy, or people skills, etc.) while also deepening our existing skills through new perspectives and repetition (learning the nuances of communication, building better judgment of technical decisions, etc.). We gradually climb higher and higher, even though the incline itself is (usually) not so steep. It might look something like this.
 
 ![](../assets/career-path-skills.png)
 
