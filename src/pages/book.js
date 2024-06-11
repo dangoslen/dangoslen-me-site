@@ -77,9 +77,7 @@ class Book extends React.Component {
 
         </div>
 
-        <ReviewContainer >
-          <BookReviews />
-        </ReviewContainer>
+        <BookReviews />
 
         <hr />
 
@@ -93,7 +91,7 @@ class Book extends React.Component {
           }}>
 
 
-          <iframe width="500px" height="282px" src="https://embed-v2.testimonial.to/v/5595b163-ebaf-43c9-b9e5-32f9440a8df1" frameborder="0" scrolling="no" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style={{ maxWidth: `100%;`}}></iframe>
+          <iframe width="520px" height="292px" src="https://embed-v2.testimonial.to/v/5595b163-ebaf-43c9-b9e5-32f9440a8df1" frameborder="0" scrolling="no" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style={{ maxWidth: `100%;`}}></iframe>
 
         </div>
 
@@ -220,17 +218,6 @@ const BookCoverWrapper = styled.div`
 `
 
 const BookIntroduction = styled.div`
-`
-
-const EmailContainer = styled.div`
-  form {
-    margin: 0 auto;
-  }
-`
-
-const ReviewContainer = styled.div`
-  height: 450px;
-  overflow: hidden;
 `
 
 export default Book
