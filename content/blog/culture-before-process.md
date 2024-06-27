@@ -1,8 +1,8 @@
 ---
 path: /culture-before-process
-date: 2024-06-00:00:00
+date: 2024-06-27T00:00:00Z
 title: Culture Before Process
-description: Bad process is everywhere, but the best way to improve it is being focusing on your culture.
+description: Bad process is everywhere, but the best way to improve it is being focusing on your culture. 
 keywords:
   - software process
   - culture instead of process
