@@ -11,7 +11,7 @@ tags:
   - team-driven development 
   - software engineering
   - software planning
-image: "../../assets/homa-appliances-_XDK4naBbgw-unsplash.jpg " 
+image: "../assets/homa-appliances-_XDK4naBbgw-unsplash.jpg" 
 ---
 
 <center>
