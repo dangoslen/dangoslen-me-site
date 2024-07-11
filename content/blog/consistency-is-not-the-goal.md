@@ -37,7 +37,7 @@ As I've grown in my career, I've now come to realize that while consistency is a
 
 ## Consistency Isn't the Goal
 
-Before going on, let's first emphasize consistency is _good_. Being consistent in creating and practicing daily habits that lead to health, knowledge, etc. are great tools for our growth. Being consistent in how we treat others is good too.
+Before going on, let's first emphasize consistency is _good_. Being consistent in creating and practicing daily habits that lead to health, knowledge, etc. are [great tools for our growth](https://dangoslen.me/blog/identity-goals-systems/). Being consistent treating others with respect and kindness is important too.
 
 But in our software development, it's not nearly as important. There are benefits, of course, in some areas of our systems. Things like:
 
@@ -58,7 +58,7 @@ Instead of having a codebase in which engineers have spent some time applying cr
 
 ## Pattern Hunting
 
-I've written about patterns previously, and have tilted my hand that while patterns are useful we tend to overuse them in many contexts. 
+I've written about patterns previously, and have tilted my hand that while patterns are useful [we tend to overuse](https://dangoslen.me/blog/our-obsession-with-patterns/) them in many contexts. 
 
 One of the core reasons why we overuse them is we've stopped using them to solve problems we encounter. Instead, we go looking for places to implement a pattern we've learned about or seen elsewhere. While it might sound similar, it's dramatically different. In the former, you have a problem to solve and research the right solutions or patterns to use to help solve it. 
 
@@ -68,7 +68,7 @@ This graph below shows a common (and somewhat caricatured) view of how engineers
 
 ![](../assets/seniority-pattern-curve.jpeg)
 
-<credit>
+<span class="credit">
 
 <center>
 
@@ -80,7 +80,7 @@ Credit to [Rob Kerr's](https://www.linkedin.com/pulse/complexity-unlearning-curv
 
 </center>
 
-</credit>
+</span>
 
 Many engineers will quickly point out that abstractions and interfaces are important and critical parts of writing good software. And they are write! 
 
