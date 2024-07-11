@@ -29,7 +29,7 @@ Photo by <a href="https://unsplash.com/@hudsoncrafted?utm_content=creditCopyText
 
 </center>
 
-Way back in one of my first software internships, I remember overhearing a conversation from another engineer. I don't remember much of the details, honestly, except that this one engineer was pretty frustrated with another about some recent code that was checked in. His last line was "Let's be consistent." as he walked back to his own cubicle.
+Way back in one of my first software internships, I remember overhearing a conversation from another engineer. I don't remember much of the details, honestly, except that this one engineer was pretty frustrated with another about some recent code that was checked in. His last line was "Let's be consistent." as he walked back to his own cubicle, clearly agitated.
 
 As I mentioned, I don't know all the details of _what_ apparently needed to be consistent, but it stuck with me (clearly). I carried it through my first few professional years as an engineer. I wanted to write consistent, clear, crisp code. It felt like an unspoken rule that great codebases _were_ consistent with no exceptions.
 
