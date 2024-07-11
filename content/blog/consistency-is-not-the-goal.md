@@ -82,7 +82,7 @@ Credit to [Rob Kerr's](https://www.linkedin.com/pulse/complexity-unlearning-curv
 
 </span>
 
-Many engineers will quickly point out that abstractions and interfaces are important and critical parts of writing good software. And they are write! 
+Many engineers will quickly point out that abstractions and interfaces are important and critical parts of writing good software. And they are right! 
 
 The difference in the chart is the between those engineers that understand them wield them as a tool vs. others who are trying to "do what experts do." The later - "consistency for consistencies sake" - leads to one thing: a mess.
 
