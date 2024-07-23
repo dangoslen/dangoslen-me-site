@@ -64,7 +64,7 @@ We all know feedback is critical to our growth. Not only can feedback be [hard t
 
 There are two core key categories to focus on
 
-1. Technical
+**1. Technical**
 
 Whether it's code, a design, or a technical document, ask for direct and specific feedback on your work around a particular topic you want to grow in. A great way to do this is to find an engineer who you 1) trust and 2) is at least one level already of you in the skill you are wanting to improve.
 
@@ -72,7 +72,7 @@ It's important to be specific "Can you give feedback on how I'm designing this A
 
 In my own career, I remember a time when I asked a manager to give me much more thorough and pointed feedback on some of my technical documents several years ago. His feedback was instrumental in helping me learn to write clearer and amazingly shorter documents.
 
-2. Interpersonal
+**2. Interpersonal**
 
 This one is a bit tricky, but it's important to remember that the best ideas or technical skills don't mean much if you can't communicate - and you'll make it harder on yourself to communicate ideas to others if others don't _want_ to work with you. You need to find out if you are rubbing someone the wrong way and what you can do about it.
 
