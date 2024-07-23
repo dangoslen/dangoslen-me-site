@@ -6,9 +6,9 @@ description: Feedback is something we all deal with in the workplace. And we are
 keywords:
   - giving feedback
   - receiving feedback
-  - why is feedback hard
+  - why is feedback hard to hear
 tags:
-  - leadership
+  - feedback
   - career
   - communication
 image: "../assets/chairulfajar_-wR5u40w3GMw-unsplash.jpeg"
