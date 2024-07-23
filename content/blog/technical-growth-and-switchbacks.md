@@ -11,6 +11,7 @@ keywords:
 tags:
   - career
   - leadership
+  - growth
 image: "../assets/fineas-anton-5nKYzULQY_M-unsplash.jpg"
 ---
 
