@@ -44,7 +44,7 @@ class Book extends React.Component {
           <BookIntroduction>    
             <p><b>Code reviews can be frustrating. </b>Conflict can arise, reviews can be slow, or reviewers might be too intimidated to leave their feedback.</p>
             <p>And with <a href="https://www.linkedin.com/pulse/best-practices-impact-code-review-productivity-timelines">84%</a> of companies using code reviews, engineers are bound to encounter them sooner or later.</p>
-            <p>Instead of avoiding code reviews or doing the bare minimum when them come your way, what if you could learn the skills to provide effective feedback and get your own code reviewed quickly too?</p>
+            <p>Instead of avoiding code reviews or doing the bare minimum when they come your way, what if you could learn the skills to provide effective feedback and get your own code reviewed quickly too?</p>
             <p><b><i>Code Review Champion</i> can show you how.</b></p>
             <p>This short book will teach you how to effectively navigate code reviews to grow your career. From reviewing code to authoring pull requests, and much more, this is the code review book that gives you the practical tools you can use everyday on your team.</p>
           </BookIntroduction>
