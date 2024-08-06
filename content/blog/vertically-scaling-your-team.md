@@ -57,17 +57,19 @@ Why is this the case? A few reasons:
 
 But scaling a team is difficult. Even if we focus on communication alone, once you pass three engineers, the lines of communication increase faster than the rate of adding another teammate.
 
+<center>
+
 ![](../assets/Applying-Brooks-Law-communication.webp)
 
 <span class="credit">
 
-<center>
-
 <i>Graphic by <a href="https://www.leadingagile.com/2018/02/lines-of-communication-team-size-applying-brooks-law/">Dave Nicoletta</a></i>
+
+</span>
 
 </center>
 
-</span>
+
 
 Additionally, adding a new teammate is much more time-intensive than adding a node to a worker pool. There is a lengthy hiring process (which requires time from the existing team) and then usually a multi-month timeline before they start making meaningful contributions. If you are in a crunch, horizontally scaling your team won't work.
 
