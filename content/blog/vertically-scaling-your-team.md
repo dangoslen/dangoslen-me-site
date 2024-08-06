@@ -11,8 +11,24 @@ keywords:
 tags:
   - team-driven development
   - scale
-image: "../assets/natalie-pedigo-wJK9eTiEZHY-unsplash.jpeg" 
+image: "../assets/calum-macaulay-TU1b56dfn2A-unsplash.jpg" 
 ---
+
+<center>
+
+![](../assets/calum-macaulay-TU1b56dfn2A-unsplash.jpg)
+
+<span class="credit">
+
+<i>
+
+Photo by <a href="https://unsplash.com/@calum_mac?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Calum MacAulay</a> on <a href="https://unsplash.com/photos/closeup-photography-of-brown-analog-scale-TU1b56dfn2A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+</i>
+
+</span>
+
+</center>
 
 "Does it scale?"
 
