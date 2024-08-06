@@ -63,7 +63,7 @@ But scaling a team is difficult. Even if we focus on communication alone, once y
 
 <center>
 
-<i>Graphic by [Dave Nicoletta](https://www.leadingagile.com/2018/02/lines-of-communication-team-size-applying-brooks-law/)</i>
+<i>Graphic by <a href="https://www.leadingagile.com/2018/02/lines-of-communication-team-size-applying-brooks-law/">Dave Nicoletta</a></i>
 
 </center>
 
