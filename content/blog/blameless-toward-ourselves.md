@@ -29,7 +29,7 @@ Photo by <a href="https://unsplash.com/@chrumo?utm_content=creditCopyText&utm_me
 
 </center>
 
-Blamelessness has been a big focus amongst engineering organizations for a few years (at least from my view). From books to blogs (including [this one](https://dangoslen.me/blog/whats-the-point-of-blameless-postmortems/)) and even whole [software products](https://www.blameless.com/), we've seen a rise towards engineering teams trying to create a psychologically safe environment where failure leads to learning instead of firing.
+Blamelessness has been a big focus amongst engineering organizations for a few years (at least from my view). From books to blogs (including [my own articles](https://dangoslen.me/blog/whats-the-point-of-blameless-postmortems/)) and even whole [software products](https://www.blameless.com/), we've seen a rise towards engineering teams trying to create a psychologically safe environment where failure leads to learning instead of firing.
 
 But in this (I think healthy) push for such an environment, one relationship within a blameless culture is often overlooked:
 
