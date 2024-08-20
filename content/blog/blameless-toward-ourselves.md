@@ -1,14 +1,15 @@
 ---
-path: /being-blameless-when-you-are-to-blame
+path: /blameless-toward-ourselves
 date: 2024-08-19T20:06:00
-title: Being Blameless When You're to Blame
-description: 
+title: Blameless Toward Ourselves
+description: We have to extend a blameless culture not just to others, but towards ourselves.
 keywords:
   - blameless culture software
   - psychological safety software
   - don't blame yourself
 tags:
-  - tag
+  - career
+  - team-driven development
 image: "../assets/piotr-chrobot-M0WbGFRTXqU-unsplash.jpg" 
 ---
 
