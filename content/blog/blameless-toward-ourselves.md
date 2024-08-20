@@ -2,7 +2,7 @@
 path: /blameless-toward-ourselves
 date: 2024-08-19T20:06:00
 title: Blameless Toward Ourselves
-description: We have to extend a blameless culture not just to others, but towards ourselves.
+description: We have to extend a blameless culture not just to others, but toward ourselves.
 keywords:
   - blameless culture software
   - psychological safety software
