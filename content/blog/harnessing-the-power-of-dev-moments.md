@@ -25,7 +25,6 @@ image: "../assets/karsten-wurth-0w-uTa0Xz7w-unsplash.jpg"
     
 Photo by <a href="https://unsplash.com/@karsten_wuerth?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Karsten Würth</a> on <a href="https://unsplash.com/photos/windmill-on-grass-field-during-golden-hour-0w-uTa0Xz7w?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
-
 </i>
 
 </span>
@@ -36,7 +35,7 @@ Many developers are aware of the power of gamification. From video games to boar
 
 This idea has even seeped into how we talk about career progression. We talk about level-ing up when we want new skills or are hoping to get promoted. We assign levels across corporations to our roles. 
 
-I've been thinking about this recently as I've been reading a book called [The Power of Moments](). It talks a lot about how we miss out on pivotal moments in our lives, careers, and organizations that with a little bit of effort can increase engagement and happiness.
+I've been thinking about this recently as I've been reading a book called [The Power of Moments](https://www.goodreads.com/book/show/34466952-the-power-of-moments). It talks a lot about how we miss out on pivotal moments in our lives, careers, and organizations that with a little bit of effort can increase engagement and happiness.
 
 I'm not going to cover the entire book, but it has left me wondering: what moments in our development teams are we missing out on that would increase out teams' engagement and happiness?
 
@@ -79,7 +78,7 @@ If you try to automate too much, or try to fit it as a quick shout-out in anothe
 
 ## An Example of Harnessing Moments Effectively
 
-A small example of how to harness momements effectively isn't taken from a software team or repo, but by a tool I used called [Grammarly]() (not an affliate link btw). I've been using Grammarly for a few years, but was has impressed me is how the send me a weekly email that includes milestones I've reached.
+A small example of how to harness momements effectively isn't taken from a software team or repo, but by a tool I used called [Grammarly](https://www.grammarly.com/) (not an affliate link btw). I've been using Grammarly for a few years, but was has impressed me is how the send me a weekly email that includes milestones I've reached.
 
 For example, I'm on a 44-week writing streak on Grammarly. They let me know each week that I extend that streak, which is a great way to ["not break the chain"](https://todoist.com/inspiration/dont-break-the-chain). They show it in a badge too as oppossed to just basic text.
 
