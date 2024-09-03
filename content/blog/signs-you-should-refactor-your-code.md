@@ -36,7 +36,7 @@ Refactoring is a useful skill to have. Knowing how to properly refactor code can
 
 It's akin to knowing a handful of patterns or general algorithmic techniques. When faced with a new problem, most developers will apply patterns or algorithms they already know to solve new ones. Do you need to create different handlers for different event types? Using an abstract factory or flyweight pattern with a map data structure is a good starting spot. Do you need to search through a list of items that are always in sorted order? Using a binary search is what is you want.
 
-Having a set of refactoring tools in your proverbial coding toolbox when faced with messy cod is the same idea. You can apply general refactoring patterns to the code right in front of you to make refactoring easier. Your energy and effort can stay focused on the actual problem you need to solve, not the refactor to enable it.
+Having a set of refactoring tools in your proverbial coding toolbox when faced with messy code is the same idea. You can apply general refactoring patterns to the code right in front of you to make refactoring easier. Your energy and effort can stay focused on the actual problem you need to solve, not the refactor to enable it.
 
 I won't go over the common refactoring patterns in this post - it would be too extensive (though I might post about them in the future!). You can find summaries of the ones from Martin Fowler's excellent book [Refactoring](https://amzn.to/3jFSSqH) over at [refactoring.com](https://refactoring.com/catalog/).
 

@@ -132,7 +132,7 @@ module.exports = {
         resolvePages: ({ allMdx: { nodes: posts } }) => {
           const entries = posts.map(post => {
             return {
-              path: `/blog/${post.slug}`,
+              path: `/blog/${post.slug}/`,
               lastmod: post.frontmatter.date,
               changefreq: 'weekly',
               priority: 0.7,
