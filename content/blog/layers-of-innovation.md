@@ -30,9 +30,9 @@ Photo by <a href="https://unsplash.com/@cbpsc1?utm_content=creditCopyText&utm_me
 
 </center>
 
-Software companies love to talk about innovation. Whether they are building a product that will "revolutionize the way teams do X" or will "disrupt the market", there is real value in convincing investors your company is doing something unique and innovative.
+Software companies love to talk about innovation. Whether they are building a product that will "revolutionize the way teams do X" or will "disrupt the market", there is real value in convincing investors that a company is doing something unique and innovative.
 
-You'll also see this idea on job postings or in advice on how to grow your career. To get to the next level, you must innovate, challenge the status quo, and bring new ideas to your teams. 
+You'll also see this idea on job postings or in advice on how to grow your career. "To get to the next level, you must innovate, challenge the status quo, and bring new ideas to your teams."
 
 But we've also heard the tried-and-true adage, "Don't reinvent the wheel" or "Don't forget the basics." 
 
