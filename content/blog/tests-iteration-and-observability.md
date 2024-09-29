@@ -2,7 +2,7 @@
 path: /tests-iteration-and-observability
 date: 2024-09-29T12:57:08
 title: "Inspection, Iteration, and Observability: Three Components for Building Excellent Systems"
-description: 
+description: "No software challenge is unsolvable with these three behaviors"
 keywords:
   - iterative development
   - inspection in software development
