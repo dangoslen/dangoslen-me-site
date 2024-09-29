@@ -32,8 +32,8 @@ Photo by <a href="https://unsplash.com/@timmossholder?utm_content=creditCopyText
 
 If you're a frequent reader of this blog and newsletter, you know I'm a big advocate for two core components for building software:
 
-* Iterative development (constant refactoring, focused deliverables, learning as we go, etc.)
-* and Observability (define metrics up front, measure and experiment, signals for success and not just failure, etc.)
+* [Iterative development](https://dangoslen.me/tags/iterative-development) (constant refactoring, focused deliverables, learning as we go, etc.)
+* [Observability](https://dangoslen.me/tags/observability) (define metrics up front, measure and experiment, signals for success and not just failure, etc.)
 
 I'm a firm believer that by making small changes all the time to our system and seeing the results within the system of those changes via observability we will build better software overtime.
 
@@ -53,7 +53,7 @@ When we talk about testing in software, we always jump to tests that focus on th
 
 For example, do we test our architecture or design for our systems? Or do we copy from the internet what everyone else is doing because "reasons"? Testing in this case isn't focused so much on the logical correctness of the system, but on it's ability to scale or meet changing demands of the business use case. Pressure testing is often the term used for this behavior.
 
-Another example from [Will Larson]() is one-level higher. He recommends the idea of testing your strategy before going into much further detail about design or implementation details. The idea: can you quickly try something, learn from it, and have data to inform if the strategy itself is sound?
+Another example from [Will Larson](https://www.linkedin.com/feed/update/urn:li:activity:7245070655853862913/) is one-level higher. He recommends the idea of testing your strategy before going into much further detail about design or implementation details. The idea: can you quickly try something, learn from it, and have data to inform if the strategy itself is sound?
 
 I liked his example from the article
 
