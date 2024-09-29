@@ -4,13 +4,14 @@ date: 2023-09-24T00:00:00
 title: Getting Stuff Done on a Software Team
 description: Instead of starting things, let's focus on finishing them.
 keywords:
-  - get stuff done
+  - how to finish software projects quickly
   - agile software development
   - work-in-progress limits
-  - finshing vs starting things
+  - finishing vs. starting things
 tags:
   - team-driven development
   - software development lifecycle
+  - iterative development
 image: "../assets/joshua-hoehne-Nsaqv7v2V7Q-unsplash.jpeg" 
 ---
 

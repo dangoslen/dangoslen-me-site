@@ -11,7 +11,7 @@ keywords:
   - software desgin
 tags:
   - software engineering
-  - coding
+  - iterative development
 image: "../assets/1_dst6edwapmjfwawjnykeja.jpeg"
 ---
 ![Broken down control center](../assets/1_dst6edwapmjfwawjnykeja.jpeg "Photo by Caroline Methot on Unsplash")
