@@ -5,9 +5,8 @@ title: Show Don't Tell
 description: A better way to gain buy-in and effect change.
 keywords:
   - career
-  - software engineering
-  - software engineering career
-  - software engineering leadership
+  - how to write great demos in software engineering
+  - the value of demos in software engineering
   - leadership
 tags:
   - career
