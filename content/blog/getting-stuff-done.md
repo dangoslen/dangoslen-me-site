@@ -4,13 +4,14 @@ date: 2023-09-24T00:00:00
 title: Getting Stuff Done on a Software Team
 description: Instead of starting things, let's focus on finishing them.
 keywords:
-  - get stuff done
+  - how to finish software projects quickly
   - agile software development
   - work-in-progress limits
-  - finshing vs starting things
+  - finishing vs. starting things
 tags:
   - team-driven development
   - software development lifecycle
+  - iterative development
 image: "../assets/joshua-hoehne-Nsaqv7v2V7Q-unsplash.jpeg" 
 ---
 
@@ -86,7 +87,7 @@ The natural question becomes how to enforce WIP limits for a team. The best way 
 
 Focus on offering your help to your team for work-in-progress.
 
-The idea goes like this: before picking up a new story or item to start work on, ask your team, "How can I help someone else finish their work?" Raise your proverbial hand in your team's Slack channel or Zoom calls (literal hand in that case), and offer to help your team.
+The idea goes like this: before picking up a new story or item to start work on, ask your team, "How can I help someone else finish their work?" Raise your metaphorical hand in your team's Slack channel or Zoom calls (literal hand in that case), and offer to help your team.
 
 Help might look different than just writing code, too. You might be able to help in wrapping up some tests for the feature. Perhaps there is some documentation you can finish for someone. Or maybe someone needs some help pair-programming out a complicated part of a bug fix.
 

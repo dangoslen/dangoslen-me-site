@@ -20,7 +20,7 @@ image: "../assets/piotr-chrobot-M0WbGFRTXqU-unsplash.jpg"
 <span class="credit">
 
 <i> 
-    
+       
 Photo by <a href="https://unsplash.com/@chrumo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Piotr Chrobot</a> on <a href="https://unsplash.com/photos/red-fire-extinguisher-on-green-wall-M0WbGFRTXqU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 </i>

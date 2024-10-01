@@ -10,6 +10,7 @@ keywords:
 tags:
   - what's the point
   - software engineering
+  - iterative development
 image: "../assets/jose-m-reyes-0GBxtiFvzXE-unsplash.jpg"
 ---
 

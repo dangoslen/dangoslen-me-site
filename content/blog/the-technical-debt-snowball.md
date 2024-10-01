@@ -11,6 +11,7 @@ tags:
   - coding
   - technical debt
   - leadership
+  - iterative development
 image: "../assets/pauline-bernfeld-16l2ezZQ_Yw-unsplash.jpeg"
 ---
 <center>

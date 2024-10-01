@@ -9,7 +9,7 @@ keywords:
 tags:
   - patterns
   - software engineering
-  - software design
+  - iterative development
 image: "../assets/debby-hudson-MzSqFPLo8CE-unsplash.jpg" 
 ---
 

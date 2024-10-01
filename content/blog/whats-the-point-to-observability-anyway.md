@@ -5,7 +5,7 @@ title: What's the Point to Observability Anyway
 description: Observability is more than metrics and cool dashboards. It is a fundamental shift in how you write software.
 keywords:
   - what is observability
-  - what is observability in engineering
+  - what is software observability
 tags:
   - what's the point
   - software engineering
