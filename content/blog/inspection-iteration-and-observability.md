@@ -111,7 +111,9 @@ If we had been more patient (and actually _tested_ or _inspected_ the resulting 
 All this to say, I agree with the post from [Guillermo](https://x.com/rauchg) earlier: "No challenge is too big" when you apply these three behaviors in your software development lifecycle. 
 
 Inspect early and often.
+
 Make sure you can (and do!) observe your software.
+
 Iterate frequently.
 
 Happy coding!
