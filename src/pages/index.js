@@ -24,7 +24,7 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`dan goslen blog page`, `team-driven developer`, `software engineering newsletter`, `software engineering blog`, `software design blog`]}
+          keywords={['Dan Goslen', 'Team-Driven Developer Newsletter']}
         />
 
         <SplitCard>
@@ -116,7 +116,6 @@ function ProfilePic() {
 function Links() {
   return (
     <Social>
-      <SocialLink to="https://twitter.com/dangoslen"><AiFillTwitterCircle /></SocialLink>
       <SocialLink to="https://linkedin.com/in/dangoslen"><AiFillLinkedin /></SocialLink>
       <SocialLink to="https://dangoslen.medium.com/membership"><AiFillMediumCircle /></SocialLink>
       <SocialLink to="https://github.com/dangoslen"><AiFillGithub /></SocialLink>
