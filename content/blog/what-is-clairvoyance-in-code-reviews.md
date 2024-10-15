@@ -48,7 +48,7 @@ The word [clairvoyance](https://en.wikipedia.org/wiki/Clairvoyance) isn't likely
 
 When talking about clairvoyance in relation to code, we are really discussing an engineer's ability to sense or intuit whether a proposed code change will have a positive or negative impact on the codebase. A skilled engineer can think beyond just the immediate impact of a change and consider the effects six months, a year, or more down the road. 
 
-For example, an engineer might notice a proposed set of code changes. After looking at it a few times, they might notice that while it follows SOLID principles and has good unit tests, the proposed code changes will be a bit too complex given the use case. They might be able to "see" how maintenance on a block of the code will be difficult given its importance to the rest of the system. 
+For example, an engineer might notice a proposed set of code changes. After looking at it a few times, they might notice that while it follows SOLID principles and has good unit tests, the proposed code changes will be a bit too complex given the use case. They might be able to "see" how maintenance on a block of the code will be difficult to maintain given its importance to the rest of the system. 
 
 In another case, an engineer might advocate for breaking apart tightly coupled components or shared state, even if the initial use case is relatively simple. Experience has taught them to recognize that shared state is always a bad idea, even if the initial implementation _seems_ simpler. 
 
