@@ -33,7 +33,7 @@ Way back in one of my first software internships, I remember overhearing a conve
 
 As I mentioned, I don't know all the details of _what_ apparently needed to be consistent, but it stuck with me (clearly). I carried it through my first few professional years as an engineer. I wanted to write consistent, clear, crisp code. It felt like an unspoken rule that great codebases _were_ consistent with no exceptions.
 
-As I've grown in my career, I've realized that while consistency is a good goal in software development, it isn't the goal.
+As I've grown in my career, I've realized that while consistency is a good goal in software development, it isn't _the_ goal.
 
 ## Consistency Isn't the Goal
 
