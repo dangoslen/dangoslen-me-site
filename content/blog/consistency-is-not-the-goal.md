@@ -68,19 +68,19 @@ The graph below shows a common (and somewhat caricatured) view of how engineers 
 
 ![](../assets/seniority-pattern-curve.jpeg)
 
-<span class="credit">
-
 <center>
 
+<span class="credit">
+  
 <i>
 
 Credit to [Rob Kerr's](https://www.linkedin.com/pulse/complexity-unlearning-curve-rob-kerr/) post with this chart.
 
 </i>
 
-</center>
-
 </span>
+
+</center>
 
 Many engineers will quickly point out that abstractions and interfaces are critical to writing good software. And they are right! 
 
