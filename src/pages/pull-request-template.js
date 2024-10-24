@@ -1,7 +1,7 @@
 import React from "react"
 
 import { Link } from "gatsby"
-import Cliboard from "clipboard"
+import Clipboard from "clipboard"
 import ReactTooltip from 'react-tooltip';
 import Layout from "../components/layout"
 import Device from "../components/sizing"
@@ -13,11 +13,10 @@ import { BiCopy } from "@react-icons/all-files/bi/BiCopy";
 class PrTemplate extends React.Component {
 
   componentDidMount() {
-    const clipboard = new Cliboard('#copy')
+    const clipboard = new Clipboard('#copy')
   }
   
   render() {
-    const { data } = this.props
     const siteTitle = "Pull Request Template"
 
     return (
