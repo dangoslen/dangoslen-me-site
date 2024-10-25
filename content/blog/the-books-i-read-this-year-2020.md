@@ -16,13 +16,13 @@ Let's jump right in.
 
 ![Crime and Punishment cover image](../assets/crime_and_punishment.jpg)
 
-## *[Crime and Punishment](https://amzn.to/3515l2g)* by Fyodor Dostoyevsky
+## [Crime and Punishment](https://amzn.to/3515l2g) by Fyodor Dostoyevsky
 
 One of the classics, *Crime and Punishment* takes us through the minds of several Russians in St. Petersburg following a brutal murder. We explore the psychological and relational consequences of murder, the motivations for it, and how society plays into all of it. A difficult read, this story will help the reader grapple with morality, mortality, and the power of confession.
 
 ![Artemis cover magei](../assets/artemis.jpg)
 
-## * [Artemis](https://amzn.to/3oaCTTf)* by Andy Weir
+## [Artemis](https://amzn.to/3oaCTTf) by Andy Weir
 
 Andy Weir's follow-up to *The Martian* is set on the first human colony on the moon complete with smugglers', corrupt politicians, and failed heist attempts. While full of science(ish) stunts and explosions, the plot is underdeveloped, moves too quickly, and doesn't quite grip the reader. While entertaining, I don't believe Weir's imagination went far enough in some places, and in others was too lofty with situations and events that are hard to believe - even on the moon.
 
