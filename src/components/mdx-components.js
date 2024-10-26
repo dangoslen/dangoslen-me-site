@@ -3,7 +3,6 @@ import React from "react";
 import { BiLink } from "@react-icons/all-files/bi/BiLink"
 
 import Device from "../components/sizing"
-import ReactTooltip from "react-tooltip";
 
 const LinkIcon = styled(BiLink)`
   width: .80em;
@@ -32,10 +31,8 @@ const AnchorLink = styled.a`
   }
 `;
 
-const Tooltip = styled.span`
-`;
 
-function copyToClip(ref) {
+function copyToClip() {
   navigator.clipboard.writeText(window.location);
 }
 
@@ -47,7 +44,7 @@ export const Components = {
 
     const link = props.children.replace(" ", "-").toLowerCase()
     return (
-      <H2 id={link}>
+      <H2 id={link} >
         <AnchorLink
           href={`#${link}`}
           onClick={() => copyToClip()}

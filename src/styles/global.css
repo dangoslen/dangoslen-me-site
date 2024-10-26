@@ -31,10 +31,6 @@
     margin-left: 14px;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 /* .book-review-wrapper:nth-child(odd) {
     flex-direction: row-reverse;
 }
