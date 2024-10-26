@@ -12,7 +12,9 @@ tags:
   - team-driven development
   - software engineering
 image: "../assets/1_oyeeax1t-pdzp-hel9cxvq.jpeg"
+
 ---
+
 ![small child looking at daunting steps](../assets/1_oyeeax1t-pdzp-hel9cxvq.jpeg "Photo by Jukan Tateisi on Unsplash")
 
 I first heard the term kaizen in the popular book *[The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592)*. In the book, we learn about how a recently promoted IT manager is trying to solve all of the problems in his organization. The problems seem intractable, but never the less he persists.
@@ -23,7 +25,7 @@ Instead, small, consistent, daily improvements will result in better outcomes in
 
 How does a team go about accomplishing that? What is a useful framework for doing so?
 
-## [](https://dev.to/dangoslen/how-to-introduce-kaizen-to-your-team-355d#enter-kaizen)Enter Kaizen
+## Enter Kaizen
 
 Kaizen is a Japenese word that has come to encapsulate the idea of continuous improvement. Formally, its actual definition is simply “improvement.” It was made into a business concept after Toyota took this idea as a way to improve their manufacturing lines. You can read all about the history [here](https://www.kanbanchi.com/what-is-kaizen).
 
@@ -31,7 +33,7 @@ I don’t want to re-define kaizen or go into all of the benefits of it in this 
 
 Instead, I want to help you come up with a plan for introducing some of these ideas to your team. In particular, how to go about introducing a framework of identifying and solving problems like our IT manager in the book did. You don’t need a perfect roadmap or a big presentation. You just need to start with a few things.
 
-## [](https://dev.to/dangoslen/how-to-introduce-kaizen-to-your-team-355d#go-to-the-source)Go to the Source
+## Go to the Source
 
 When problems arise, it becomes easy to hear it from someone else. A deployment went wrong last night, but no one knows whose and what went wrong. Directors ask managers, who ask team leads, who ask developers to eventually find someone involved. Along the way, everyone changes the question slightly on the way down. The answer varies slightly on the way up.
 
@@ -45,7 +47,7 @@ Second, once problems are visible, teams to regularly reflect and evaluate the p
 
 An excellent way to start this process is to introduce a retrospective. Start with a monthly cadence since this is usually enough time for teams to implement and track changes between each session. If you have never held a retrospective, I suggest checking [this article out](https://www.thoughtworks.com/insights/blog/5-things-you-need-know-facilitate-retrospective) (great discussion in the comments!).
 
-## [](https://dev.to/dangoslen/how-to-introduce-kaizen-to-your-team-355d#identify-solutions)Identify Solutions
+## Identify Solutions
 
 Once you have identified your problem and evaluated the problem, you need to brainstorm how to tackle it. Some will have nice and easy solutions; others will likely require a lot of critical thinking.
 
@@ -63,13 +65,17 @@ What I have found helpful is to always come up with at least one idea to present
 
 <i>
 
+<span class="credit">
+
 Photo by [Lefteris kallergis](https://unsplash.com/@lefterisk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/step?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+</span>
 
 </i>
 
 </center>
 
-## [](https://dev.to/dangoslen/how-to-introduce-kaizen-to-your-team-355d#identify-the-smallest-meaningful-step-to-improve)Identify the Smallest Meaningful Step To Improve
+## Meaningful Step To Improve
 
 You’ve now identified a problem to fix and have a solution in mind. Great! Now is the hard part: determine the smallest meaningful step to move towards that solution.
 
@@ -77,7 +83,7 @@ Most of your problems can’t be fixed quickly and in one big step. If you are a
 
 Ideally, this is a step you can take immediately. Creating a group or team in GitHub; writing documentation; creating a Postman collection, etc. The point here is that if you can take action right now, then it’s improving your team right now as well.
 
-## [](https://dev.to/dangoslen/how-to-introduce-kaizen-to-your-team-355d#go-to-the-source-again)Go to the Source Again
+## Go to the Source Again
 
 From here, you repeat the steps over again. Go to the source to identify problems. Brainstorm solutions to those problems, laying out a vision for achieving them. Identify the smallest meaningful next step towards that achieving that vision and take action.
 

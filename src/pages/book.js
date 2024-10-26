@@ -31,19 +31,17 @@ class Book extends React.Component {
             keywords={ 
               [
                 "code review book", 
-                "book on code reviews", 
-                "code review best practices", 
+                "buy book on code reviews", 
                 "purchase code review book", 
-                "how to review code", 
+                "how to review code book", 
                 "code review champion", 
                 "technical feedback book", 
                 "software engineer code review book", 
-                "best book on code reviews", 
-                "buy code review book", 
-                "how to perform high-quality code reviews", 
-                "books on code reviews",
-                "code review tools",
-                "how to improve my code reviews"
+                "best book on code reviews",
+                "code review best practices book", 
+                "how to improve my code reviews",
+                "overcoming code review anxiety",
+                "dealing with code review anxiety",
               ] 
             }
         />
@@ -51,7 +49,7 @@ class Book extends React.Component {
         <div style={{
           textAlign: `center`
         }}>
-          <h1>Become a world-class code reviewer</h1>
+          <h1>Become a world-class code reviewer!</h1>
         </div>
 
         <hr />
@@ -59,25 +57,22 @@ class Book extends React.Component {
         <BookSplit>
           <BookCover image={ data.image.childImageSharp.fluid } />
           <BookIntroduction>    
-            <p><b>Code reviews can be frustrating. </b>Conflict can arise, reviews can be slow, or reviewers might be too intimidated to leave their feedback.</p>
+            <p><b>Code reviews can be frustrating.</b></p>
+            <p>Review anxiety is real, conflict can arise, and it can be difficult to know what to focus on.</p>
             <p>And with <a href="https://www.linkedin.com/pulse/best-practices-impact-code-review-productivity-timelines">84%</a> of companies using code reviews, engineers are bound to encounter them sooner or later.</p>
-            <p>Instead of avoiding code reviews or doing the bare minimum when they come your way, what if you could learn the skills to provide effective feedback and get your own code reviewed quickly too?</p>
-            <p><b><i>Code Review Champion</i> can show you how.</b></p>
-            <p>This short book will teach you how to effectively navigate code reviews to grow your career. From reviewing code to authoring pull requests, and much more, this is the code review book that gives you the practical tools you can use everyday on your team.</p>
+            <p>Instead of avoiding code reviews or doing the bare minimum, what if you could learn the skills to provide effective feedback and get your own code reviewed quickly too?</p>
+            <p><b><i>Code Review Champion</i> can teach you how!</b></p>
           </BookIntroduction>
         </BookSplit>
 
         <div style={{ 
-            display: `grid`,
-            alignItems: `center`,
-            justifyContent: `center`,
-            marginTop: `15px`,
-            marginBottom: `1.75em`,
+            marginTop: `50px`,
+            marginBottom: `50px`,
             textAlign: "center"
         }}>
+          <p>This short book will teach you how to effectively navigate code reviews to grow your career. From reviewing code to authoring pull requests, and much more, this is the code review book that gives you the practical tools you can use everyday on your team.</p>
         
-          <PurchaseButton href="https://store.dangoslen.me/products/code-review-champion?step=checkout">Grab your copy!</PurchaseButton>
-
+          <PurchaseButton style={{ width: '66%', fontSize: '1.2em', fontFamily: "'Merriweather','Georgia','serif'" }} href="https://store.dangoslen.me/products/code-review-champion?step=checkout">Grab your copy now!</PurchaseButton>
         </div>
 
         <hr />
@@ -86,8 +81,8 @@ class Book extends React.Component {
           display: `grid`,
           alignItems: `center`,
           justifyContent: `center`,
-          marginBottom: `15px`,
-          textAlign: "center"
+          textAlign: "center",
+          marginBottom: '-25px'
         }}>
 
           <h2 style={{ marginTop: '15px'}}>What readers are saying:</h2>
@@ -166,12 +161,12 @@ class Book extends React.Component {
               marginTop: `10px`,
               marginBottom: `10px`,
               textAlign: "center"
-          }}>
-            <p style={{ fontSize: '1.5em', fontFamily: "'Merriweather','Georgia','serif'" }}>This is <b>the book</b> I wish I would have had early in my career to help me sidestep the landmines of code reviews.</p>
+          }}>            
+            <p style={{ fontSize: '1.5em', fontFamily: "'Merriweather','Georgia','serif'" }}>This is <b>the book</b> I wish I would have had early in my career to help me sidestep the landmines of code reviews and grow faster.</p>
 
             <p style={{ fontSize: '1.5em', fontFamily: "'Merriweather','Georgia','serif'" }}><b>I'm confident it will help you in your software career journey!</b></p>
 
-            <PurchaseButton style={{ width: `50%`, margin: `0 auto` }} href="https://store.dangoslen.me/products/code-review-champion?step=checkout">Buy your copy today!</PurchaseButton>
+            <PurchaseButton style={{ width: `66%`, margin: `0 auto` }} href="https://store.dangoslen.me/products/code-review-champion?step=checkout">Buy your copy today!</PurchaseButton>
 
           </div>
       </Layout>
@@ -182,6 +177,7 @@ class Book extends React.Component {
 function BookCover({image}) {
   return (
     <BookCoverWrapper>
+      <a href="https://store.dangoslen.me/products/code-review-champion?step=checkout">
       <Img
         fluid={ image }
         alt="Code Review Champion Book Cover"
@@ -190,20 +186,24 @@ function BookCover({image}) {
           display: `block`
         }}
       />
+      </a>
     </BookCoverWrapper>
   )
 }
 
 const BookSplit = styled.div`
+  text-align: center;
+
   @media ${Device.laptop} {
+    text-align: left; 
     width: 120%;
     margin-left: -10%;
   }
 
   @media ${Device.halfscreen} {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
   }
 `
 
@@ -235,6 +235,11 @@ const BookCoverWrapper = styled.div`
 `
 
 const BookIntroduction = styled.div`
+  margin-top: 20px;
+
+  @media ${Device.laptop} {
+    margin-top: 0px;
+  }
 `
 
 export default Book

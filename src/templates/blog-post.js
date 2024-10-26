@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXProvider } from "@mdx-js/react";
 
 import Bio from "../components/bio"
 import ModalEmail from "../components/modal-email"
@@ -9,6 +10,7 @@ import SEO from "../components/seo"
 import Tags from "../components/tags"
 import Sharing from "../components/sharing"
 import { rhythm, scale } from "../utils/typography"
+import { Components } from "../components/mdx-components"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -43,7 +45,9 @@ class BlogPostTemplate extends React.Component {
           
         </p>
 
-        <MDXRenderer>{post.body}</MDXRenderer>
+        <MDXProvider components={Components}>
+          <MDXRenderer>{post.body}</MDXRenderer>
+        </MDXProvider>
 
         <Sharing 
           title={post.frontmatter.title}
