@@ -4,11 +4,12 @@ date: 2021-04-20T13:00:00.000Z
 title: Writing Software Is Like Growing a Garden
 description: Gardens won't grow if neglected, and neither will your software.
 keywords:
-  - software gardner
+  - software gardens
   - how to write great software
+  - what is technical debt
 tags:
   - software development lifecycle
-  - coding
+  - team-driven developer
   - software engineering
 image: "../assets/gryffyn-m-BUYiKuAZw0w-unsplash.jpg"
 ---
@@ -26,11 +27,12 @@ Photo by [gryffyn m](https://unsplash.com/@botanicalnature?utm_source=unsplash&u
 </center>
 
 There are many - many - analogies to writing software.
+
 Building a building. Creating a city. Trying to change the tires of a car while driving.
 
-None are perfect, but they each help convey an idea about the complex work that is writing software. There are many factors to consider, including an ever-changing set of requirements and needs to be met. Plus, once you build software, you usually don't demo it and start over - even though sometimes that is the only thing you can do.
+None are perfect, but they each help convey an idea about the complex work that is writing software. There are many factors to consider, including an ever-changing set of requirements and needs to be met. Plus, once you build software, you usually don't demo it and start over fresh. We often build software upon existing software, which creates tension between refactors, rewrites, and new features.
 
-I want to add another analogy: growing a garden.
+I want to add another analogy that I've found helpful over the years: growing a garden.
 
 ## Gardening Newb
 
@@ -58,14 +60,13 @@ I made that connection after a few days of weeding like I was sharing above. "I 
 
 If software is a garden, then let's say that our features are the plants in our garden. Whether fresh veggies, flowers, or trees, we want them to grow strong and become strong. To do that, we need to care for it routinely. From time to time, we might prune them to help them grow, or we might remove them entirely because we have other plants we have decided would work better. This is akin to how we might manage features we build in our software.
 
-
 If not properly cared for, our plants will die. Plants might be eaten by bugs, strangled by weeds, or stomped on by animals. Or perhaps they simply didn't get enough water or sunlight.
 
 Our software has all of the same problems. We have bugs that slowly eat away at our features and keep our customers away. We might have security vulnerabilities that we missed and have no fence to protect against an attacker totally taking over our system. We might forget to apply regular maintenance and monitoring to wake up one day to a failing system. Seemingly harmless hacks or duplicated code eventually grow to strangle our ability to create new features. Or worse, our messy code grows so big that we are afraid that we will inadvertently damage our features in the process if we change it.
 
 ## Software Engineers are Gardeners
 
-If software is a garden, then software engineers are gardeners. A gardener must make sure the garden grows as they want. It is their responsibility to implement preventative measures to keep bugs away by spraying a pesticide. Fences might be installed to keep animals out. A gardener might create a daily schedule to make sure that they water each plant, prune each plant, or till the soil with fertilizer. To deal with weeds, a gardener needs to go out and pull them up by the roots; simple cutting won't work.
+If software is a garden, then software engineers act as gardeners. A gardener must make sure the garden grows as they want. It is their responsibility to implement preventative measures to keep bugs away by spraying a pesticide or being selective about the plants in their garden. Fences might be installed to keep animals out. A gardener might create a daily schedule to make sure that they water each plant, prune each plant, or till the soil with fertilizer. To deal with weeds, a gardener needs to go out and pull them up by the roots; simple cutting won't work.
 
 In our software, we need to have tests to make sure bugs aren't creeping into our software. We need to run regular security audits and update our dependencies to mitigate security risks. We need to make sure we monitor our software and make maintenance of our systems easy so that we aren't caught off guard by a system failure. We need to rigorously eliminate the weeds in our code that will eventually stifle our efforts to write new features, fix problems, and maintain our code over time.
 
@@ -88,7 +89,9 @@ I like to think of code weeds as different than technical debt. As I mentioned e
 
 A weed is something that is inevitable. Weeds simply appear and grow without warning. No one plants a weed. No one wants them to grow. But they are unavoidable.
 
-Every programmer with more than a few years of experience can identify with the following story. One day while coding, they come across a function or class that doesn't make sense. Perplexed, they think, "who wrote that, and why did they write it that way?" They open git blame and realize they were the author.
+Every programmer with more than a few years of experience can identify with the following story. One day while coding, they come across a function or class that doesn't make sense. Perplexed, they think, "who wrote that, and why did they write it that way?" They open git blame and realize they were the author. 
+
+Of course when they wrote it, it all made sense. But has time has passed, the code is a little off to the rest of the system now. It is experiencing decay and growing weeds.
 
 I share that because most code will grow weeds. The best code I've ever written needed to be refactored later on. It isn't because the code was bad (that is another problem), but because most code over time needs to adapt to the changing requirements and responsibilities of the system it powers.
 
@@ -101,9 +104,3 @@ You have to pull up the weeds.
 I hope this analogy helps you in your journey of writing great code and great systems. It takes diligence and willingness to roll up your sleeves, put on some gloves, and start pulling up the weeds in your code. But having a healthy garden where your features thrive is worth it.
 
 Happy coding!
-
-_p.s. - if you enjoyed this post, you might enjoy some of my other posts on software engineering! Thanks for reading!_ 😁
-
-* #### [On Building Abstractions Too Soon](/blog/on-building-abstractions-too-soon/)
-* #### [Signs You Should Refactor Your Code](/blog/signs-you-should-refactor-your-code/)
-* #### [Why Simple Code is Better Than Reusable Code](/blog/why-simple-code-is-better-than-reusable-code)
