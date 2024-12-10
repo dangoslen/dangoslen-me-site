@@ -1,6 +1,6 @@
 ---
 path: /patience-in-software-engineering
-date: 2024-12-08T19:50:21
+date: 2024-12-10T00:00:21
 title: Patience in Software Engineering
 description: Why being willing to wait and avoiding hasty decisions leads to better software.
 keywords:
