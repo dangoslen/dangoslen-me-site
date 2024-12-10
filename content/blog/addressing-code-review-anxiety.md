@@ -103,5 +103,3 @@ The last norm worth mentioning here is time. It's important to establish an acce
 All this to say, code review anxiety is real and not going away. But we can leverage our teams to reduce that anxiety if we choose to.
 
 Happy coding (and reviewing)!
-
-_p.s. If you liked this post, you'd love my book, [Code Review Champion](https://dangoslen.me/book)! In it, I share everything I've learned from over a decade in the industry about building a code review practice to set you and your team apart!_
