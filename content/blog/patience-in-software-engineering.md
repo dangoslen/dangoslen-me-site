@@ -33,7 +33,7 @@ Photo by <a href="https://unsplash.com/@tompottiger?utm_content=creditCopyText&u
 
 Hosting bonfire nights at my home is one of my favorite things.
 
-I set up a small fire pit (so not really a bonfire after all...) when we first moved in many years ago and have since hosted probably close to two to three dozen of these nights. I'll crank up the fire, set up the chairs, and trickle people in and out one by one. In summer, we'll have cold drinks in a cooler and warm cocoa or cider in the winter.
+I set up a small fire pit (so not really a bonfire after all...) when we first moved in many years ago and have since hosted probably close to two to three dozen of these nights. I'll crank up the fire, set up the chairs, and people trickle in and out one by one. In summer, we'll have cold drinks in a cooler and warm cocoa or cider in the winter.
 
 Hosting these events (along with my love for camping) has helped me get good at building fires. I might not be ready to tackle [Alone](https://dangoslen.me/blog/pick-the-right-tools/), but I'm a pretty decent fire builder.
 
