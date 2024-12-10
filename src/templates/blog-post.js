@@ -49,6 +49,13 @@ class BlogPostTemplate extends React.Component {
           <MDXRenderer>{post.body}</MDXRenderer>
         </MDXProvider>
 
+        {post.frontmatter.tags.includes('code reviews') && (
+          <p><i>
+          👋🏼 p.s. If you liked this post, you'll love my book, <a href="https://dangoslen.me/book">Code Review Champion!</a> In it, I share everything I've learned from over a decade in the industry about building a code review practice to set you and your team apart!
+          </i>
+          </p>
+        )}
+
         <Sharing 
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
