@@ -53,11 +53,11 @@ Depending on your computer science background, this idea might be more familiar 
 
 As hinted at in the introduction, the first method I use for constraining a problem is to see if there are requirements or use cases you can remove or defer. 
 
-If you can focus on a smaller set of use cases, you can often find traction with a few that are worth exploring.
+If you can focus on a smaller set of use cases, you can often find traction on a solution faster than if you tried solving all use cases at once.
 
-This is especially true for edge cases. While edge cases are important, I've rarely seen one fit neatly into any solution (hence why it's an edge case). 
+This is especially true for edge cases. While edge cases are important, I've rarely seen one fit neatly into any solution (hence why it's an edge case). More often than not a really elegant solution will still have an edge case with an odd check somewhere in the code or architecture.
 
-If you are just starting discovery on a problem, even if it feels huge and complicated, do your best to find the base case (more on that in a bit) rather than getting hung up on all the edge cases you likely won't be able to satisfy neatly anyway.
+If you are just starting discovery on a problem, even if it feels huge and complicated, do your best to find the base case (more on that in a bit) rather than getting hung up on all the edge cases you likely won't be able to satisfy neatly anyway. Your initial discovery will be easier to accomplish if you look for ideas that best solve the 80-90% use cases.
 
 That isn't to say you can completely ignore them, either. Keep them in the back of your mind while you focus on the subproblem you've defined. You might find that one potential solution helps move the needle on those other edge cases, nudging you in the right direction.
 
