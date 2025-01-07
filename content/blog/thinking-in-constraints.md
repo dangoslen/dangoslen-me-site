@@ -1,12 +1,15 @@
 ---
 path: /thinking-in-constraints
 date: 2025-01-05T18:55:25
-title: 
-description: 
+title: Thinking in Constraints
+description: How to apply constraints to problem spaces to solve them more effectively.
 keywords:
-  - keyword
+  - problem-solving
+  - constraints in problem solving
+  - solving large problems as a software engineer
 tags:
-  - tag
+  - problem-solving
+  - software design
 image: "../assets/bournes-senruob-xCwPC-Vmhsg-unsplash.jpg" 
 ---
 
