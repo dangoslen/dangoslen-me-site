@@ -15,6 +15,10 @@
     display: none !important;
 }
 
+.formkit-form[data-uid="07eaaed918"] div {
+    padding-top: 0px !important;
+}
+
 .credit {
     margin-bottom: 2em;
     display: inline-block;
