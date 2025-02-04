@@ -1,0 +1,131 @@
+---
+path: /reusability-happens-over-time
+date: 2025-02-02T08:20:29
+title: Reusability Happens Over Time
+description: Reusability is more about discovery and direction rather than upfront design.
+keywords:
+  - reusability in software engineering
+  - designing software for reuse
+  - software design principles
+  - software design patterns
+  - software design best practices
+tags:
+  - software design
+  - team-driven development
+  - iterative development
+image: "../assets/sigmund-aI4RJ--Mw4I-unsplash.jpg"
+---
+
+<center>
+
+![](../assets/sigmund-aI4RJ--Mw4I-unsplash.jpg) 
+
+<span class="credit">
+
+<i> 
+    
+Photo by <a href="https://unsplash.com/@sigmund?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sigmund</a> on <a href="https://unsplash.com/photos/text-aI4RJ--Mw4I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+</i>
+
+</span>
+
+</center>
+
+Software engineers are all about principles and patterns. Short acronyms like DRY, YAGNI, KIS, etc., are used everywhere within the industry to try and concisely communicate an axiom of how to write software.
+
+One principle that arises within software engineering is that of reusability. We have this idea that we can build software components once and reuse them everywhere. The idea is that by building reusable components, we can increase efficiency, decrease cost, and even increase safety (since the reusable component will have been, theoretically, tested and verified).
+
+Based on this idea, we'll propose spending large amounts of time and effort building reusable components ahead of a large re-architecture. We'll mention that this investment will pay for itself in saved cost over time, even if it costs a lot initially. 
+
+But this past week, I read an article that has challenged some of these conclusions. The article, titled _[The Reusability Fallacy](https://www.ufried.com/blog/reusability_fallacy_1/)_, pushes against the concept that building reusable modules upfront will ever lead to their promises of cost savings and efficiency, especially at the architectural layer.
+
+In particular, the comparison between building software and physical products is a useful hint at why reusability works in some contexts and not others [^1].
+
+> The first persistent misunderstanding is that writing code can be compared to building a house or assembling a car. The idea is that software architecture and design work can be compared to designing a car or house and writing code is executing the plan, i.e., assembling the final product. Unfortunately, this perception is completely wrong. The final product in software development is the executable program. We usually create it by compiling the source code. 
+
+While there are helpful insights from comparing building software to building physical products (though most often through a lens of process management), I believe this core differentiation is significant. Because physical products have such limited ability to change over time, these products require more time upfront for design and verification. The same goes for standardized components the product might rely upon: they require much more design, inspection, and rigor. 
+
+Software is different. In many ways, we never really leave the design phase of writing software; writing code is designing, and every change or feature likely alters the design in some way. Building software is very fast and efficient from this point of view: designing is coding, and building is compiling an executable.
+
+But with all of this preamble, though, we'd all agree that reusability _is_ valuable within our systems. So, how do we reconcile these differences?
+
+## Reusability is Hard to Get Right
+
+Before reconciling these points, there is another critical insight from the article I took away was how the author [observes the cost](https://www.ufried.com/blog/reusability_fallacy_2/#fnref:2) of _creating_ the reusable component or asset:
+
+> [...] it does not matter if the factor [to make an asset reusable] is 7, 9 or 13. The key point is that creating a reusable asset means several times the effort of creating a non-reusable asset.
+
+To put it another way, we assume that building a reusable component will 1) cost about the same as creating the same component without a lens towards reuse and 2) be reusable without change over time. 
+
+Neither of these is true. 
+
+If you've ever had to build a reusable library or package, you are likely nodding along. You might have encountered a scenario in which you need to solve a problem and decide to build a reusable component. Once you've built it for your use case, you show it to some other engineers. They quickly ask, "Will this support my use case, which you didn't think about?" You quickly discover that there are many more use cases (or contexts to use the terminology from the article) needed from different consumers than you might have thought.
+
+This dynamic means you'll spend more time tweaking and modifying your "reusable" component to meet each use case, which might lead to the opposite of its promises: more maintenance, harder-to-test logic, and increased risk of an error over time. So much for "write once and reuse everywhere".
+
+The idea of varying contexts and the need for a reusable component to adapt to each isn't new, by the way. It goes all the way back to Fred Brooks' essay _The Tar Pit_ (featured in his collection [_The Mythical Man Month_)](https://www.cs.virginia.edu/~evans/cs655/readings/papers/tarpit.pdf). In the essay, Brooks describes how building a reusable and valuable component is difficult and time-consuming while building an isolated and singular context component is much easier.
+
+So, how do we build a reusable component that gives us some of the promised benefits?
+
+## Reusability Happens Over Time
+
+In my experience, reusable components happen when they are discovered and built over time through iterative refactoring.
+
+Instead of spending time and thought at the beginning of a project or architecture identifying the right "standard parts" to pull from the shelf later, we should focus on building the initial product and admit that we don't know what we don't know. Admitting we don't know everything is important, as it paves the way toward a mindset of continual improvement and refactoring.
+
+The software industry has widely adopted this belief in how we manage software products. We've learned that we can much more easily build a high-quality product, deliver it to users, and gain feedback before we can properly identify the perfect product (and even if we did, it would be too late!). Speed-to-market, iterative design, and a willingness to experiment are part of how to build a great product.
+
+We should apply this same idea to our internal software design process as well. It is much easier to build a component that is reusable _after_ we've seen it used in a few different contexts rather than attempting to guess and build [the wrong thing](https://dangoslen.me/blog/on-building-abstractions-too-soon/).
+
+To help drive this idea home, let me tell a story. 
+
+<center>
+
+![](../assets/jon-flobrant-rB7-LCa_diU-unsplash.jpg)
+
+<span class="credit">
+Photo by <a href="https://unsplash.com/@jonflobrant?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jon Flobrant</a> on <a href="https://unsplash.com/photos/body-of-water-between-trees-under-cloudy-sky-rB7-LCa_diU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+</span>
+
+</center>
+
+## Crossing a River
+
+A few years ago, the team at Policygenius wanted to find a better way to do something we did almost all day as an engineering organization: build forms. As an insurance broker, most of our technology did two core things: capture all sorts of data points and information and then present that information across different systems to help our agents make better decisions. We wanted to find a way to build code that built our forms in a way that made it easy to add new fields, presented consistent state management, etc.
+
+At the start of this effort, one engineer talked about the often-used analogy of coming to a river on your journey toward some destination. You look around and realize that, at least in this part of the river, there is no bridge or pre-built way to get across. 
+
+Now, you could just wade across and be fine (it isn't that deep or that fast-moving). However, you wouldn't have helped anyone who might come behind you who must also cross the river. So, instead of crossing it and carrying on, you should stop and build a bridge. This way, you will help the people behind you cross the river and keep everyone from resolving the same problem.
+
+Sounds pretty straightforward, right? Clearly, this teaches the value of reusability!.. doesn't it?
+
+The engineer telling the story said emphatically, "No." And why not?
+
+For this article, consider something interesting: you don't know how many people will come after you. You, therefore, can't tell if the cost you invest in building the bridge will pay off. 
+
+This story also leaves out any context of urgency. If your destination was an inn with a warm meal on the other side of the river and you had been on a three-day journey, stopping and building a bridge would be silly.
+
+Instead, the engineer pointed out it would likely be better to cross the river while indicating how you did it for the next person (if there is one) vs. building a whole bridge. Perhaps you spend a few minutes and realize there is a shallower spot just a few steps to your right. Could you set up a cairn for others to find (or even yourself the next day if you need to cross again)? 
+
+Returning to the realm of software, you can often find a cheaper solution initially to solve your current problem while leaving markers or signals to someone else who might have a similar problem later. Over time, as more and more people run into the same issue, you will likely begin to realize when and how you need to build something reusable as long as people continue to communicate and add their perspectives.
+
+## Is There a Place for Standard Components or Reusable Parts Upfront?
+
+With all this, it is worth noting there are still places for building standard parts of the architecture upfront.
+
+Often, these are some of the most common cross-cutting concerns within a software architecture: authorization, infrastructure, logging and observability tools, etc. These areas are where the benefits of standard ways of doing things and paved roads will lead to outsized benefits over time [^2].
+
+And, of course, good engineers should be looking for places to make something common or reusable as they write code and design software. It would be silly to put a blinder on and declare: "Reusability doesn't work. I'll keep all this code to myself and never share it or build for reuse". 
+
+The key this article suggests is that there is a shift in when and how a reusable component is built. It shouldn't come from a fancy architecture diagram or a statement in a document. It should come over time, engineers pay attention to the code they and their team write every day, noticing the patterns across them and thinking deeply about what to consolidate, refactor, etc.
+
+There really isn't any problem too large or complex that continual improvement and refactoring can't help tackle.
+
+Happy coding!
+
+[^1]: I've also been encountering the same ideas in John Ousterhout's book _A Philosophy of Software Design_.
+[^2]: Yet even then, most systems are bound to experience change. Some tools decay, libraries or languages hit EoL, and new technolgy leads to better workflows. For example, Kubernetes wasn't all that common ten years ago yet now it's mentioned in many job postings I see on LinkedIn. Don't be too quick to exclaim "We have the standard way! We've invested in it!" Be willing to try new things and remember that your investment into "old ways" isn't just in the code you wrote to make it happen but the thoughts and decisions that led to it in the first palce. That knowledge is still valueable regardless of the technology or pattern.
+
+
+

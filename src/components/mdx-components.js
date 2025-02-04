@@ -11,6 +11,10 @@ const LinkIcon = styled(BiLink)`
   margin-left: -30px;
 `
 
+const Footnotes = styled.div`
+  text-style: italic;
+`
+
 const H2 = styled.h2`
   padding-top: 30px; 
   margin-top: -30px;
@@ -54,4 +58,15 @@ export const Components = {
         </AnchorLink>
       </H2>
     )},
+    wrapper: ({ children, ...props }) => {
+      const updatedChildren = children.map(child => {
+        if (child.props.className === "footnotes") {
+          // Since we only have one element that will ever match this
+          // the key doesn't matter, but react will yell without a key.
+          return <Footnotes key={1} {...child.props} />;
+        }
+        return child;
+      });
+      return <>{updatedChildren}</>;
+    }
 };

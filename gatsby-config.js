@@ -1,4 +1,7 @@
 module.exports = {
+  flags: {
+    PARALLEL_QUERY_RUNNING: false
+  },
   siteMetadata: {
     // edit below
     title: `Dan Goslen | Team-Driven Developer`,
