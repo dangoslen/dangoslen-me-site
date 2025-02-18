@@ -20,6 +20,11 @@ const H2 = styled.h2`
   margin-top: -30px;
 `;
 
+const H3 = styled.h3`
+  padding-top: 26px; 
+  margin-top: -26px;
+`;
+
 const AnchorLink = styled.a`
   color: inherit;
   text-decoration: none;
@@ -57,16 +62,33 @@ export const Components = {
           {props.children}
         </AnchorLink>
       </H2>
-    )},
-    wrapper: ({ children, ...props }) => {
-      const updatedChildren = children.map(child => {
-        if (child.props.className === "footnotes") {
-          // Since we only have one element that will ever match this
-          // the key doesn't matter, but react will yell without a key.
-          return <Footnotes key={1} {...child.props} />;
-        }
-        return child;
-      });
-      return <>{updatedChildren}</>;
+  )},
+  h3: (props) => {
+    if (typeof props.children !== "string") {
+      return <h3>{props.children}</h3>
     }
+
+    const link = props.children.replace(" ", "-").toLowerCase()
+    return (
+      <H3 id={link} >
+        <AnchorLink
+          href={`#${link}`}
+          onClick={() => copyToClip()}
+        >
+          <LinkIcon />
+          {props.children}
+        </AnchorLink>
+      </H3>
+  )},
+  wrapper: ({ children, ...props }) => {
+    const updatedChildren = children.map(child => {
+      if (child.props.className === "footnotes") {
+        // Since we only have one element that will ever match this
+        // the key doesn't matter, but react will yell without a key.
+        return <Footnotes key={1} {...child.props} />;
+      }
+      return child;
+    });
+    return <>{updatedChildren}</>;
+  }
 };
