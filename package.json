@@ -1,7 +1,7 @@
 {
   "name": "dan-goslen-site",
   "private": true,
-  "description": "The blog and home page of Dan Goslen",
+  "description": "The blog and home page for Dan Goslen",
   "version": "1.0.0",
   "author": "@dangoslen",
   "dependencies": {
@@ -45,8 +45,6 @@
     "react-tooltip": "^4.2.21",
     "react-typography": "^0.16.19",
     "react-use-flexsearch": "^0.1.1",
-    "rehype-autolink-headings": "^7.1.0",
-    "rehype-slug": "^6.0.0",
     "remark-gfm": "^4.0.0",
     "request": "^2.88.2",
     "styled-components": "^5.1.0",
