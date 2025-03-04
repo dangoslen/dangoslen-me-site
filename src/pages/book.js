@@ -20,19 +20,18 @@ class Book extends React.Component {
 
   render() {
     const { data } = this.props
-    const siteTitle = "Code Review Champion | Out now!"
+    const siteTitle = "Code Review Champion: Embracing the Power of Technical Feedback | Out now!"
 
     return (
       <Layout location={ this.props.location } title={ siteTitle }>
         <div ref={(el) => (this.instance = el)}></div>
         <SEO title={ siteTitle } 
             image={ data.image.childImageSharp.resize.src }
-            description="Code Review Champion: Embracing the Power of Technical Feedback"
+            description="A book designed to help software engineers become world-class code reviewers. Learn how to provide effective technical feedback, get your own code reviewed quickly, and grow your career."
             keywords={ 
               [
                 "code review book", 
                 "buy book on code reviews", 
-                "purchase code review book", 
                 "how to review code book", 
                 "code review champion", 
                 "technical feedback book", 
@@ -40,6 +39,7 @@ class Book extends React.Component {
                 "best book on code reviews",
                 "code review best practices book", 
                 "how to improve my code reviews",
+                "learn to review code",
                 "overcoming code review anxiety",
                 "dealing with code review anxiety",
               ] 
