@@ -3,13 +3,11 @@ module.exports = {
     PARALLEL_QUERY_RUNNING: false
   },
   siteMetadata: {
-    // edit below
     title: `Dan Goslen | Team-Driven Developer`,
     author: `Dan Goslen`,
-    description: `Blog and website of software engineer Dan Goslen`,
+    description: `My musing on building great software though great engineering teams.`,
     siteUrl: `https://dangoslen.me`,
     social: {
-      twitter: `@dangoslen`,
       linkedin: `dangoslen`,
       devto: `dangoslen`
     },
@@ -53,9 +51,6 @@ module.exports = {
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
-          },
-          {
-            resolve: `gatsby-remark-vscode`,
           },
           {
             resolve: `gatsby-remark-copy-linked-files`,

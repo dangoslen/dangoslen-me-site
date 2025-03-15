@@ -10,7 +10,8 @@ keywords:
   - speed vs. quality software engineering
   - improving your delivery time as a software engineer
 tags:
-  - tag
+  - career
+  - software engineering
 image: "../assets/ralfs-blumbergs--EXF9shcTO0-unsplash.jpg" 
 ---
 
