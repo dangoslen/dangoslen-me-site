@@ -27,6 +27,7 @@ const Cover = styled.div`
   }
   display: block;
   min-width: 25%;
+  max-width: 25%;
   margin-right: 20px;
   @media ${Device.tablet} {
     display: flex;
