@@ -10,7 +10,7 @@ keywords:
   - how to be a great code reviewer?
 tags:
   - code reviews
-  - team-driven developer
+  - team-driven development
 image: "../assets/greg-rakozy-oMpAz-DN-9I-unsplash.jpg" 
 ---
 

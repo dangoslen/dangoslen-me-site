@@ -9,7 +9,7 @@ keywords:
   - what is technical debt
 tags:
   - software development lifecycle
-  - team-driven developer
+  - team-driven development
   - software engineering
 image: "../assets/gryffyn-m-BUYiKuAZw0w-unsplash.jpg"
 ---

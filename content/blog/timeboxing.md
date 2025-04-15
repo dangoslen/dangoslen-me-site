@@ -10,7 +10,8 @@ keywords:
   - what is timeboxing?
 tags:
   - career 
-  - team-driven developer
+  - team-driven development
+  - productivity
 image: "../assets/1__dkcBNMJ4je-bK1zycnUCw.webp"
 ---
 
