@@ -24,7 +24,7 @@ As I've shared, I'm a [big fan of code reviews](https://medium.com/@dangoslen/h
 
 They can help spread knowledge, act as a conduit for mentoring, find bugs before they make it to production, etc. 
 
-Unfortunately, code reviews also have a tendency to start conflict and create enemies.
+Unfortunately, code reviews also have a tendency to start conflicts and create enemies.
 
 While some conflict can be healthy, when two developers begin to "go at it" in a review, you lose all of the benefits of the review. 
 
