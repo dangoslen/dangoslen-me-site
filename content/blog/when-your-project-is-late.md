@@ -4,21 +4,25 @@ date: 2025-04-28T21:52:25
 title: "How to Respond When Your Project is Late"
 description: A practical guide for handling the inevitable situation of being on (or leading) a late project.
 keywords:
-  - keyword
+  - what to do when you are leading a late project
+  - how to handle being on a late project
+  - late project guide
 tags:
-  - tag
-image: "../assets/natalie-pedigo-wJK9eTiEZHY-unsplash.jpeg" 
+  - career
+  - team-driven development
+  - project management
+image: "../assets/alexandar-todov-AMzC2RVurO4-unsplash.jpg" 
 ---
 
 <center>
 
-Photo
+![](../assets/alexandar-todov-AMzC2RVurO4-unsplash.jpg)
 
 <span class="credit">
 
 <i> 
     
-Credit
+Photo by <a href="https://unsplash.com/@alexandar_todov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alexandar Todov</a> on <a href="https://unsplash.com/photos/clear-hour-glass-AMzC2RVurO4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>      
 
 </i>
 
