@@ -29,12 +29,22 @@ const Search = props => {
     results = allPosts
   }
 
+  const handleSubmit = event => {
+    event.preventDefault()
+    const searchBar = document.getElementById('search-bar')
+    runSearch(searchBar.value)
+  }
+
   const handleChange = event => {
+    runSearch(event.target.value)
+  }
+
+  const runSearch = search => {
     if (timer != null) {
       clearTimeout(timer)
     }
     
-    const newQuery = event.target.value
+    const newQuery = search || ''
     const newTimer = setTimeout(() => {
       setQuery(newQuery)
     }, newQuery === '' ? 100 : 550)
@@ -45,12 +55,13 @@ const Search = props => {
     <Layout location={props.location} title={siteTitle}>
       <SEO title="Dan Goslen Blog" description="Dan Goslen's blog on software engineering" />
 
-      <form>
+      <form onSubmit={ handleSubmit }>
         <SearchBar
+          id="search-bar"
           type='text' 
           placeholder='Search a word or phrase or tag...'
           defaultValue={ searchQuery || '' }
-          onChange={ handleChange } />
+          onChange={ handleChange }  />
       </form>
 
       <PostsContainer>
