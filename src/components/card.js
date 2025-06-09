@@ -18,8 +18,11 @@ const Card = props => (
 
 const CardWrapper = styled.div`
     padding: 8px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
+    box-shadow: var(--gray) 0px 1px 3px 0px;
     margin-bottom: 10px;
+    &:hover {
+        padding: 6px;
+    }
 `
 
 const CardHeader = styled.div`

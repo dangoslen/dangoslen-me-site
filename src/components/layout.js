@@ -45,8 +45,8 @@ const Wrapper = styled.section`
   min-height: 100vh;
 `
 const Header = styled.header`
-  background-color: #f3f3f3;
-  border-bottom: 1px solid #dcdcdc;
+  background-color: var(--header-background);
+  border-bottom: 1px solid var(--gray);
 `
 
 const Footer = styled.footer`

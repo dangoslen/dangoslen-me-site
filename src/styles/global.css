@@ -1,7 +1,29 @@
 :root {
     --primary:#d9825c;
     --primary-hover: #e09b76;
+    --link: #007acc;
+    --text: #333;
+    --background: #f9f9f9;
+    --header-background: rgb(243, 243, 243);
+    --gray: rgb(220, 220, 220);
 }
+
+[data-theme="dark"] {
+    --text: #f9f9f9;
+    --background: #242120; 
+    --header-background: rgb(43, 43, 43);
+    --gray: rgb(50, 50, 50);
+}
+
+body {
+    color: var(--text);
+    background-color: var(--background);
+}
+
+hr {
+    background: var(--text);
+    opacity: 0.2;
+}   
 
 .hero {
     margin-bottom: 15px;

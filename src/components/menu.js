@@ -6,6 +6,7 @@ import { rhythm } from "../utils/typography"
 
 import Device from "./sizing"
 import NavLink from "./nav-link"
+import ModeToggle from "./mode-toggle"
 
 const Menu = props => {
     return (
@@ -36,6 +37,7 @@ const Menu = props => {
                             <NavLink to='/book' text="📙 Book" />
                             <NavLink to="/newsletter" text="🖊️ Newsletter" />
                         </LinksContainer>
+                        <ModeToggle />
                     </TopNav>
                 )
             }}

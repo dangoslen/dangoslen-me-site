@@ -31,9 +31,9 @@ const Title = styled.h2`
 
 const BlogLink = styled(Link)`
   box-shadow: none;
-  color: #1a1a1a;
+  color: var(--text);
   &:hover {
-    color: #e09b76;
+    color: var(--primary-hover);
   }
   transition: all .2s;
   transition-timing-function: ease;

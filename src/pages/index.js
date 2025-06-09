@@ -17,6 +17,7 @@ import TeamDrivenDev from "../components/team-driven-dev"
 import { SplitCard } from "../components/split-card"
 
 class IndexPage extends React.Component {
+
   render() {
     const siteTitle = "About"
 
