@@ -36,8 +36,8 @@ const Menu = props => {
                             <NavLink to='/talks' text="Talks" />
                             <NavLink to='/book' text="📙 Book" />
                             <NavLink to="/newsletter" text="🖊️ Newsletter" />
+                            <ModeToggle />
                         </LinksContainer>
-                        <ModeToggle />
                     </TopNav>
                 )
             }}
