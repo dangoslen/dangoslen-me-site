@@ -8,7 +8,7 @@ import Device from "./sizing";
 const ModeToggle = () => {
     let themed = localStorage.getItem('theme');
     const darkMode = window.matchMedia('(prefers-color-scheme: dark)');
-    if (localStorage.getItem('theme') === null && darkMode.matches) {
+    if (themed === 'dark' || (themed === null && darkMode.matches)) {
         document.documentElement.setAttribute('data-theme', 'dark');
         themed = 'dark';
     }
@@ -32,11 +32,11 @@ const ModeToggle = () => {
 
     return (
         <ToggleContainer class="theme-switch-wrapper" >
-            <label class="theme-switch" for="checkbox">
+            <ToggleLabel class="theme-switch" for="checkbox">
                 <input type="checkbox" id="checkbox" defaultChecked={ theme === 'dark' } onChange={ switchTheme } hidden="true" />
                 <FaSun className="icon" display={theme === 'light' ? "none" : "block"}/>
                 <FaMoon className="icon" display={theme === 'dark' ? "none" : "block"}/>
-             </label>
+             </ToggleLabel>
         </ToggleContainer>
     );
 };
@@ -52,6 +52,14 @@ const ToggleContainer = styled.div`
         margin-left: 15px;
         margin-right: 10px;
         padding: 6px;
+    }
+`;
+
+const ToggleLabel = styled.label`
+    display: flex;
+    align-items: center;
+    &:hover {
+        cursor: pointer;
     }
 `;
 

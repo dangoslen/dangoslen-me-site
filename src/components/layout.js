@@ -46,7 +46,7 @@ const Wrapper = styled.section`
 `
 const Header = styled.header`
   background-color: var(--header-background);
-  border-bottom: 1px solid var(--gray);
+  border-bottom: 1px solid var(--border)
 `
 
 const Footer = styled.footer`

@@ -36,6 +36,8 @@ const TileContainer =  styled.div`
 `
 
 const Tile = styled.div`
+  background: var(--tile-background);
+
   font-size: 1.3em;
   display: block;
   text-align: center;

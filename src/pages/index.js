@@ -3,7 +3,6 @@ import styled from "styled-components"
 import { useStaticQuery, graphql, Link} from "gatsby"
 import Img from "gatsby-image"
 
-import { AiFillTwitterCircle } from "@react-icons/all-files/ai/AiFillTwitterCircle"
 import { AiFillLinkedin } from "@react-icons/all-files/ai/AiFillLinkedin"
 import { AiFillMediumCircle } from "@react-icons/all-files/ai/AiFillMediumCircle"
 import { AiFillGithub } from "@react-icons/all-files/ai/AiFillGithub"

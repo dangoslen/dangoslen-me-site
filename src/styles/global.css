@@ -5,16 +5,35 @@
     --text: #333;
     --background: #f9f9f9;
     --header-background: rgb(243, 243, 243);
-    --gray: rgb(220, 220, 220);
+    --border: rgb(220, 220, 220);
+    --tile-background: var(--background);
 }
 
 [data-theme="dark"] {
     --text: #f9f9f9;
     --background: #242120; 
     --header-background: rgb(43, 43, 43);
-    --gray: rgb(50, 50, 50);
+    --border: rgb(50, 50, 50);
+    --tile-background: rgb(50, 50, 50);
 }
 
+img {
+    border-radius: 4px;
+}
+
+.dark-img {
+    display: none;
+}
+
+
+[data-theme="dark"] .dark-img {
+    display: block;
+}
+
+[data-theme="dark"] .light-img {
+    display: none;
+}
+    
 body {
     color: var(--text);
     background-color: var(--background);

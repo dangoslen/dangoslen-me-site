@@ -8,11 +8,11 @@ const SocialLink = props => {
 }
 
 const Link = styled.a`
-  color: #d69066;
+  color: var(--primary);
   font-size: 3rem;
   box-shadow: none;
   &:hover {
-    color: #e68d5e;
+    color: var(--primary-hover);
   }
   transition: color .2s;
   transition-timing-function: ease;

@@ -41,7 +41,7 @@ const SharingContainer = styled.div`
     display: flex;
     padding: 8px;
     padding-bottom: 2px;
-    background: #f3f3f3;
+    background: var(--tile-background);
     border: 1px solid #dcdcdc;
     border-radius: 6px;
     gap: 5px;
