@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import styled from "styled-components";
 import { FaSun } from "@react-icons/all-files/fa/FaSun";
 import { FaMoon } from "@react-icons/all-files/fa/FaMoon";
@@ -6,16 +6,15 @@ import { FaMoon } from "@react-icons/all-files/fa/FaMoon";
 import Device from "./sizing";
 
 const ModeToggle = () => {
-    let themed = localStorage.getItem('theme');
-    const darkMode = window.matchMedia('(prefers-color-scheme: dark)');
-    if (themed === 'dark' || (themed === null && darkMode.matches)) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        themed = 'dark';
-    }
-
-    const darkModeEnabled = themed === 'dark';
-
-    const [theme, setTheme] = useState(darkModeEnabled ? 'dark' : 'light');
+    const [theme, setTheme] = useState('light');
+    useEffect(() => {
+        const darkModeMedia = window.matchMedia('(prefers-color-scheme: dark)');
+        const themed = localStorage.getItem('theme');
+        if (themed === 'dark' || ((themed === null && darkModeMedia.matches))) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            setTheme('dark');
+        }
+    }, []);
 
     function switchTheme(e) {
         if (e.target.checked) {
@@ -45,13 +44,12 @@ const ToggleContainer = styled.div`
     position: absolute;
     top: 60px;
     right: 60px;
-    font-size: 1.2em;
+    font-size: 1.4em;
 
     @media ${Device.tablet} {
         position: inherit;
         margin-left: 15px;
-        margin-right: 10px;
-        padding: 6px;
+        margin-right: 15px;
     }
 `;
 

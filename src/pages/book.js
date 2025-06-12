@@ -31,7 +31,7 @@ class Book extends React.Component {
             keywords={ 
               [
                 "code review book", 
-                "buy book on code reviews", 
+                "buy a book on code reviews", 
                 "how to review code book", 
                 "code review champion", 
                 "technical feedback book", 
