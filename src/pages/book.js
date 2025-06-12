@@ -208,25 +208,15 @@ const BookSplit = styled.div`
 `
 
 const PurchaseButton = styled.a`
-  padding: 10px 50px;
-  font-size: 1.3em;
-  border-radius: 13px;
-  border: 2px solid;
+  padding: 14px 54px;
+  font-size: 1.2em;
+  border-radius: 14px;
   background-color: var(--primary);
-  color: white;
-  box-shadow: 0px 2.8px 12px rgba(176, 184, 190, 0.1);
-  -webkit-transition: background-color ease-in-out 150ms, box-shadow ease-in-out 150ms, color ease-in-out 150ms -webkit-transform ease-in-out 120ms;
-  transition: color ease-in-out 150ms, background-color ease-in-out 150ms, box-shadow ease-in-out 150ms, -webkit-transform ease-in-out 120ms;
-  transition: color ease-in-out 150ms, background-color ease-in-out 150ms, box-shadow ease-in-out 150ms, transform ease-in-out 120ms;
-  transition: color ease-in-out 150ms, background-color ease-in-out 150ms, box-shadow ease-in-out 150ms, transform ease-in-out 120ms, -webkit-transform ease-in-out 120ms;
-  text-decoration: none;
+  color: #f9f9f9;
+  box-shadow: 0 3px 3px var(--tile-background);
   &:hover {
     cursor: pointer;
-    background-color: white;
-    color: var(--primary);
-    border-color: var(--primary);
-    border: 2px solid;
-    box-shadow: 0px 2.8px 15px rgba(176, 184, 190, 0.3);
+    background-color: var(--primary-hover);
   }
 `
 

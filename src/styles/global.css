@@ -1,6 +1,6 @@
 :root {
     --primary:#d9825c;
-    --primary-hover: #e09b76;
+    --primary-hover: #;
     --link: #007acc;
     --text: #333;
     --background: #fff;
@@ -72,6 +72,10 @@ blockquote {
     position: relative;
     top: -1em;
     font-style: italic;
+}
+
+pre {
+    white-space: pre-wrap;
 }
 
 #testimonialto-carousel-code-review-champion-embracing-the-power-of-technical-feedback-tag-all-light {
