@@ -33,9 +33,9 @@ class IndexPage extends React.Component {
 
           <CallToAction>
 
-            <h1>Grow your career by building your team.</h1>
+            <h1>Develop your team. Grow your career.</h1>
 
-            <p>Join the <Link to="/newsletter">Team-Driven Developer Newsletter</Link> to learn the tips and tools to building great software teams. Issues go out every other Tuesday.</p> 
+            <p>Join the <Link to="/newsletter">Team-Driven Developer Newsletter</Link> to learn the tips and tools to developing great software teams. Issues go out every other Tuesday.</p> 
 
             <p>Because great teams build great software.</p>
 

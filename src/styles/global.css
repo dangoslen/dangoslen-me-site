@@ -42,7 +42,13 @@ body {
 hr {
     background: var(--text);
     opacity: 0.2;
-}   
+}  
+
+blockquote {
+    color: var(--text);
+    border-left-color: var(--text);
+    opacity: .9;
+}
 
 .hero {
     margin-bottom: 15px;

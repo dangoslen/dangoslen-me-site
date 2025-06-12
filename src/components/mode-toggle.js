@@ -6,33 +6,30 @@ import { FaMoon } from "@react-icons/all-files/fa/FaMoon";
 import Device from "./sizing";
 
 const ModeToggle = () => {
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState('');
+    
     useEffect(() => {
         const darkModeMedia = window.matchMedia('(prefers-color-scheme: dark)');
         const themed = localStorage.getItem('theme');
         if (themed === 'dark' || ((themed === null && darkModeMedia.matches))) {
             document.documentElement.setAttribute('data-theme', 'dark');
             setTheme('dark');
+        } else {
+            setTheme('light');
         }
     }, []);
 
-    function switchTheme(e) {
-        if (e.target.checked) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            localStorage.setItem('theme', 'dark');
-            setTheme('dark');
-        }
-        else {
-            document.documentElement.setAttribute('data-theme', 'light');
-            localStorage.setItem('theme', 'light');
-            setTheme('light')
-        }    
+    function switchTheme() {
+        const newTheme = theme === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        setTheme(newTheme); 
     }
 
     return (
         <ToggleContainer class="theme-switch-wrapper" >
             <ToggleLabel class="theme-switch" for="checkbox">
-                <input type="checkbox" id="checkbox" defaultChecked={ theme === 'dark' } onChange={ switchTheme } hidden="true" />
+                <input type="checkbox" id="checkbox" checked={ theme === 'dark' } onChange={ switchTheme } hidden="true" />
                 <FaSun className="icon" display={theme === 'light' ? "none" : "block"}/>
                 <FaMoon className="icon" display={theme === 'dark' ? "none" : "block"}/>
              </ToggleLabel>
