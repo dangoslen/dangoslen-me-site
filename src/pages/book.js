@@ -103,7 +103,7 @@ class Book extends React.Component {
           }}>
 
 
-          <iframe width="520px" height="292px" src="https://embed-v2.testimonial.to/v/5595b163-ebaf-43c9-b9e5-32f9440a8df1" frameborder="0" scrolling="no" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style={{ maxWidth: `100%;`}}></iframe>
+          <iframe width="600px" height="330px" src="https://embed-v2.testimonial.to/v/5595b163-ebaf-43c9-b9e5-32f9440a8df1" frameborder="0" scrolling="no" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style={{ maxWidth: `100%;`}}></iframe>
 
         </div>
 
