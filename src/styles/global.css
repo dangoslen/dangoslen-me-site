@@ -1,6 +1,53 @@
 :root {
     --primary:#d9825c;
-    --primary-hover: #e09b76;
+    --primary-hover: #;
+    --link: #007acc;
+    --text: #333;
+    --background: #fff;
+    --header-background: rgb(243, 243, 243);
+    --border: rgb(220, 220, 220);
+    --tile-background: var(--background);
+}
+
+[data-theme="dark"] {
+    --text: #f9f9f9;
+    --background: #242120; 
+    --header-background: rgb(43, 43, 43);
+    --border: rgb(50, 50, 50);
+    --tile-background: rgb(50, 50, 50);
+}
+
+img {
+    border-radius: 4px;
+}
+
+.dark-img {
+    display: none;
+}
+
+
+[data-theme="dark"] .dark-img {
+    display: block;
+}
+
+[data-theme="dark"] .light-img {
+    display: none;
+}
+    
+body {
+    color: var(--text);
+    background-color: var(--background);
+}
+
+hr {
+    background: var(--text);
+    opacity: 0.2;
+}  
+
+blockquote {
+    color: var(--text);
+    border-left-color: var(--text);
+    opacity: .9;
 }
 
 .hero {
@@ -25,6 +72,10 @@
     position: relative;
     top: -1em;
     font-style: italic;
+}
+
+pre {
+    white-space: pre-wrap;
 }
 
 #testimonialto-carousel-code-review-champion-embracing-the-power-of-technical-feedback-tag-all-light {

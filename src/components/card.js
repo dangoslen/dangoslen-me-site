@@ -17,8 +17,10 @@ const Card = props => (
 )
 
 const CardWrapper = styled.div`
-    padding: 8px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
+    background: var(--tile-background);
+    padding: 14px;
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 10px 0px;
     margin-bottom: 10px;
 `
 

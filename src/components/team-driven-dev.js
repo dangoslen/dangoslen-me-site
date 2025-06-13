@@ -12,14 +12,23 @@ function TeamDrivenDev() {
         render={data => {
         return (
             <ImgContainer>
-                <Img
-                    fluid={data.file.childImageSharp.fluid}
-                    alt="Team work makes the dream work"
-                    style={{
+              <Img
+                  fluid={data.light.childImageSharp.fluid}
+                  alt="Team work makes the dream work"
+                  className={"light-img"}
+                  style={{
                     margin: `0 auto`,
-                    display: `block`
-                    }}
-                />
+                  }}
+              />
+
+              <Img
+                  fluid={data.dark.childImageSharp.fluid}
+                  alt="Team work makes the dream work"
+                  className={"dark-img"}
+                  style={{
+                    margin: `0 auto`,
+                  }}
+              />
             </ImgContainer>
         )
     }}
@@ -46,7 +55,14 @@ const ImgContainer = styled.div`
 
 const imgQuery = graphql`
   query {
-    file(relativePath:  { regex: "/team-driven.png/" }) {
+    light: file(relativePath:  { regex: "/team-driven-light.png/" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    dark: file(relativePath:  { regex: "/team-driven-dark.png/" }) {
       childImageSharp {
         fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid

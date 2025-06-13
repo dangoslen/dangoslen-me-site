@@ -89,8 +89,9 @@ const PrTemplateWrapper =  styled.div`
   width: 130%;
   padding: 12px;
   border-radius: 8px;
-  background: #f19066;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
+  color: #f9f9f9;
+  background: rgb(50, 50, 50);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 3px
 `
 
 const PrTemplateContent = styled.div`

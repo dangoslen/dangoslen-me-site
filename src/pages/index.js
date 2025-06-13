@@ -3,7 +3,6 @@ import styled from "styled-components"
 import { useStaticQuery, graphql, Link} from "gatsby"
 import Img from "gatsby-image"
 
-import { AiFillTwitterCircle } from "@react-icons/all-files/ai/AiFillTwitterCircle"
 import { AiFillLinkedin } from "@react-icons/all-files/ai/AiFillLinkedin"
 import { AiFillMediumCircle } from "@react-icons/all-files/ai/AiFillMediumCircle"
 import { AiFillGithub } from "@react-icons/all-files/ai/AiFillGithub"
@@ -17,6 +16,7 @@ import TeamDrivenDev from "../components/team-driven-dev"
 import { SplitCard } from "../components/split-card"
 
 class IndexPage extends React.Component {
+
   render() {
     const siteTitle = "About"
 
@@ -33,9 +33,9 @@ class IndexPage extends React.Component {
 
           <CallToAction>
 
-            <h1>Grow your career by building your team.</h1>
+            <h1>Develop your team. Grow your career.</h1>
 
-            <p>Join the <Link to="/newsletter" style={{ color: `hsl(0deg 0% 0% / 90%)`}}>Team-Driven Developer Newsletter</Link> to learn the tips and tools to building great software teams. Issues go out every other Tuesday.</p> 
+            <p>Join the <Link to="/newsletter">Team-Driven Developer Newsletter</Link> to learn the tips and tools to developing great software teams. Issues go out every other Tuesday.</p> 
 
             <p>Because great teams build great software.</p>
 
