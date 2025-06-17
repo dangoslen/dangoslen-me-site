@@ -14,7 +14,6 @@ module.exports = {
     defaultImage: `content/assets/icon.png`
   },
   plugins: [
-    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
