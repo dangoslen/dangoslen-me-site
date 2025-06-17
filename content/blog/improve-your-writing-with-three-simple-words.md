@@ -35,7 +35,7 @@ Imagine reading a technical design document or [RFC](https://en.wikipedia.org/wi
 
 > Requests likely need to be authorized using standard HTTP auth mechanisms
 
-What does this "requirement" mean? Are we using "standard" `Authorization` headers with bse64 encoded usernames and passwords? I don't see a mention of HTTPS. And I also don't know what "likely" is meant to convey...
+What does this "requirement" mean? Are we using "standard" `Authorization` headers with base64 encoded usernames and passwords? I don't see a mention of HTTPS. And I also don't know what "likely" is meant to convey...
 
 The author of the document isn't trying to be confusing, but they lack practices and tools to help make their document effective.
 
