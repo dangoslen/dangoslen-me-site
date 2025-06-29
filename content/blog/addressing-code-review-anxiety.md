@@ -6,7 +6,7 @@ description: Code review anxiety is real; we all have a part to play in addressi
 keywords:
   - code review anxiety
   - addressing code review anxiety
-  - dealing with code review anxiety 
+  - dealing with code review anxiety
 tags:
   - code reviews
   - team-driven development

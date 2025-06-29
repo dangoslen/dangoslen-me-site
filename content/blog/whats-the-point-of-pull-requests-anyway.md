@@ -7,6 +7,7 @@ keywords:
   - code review best practices
   - github pull requests
   - software development lifecycle
+  - what is a pull request in software development
 tags:
   - software engineering
   - team-driven development
