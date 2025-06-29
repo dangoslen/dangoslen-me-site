@@ -13,7 +13,7 @@ const BlogSummary = ({ node: blog }) => {
                 </BlogLink>
             </Title>
             <Description>
-                <span>{blog.date || blog.frontmatter.date}</span>
+                <span>{blog.date || blog.frontmatter.date}</span>  |  {blog.timeToRead} minutes reading time
                 <Tags tags={blog.tags || blog.frontmatter.tags} />
                 <div>
                     <span>{blog.description || blog.frontmatter.description || blog.excerpt}</span>        
