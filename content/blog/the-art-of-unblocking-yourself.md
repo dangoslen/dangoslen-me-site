@@ -1,12 +1,15 @@
 ---
 path: /the-art-of-unblocking-yourself
-date: 2025-06-28T19:54:49
+date: 2025-07-01T13:54:49
 title: The Art of Unblocking Yourself
 description: Unblocking yourself is a critical skill as a software engineer. But unblocking yourself doesn't mean you power through or suffer in silence without help.
 keywords:
-  - keyword
+  - how to unblock yourself as a software engineer
+  - software engineering unblock myself
+  - unblocking yourself at work
 tags:
-  - tag
+  - team-driven development
+  - career
 image: "../assets/zoshua-colah-hvKcREdE1BI-unsplash.jpg" 
 ---
 
