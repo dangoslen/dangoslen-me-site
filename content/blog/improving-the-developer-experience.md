@@ -7,6 +7,7 @@ keywords:
   - developer experience
   - daily improvement
   - improving developer experience
+  - how to improve developer experience
 tags:
   - software engineering
   - kaizen
