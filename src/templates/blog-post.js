@@ -11,6 +11,9 @@ import Tags from "../components/tags"
 import Sharing from "../components/sharing"
 import { rhythm, scale } from "../utils/typography"
 import { Components } from "../components/mdx-components"
+import NewsletterEmail from "../components/newsletter-email";
+import BookEmail from "../components/book-email";
+import SimpleNewsletterSignup from "../components/simple-newsletter-signup";
 
 class BlogPostTemplate extends React.Component {
   render() {
