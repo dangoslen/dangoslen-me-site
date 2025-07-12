@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `Dan Goslen | Team-Driven Developer`,
     author: `Dan Goslen`,
-    description: `My musing on building great software though great engineering teams.`,
+    description: `Hi! I'm Dan. I'm a software engineer trying to help software teams be the best they can be.`,
     siteUrl: `https://dangoslen.me`,
     social: {
       linkedin: `dangoslen`,
@@ -205,6 +205,7 @@ module.exports = {
                 fields {
                   slug
                 }
+                timeToRead
                 frontmatter {
                   date(formatString: "MMMM DD, YYYY")
                   title
@@ -228,7 +229,7 @@ module.exports = {
         // List of keys to store and make available in your UI. The values of
         // the keys are taken from the normalizer function below.
         // Default: all fields
-        store: ['id', 'slug', 'path', 'title', 'date', 'tags', 'description'],
+        store: ['id', 'timeToRead', 'slug', 'path', 'title', 'date', 'tags', 'description'],
 
         // Function used to map the result from the GraphQL query. This should
         // return an array of items to index in the form of flat objects
@@ -237,6 +238,7 @@ module.exports = {
         normalizer: ({ data }) =>
           data.posts.nodes.map((node) => ({
             id: node.id,
+            timeToRead: node.timeToRead,
             slug: node.fields.slug,
             path: node.frontmatter.path,
             title: node.frontmatter.title,

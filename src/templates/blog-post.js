@@ -11,6 +11,9 @@ import Tags from "../components/tags"
 import Sharing from "../components/sharing"
 import { rhythm, scale } from "../utils/typography"
 import { Components } from "../components/mdx-components"
+import NewsletterEmail from "../components/newsletter-email";
+import BookEmail from "../components/book-email";
+import SimpleNewsletterSignup from "../components/simple-newsletter-signup";
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -39,7 +42,7 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date}
+          {post.frontmatter.date}  |  {post.timeToRead} minute reading time
 
           <Tags tags={post.frontmatter.tags} />
           
@@ -117,6 +120,7 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       body
+      timeToRead
       frontmatter {
         title
         path
