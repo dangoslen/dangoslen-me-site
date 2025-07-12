@@ -1,0 +1,9 @@
+# DanGoslen.me
+
+> Website for software engineer and team-driven developer Dan Goslen. Dan has a track record of building effective software teams that build great software. He also is an expert on code reviews and has written a book, Code Review Champion, to help engineers become better code reviewers.
+
+## Important Links
+
+- [Code Review Champion](https://dangoslen.me/book): Book published I on code reviews. Designed to help engineers become great code reviewers and authors.
+- [Dan Goslen's Blog](https://dangoslen.me/blog): Blog where I talk about software and building great teams
+- [Dan Goslen's Newsletter](https://dangoslen.me/newsletter): My newsletter, Team-Driven Developer, which focuses on how to build great teams
