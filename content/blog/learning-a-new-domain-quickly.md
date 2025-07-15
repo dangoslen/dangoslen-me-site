@@ -4,9 +4,14 @@ date: 2025-07-13T19:54:26
 title: Learning a New Domain Quickly
 description: How thinking about learning as a knowledge graph can help you identify areas to focus on and where to start when expanding your knowledge.
 keywords:
-  - keyword
+  - applying a knowledge graph to your work
+  - how to learn a new domain
+  - use strongly connected components to ask better questions
+  - asking better questions when joining a new domain
 tags:
-  - tag
+  - team-driven developer
+  - career
+  - learning
 image: "../assets/clint-adair-BW0vK-FA3eg-unsplash.jpg" 
 ---
 
