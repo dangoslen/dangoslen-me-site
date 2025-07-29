@@ -59,7 +59,7 @@ Many engineers see code reviews as a hassle and, therefore, do anything they can
 
 Speaking from personal experience, anytime I've left comments on a pull request that were made hastily (without double-checking a function or looking up evidence), I've made incorrect suggestions and had to eat my words later. Having the patience and discipline to double-check documentation or re-read always has a net positive effect.
 
-It's true for the other side as well. When authors are too quick to ignore or scoff at a suggestion made by a team member, trust is broken, bitterness and brew, and the code is likely to decay. I'm not saying an author needs to accept every suggestion or even comment back on every item, but an author _should_ respond to the majority of comments and give reasons why they are choosing to accept it or not. 
+It's true for the other side as well. When authors are too quick to ignore or scoff at a suggestion made by a team member, trust is broken, bitterness brews, and the code is likely to decay. I'm not saying an author needs to accept every suggestion or even comment back on every item, but an author _should_ respond to the majority of comments and give reasons why they are choosing to accept it or not. 
 
 One last tip before moving on: avoid the common "I'll do it in another pull request" excuse. If someone leaves good feedback on your code and it's reasonable to implement, why not do it now? I've seen far too many bugs make it to production because an engineer convinced another they would do something later, and because of fear of conflict, it got approved. But of course, the work never got done later, and a bug slipped by. Take the time to do the thing you will do later now.
 
