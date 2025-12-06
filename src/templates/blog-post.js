@@ -4,16 +4,12 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import { MDXProvider } from "@mdx-js/react";
 
 import Bio from "../components/bio"
-import ModalEmail from "../components/modal-email"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Tags from "../components/tags"
 import Sharing from "../components/sharing"
 import { rhythm, scale } from "../utils/typography"
 import { Components } from "../components/mdx-components"
-import NewsletterEmail from "../components/newsletter-email";
-import BookEmail from "../components/book-email";
-import SimpleNewsletterSignup from "../components/simple-newsletter-signup";
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -30,8 +26,6 @@ class BlogPostTemplate extends React.Component {
           keywords={keywords}
           image={post.frontmatter.image.childImageSharp.resize.src}
         />
-
-        <ModalEmail />
 
         <h1>{post.frontmatter.title}</h1>
         <p

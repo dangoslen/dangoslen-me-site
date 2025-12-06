@@ -31,21 +31,27 @@ class Book extends React.Component {
 
           <TeamDrivenDev />
           
-          <ThankYou>    
-            <p>From here on out you'll be getting issues of the Team-Driven Developer Newsletter every other Tuesday!</p>
-            <p>Each issue includes tips, tools, and resources to help you build your software team!</p>
-            <p>While you are here, take a look around! Here are some of the top resources:</p>
+          <ThankYou>   
+            <p><b>So glad</b> to have you here!</p>
+            <p>Be on the lookout for an email to confirm you subscription in your inbox. From here on out you'll be getting issues of the Team-Driven Developer Newsletter.</p>
+            <p>Each issue includes tips, tools, and resources to help you build your software team! You can preview some of my top top resources below:</p>
             <ul style={{paddingLeft: `20px`}}>
-              <li><Link to="/tags/whats-the-point"><b>What's the point?</b></Link> | Articles about applying industry best-practices to your team.</li>
+              <li><Link to="/tags/whats-the-point"><b>What's the point?</b></Link></li>
               <li><Link to="/blog/my-top-four-patterns-for-writing-simple-code/"><b>My Top Four Patterns for Writing Simple Code</b></Link></li>
               <li><Link to="/blog/surviving-your-first-code-review/"><b>Surviving Your First Code Review</b></Link></li>
             </ul>
-            <p>Be on the lookout for an email from me tomorrow with a few more details about the newsletter what to expect.</p> 
-            <p>SO glad to have you here!</p>
-            <p>Happy coding!</p>
+            <p>I, sadly, publish issues somewhat infrequently nowadays, so no worries if you even want to unsubscribe. I want to provide value, but that can vary from person to person.</p> 
           </ThankYou>
 
         </SplitCard>
+
+        <hr />
+
+        <div style={{
+          textAlign: `center`
+        }}>
+          <h2>Again: SO glad to have you here! 🎉</h2>
+        </div>
 
       </Layout>
     )
